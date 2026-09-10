@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#166",
+  "nome": "Queda Capilar + Déficit Proteico",
+  "categoria_terapeutica": "Queda Capilar",
+  "indicacao": "Queda com história de dieta hipoproteica; veganismo; bariátrica",
+  "objetivo": "Restaurar aminoácidos estruturais para biossíntese do fio capilar",
+  "duracao_texto": "4-6 meses + correção da dieta proteica",
+  "monitoramento_texto": "Albumina; proteína total; aminoacidograma (se disponível)",
+  "observacoes_texto": "Proteína dietária: meta 1,2 g/kg/dia mínimo. Corrigir ingestão como prioridade.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "Colágeno Hidrolisado Tipo I",
+      "dose": "15 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Cisteína",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum — aminoácido capilar"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Metionina",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#023",
+      "nome_ativo_texto": "Biotina",
+      "dose": "10.000 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "Prescricao_Interna#010",
+  "nome": "Manganês (Mn)",
+  "funcao_indicacao": "• Componente de manganoproteínas: arginase (ciclo da ureia), glutamina sintetase (metabolismo do NH₃), piruvato carboxilase (gliconeogênese).\n• Antioxidante mitocondrial: componente da superóxido dismutase mitocondrial (MnSOD/SOD2).\n• Metabolismo ósseo: cofator de glicosiltransferases na síntese de proteoglicanos (matriz óssea e cartilaginosa).\n• Síntese de neurotransmissores: envolvido na síntese de dopamina e outras catecolaminas.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Gluconato de Manganês",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Boa biodisponibilidade; boa tolerabilidade; amplamente disponível.",
+      "fator_limitante_texto": "Menor teor de Mn elementar."
+    },
+    {
+      "nome_forma": "Sulfato de Manganês",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Amplamente disponível; baixo custo; boa absorção.",
+      "fator_limitante_texto": "Potencial de toxicidade em doses elevadas (neurotoxicidade — manganismo); inibe absorção de ferro."
+    },
+    {
+      "nome_forma": "Citrato de Manganês",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Boa absorção; boa tolerabilidade.",
+      "fator_limitante_texto": "Menos disponível; custo intermediário."
+    },
+    {
+      "nome_forma": "Bisglicinato de Manganês",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Excelente biodisponibilidade; mínima interferência com ferro.",
+      "fator_limitante_texto": "Custo elevado; disponibilidade limitada."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças",
+      "dose_min": 1.2,
+      "dose_max": 1.9,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme indicação clínica; monitorar neurotoxicidade."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 1.6,
+      "dose_max": 2.2,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme indicação."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 1.8,
+      "dose_max": 5,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "2–3 meses; reavaliar."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 2.3,
+      "dose_max": 5,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "2–3 meses."
+    },
+    {
+      "publico_alvo": "Idosos",
+      "dose_min": 1.8,
+      "dose_max": 2.3,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Uso cauteloso; monitorar sinais neurológicos."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#184",
+  "nome": "Performance em Idosos",
+  "categoria_terapeutica": "Performance Física e Cognitiva",
+  "indicacao": "Idosos ativos (>60 anos) em esportes recreacionais ou reabilitação",
+  "objetivo": "Manter massa muscular, força e mobilidade em idosos ativos",
+  "duracao_texto": "6 meses; testes funcionais trimestrais",
+  "monitoramento_texto": "Testes funcionais (TUG, handgrip, 6MWT); DEXA; albumina",
+  "observacoes_texto": "Creatina em idosos: evidência A para massa muscular e força. Associar resistência progressiva.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Creatina Monohidratada",
+      "dose": "5.000 mg",
+      "forma_farmaceutica": "Pó",
+      "posologia": "Pós-treino"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "Proteína Whey Leucina Enriquecida",
+      "dose": "30 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Café da manhã + pós-treino"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#025",
+      "nome_ativo_texto": "Vitamina B12 Metilcobalamina",
+      "dose": "1.000 mcg",
+      "forma_farmaceutica": "Sublingual",
+      "posologia": "Manhã"
+    }
+  ]
+}

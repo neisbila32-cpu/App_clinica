@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#219",
+  "nome": "Imunidade em Idosos",
+  "categoria_terapeutica": "Imunidade",
+  "indicacao": "Idosos (>65 anos) com imunossenescência; infecções recorrentes",
+  "objetivo": "Reverter imunossenescência via suporte de micronutrientes e probióticos",
+  "duracao_texto": "3 meses contínuos",
+  "monitoramento_texto": "Vitamina D; zinco; selênio; B12; hemograma; frequência de infecções",
+  "observacoes_texto": "Idosos: absorção de zinco e vitamina B12 reduz com idade. Dosar antes de suplementar.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#005",
+      "nome_ativo_texto": "Selênio L-Selenometionina",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Probiótico Complexo",
+      "dose": "30 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#025",
+      "nome_ativo_texto": "Vitamina B12 Metilcobalamina",
+      "dose": "1.000 mcg",
+      "forma_farmaceutica": "Sublingual",
+      "posologia": "Manhã"
+    }
+  ]
+}

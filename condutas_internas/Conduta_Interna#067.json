@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#067",
+  "nome": "SOP + Adrenal (HAIR-AN)",
+  "categoria_terapeutica": "Síndrome dos Ovários Policísticos (SOP)",
+  "indicacao": "SOP de origem adrenal com DHEAS elevado e estresse crônico",
+  "objetivo": "Modular eixo HPA e reduzir DHEAS adrenal como fonte de androgênios",
+  "duracao_texto": "4-6 meses; cortisol e DHEAS a cada 2 meses",
+  "monitoramento_texto": "DHEAS; cortisol matinal e noturno; testosterona; ciclo",
+  "observacoes_texto": "DHEAS elevado: diferencial com HCAP e tumor adrenal. Exige avaliação endocrinológica.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x/dia"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ashwagandha KSM-66",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#021",
+      "nome_ativo_texto": "Vitamina B5 Pantotenato",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Fosfatidilserina",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Tarde ou noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#218",
+  "nome": "Imunidade Infantil",
+  "categoria_terapeutica": "Imunidade",
+  "indicacao": "Crianças (2-12 anos) com infecções frequentes; otites; amigdalites",
+  "objetivo": "Fortalecer imunidade mucosa e celular em crianças propensas a infecções",
+  "duracao_texto": "3 meses sazonais; repetir no inverno",
+  "monitoramento_texto": "Frequência de infecções; vitamina D; zinco; IgA secretora",
+  "observacoes_texto": "Pediátrico: doses ajustadas por peso e idade. Avaliar pediatra antes.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "2.000-3.000 UI",
+      "forma_farmaceutica": "Gotas/cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula/sachê",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Bisglicinato",
+      "dose": "10-15 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Beta-glucana (Aveia)",
+      "dose": "250 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Probiótico L. rhamnosus GG + B. longum",
+      "dose": "10 bi UFC",
+      "forma_farmaceutica": "Cápsula/pó",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#013",
+      "nome_ativo_texto": "Vitamina A (beta-caroteno)",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    }
+  ]
+}

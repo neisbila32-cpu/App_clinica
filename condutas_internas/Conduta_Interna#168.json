@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#168",
+  "nome": "Estímulo ao Crescimento Capilar",
+  "categoria_terapeutica": "Queda Capilar",
+  "indicacao": "Cabelo ralo, crescimento lento, fios finos e frágeis",
+  "objetivo": "Estimular fase anagênica e espessura do fio",
+  "duracao_texto": "6 meses; tricoscopia antes e depois",
+  "monitoramento_texto": "Tricoscopia; espessura média do fio; taxa de crescimento",
+  "observacoes_texto": "Sílicio orgânico: aumenta espessura e resistência do fio. Mais eficaz que formas inorgânicas.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#023",
+      "nome_ativo_texto": "Biotina",
+      "dose": "10.000 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Sílicio Orgânico (Ác. Ortosilícico)",
+      "dose": "20 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#009",
+      "nome_ativo_texto": "Cobre Bisglicinato",
+      "dose": "2 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Cisteína",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "20 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    }
+  ]
+}

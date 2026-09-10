@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#032",
+  "nome": "Proteína e Saciedade",
+  "categoria_terapeutica": "Saciedade",
+  "indicacao": "Dieta hipoproteica; perda muscular; fome intensa pós-prandial",
+  "objetivo": "Maximizar efeito saciogênico da proteína via PYY, GLP-1 e CCK",
+  "duracao_texto": "3 meses",
+  "monitoramento_texto": "Albumina; proteína total; composição corporal; escala saciedade",
+  "observacoes_texto": "Meta proteica 1,6-2,2 g/kg/dia. Ajustar em DRC (1,0-1,2 g/kg).",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "Whey Proteína Isolado",
+      "dose": "25-30 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Café da manhã e/ou pós-treino"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "BCAA 2:1:1",
+      "dose": "5.000 mg",
+      "forma_farmaceutica": "Cápsula/pó",
+      "posologia": "Pré-refeição"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Leucina L",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Pó",
+      "posologia": "Pós-treino — mTOR"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "L-Glutamina",
+      "dose": "5.000 mg",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Entre refeições"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "4.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "20 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    }
+  ]
+}

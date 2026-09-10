@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#107",
+  "nome": "Libido + Hiperprolactinemia",
+  "categoria_terapeutica": "Libido e Função Sexual",
+  "indicacao": "Queda de libido com prolactina levemente elevada sem adenoma",
+  "objetivo": "Modular prolactina via dopamina e micronutrientes; restaurar libido",
+  "duracao_texto": "3 meses; prolactina antes e depois",
+  "monitoramento_texto": "Prolactina; testosterona; E2; TSH",
+  "observacoes_texto": "Prolactina >100 ng/mL: RM hipofisária obrigatória para excluir adenoma.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "100-300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã — inibidor prolactina"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "30 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#015",
+      "nome_ativo_texto": "Vitamina E Natural",
+      "dose": "400 UI",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Tirosina",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum — precursor dopamina"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "4.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    }
+  ]
+}

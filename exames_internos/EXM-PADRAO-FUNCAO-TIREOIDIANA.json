@@ -1,0 +1,48 @@
+{
+  "id": "EXM-PADRAO-FUNCAO-TIREOIDIANA",
+  "nome": "Padrões combinados — Função Tireoidiana",
+  "unidade_medida": "—",
+  "categoria": "Função Tireoidiana",
+  "versao_conteudo": 1,
+  "bandas": [],
+  "padroes_combinados_categoria": [
+    {
+      "padrao_texto": "TSH ↑ + T4L normal",
+      "hipotese_nutricional": "Hipotireoidismo subclínico",
+      "conduta_texto": "Verificar ingestão de iodo, selênio, zinco e ferro (cofatores da tireoperoxidase). Excluir deficiência de iodo ou excesso de brássicas e soja crua sem preparo.",
+      "gravidade_texto": null
+    },
+    {
+      "padrao_texto": "TSH ↑ + T4L ↓",
+      "hipotese_nutricional": "Hipotireoidismo clínico estabelecido",
+      "conduta_texto": "Encaminhar ao médico. Avaliar estado nutricional de iodo, selênio e tirosina. Não iniciar suplementação de iodo sem diagnóstico médico.",
+      "gravidade_texto": null
+    },
+    {
+      "padrao_texto": "TSH ↓ + T4L ↑",
+      "hipotese_nutricional": "Hipertireoidismo",
+      "conduta_texto": "Encaminhar ao médico. Avaliar estado hipermetabólico: aumento de necessidades energéticas, catabolia proteica e perda de massa muscular.",
+      "gravidade_texto": null
+    },
+    {
+      "padrao_texto": "TSH normal + Anti-TPO ↑",
+      "hipotese_nutricional": "Tireoidite autoimune sem disfunção ainda",
+      "conduta_texto": "Monitorar; avaliar padrão alimentar anti-inflamatório (ômega-3, antioxidantes). Excluir sensibilidade ao glúten (associação com Hashimoto). Encaminhar para seguimento.",
+      "gravidade_texto": null
+    },
+    {
+      "padrao_texto": "TSH ↑ + Anti-TPO ↑",
+      "hipotese_nutricional": "Tireoidite de Hashimoto",
+      "conduta_texto": "Encaminhar ao médico. Suporte nutricional: selênio 55–200 µg/dia (evidência para redução de anticorpos); investigar hipersensibilidade ao glúten e deficiência de vitamina D.",
+      "gravidade_texto": null
+    },
+    {
+      "padrao_texto": "TSH ↓ + Anti-TPO ↑",
+      "hipotese_nutricional": "Doença de Graves (autoimune)",
+      "conduta_texto": "Encaminhar ao médico imediatamente. Suporte nutricional: calorias aumentadas, proteínas (catabolismo), cálcio e vitamina D (perda óssea acelerada).",
+      "gravidade_texto": null
+    }
+  ],
+  "ref_min": null,
+  "ref_max": null
+}

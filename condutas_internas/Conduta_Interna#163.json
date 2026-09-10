@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#163",
+  "nome": "Queda Capilar + Hipotireoidismo",
+  "categoria_terapeutica": "Queda Capilar",
+  "indicacao": "Queda capilar como manifestação de hipotireoidismo",
+  "objetivo": "Corrigir deficiências nutricionais tireoidianas que causam queda",
+  "duracao_texto": "4-6 meses; TSH a cada 8 semanas",
+  "monitoramento_texto": "TSH, T3L, T4L, Anti-TPO; ferritina; vitamina D; fotos",
+  "observacoes_texto": "Iodo: contraindicado em Hashimoto sem avaliação. Otimizar TSH <2,5 como meta.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#005",
+      "nome_ativo_texto": "Selênio L-Selenometionina",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "30 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#023",
+      "nome_ativo_texto": "Biotina",
+      "dose": "10.000 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#003",
+      "nome_ativo_texto": "Ferro Bisglicinato",
+      "dose": "30 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#011",
+      "nome_ativo_texto": "Iodeto de Potássio",
+      "dose": "150 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    }
+  ]
+}

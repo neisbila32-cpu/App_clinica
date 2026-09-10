@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#043",
+  "nome": "RI Ovariana (SOP)",
+  "categoria_terapeutica": "Resistência Insulínica",
+  "indicacao": "RI em mulheres com SOP; hiperinsulinemia e hiperandrogenismo",
+  "objetivo": "Reduzir insulina ovariana e androgênios, restaurando função menstrual",
+  "duracao_texto": "4-6 meses; regularização menstrual em 3-4 meses",
+  "monitoramento_texto": "Testosterona; SHBG; LH/FSH; HOMA-IR; ciclo menstrual",
+  "observacoes_texto": "Proporção 40:1 (Mio:D-chiro) é a fisiológica. Iniciar com 2g/dia.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#027",
+      "nome_ativo_texto": "Mio-Inositol",
+      "dose": "4.000 mg",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "2g manhã + 2g noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "D-Chiro-Inositol",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã — proporção 40:1"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Berberina HCl",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "3x/dia c/ refeições"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#006",
+      "nome_ativo_texto": "Cromo Picolinato",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#024",
+      "nome_ativo_texto": "5-MTHF",
+      "dose": "800 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    }
+  ]
+}

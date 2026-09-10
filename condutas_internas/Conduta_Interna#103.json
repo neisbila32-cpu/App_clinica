@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#103",
+  "nome": "Libido + Tireoide",
+  "categoria_terapeutica": "Libido e Função Sexual",
+  "indicacao": "Queda de libido como consequência de hipotireoidismo",
+  "objetivo": "Restaurar libido via otimização da função tireoidiana",
+  "duracao_texto": "3-4 meses; TSH e libido subjetiva",
+  "monitoramento_texto": "TSH, T3L, T4L; testosterona; FSFI/IIEF; energia subjetiva",
+  "observacoes_texto": "Otimizar tireoide (TSH <2,5) geralmente resolve queda de libido associada.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#005",
+      "nome_ativo_texto": "Selênio L-Selenometionina",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "30 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Maca Peruana",
+      "dose": "1.500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Tirosina",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    }
+  ]
+}

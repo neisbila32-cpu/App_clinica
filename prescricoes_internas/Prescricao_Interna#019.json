@@ -1,0 +1,67 @@
+{
+  "id": "Prescricao_Interna#019",
+  "nome": "Vitamina B2 (Riboflavina)",
+  "funcao_indicacao": "• Coenzimas flavínicas FMN e FAD: cofatores em mais de 100 enzimas oxidorredutases — essenciais ao metabolismo energético.\n• Cadeia transportadora de elétrons: componente dos complexos I e II mitocondriais.\n• Metabolismo de macronutrientes: necessária para oxidação de ácidos graxos, aminoácidos e glicose.\n• Ativação de vitaminas: converte vitamina B6 à sua forma ativa (PLP) e participa do metabolismo do folato.\n• Antioxidante: componente da glutationa redutase (regeneração da glutationa reduzida).",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Riboflavina (B2 livre)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma padrão; bem absorvida em doses baixas a moderadas; baixo custo; amplamente disponível.",
+      "fator_limitante_texto": "Absorção dose-dependente e saturável (transporte ativo limitante); coloração amarelo-intensa da urina (inofensiva)."
+    },
+    {
+      "nome_forma": "Riboflavina-5-Fosfato (FMN)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma coenzimática ativa; não requer fosforilação intestinal prévia; potencialmente melhor em comprometimento digestivo; maior solubilidade em água.",
+      "fator_limitante_texto": "Custo consideravelmente mais elevado; a vantagem in vivo sobre a riboflavina livre em indivíduos saudáveis é modesta."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (1–12 anos)",
+      "dose_min": 0.5,
+      "dose_max": 0.9,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Preventivo: contínuo; terapêutico: 4–8 semanas."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 0.9,
+      "dose_max": 1.3,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Enxaqueca: 3–6 meses de avaliação de eficácia."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 1.1,
+      "dose_max": 400,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "DRI: contínuo; enxaqueca: 3–6 meses."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 1.3,
+      "dose_max": 400,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "DRI: contínuo; enxaqueca: 3–6 meses."
+    },
+    {
+      "publico_alvo": "Idosos (>60 anos)",
+      "dose_min": 1.3,
+      "dose_max": 1.7,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Uso contínuo."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

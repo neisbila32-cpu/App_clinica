@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#223",
+  "nome": "Imunidade + Microbiota",
+  "categoria_terapeutica": "Imunidade",
+  "indicacao": "Imunidade comprometida com disbiose intestinal e IgA secretora baixa",
+  "objetivo": "Restaurar imunidade de mucosa via microbiota intestinal",
+  "duracao_texto": "3 meses; IgA secretora antes e depois",
+  "monitoramento_texto": "IgA secretora fecal; microbiota; calprotectina; vitamina D",
+  "observacoes_texto": "80% do sistema imune está no intestino. Microbiota saudável = imunidade robusta.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L. rhamnosus GG",
+      "dose": "20 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã e noite em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B. longum BB536",
+      "dose": "10 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "S. boulardii",
+      "dose": "5 bi UFC",
+      "forma_farmaceutica": "Cápsula dura",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Prebiótico FOS",
+      "dose": "5 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Almoço"
+    }
+  ]
+}

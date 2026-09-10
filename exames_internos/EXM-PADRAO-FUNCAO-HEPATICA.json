@@ -1,0 +1,48 @@
+{
+  "id": "EXM-PADRAO-FUNCAO-HEPATICA",
+  "nome": "Padrões combinados — Função Hepática",
+  "unidade_medida": "—",
+  "categoria": "Função Hepática",
+  "versao_conteudo": 1,
+  "bandas": [],
+  "padroes_combinados_categoria": [
+    {
+      "padrao_texto": "ALT (TGP) ↑ isolado (< 3×)",
+      "hipotese_nutricional": "Esteatose hepática não alcoólica (DHGNA/NAFLD)",
+      "conduta_texto": "Dieta anti-inflamatória; reduzir ultraprocessados; aumentar ômega-3; avaliar peso corporal. Solicitar USG de abdome ao médico.",
+      "gravidade_texto": null
+    },
+    {
+      "padrao_texto": "ALT ↑ + AST ↑ (ALT > AST)",
+      "hipotese_nutricional": "Hepatite aguda / DHGNA avançada",
+      "conduta_texto": "SUSPENDER suplementação imediatamente (pode ser induzida por chás, vitamina A em excesso, ervas). Encaminhar ao médico urgente.",
+      "gravidade_texto": null
+    },
+    {
+      "padrao_texto": "AST ↑ > ALT ↑ (razão AST/ALT > 2)",
+      "hipotese_nutricional": "Suspeita de hepatopatia alcoólica ou cirrose",
+      "conduta_texto": "Avaliar consumo de álcool (AUDIT). Encaminhar ao médico. Suporte nutricional intensivo (tiamina, folato, piridoxina).",
+      "gravidade_texto": null
+    },
+    {
+      "padrao_texto": "Bilirrubina Indireta ↑ isolada",
+      "hipotese_nutricional": "Hemólise ou Síndrome de Gilbert (benigna e genética)",
+      "conduta_texto": "Investigar hemograma e estado nutricional de vitamina E e B12. Encaminhar ao médico para exclusão de hemoglobinopatia.",
+      "gravidade_texto": null
+    },
+    {
+      "padrao_texto": "Bilirrubina Direta ↑",
+      "hipotese_nutricional": "Obstrução biliar ou doença hepática com colestase",
+      "conduta_texto": "Não tem causa nutricional direta — encaminhar ao médico imediatamente. Avaliar deficiências de vitaminas lipossolúveis (A,D,E,K) pós-diagnóstico.",
+      "gravidade_texto": null
+    },
+    {
+      "padrao_texto": "ALT > 3× o LSN",
+      "hipotese_nutricional": "Lesão hepática significativa",
+      "conduta_texto": "SUSPENDER toda suplementação hepatotóxica (vitamina A >10.000 UI/dia; kava-kava; erva-de-são-joão; excesso de niacina). Encaminhar ao médico urgentemente.",
+      "gravidade_texto": null
+    }
+  ],
+  "ref_min": null,
+  "ref_max": null
+}

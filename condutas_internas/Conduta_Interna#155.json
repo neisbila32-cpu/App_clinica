@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#155",
+  "nome": "Celulite Fibrosa",
+  "categoria_terapeutica": "Celulite",
+  "indicacao": "Celulite dura, grau III-IV; nódulos endurecidos; difícil de tratar",
+  "objetivo": "Amolecer septos fibrosos e melhorar trofismo do tecido conjuntivo",
+  "duracao_texto": "6 meses; avaliação a cada 8 semanas",
+  "monitoramento_texto": "Consistência ao toque; fotos; circunferências",
+  "observacoes_texto": "Celulite fibrosa: resposta mais lenta. Associar drenagem linfática manual.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Bromelina",
+      "dose": "500 mg (GDU 1200)",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Em jejum — enzima proteolítica"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "Colágeno Hidrolisado I+III",
+      "dose": "15 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Manhã c/ vitamina C"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ginkgo Biloba 24%",
+      "dose": "120 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Centella Asiática",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Diosmina + Hesperidina",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço + Janta"
+    }
+  ]
+}

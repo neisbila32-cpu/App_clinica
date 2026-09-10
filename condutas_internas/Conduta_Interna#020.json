@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#020",
+  "nome": "Compulsão por Doce",
+  "categoria_terapeutica": "Compulsão Alimentar",
+  "indicacao": "Craving específico por açúcar e carboidratos de alta carga glicêmica",
+  "objetivo": "Estabilizar glicemia e modular recompensa ao açúcar",
+  "duracao_texto": "3 meses",
+  "monitoramento_texto": "Glicemia jejum e pós-prandial; insulina; HOMA-IR",
+  "observacoes_texto": "Glutamina em pó: dissolver em água fria — calor degrada.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "L-Glutamina",
+      "dose": "5.000 mg",
+      "forma_farmaceutica": "Pó/sachê",
+      "posologia": "Entre refeições"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#006",
+      "nome_ativo_texto": "Cromo Picolinato",
+      "dose": "400 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x c/ refeição"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ácido R-Alfa-Lipoico",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Antes das refeições"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#027",
+      "nome_ativo_texto": "Inositol Mio",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "5-HTP",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "30 min antes do jantar"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    }
+  ]
+}

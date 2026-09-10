@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#035",
+  "nome": "Microbiota e Saciedade",
+  "categoria_terapeutica": "Saciedade",
+  "indicacao": "Hiperfagia associada a disbiose e alteração do eixo intestino-hipotálamo",
+  "objetivo": "Restaurar microbiota produtora de AGCC para modulação do apetite",
+  "duracao_texto": "3 meses; microbiota fecal antes e depois",
+  "monitoramento_texto": "AGCC fecais; peso; sintomas intestinais",
+  "observacoes_texto": "Butirato: odor sulfuroso — cápsula enterocoatada minimiza. Iniciação gradual.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L. gasseri BNR17",
+      "dose": "5 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B. breve B-3",
+      "dose": "5 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Inulina",
+      "dose": "5 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Psyllium",
+      "dose": "5 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Pré-refeição"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Butirato de Sódio",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula enterocoatada",
+      "posologia": "Almoço e Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço"
+    }
+  ]
+}

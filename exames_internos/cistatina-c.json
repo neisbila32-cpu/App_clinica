@@ -1,0 +1,10 @@
+{
+  "exame": "Cistatina C",
+  "valores_referencia": "Adultos: 0,5 a 1,0 mg/L; Crianças e adolescentes: 0,5 a 1,3 mg/L; Lactentes: 0,7 a 1,5 mg/L; Recém-nascidos: 0,8 a 2,3 mg/L",
+  "o_que_avalia": "Avalia diretamente a taxa de filtração glomerular, pois naturalmente deve ser totalmente removida da circulação.",
+  "indicacao": "Estimar a função dos rins, avaliar isquemia e insuficiência cardíaca.",
+  "o_que_significa_quando_alterado": "Deficiência da filtração renal",
+  "o_que_pode_estar_alterando_o_valor": "Medicamentos esteroidais, níveis elevados de PCR, IMC alto. Pacientes transplantados.",
+  "ref_min": 0.5,
+  "ref_max": 1.0
+}

@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#121",
+  "nome": "Microbiota em Idosos",
+  "categoria_terapeutica": "Microbiota e Saúde Intestinal",
+  "indicacao": "Envelhecimento com redução de diversidade microbiana e constipação",
+  "objetivo": "Restaurar diversidade e funcionalidade da microbiota no envelhecimento",
+  "duracao_texto": "3 meses; repetir ciclos",
+  "monitoramento_texto": "Diversidade fecal; frequência evacuatória; vitamina D",
+  "observacoes_texto": "B. lactis HN019: melhora constipação e imunidade em idosos. Ciclos contínuos.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B. lactis HN019",
+      "dose": "10 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L. acidophilus NCFM",
+      "dose": "10 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "S. boulardii",
+      "dose": "5 bi UFC",
+      "forma_farmaceutica": "Cápsula dura",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "20 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Prebiótico FOS + GOS",
+      "dose": "5 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Almoço"
+    }
+  ]
+}

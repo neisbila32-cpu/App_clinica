@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#081",
+  "nome": "Climatério — Base",
+  "categoria_terapeutica": "Climatério e Menopausa",
+  "indicacao": "Menopausa ou perimenopausa com sintomas moderados sem TRH",
+  "objetivo": "Suporte fitoterápico e nutricional global para minimizar impacto da cessação hormonal",
+  "duracao_texto": "6-12 meses",
+  "monitoramento_texto": "FSH, LH, E2; densitometria óssea anual; lipídios; PA",
+  "observacoes_texto": "Isoflavonas contraindicadas em câncer de mama receptor positivo.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Isoflavonas de Soja 80% genisteína",
+      "dose": "75-150 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã com refeição"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#001",
+      "nome_ativo_texto": "Cálcio Citrato",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço e janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#016",
+      "nome_ativo_texto": "Vitamina K2 MK-7",
+      "dose": "100 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    }
+  ]
+}

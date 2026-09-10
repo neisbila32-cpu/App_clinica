@@ -1,0 +1,95 @@
+{
+  "id": "Prescricao_Interna#027",
+  "nome": "Carboidratos",
+  "funcao_indicacao": "• Fonte primária de energia: glicose é o substrato preferencial do cérebro, eritrócitos e medula renal; 4 kcal/g.\n• Poupador de proteínas: oferta adequada de CHO poupa as proteínas do catabolismo gliconeogênico.\n• Síntese de glicogênio: estocagem de energia nos músculos (~400 g) e no fígado (~100 g).\n• Componente estrutural: ribose e desoxirribose formam o esqueleto dos ácidos nucleicos.\n• Função prebiótica (fibras): fibras fermentáveis modulam a microbiota intestinal, produzindo AGCCs (acetato, propionato e butirato).",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Dextrose (Glicose)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Reposição imediata de glicogênio pós-exercício; uso clínico em hipoglicemia.",
+      "fator_limitante_texto": "Pico glicêmico e insulinêmico rápido (IG = 100); inadequado para diabéticos sem supervisão."
+    },
+    {
+      "nome_forma": "Frutose",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Baixo índice glicêmico (IG ≈ 23); combinação glicose+frutose maximiza absorção intestinal de CHO em esportes de endurance.",
+      "fator_limitante_texto": "Metabolismo hepático exclusivo — em excesso: lipogênese de novo (NAFLD), hiperuricemia, hipertrigliceridemia."
+    },
+    {
+      "nome_forma": "Maltodextrina",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Rápida absorção; solúvel em água; fácil incorporação em fórmulas; uso em nutrição enteral e esportiva; sabor neutro.",
+      "fator_limitante_texto": "Alto IG (85–105) — pico insulinêmico comparável ao da glicose; inadequado em resistência à insulina sem controle."
+    },
+    {
+      "nome_forma": "D-Ribose",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Precursor de ATP, NAD e ácidos nucleicos; evidências em recuperação de energia em miocardiopatias e síndrome da fadiga crônica.",
+      "fator_limitante_texto": "Evidências clínicas robustas ainda limitadas; custo elevado; pode causar hipoglicemia relativa em doses altas."
+    },
+    {
+      "nome_forma": "Trealose",
+      "nivel_biodisponibilidade": "media",
+      "percentual_elemento": null,
+      "beneficio_texto": "Digestão lenta (hidrólise pela trehalase intestinal); pico glicêmico mais suave (IG ≈ 68); evidências emergentes em autofagia celular.",
+      "fator_limitante_texto": "Custo elevado; trehalase pode ser deficiente em algumas populações (rara); evidências clínicas ainda limitadas."
+    },
+    {
+      "nome_forma": "Mio-Inositol",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Precursor de fosfatidilinositol; melhora sensibilidade à insulina em SOP e diabetes gestacional; ação ansiolítica em estudos; equilíbrio com D-chiro-inositol (proporção 40:1).",
+      "fator_limitante_texto": "Efeitos osmóticos GI em doses altas; custo intermediário."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças",
+      "dose_min": 45,
+      "dose_max": 65,
+      "unidade": "% do VET",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme indicação clínica."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 45,
+      "dose_max": 65,
+      "unidade": "% do VET",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme demanda esportiva ou clínica."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 45,
+      "dose_max": 65,
+      "unidade": "% do VET",
+      "frequencia": null,
+      "duracao_tipica_texto": "SOP/inositol: 3–6 meses; reavaliar resistência à insulina."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 45,
+      "dose_max": 65,
+      "unidade": "% do VET",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme demanda."
+    },
+    {
+      "publico_alvo": "Idosos",
+      "dose_min": 45,
+      "dose_max": 65,
+      "unidade": "% do VET",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme indicação clínica."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

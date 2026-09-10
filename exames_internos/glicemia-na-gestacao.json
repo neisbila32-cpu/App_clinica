@@ -1,0 +1,10 @@
+{
+  "exame": "Glicemia na Gestação (1ª consulta)",
+  "valores_referencia": "Normal: GJ < 92 mg/dL; Diabetes Gestacional (DMG): GJ 92-125 mg/dL; Diabetes \"Overt\": GJ ≥ 126 mg/dL.",
+  "o_que_avalia": "Critérios específicos para o rastreamento precoce na gestação.",
+  "indicacao": "Rastreamento precoce obrigatório na primeira consulta pré-natal.",
+  "o_que_significa_quando_alterado": "Valores acima do normal confirmam Diabetes Gestacional ou Diabetes Prévio.",
+  "o_que_pode_estar_alterando_o_valor": "Jejum inadequado, estresse materno ou uso de medicações específicas.",
+  "ref_min": 92.0,
+  "ref_max": 125.0
+}

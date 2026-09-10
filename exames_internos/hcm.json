@@ -1,0 +1,10 @@
+{
+  "exame": "HCM",
+  "valores_referencia": "Normal 26 – 34 pg",
+  "o_que_avalia": "Avalia o peso da hemoglobina; valores baixos indicam hipocromia.",
+  "indicacao": "Avaliação da cor/peso da hemoglobina na célula.",
+  "o_que_significa_quando_alterado": "Baixo: Hipocromia (comum na deficiência de ferro).",
+  "o_que_pode_estar_alterando_o_valor": "Lipemia (excesso de gordura no sangue) pode causar erro na leitura.",
+  "ref_min": 26.0,
+  "ref_max": 34.0
+}

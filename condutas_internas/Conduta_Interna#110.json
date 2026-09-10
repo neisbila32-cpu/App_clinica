@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#110",
+  "nome": "Pós-antibiótico — Restauração",
+  "categoria_terapeutica": "Microbiota e Saúde Intestinal",
+  "indicacao": "Curso de ATB recente (últimos 30 dias); diarreia por ATB",
+  "objetivo": "Restauração rápida da microbiota depletada pelo antibiótico",
+  "duracao_texto": "4-6 semanas pós-ATB",
+  "monitoramento_texto": "Consistência das fezes (Bristol); frequência evacuatória; sintomas GI",
+  "observacoes_texto": "S. boulardii pode ser tomado JUNTO ao ATB (é fungo, não afetado por antibacteriano).",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "S. boulardii CNCM I-745",
+      "dose": "10 bi UFC",
+      "forma_farmaceutica": "Cápsula dura",
+      "posologia": "Iniciar na última dose ATB — 4 sem"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L. rhamnosus GG",
+      "dose": "20 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã e noite em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B. longum R0175",
+      "dose": "10 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "20 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "L-Glutamina",
+      "dose": "5.000 mg",
+      "forma_farmaceutica": "Sachê/pó",
+      "posologia": "Entre refeições"
+    }
+  ]
+}

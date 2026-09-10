@@ -1,0 +1,10 @@
+{
+  "exame": "ALT (TGP)",
+  "valores_referencia": "Homens: inferior a 41 U/L; Mulheres: inferior a 31 U/L",
+  "o_que_avalia": "Lesões hepáticas",
+  "indicacao": "Triagem básica para avaliar e identificar disfunções e processos inflamatórios no fígado",
+  "o_que_significa_quando_alterado": "Possível lesão ou agressão no tecido hepático",
+  "o_que_pode_estar_alterando_o_valor": "Esteatose hepática, hepatites virais, álcool e toxinas, doença de Wilson.",
+  "ref_min": null,
+  "ref_max": 41.0
+}

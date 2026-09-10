@@ -1,0 +1,95 @@
+{
+  "id": "Prescricao_Interna#017",
+  "nome": "Vitamina C (Ácido Ascórbico)",
+  "funcao_indicacao": "• Antioxidante hidrossolúvel: doa elétrons a radicais livres (ROS) e recicla o alfa-tocoferol oxidado (vitamina E).\n• Síntese de colágeno: cofator das enzimas prolil e lisil hidroxilase — indispensável para a estrutura do colágeno.\n• Absorção de ferro não-heme: reduz Fe³⁺ a Fe²⁺, aumentando substancialmente a absorção intestinal.\n• Síntese de neurotransmissores: cofator da dopamina-beta-hidroxilase (síntese de norepinefrina).\n• Síntese de L-carnitina: essencial para a biossíntese de carnitina.\n• Função imunológica: estimula produção e função de neutrófilos, linfócitos e macrófagos.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Ácido Ascórbico",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma mais estudada; alta biodisponibilidade oral (70–90% em doses ≤200 mg); baixo custo; referência para todas as demais formas.",
+      "fator_limitante_texto": "Acidez elevada — irritação gástrica e erosão dental com uso contínuo; absorção saturável (~70% acima de 1 g); diarreia osmótica em doses elevadas."
+    },
+    {
+      "nome_forma": "Ascorbato de Sódio",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma tamponada (pH neutro); sem irritação gástrica; boa biodisponibilidade.",
+      "fator_limitante_texto": "Conteúdo sódico relevante (111 mg Na por 1 g); não adequado em hipertensos ou restrição sódica em doses altas."
+    },
+    {
+      "nome_forma": "Ascorbato de Cálcio (Ester-C®)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma tamponada; mínima irritação gástrica; permite doses maiores; adicional de cálcio.",
+      "fator_limitante_texto": "Custo mais elevado; cálcio adicional deve ser contabilizado; absorção similar ao ácido ascórbico em indivíduos saudáveis."
+    },
+    {
+      "nome_forma": "Ascorbato de Magnésio",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma tamponada; fornece magnésio adicionalmente; boa tolerabilidade.",
+      "fator_limitante_texto": "Custo intermediário; magnésio adicional deve ser contabilizado."
+    },
+    {
+      "nome_forma": "Vitamina C Lipossomal",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Encapsulada em fosfolipídeos — bypass do mecanismo de saturação intestinal; biodisponibilidade superior em estudos comparativos.",
+      "fator_limitante_texto": "Custo muito elevado; estabilidade da fórmula depende da qualidade do lipossomal; evidências clínicas ainda em expansão."
+    },
+    {
+      "nome_forma": "Vitamina C com Bioflavonoides",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Bioflavonoides potencializam ação antioxidante e podem aumentar biodisponibilidade tecidual.",
+      "fator_limitante_texto": "Evidências de sinergia ainda debatidas; composição variável entre fornecedores."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (1–12 anos)",
+      "dose_min": 15,
+      "dose_max": 100,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Preventivo: uso contínuo em doses fisiológicas; terapêutico: 1–4 semanas."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 65,
+      "dose_max": 100,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Preventivo: contínuo; terapêutico: 1–4 semanas."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 75,
+      "dose_max": 500,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Preventivo: uso contínuo; terapêutico: 4–8 semanas."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 90,
+      "dose_max": 1000,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Preventivo: contínuo; terapêutico: 4–8 semanas."
+    },
+    {
+      "publico_alvo": "Idosos (>60 anos)",
+      "dose_min": 500,
+      "dose_max": 1000,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Uso contínuo; reavaliar periodicamente."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

@@ -1,0 +1,102 @@
+{
+  "id": "Prescricao_Interna#004",
+  "nome": "Zinco (Zn)",
+  "funcao_indicacao": "• Cofator enzimático: mais de 300 enzimas (anidrase carbônica, DNA e RNA polimerases, fosfatase alcalina).\n• Estrutura proteica: componente dos \"dedos de zinco\" (zinc fingers) — domínios reguladores de expressão gênica.\n• Imunidade: essencial para maturação de linfócitos T, produção de citocinas e função de células NK.\n• Cicatrização: necessário para divisão celular e síntese de colágeno.\n• Função reprodutiva: síntese de testosterona e espermatogênese.\n• Antioxidante: componente da superóxido dismutase Cu/Zn (SOD1).",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Sulfato de Zinco",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 23.0,
+      "beneficio_texto": "Amplamente disponível; boa biodisponibilidade; baixo custo.",
+      "fator_limitante_texto": "Efeitos GI (náusea, irritação); sabor metálico."
+    },
+    {
+      "nome_forma": "Gluconato de Zinco",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 14.0,
+      "beneficio_texto": "Melhor tolerabilidade GI; amplamente usado em pastilhas imunológicas.",
+      "fator_limitante_texto": "Menor teor de Zn elementar; maior custo por mg de zinco."
+    },
+    {
+      "nome_forma": "Citrato de Zinco",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 31.0,
+      "beneficio_texto": "Boa biodisponibilidade; melhor tolerabilidade que o sulfato; menor sabor metálico.",
+      "fator_limitante_texto": "Custo intermediário."
+    },
+    {
+      "nome_forma": "Picolinato de Zinco",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 20.0,
+      "beneficio_texto": "Alta biodisponibilidade (picolinato facilita transporte transcelular); amplamente utilizado.",
+      "fator_limitante_texto": "Custo elevado; estudos comparativos ainda limitados."
+    },
+    {
+      "nome_forma": "Bisglicinato de Zinco",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 20.0,
+      "beneficio_texto": "Excelente biodisponibilidade; ótima tolerabilidade GI; absorção não inibida por fitatos.",
+      "fator_limitante_texto": "Custo elevado."
+    },
+    {
+      "nome_forma": "Acetato de Zinco",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 36.0,
+      "beneficio_texto": "Boa biodisponibilidade; amplamente usado em pastilhas para imunidade.",
+      "fator_limitante_texto": "Sabor ácido; pode causar irritação local."
+    },
+    {
+      "nome_forma": "Óxido de Zinco",
+      "nivel_biodisponibilidade": "baixa",
+      "percentual_elemento": 80.0,
+      "beneficio_texto": "Alta concentração elementar; amplamente usado em formulações tópicas (dermatologia).",
+      "fator_limitante_texto": "Baixíssima biodisponibilidade oral; não indicado para suplementação sistêmica."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (1–12 anos)",
+      "dose_min": 5,
+      "dose_max": 15,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "2–3 meses; reavaliar sinais clínicos."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 9,
+      "dose_max": 15,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "2–3 meses; monitorar sinais de toxicidade em doses maiores."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 8,
+      "dose_max": 25,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "1–3 meses para fins agudos (infecção/cicatrização); até 6 meses com monitoramento."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 11,
+      "dose_max": 30,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "2–3 meses; monitorar cobre em uso prolongado."
+    },
+    {
+      "publico_alvo": "Idosos (>60 anos)",
+      "dose_min": 11,
+      "dose_max": 20,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses; monitorar relação Zn:Cu e função imunológica."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

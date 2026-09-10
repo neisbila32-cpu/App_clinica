@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#018",
+  "nome": "Serotonina e Compulsão",
+  "categoria_terapeutica": "Compulsão Alimentar",
+  "indicacao": "Compulsão emocional; tristeza; busca por doces e carboidratos",
+  "objetivo": "Elevar disponibilidade serotonérgica para reduzir impetuosidade alimentar",
+  "duracao_texto": "3 meses",
+  "monitoramento_texto": "PHQ-9; BES; serotonina plasmática; peso",
+  "observacoes_texto": "Associar luz solar e exercício aeróbico como moduladores serotonérgicos naturais.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "5-HTP",
+      "dose": "150 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "50mg manhã + 100mg janta"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Triptofano",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite, 2h após jantar"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã — cofator"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    }
+  ]
+}

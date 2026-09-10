@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#140",
+  "nome": "Acne + SOP",
+  "categoria_terapeutica": "Acne",
+  "indicacao": "Acne em mulheres com SOP; hiperandrogenismo como causa principal",
+  "objetivo": "Redução de androgênios e sebum via abordagem SOP+acne",
+  "duracao_texto": "4-6 meses",
+  "monitoramento_texto": "Testosterona total e livre; SHBG; HOMA-IR; lesões acneicas",
+  "observacoes_texto": "NAC evidência específica em SOP+acne: reduz testosterona livre e lesões.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#027",
+      "nome_ativo_texto": "Inositol Mio",
+      "dose": "4.000 mg",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "2g manhã + 2g noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Berberina HCl",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "3x c/ refeições"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "30 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "NAC",
+      "dose": "1.200 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#005",
+      "nome_ativo_texto": "Selênio L-Selenometionina",
+      "dose": "100 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    }
+  ]
+}

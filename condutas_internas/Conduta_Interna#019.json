@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#019",
+  "nome": "Dopamina e Recompensa",
+  "categoria_terapeutica": "Compulsão Alimentar",
+  "indicacao": "Compulsão com busca de prazer; histórico de dependência alimentar",
+  "objetivo": "Restaurar vias dopaminérgicas e reduzir craving por alimentos hiperpalatáveis",
+  "duracao_texto": "3 meses",
+  "monitoramento_texto": "Ferritina; B6; escalas de compulsão e anedonia",
+  "observacoes_texto": "L-Tirosina não usar com IMAO. Evitar em hipertireoidismo não controlado.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Tirosina",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#003",
+      "nome_ativo_texto": "Ferro Bisglicinato",
+      "dose": "15 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum (se ferritina <30)"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 DHA",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço"
+    }
+  ]
+}

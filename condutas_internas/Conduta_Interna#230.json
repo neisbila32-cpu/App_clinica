@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#230",
+  "nome": "Anti-aging Celular",
+  "categoria_terapeutica": "Longevidade e Anti-aging",
+  "indicacao": "Anti-envelhecimento celular: senescência, telômeros e proteostase",
+  "objetivo": "Redução da senescência celular e estresse oxidativo para longevidade biológica",
+  "duracao_texto": "12 meses; biomarcadores de envelhecimento (idade biológica)",
+  "monitoramento_texto": "Telômero (opcional); NAD+ plasmático; vitamina D; PCR; lipídios",
+  "observacoes_texto": "NMN eleva NAD+ intracelular, fundamental para ativação de sirtuínas e reparo de DNA.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "NMN ou NR (precursor NAD+)",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Resveratrol",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço c/ gordura"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "200 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "NAC N-Acetilcisteína",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    }
+  ]
+}

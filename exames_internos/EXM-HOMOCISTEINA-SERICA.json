@@ -1,0 +1,26 @@
+{
+  "id": "EXM-HOMOCISTEINA-SERICA",
+  "nome": "Homocisteína Sérica",
+  "unidade_medida": "µmol/L",
+  "categoria": "Hemograma — Série Vermelha",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": 15,
+      "rotulo_tecnico": "Normal (ideal <10 µmol/L)",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    },
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "Hiper-homocisteinemia (>15 µmol/L)",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Marcador funcional de deficiência de B12, Folato e/ou B6. Elevação é risco cardiovascular independente."
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": null,
+  "ref_max": 10.0
+}

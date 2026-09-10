@@ -1,0 +1,66 @@
+{
+  "id": "Prescricao_Interna#012",
+  "nome": "Molibdênio (Mo)",
+  "funcao_indicacao": "• Cofator de molibdoenzimas: componente do cofator de molibdênio (Moco) presente em xantina oxidase (catabolismo de purinas), aldeído oxidase e sulfito oxidase.\n• Destoxificação de sulfitos: a sulfito oxidase converte sulfitos (tóxicos) em sulfatos (excretados).\n• Metabolismo de purinas: a xantina oxidase participa da síntese de ácido úrico.\n• Metabolismo de aminoácidos sulfurados: envolvido no catabolismo de cisteína e metionina.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Molibdato de Sódio",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma inorgânica mais comum; excelente biodisponibilidade (>90%); amplamente disponível; baixo custo.",
+      "fator_limitante_texto": "Doses excessivas inibem absorção de cobre (antagonismo Mo-Cu); toxicidade em doses muito elevadas."
+    },
+    {
+      "nome_forma": "Molibdato de Amônio",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Boa absorção; usado em nutrição parenteral e formulações especializadas.",
+      "fator_limitante_texto": "Menos comum em manipulação oral; custo mais elevado."
+    },
+    {
+      "nome_forma": "Molibdênio Quelado (AA quelado)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Boa biodisponibilidade e tolerabilidade.",
+      "fator_limitante_texto": "Custo elevado; não demonstra superioridade significativa sobre formas inorgânicas."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças",
+      "dose_min": 17,
+      "dose_max": 34,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme indicação; necessidade de suplementação isolada é rara."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 34,
+      "dose_max": 43,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme indicação."
+    },
+    {
+      "publico_alvo": "Adultos (ambos)",
+      "dose_min": 45,
+      "dose_max": 45,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Suplementação isolada raramente necessária; conforme indicação clínica."
+    },
+    {
+      "publico_alvo": "Idosos",
+      "dose_min": 45,
+      "dose_max": 45,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme indicação."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

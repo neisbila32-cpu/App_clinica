@@ -1,0 +1,33 @@
+{
+  "id": "EXM-GLICEMIA-DE-JEJUM",
+  "nome": "Glicemia de Jejum",
+  "unidade_medida": "mg/dL",
+  "categoria": "Metabolismo da Glicose",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": 100,
+      "rotulo_tecnico": "Normal",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    },
+    {
+      "valor_max": 125,
+      "rotulo_tecnico": "Pré-diabetes",
+      "classificacao_simplificada": "limitrofe",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Avaliar dieta, CHO e atividade física."
+    },
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "Suspeita DM2 (confirmar com 2 coletas ≥126 mg/dL)",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Encaminhar ao médico."
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": null,
+  "ref_max": 100.0
+}

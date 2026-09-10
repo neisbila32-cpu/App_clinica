@@ -1,0 +1,33 @@
+{
+  "id": "EXM-PROTEINA-C-REATIVA",
+  "nome": "Proteína C-Reativa (PCR)",
+  "unidade_medida": "mg/L",
+  "categoria": "Marcadores Laboratoriais Nutricionais",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": 1,
+      "rotulo_tecnico": "Ideal (<1 mg/L)",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    },
+    {
+      "valor_max": 10,
+      "rotulo_tecnico": "Inflamação crônica de baixo grau (1–10 mg/L)",
+      "classificacao_simplificada": "limitrofe",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    },
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "Inflamação aguda (>10 mg/L)",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Interpreta albumina e pré-albumina: se PCR↑, a queda dessas proteínas pode ser inflamatória, não nutricional."
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": null,
+  "ref_max": 1.0
+}

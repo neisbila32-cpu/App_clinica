@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#066",
+  "nome": "SOP + Metilação",
+  "categoria_terapeutica": "Síndrome dos Ovários Policísticos (SOP)",
+  "indicacao": "SOP com mutação MTHFR; hiperhomocisteinemia; histórico de abortos",
+  "objetivo": "Otimizar via de metilação para regulação hormonal e saúde reprodutiva",
+  "duracao_texto": "6 meses; homocisteína a cada 3 meses",
+  "monitoramento_texto": "Homocisteína; MTHFR; B12; folato eritrocitário; ciclo",
+  "observacoes_texto": "Betaína doa metil via BHMT, independente de MTHFR. Essencial em mutações homozigotas.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#024",
+      "nome_ativo_texto": "5-MTHF (L-Metilfolato)",
+      "dose": "800-1.000 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#025",
+      "nome_ativo_texto": "Metilcobalamina (B12)",
+      "dose": "1.000 mcg",
+      "forma_farmaceutica": "Sublingual",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Piridoxal-5-Fosfato (B6)",
+      "dose": "50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Betaína (TMG)",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Colina Bitartarato",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    }
+  ]
+}

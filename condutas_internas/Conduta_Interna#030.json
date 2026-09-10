@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#030",
+  "nome": "Fibras para Saciedade",
+  "categoria_terapeutica": "Saciedade",
+  "indicacao": "Dieta pobre em fibras; trânsito lento; fome pós-prandial precoce",
+  "objetivo": "Aumentar fibra e diversidade para prolongar saciedade",
+  "duracao_texto": "3 meses; ajuste conforme tolerância",
+  "monitoramento_texto": "Frequência e consistência das fezes; peso; saciedade subjetiva",
+  "observacoes_texto": "Introduzir 1 fibra por vez. Meta hídrica: 2,5-3 L/dia.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Glucomanano",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-almoço e pré-janta"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Pectina Cítrica",
+      "dose": "5 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Pré-prandial"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Beta-glucana (Aveia)",
+      "dose": "3 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Café da manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Inulina",
+      "dose": "5 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Psyllium",
+      "dose": "5 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Pré-refeição"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Amido Resistente RS3",
+      "dose": "10 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Almoço ou janta"
+    }
+  ]
+}

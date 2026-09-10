@@ -1,0 +1,33 @@
+{
+  "id": "EXM-VITAMINA-D-25OH",
+  "nome": "Vitamina D [25(OH)D]",
+  "unidade_medida": "ng/mL",
+  "categoria": "Marcadores Laboratoriais Nutricionais",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": 19,
+      "rotulo_tecnico": "Deficiência (<20 ng/mL)",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    },
+    {
+      "valor_max": 29,
+      "rotulo_tecnico": "Insuficiência (20–29 ng/mL)",
+      "classificacao_simplificada": "limitrofe",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    },
+    {
+      "valor_max": 60,
+      "rotulo_tecnico": "Ótimo (30–60 ng/mL)",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Suplementar D3 (colecalciferol); monitorar Ca sérico em altas doses; não ultrapassar 100 ng/mL."
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": 30.0,
+  "ref_max": 60.0
+}

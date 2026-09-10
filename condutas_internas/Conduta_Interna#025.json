@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#025",
+  "nome": "Regulação Glicêmica Anti-compulsão",
+  "categoria_terapeutica": "Compulsão Alimentar",
+  "indicacao": "Compulsão com hipoglicemia reativa; picos e quedas de energia",
+  "objetivo": "Estabilizar glicemia e insulina para eliminar fome compulsiva",
+  "duracao_texto": "3 meses",
+  "monitoramento_texto": "Glicemia pós-prandial 1h e 2h; insulina; HOMA-IR",
+  "observacoes_texto": "Glucomanano: ingerir SEMPRE com 400 mL água. Risco de engasgamento se seco.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Berberina HCl",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "3x/dia c/ refeições"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#027",
+      "nome_ativo_texto": "Inositol Mio",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Manhã e noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ácido R-Alfa-Lipoico",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-refeições"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#006",
+      "nome_ativo_texto": "Cromo Picolinato",
+      "dose": "400 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x c/ refeição"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Glucomanano",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "30 min pré-refeição c/ água"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "L-Glutamina",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Pó/sachê",
+      "posologia": "Entre refeições"
+    }
+  ]
+}

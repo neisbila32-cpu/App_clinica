@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#065",
+  "nome": "SOP + Microbiota",
+  "categoria_terapeutica": "Síndrome dos Ovários Policísticos (SOP)",
+  "indicacao": "SOP com disbiose intestinal e integridade de mucosa comprometida",
+  "objetivo": "Restaurar microbiota para modular hiperandrogenismo via eixo intestino-ovário",
+  "duracao_texto": "3-4 meses; microbiota no início e 90 dias",
+  "monitoramento_texto": "Microbiota fecal; testosterona; ciclo; HOMA-IR",
+  "observacoes_texto": "Bactérias modulam metabolismo de estrogênio via betaglucuronidase fecal.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L. acidophilus NCFM",
+      "dose": "5 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B. longum BB536",
+      "dose": "5 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Inulina",
+      "dose": "5 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#027",
+      "nome_ativo_texto": "Mio-Inositol",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#205",
+  "nome": "Sono + Ansiedade",
+  "categoria_terapeutica": "Sono",
+  "indicacao": "Insônia com componente ansioso; pensamentos ruminativos ao deitar",
+  "objetivo": "Reduzir hiper-arousal ansioso e facilitar a transição para o sono",
+  "duracao_texto": "3 meses",
+  "monitoramento_texto": "GAD-7; Pittsburgh; cortisol salivar noturno; latência de sono",
+  "observacoes_texto": "TCC-Insônia (CBT-I) é o tratamento gold-standard; suplementação como adjuvante.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio L-Treonato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Teanina",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite pré-sono"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ashwagandha KSM-66",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "5-HTP",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "GABA",
+      "dose": "750 mg",
+      "forma_farmaceutica": "Cápsula sublingual",
+      "posologia": "Pré-sono"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Melatonina",
+      "dose": "1 mg",
+      "forma_farmaceutica": "Sublingual",
+      "posologia": "30 min pré-sono"
+    }
+  ]
+}

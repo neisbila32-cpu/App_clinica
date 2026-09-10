@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#151",
+  "nome": "Celulite + Circulação",
+  "categoria_terapeutica": "Celulite",
+  "indicacao": "Celulite com insuficiência venosa e linfática; pernas pesadas, edema",
+  "objetivo": "Melhorar drenagem venosa e linfática para redução de celulite edematosa",
+  "duracao_texto": "3-4 meses",
+  "monitoramento_texto": "Edema; circunferências; pernas pesadas; fotos",
+  "observacoes_texto": "Diosmina+Hesperidina com melhor evidência para insuficiência venosa crônica.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Diosmina + Hesperidina",
+      "dose": "1.000 mg/dia",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x — colágeno vascular"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Rutina",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço — fortalece capilares"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ginkgo Biloba 24%",
+      "dose": "120 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#015",
+      "nome_ativo_texto": "Vitamina E Natural",
+      "dose": "400 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    }
+  ]
+}

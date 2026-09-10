@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#026",
+  "nome": "Glutamina Anti-craving",
+  "categoria_terapeutica": "Compulsão Alimentar",
+  "indicacao": "Compulsão com histórico de alcoolismo ou dieta muito restritiva",
+  "objetivo": "Restaurar reservas de glutamina cerebral e intestinal reduzindo craving",
+  "duracao_texto": "3-4 meses",
+  "monitoramento_texto": "Comportamento alimentar; glutamina plasmática; TGO/TGP",
+  "observacoes_texto": "Glutamina em altas doses: monitorar função hepática. Contraindicado em encefalopatia hepática.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "L-Glutamina",
+      "dose": "10.000 mg",
+      "forma_farmaceutica": "Pó/sachê",
+      "posologia": "3x: manhã, entre almoço-janta, noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L. rhamnosus GG",
+      "dose": "10 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B-Complex Ativado",
+      "dose": "1 cp",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    }
+  ]
+}

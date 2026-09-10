@@ -1,0 +1,60 @@
+{
+  "id": "Prescricao_Interna#023",
+  "nome": "Vitamina B7 (Biotina)",
+  "funcao_indicacao": "• Cofator de carboxilases: piruvato carboxilase (gliconeogênese), acetil-CoA carboxilase (lipogênese), propionil-CoA carboxilase e metilcrotonil-CoA carboxilase.\n• Gliconeogênese: via piruvato carboxilase (oxaloacetato — passo limitante da via).\n• Síntese de ácidos graxos: via acetil-CoA carboxilase (malonil-CoA).\n• Saúde de cabelos, pele e unhas: papel bem documentado em deficiência comprovada; evidências modestas em indivíduos sem deficiência.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "D-Biotina",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Única forma biologicamente ativa; ampla disponibilidade; custo acessível; boa absorção oral.",
+      "fator_limitante_texto": "Altas doses (≥5–10 mg/dia) interferem em múltiplos imunoensaios laboratoriais (TSH, T3, T4, troponina, FSH, LH, hCG) — resultados falsos. Interromper 48–72h antes de exames de sangue."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (1–12 anos)",
+      "dose_min": 8,
+      "dose_max": 20,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Terapêutico: 4–8 semanas."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 25,
+      "dose_max": 30,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses para avaliar resposta em anexos."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 30,
+      "dose_max": 10000,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Unhas/cabelos: 3–6 meses (avaliar com unhas crescidas = 6 meses); EM: 6–12 meses."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 30,
+      "dose_max": 5000,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses."
+    },
+    {
+      "publico_alvo": "Idosos",
+      "dose_min": 30,
+      "dose_max": 5000,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses; monitorar exames laboratoriais."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

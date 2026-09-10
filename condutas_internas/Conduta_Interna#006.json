@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#006",
+  "nome": "Tireoide e Metabolismo",
+  "categoria_terapeutica": "Emagrecimento",
+  "indicacao": "Emagrecimento dificultado por hipofunção tireoidiana subclínica",
+  "objetivo": "Suportar função tireoidiana periférica e conversão T4/T3",
+  "duracao_texto": "3-4 meses; T3L, T4L, TSH no 60º dia",
+  "monitoramento_texto": "T3L, T4L, TSH, Tg, Anti-TPO; peso",
+  "observacoes_texto": "Iodo contraindicado em Hashimoto ativa sem avaliação cuidadosa.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#005",
+      "nome_ativo_texto": "Selênio L-Selenometionina",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "30 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#011",
+      "nome_ativo_texto": "Iodeto de Potássio",
+      "dose": "150 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Tirosina",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "4.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço c/ gordura"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#025",
+      "nome_ativo_texto": "Vitamina B12 Metilcobalamina",
+      "dose": "1.000 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    }
+  ]
+}

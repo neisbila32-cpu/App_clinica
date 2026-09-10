@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#008",
+  "nome": "Inibição da Lipogênese",
+  "categoria_terapeutica": "Emagrecimento",
+  "indicacao": "Obesidade com hiperinsulinemia; acúmulo de gordura pós-prandial",
+  "objetivo": "Bloquear síntese de lipídeos de novo (DNL) e melhorar sensibilidade insulínica",
+  "duracao_texto": "3-4 meses; monitoramento glicêmico e lipídico",
+  "monitoramento_texto": "Glicemia, insulina, HOMA-IR, triglicerídeos a cada 45 dias",
+  "observacoes_texto": "Berberina pode interagir com antibióticos e anticoagulantes. Separar por 2h.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Berberina HCl",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "3x/dia c/ refeições"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ácido R-Alfa-Lipoico",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "30 min antes das refeições"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#027",
+      "nome_ativo_texto": "Inositol Mio",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Manhã e noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#006",
+      "nome_ativo_texto": "Cromo Picolinato",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço principal"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Resveratrol",
+      "dose": "250 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    }
+  ]
+}

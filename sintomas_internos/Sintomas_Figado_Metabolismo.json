@@ -1,0 +1,59 @@
+[
+  {
+    "id": "SINT_COAGULOPATIA_POR_DEFICIT_DE_FATORES_HEPATICOS",
+    "nome": "Coagulopatia (↓fatores II, VII, IX, X)",
+    "categoria_sistema_corporal": "Fígado / Metabolismo",
+    "causas_possiveis": [
+      "Vitamina K"
+    ]
+  },
+  {
+    "id": "SINT_DISFUNCAO_DA_CERULOPLASMINA",
+    "nome": "Disfunção da ceruloplasmina",
+    "categoria_sistema_corporal": "Fígado / Metabolismo",
+    "causas_possiveis": [
+      "Cobre"
+    ]
+  },
+  {
+    "id": "SINT_COMPROMETIMENTO_DA_METILACAO_HEPATICA",
+    "nome": "Comprometimento da metilação hepática",
+    "categoria_sistema_corporal": "Fígado / Metabolismo",
+    "causas_possiveis": [
+      "Vitamina B12",
+      "Vitamina B9 (Folato)"
+    ]
+  },
+  {
+    "id": "SINT_ESTEATOSE_HEPATICA_NAO_ALCOOLICA",
+    "nome": "Esteatose hepática não alcoólica",
+    "categoria_sistema_corporal": "Fígado / Metabolismo",
+    "causas_possiveis": [
+      "Colina"
+    ]
+  },
+  {
+    "id": "SINT_ACIDOSE_LATICA",
+    "nome": "Acidose lática",
+    "categoria_sistema_corporal": "Fígado / Metabolismo",
+    "causas_possiveis": [
+      "Vitamina B1 (Tiamina)"
+    ]
+  },
+  {
+    "id": "SINT_ACIDOSE_METABOLICA",
+    "nome": "Acidose metabólica",
+    "categoria_sistema_corporal": "Fígado / Metabolismo",
+    "causas_possiveis": [
+      "Vitamina B7 (Biotina)"
+    ]
+  },
+  {
+    "id": "SINT_HIPOGLICEMIA_EM_JEJUM",
+    "nome": "Hipoglicemia em jejum",
+    "categoria_sistema_corporal": "Fígado / Metabolismo",
+    "causas_possiveis": [
+      "Vitamina B5"
+    ]
+  }
+]

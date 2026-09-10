@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#023",
+  "nome": "Compulsão na TPM",
+  "categoria_terapeutica": "Compulsão Alimentar",
+  "indicacao": "Compulsão alimentar restrita à fase lútea do ciclo",
+  "objetivo": "Modular progesterona, cortisol e neurotransmissores na fase lútea",
+  "duracao_texto": "3 ciclos; iniciar na fase lútea",
+  "monitoramento_texto": "Diário de ciclo; escala PMTS; progesterona D21",
+  "observacoes_texto": "GLA pode reduzir coagulação. Cautela em cirurgias programadas.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite — iniciar D14 do ciclo"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã — iniciar D14"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "GLA (Óleo de Onagra 10%)",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço + Janta — fase lútea"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "5-HTP",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta — fase lútea"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#015",
+      "nome_ativo_texto": "Vitamina E",
+      "dose": "400 UI",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#006",
+      "nome_ativo_texto": "Cromo Picolinato",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    }
+  ]
+}

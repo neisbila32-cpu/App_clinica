@@ -1,0 +1,33 @@
+{
+  "id": "EXM-TOTG-2H",
+  "nome": "TOTG (Teste Oral de Tolerância à Glicose, 2h)",
+  "unidade_medida": "mg/dL",
+  "categoria": "Metabolismo da Glicose",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": 140,
+      "rotulo_tecnico": "Normal",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    },
+    {
+      "valor_max": 199,
+      "rotulo_tecnico": "Tolerância diminuída à glicose",
+      "classificacao_simplificada": "limitrofe",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Conduta dietética intensiva."
+    },
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "Suspeita DM2 (≥200 mg/dL)",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Encaminhar ao médico."
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": null,
+  "ref_max": 140.0
+}

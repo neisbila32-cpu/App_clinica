@@ -1,0 +1,10 @@
+{
+  "exame": "Creatinina Sérica",
+  "valores_referencia": "0,6 a 1,3 mg/dL",
+  "o_que_avalia": "Metabolismo da creatina muscular",
+  "indicacao": "Estimar a taxa de filtração glomerular e diagnóstico de disfunções renais.",
+  "o_que_significa_quando_alterado": "Queda na filtração glomerular (a alteração acontece de maneira tardia). Também pode superestimar a função renal em certas situações.",
+  "o_que_pode_estar_alterando_o_valor": "Massa muscular, idade, sexo, raça. Suplementação de creatina, uso de antibióticos, dipirona antes da realização do exame.",
+  "ref_min": 0.6,
+  "ref_max": 1.3
+}

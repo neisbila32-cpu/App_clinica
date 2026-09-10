@@ -1,0 +1,10 @@
+{
+  "exame": "T3 Total/Livre",
+  "valores_referencia": "VR T3T: 80-180 ng/dL.",
+  "o_que_avalia": "Baixa acurácia para hipotireoidismo; útil no diagnóstico de hipertireoidismo.",
+  "indicacao": "Avaliação complementar do hipertireoidismo.",
+  "o_que_significa_quando_alterado": "Valores elevados indicam hipertireoidismo.",
+  "o_que_pode_estar_alterando_o_valor": "Doença de Graves, bócio tóxico, uso de hormônio tireoidiano.",
+  "ref_min": 80.0,
+  "ref_max": 180.0
+}

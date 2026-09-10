@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#211",
+  "nome": "Sono + Déficit de Melatonina",
+  "categoria_terapeutica": "Sono",
+  "indicacao": "Insônia com melatonina salivar noturna confirmadamente reduzida",
+  "objetivo": "Repor melatonina e otimizar sua síntese endógena",
+  "duracao_texto": "3 meses; melatonina salivar antes e depois",
+  "monitoramento_texto": "Melatonina salivar noturna; Pittsburgh; latência de sono",
+  "observacoes_texto": "Zinco, magnésio e B6 são cofatores da via triptofano→serotonina→melatonina.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Melatonina",
+      "dose": "3-5 mg",
+      "forma_farmaceutica": "Cápsula sublingual",
+      "posologia": "30 min pré-sono — reposição direta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite — cofator síntese melatonina"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite — ativa síntese de melatonina"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "20 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta — cofator"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "5-HTP",
+      "dose": "50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite — precursor serotonina → melatonina"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "4.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    }
+  ]
+}

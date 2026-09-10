@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#115",
+  "nome": "Microbiota e Emagrecimento",
+  "categoria_terapeutica": "Microbiota e Saúde Intestinal",
+  "indicacao": "Obesidade ou sobrepeso com disbiose e redução de diversidade microbiana",
+  "objetivo": "Modular razão Firmicutes/Bacteroidetes e microbiota poupadora de energia",
+  "duracao_texto": "3 meses; microbiota antes e depois",
+  "monitoramento_texto": "Microbiota fecal; HOMA-IR; peso e composição corporal",
+  "observacoes_texto": "Microbiota obesa: mais Firmicutes, menos Bacteroidetes. Probiótico + dieta corrigem.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L. gasseri BNR17",
+      "dose": "5 bi UFC",
+      "forma_farmaceutica": "Cápsula enterocoatada",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B. breve B-3",
+      "dose": "5 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Inulina",
+      "dose": "5 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Berberina HCl",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "3x/dia c/ refeição"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "4.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    }
+  ]
+}

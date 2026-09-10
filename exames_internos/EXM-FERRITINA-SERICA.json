@@ -1,0 +1,33 @@
+{
+  "id": "EXM-FERRITINA-SERICA",
+  "nome": "Ferritina Sérica",
+  "unidade_medida": "ng/mL",
+  "categoria": "Hemograma — Série Vermelha",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": 15,
+      "rotulo_tecnico": "Deficiência estabelecida",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    },
+    {
+      "valor_max": 30,
+      "rotulo_tecnico": "Depleção latente",
+      "classificacao_simplificada": "limitrofe",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Pode estar elevada na inflamação (proteína de fase aguda) — verificar PCR concomitante para interpretação correta."
+    },
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "Adequado",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": 30.0,
+  "ref_max": null
+}

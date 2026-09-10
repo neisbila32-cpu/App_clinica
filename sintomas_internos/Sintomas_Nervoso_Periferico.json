@@ -1,0 +1,78 @@
+[
+  {
+    "id": "SINT_NEUROPATIA_POR_ESTRESSE_OXIDATIVO_AXONAL",
+    "nome": "Neuropatia por estresse oxidativo axonal",
+    "categoria_sistema_corporal": "Nervoso Periférico",
+    "causas_possiveis": [
+      "Vitamina E"
+    ]
+  },
+  {
+    "id": "SINT_HIPEREXCITABILIDADE_NEUROMUSCULAR",
+    "nome": "Hiperexcitabilidade neuromuscular",
+    "categoria_sistema_corporal": "Nervoso Periférico",
+    "causas_possiveis": [
+      "Magnésio"
+    ]
+  },
+  {
+    "id": "SINT_NEUROPATIA_SENSORIAL_PERIFERICA",
+    "nome": "Neuropatia sensorial periférica",
+    "categoria_sistema_corporal": "Nervoso Periférico",
+    "causas_possiveis": [
+      "Vitamina B6",
+      "Vitamina B12",
+      "Cobre"
+    ]
+  },
+  {
+    "id": "SINT_NEUROPATIA_PERIFERICA_DO_ETILISTA",
+    "nome": "Neuropatia periférica do etilista",
+    "categoria_sistema_corporal": "Nervoso Periférico",
+    "causas_possiveis": [
+      "Vitamina B1 (Tiamina)"
+    ]
+  },
+  {
+    "id": "SINT_PARESTESIAS",
+    "nome": "Parestesias",
+    "categoria_sistema_corporal": "Nervoso Periférico",
+    "causas_possiveis": [
+      "Vitamina B12",
+      "Vitamina B5",
+      "Cálcio"
+    ]
+  },
+  {
+    "id": "SINT_SINDROME_DAS_PERNAS_INQUIETAS",
+    "nome": "Síndrome das pernas inquietas",
+    "categoria_sistema_corporal": "Nervoso Periférico",
+    "causas_possiveis": [
+      "Ferro"
+    ]
+  },
+  {
+    "id": "SINT_SINDROME_DOS_PES_ARDENTES",
+    "nome": "Síndrome dos pés ardentes (burning feet)",
+    "categoria_sistema_corporal": "Nervoso Periférico",
+    "causas_possiveis": [
+      "Vitamina B5"
+    ]
+  },
+  {
+    "id": "SINT_DEGENERACAO_COMBINADA_SUBAGUDA_DA_MEDULA",
+    "nome": "Degeneração combinada subaguda da medula",
+    "categoria_sistema_corporal": "Nervoso Periférico",
+    "causas_possiveis": [
+      "Vitamina B12"
+    ]
+  },
+  {
+    "id": "SINT_NEUROPATIA_PERIFERICA_ASSOCIADA_AO_DIABETES",
+    "nome": "Neuropatia periférica associada ao diabetes (baixo mio-inositol)",
+    "categoria_sistema_corporal": "Nervoso Periférico",
+    "causas_possiveis": [
+      "Carboidratos (mio-inositol)"
+    ]
+  }
+]

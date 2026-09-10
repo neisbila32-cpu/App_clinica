@@ -1,0 +1,79 @@
+[
+  {
+    "id": "SINT_MALFORMACOES_DO_ESMALTE_DENTARIO",
+    "nome": "Malformações do esmalte dentário",
+    "categoria_sistema_corporal": "Ossos, Esqueleto e dentes",
+    "causas_possiveis": [
+      "Vitamina A"
+    ]
+  },
+  {
+    "id": "SINT_CARIES_E_PERDA_DENTARIA_PRECOCE_OSSOS",
+    "nome": "Cáries e perda dentária precoce",
+    "categoria_sistema_corporal": "Ossos, Esqueleto e dentes",
+    "causas_possiveis": [
+      "Cálcio",
+      "Vitamina D"
+    ]
+  },
+  {
+    "id": "SINT_HIPOFOSFATEMIA_E_FRATURAS_POR_ESTRESSE",
+    "nome": "Hipofosfatemia e fraturas por estresse",
+    "categoria_sistema_corporal": "Ossos, Esqueleto e dentes",
+    "causas_possiveis": [
+      "Fósforo"
+    ]
+  },
+  {
+    "id": "SINT_REDUCAO_DA_DENSIDADE_MINERAL_OSSEA",
+    "nome": "Redução da densidade mineral óssea",
+    "categoria_sistema_corporal": "Ossos, Esqueleto e dentes",
+    "causas_possiveis": [
+      "Magnésio"
+    ]
+  },
+  {
+    "id": "SINT_CALCIFICACAO_VASCULAR_ECTOPICA",
+    "nome": "Calcificação vascular ectópica",
+    "categoria_sistema_corporal": "Ossos, Esqueleto e dentes",
+    "causas_possiveis": [
+      "Vitamina K2"
+    ]
+  },
+  {
+    "id": "SINT_RAQUITISMO_OSTEOMALACIA",
+    "nome": "Raquitismo (crianças) / Osteomalácia (adultos)",
+    "categoria_sistema_corporal": "Ossos, Esqueleto e dentes",
+    "causas_possiveis": [
+      "Vitamina D",
+      "Fósforo"
+    ]
+  },
+  {
+    "id": "SINT_OSTEOPOROSE_E_RISCO_DE_FRATURA",
+    "nome": "Osteoporose e risco de fratura",
+    "categoria_sistema_corporal": "Ossos, Esqueleto e dentes",
+    "causas_possiveis": [
+      "Cálcio",
+      "Vitamina K",
+      "Cobre"
+    ]
+  },
+  {
+    "id": "SINT_COMPROMETIMENTO_DA_FORMACAO_OSSEA_E_CARTILAGINOSA",
+    "nome": "Comprometimento da formação óssea e cartilaginosa",
+    "categoria_sistema_corporal": "Ossos, Esqueleto e dentes",
+    "causas_possiveis": [
+      "Manganês"
+    ]
+  },
+  {
+    "id": "SINT_DOR_OSSEA_E_ARTICULAR",
+    "nome": "Dor óssea e articular",
+    "categoria_sistema_corporal": "Ossos, Esqueleto e dentes",
+    "causas_possiveis": [
+      "Vitamina C",
+      "Fósforo"
+    ]
+  }
+]

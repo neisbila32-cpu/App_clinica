@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#190",
+  "nome": "Ansiedade Generalizada",
+  "categoria_terapeutica": "Ansiedade",
+  "indicacao": "TAG diagnosticado (DSM-5); preocupação excessiva; >6 meses",
+  "objetivo": "Suporte nutricional adjuvante ao tratamento médico do TAG",
+  "duracao_texto": "3-4 meses; GAD-7 mensal",
+  "monitoramento_texto": "GAD-7; HAM-A; cortisol; qualidade do sono; função tireoidiana",
+  "observacoes_texto": "5-HTP não combinar com ISRS/IMAO. Suplementação ADJUVANTE — não substituir tratamento psiquiátrico.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Teanina",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã e tarde"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "5-HTP",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ashwagandha KSM-66",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    }
+  ]
+}

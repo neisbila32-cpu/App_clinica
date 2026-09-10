@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#120",
+  "nome": "Microbiota e Depressão",
+  "categoria_terapeutica": "Microbiota e Saúde Intestinal",
+  "indicacao": "Depressão leve a moderada com componente intestinal e disbiose",
+  "objetivo": "Modular eixo microbiota-intestino-cérebro para melhora de humor",
+  "duracao_texto": "8 semanas; PHQ-9 antes e depois",
+  "monitoramento_texto": "PHQ-9; HAM-D; vitamina D; microbiota",
+  "observacoes_texto": "Adjuvante ao psiquiatra. EPA predominante é preferível na depressão.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L. helveticus R0052",
+      "dose": "3 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B. longum R0175",
+      "dose": "3 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 (predomínio EPA)",
+      "dose": "2.000 mg EPA",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#024",
+      "nome_ativo_texto": "5-MTHF",
+      "dose": "800 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    }
+  ]
+}

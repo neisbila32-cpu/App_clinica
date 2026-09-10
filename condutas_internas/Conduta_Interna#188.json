@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#188",
+  "nome": "Ansiedade + GABA",
+  "categoria_terapeutica": "Ansiedade",
+  "indicacao": "Ansiedade com componente de tensão muscular, agitação e insônia",
+  "objetivo": "Potencializar via GABAérgica para relaxamento e ansiólise fisiológica",
+  "duracao_texto": "3 meses",
+  "monitoramento_texto": "GAD-7; tensão muscular EVA; qualidade do sono; GABA plasmático (se disponível)",
+  "observacoes_texto": "GABA sublingual: melhor biodisponibilidade que oral convencional.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "GABA",
+      "dose": "750-1.000 mg",
+      "forma_farmaceutica": "Cápsula sublingual",
+      "posologia": "Manhã e/ou pré-situações"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Teanina",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã e tarde"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio L-Treonato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Passiflora Incarnata",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "4.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    }
+  ]
+}

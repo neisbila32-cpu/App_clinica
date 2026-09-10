@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#191",
+  "nome": "Pânico e Ansiedade",
+  "categoria_terapeutica": "Ansiedade",
+  "indicacao": "Transtorno do pânico; crises de ansiedade aguda; sintomas físicos de pânico",
+  "objetivo": "Redução de reatividade do sistema nervoso autônomo e hipersensibilidade interoceptiva",
+  "duracao_texto": "3-4 meses; TCC concomitante",
+  "monitoramento_texto": "Frequência de crises de pânico; GAD-7; PSI; vitamina D; B12",
+  "observacoes_texto": "Pânico: TCC com exposição é o tratamento mais eficaz. Suplementação como adjuvante.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "GABA",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula sublingual",
+      "posologia": "Pré-crise ou manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio L-Treonato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B-Complex Ativado",
+      "dose": "1 cp",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "5-HTP",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Teanina",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã e tarde"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "SINT_CRETINISMO_CARENCIA_GESTACIONAL",
+    "nome": "Cretinismo (carência gestacional de iodo)",
+    "categoria_sistema_corporal": "Cérebro / SNC",
+    "causas_possiveis": [
+      "Iodo"
+    ]
+  },
+  {
+    "id": "SINT_COMPROMETIMENTO_COGNITIVO_E_DE_MEMORIA",
+    "nome": "Comprometimento cognitivo e de memória",
+    "categoria_sistema_corporal": "Cérebro / SNC",
+    "causas_possiveis": [
+      "DHA / Ômega-3 (Lipídeos)",
+      "Vitamina B9 (Folato)",
+      "Vitamina B12"
+    ]
+  },
+  {
+    "id": "SINT_DEFEITOS_DO_TUBO_NEURAL_GESTACAO",
+    "nome": "Defeitos do tubo neural (gestação)",
+    "categoria_sistema_corporal": "Cérebro / SNC",
+    "causas_possiveis": [
+      "Vitamina B9 (Folato)"
+    ]
+  },
+  {
+    "id": "SINT_DEGENERACAO_NEUROLOGICA_E_DEMENCIA",
+    "nome": "Degeneração neurológica e demência",
+    "categoria_sistema_corporal": "Cérebro / SNC",
+    "causas_possiveis": [
+      "Vitamina B12"
+    ]
+  },
+  {
+    "id": "SINT_SINDROME_DE_WERNICKE_KORSAKOFF",
+    "nome": "Síndrome de Wernicke-Korsakoff",
+    "categoria_sistema_corporal": "Cérebro / SNC",
+    "causas_possiveis": [
+      "Vitamina B1 (Tiamina)"
+    ]
+  },
+  {
+    "id": "SINT_ATAXIA",
+    "nome": "Ataxia",
+    "categoria_sistema_corporal": "Cérebro / SNC",
+    "causas_possiveis": [
+      "Manganês",
+      "Vitamina B7 (Biotina)",
+      "Vitamina E"
+    ]
+  },
+  {
+    "id": "SINT_DEPRESSAO_E_IRRITABILIDADE",
+    "nome": "Depressão e irritabilidade",
+    "categoria_sistema_corporal": "Cérebro / SNC",
+    "causas_possiveis": [
+      "Vitamina C",
+      "Vitamina D",
+      "Vitamina B6",
+      "Vitamina B9 (Folato)",
+      "Vitamina B12",
+      "Vitamina B5"
+    ]
+  },
+  {
+    "id": "SINT_PSICOSE",
+    "nome": "Psicose (casos raros)",
+    "categoria_sistema_corporal": "Cérebro / SNC",
+    "causas_possiveis": [
+      "Vitamina B12"
+    ]
+  },
+  {
+    "id": "SINT_ENCEFALOPATIA",
+    "nome": "Encefalopatia",
+    "categoria_sistema_corporal": "Cérebro / SNC",
+    "causas_possiveis": [
+      "Fósforo",
+      "Molibdênio"
+    ]
+  },
+  {
+    "id": "SINT_CONVULSOES_EM_NEONATOS",
+    "nome": "Convulsões em neonatos",
+    "categoria_sistema_corporal": "Cérebro / SNC",
+    "causas_possiveis": [
+      "Vitamina B7 (Biotina)",
+      "Vitamina B6"
+    ]
+  }
+]

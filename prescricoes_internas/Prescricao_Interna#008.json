@@ -1,0 +1,66 @@
+{
+  "id": "Prescricao_Interna#008",
+  "nome": "Fósforo (P)",
+  "funcao_indicacao": "• Mineralização esquelética: componente da hidroxiapatita óssea (~85% do fósforo corporal).\n• Metabolismo energético: componente do ATP (adenosina trifosfato), principal transportador de energia celular.\n• Síntese de ácidos nucleicos: componente do DNA e RNA (esqueleto açúcar-fosfato).\n• Sinalização celular: fosforilação proteica como mecanismo central de regulação enzimática.\n• Transporte de oxigênio: 2,3-DPG nos eritrócitos regula a afinidade da hemoglobina pelo O₂.\n• Tampão ácido-base: sistema tampão fosfato intracelular e renal.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Fosfato Dicálcico",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Boa estabilidade; fornece Ca e P; usado em cápsulas e comprimidos.",
+      "fator_limitante_texto": "Relação Ca:P deve ser monitorada; inibe absorção de ferro; contraindicado em hiperfosfatemia."
+    },
+    {
+      "nome_forma": "Fosfato Monossódico/Dissódico",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Alta solubilidade; rápida absorção; usado em preparações líquidas.",
+      "fator_limitante_texto": "Eleva o sódio; não adequado em restrição sódica ou nefropatas."
+    },
+    {
+      "nome_forma": "Fosfato de Potássio",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Fornece K e P; útil em depleções combinadas (síndrome de realimentação).",
+      "fator_limitante_texto": "Risco de hiperpotassemia; controle rigoroso em nefropatas."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças",
+      "dose_min": 500,
+      "dose_max": 1250,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme indicação clínica específica (hipofosforemia)."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 1250,
+      "dose_max": 1250,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme indicação."
+    },
+    {
+      "publico_alvo": "Adultos (ambos)",
+      "dose_min": 700,
+      "dose_max": 700,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme indicação; monitorar fósforo sérico."
+    },
+    {
+      "publico_alvo": "Idosos",
+      "dose_min": 700,
+      "dose_max": 700,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme indicação clínica; monitorar função renal."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

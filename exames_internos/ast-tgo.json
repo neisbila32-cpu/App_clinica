@@ -1,0 +1,10 @@
+{
+  "exame": "AST (TGO)",
+  "valores_referencia": "Homens: inferior a 38 U/L; Mulheres: inferior a 32 U/L",
+  "o_que_avalia": "Lesões hepáticas (baixa especificidade)",
+  "indicacao": "Se a alteração for maior que a TGP, significa que a lesão no fígado do paciente é mais grave. Não considerar o valor sozinho.",
+  "o_que_significa_quando_alterado": "Alteração maior que a da ALT (TGP) sugere lesão hepática mais grave; deve sempre ser interpretada em conjunto com a ALT.",
+  "o_que_pode_estar_alterando_o_valor": "Doença hepática alcoólica, cirrose; cirurgias de grande porte, lesões musculares e cardíacas, uso de medicamentos.",
+  "ref_min": null,
+  "ref_max": 38.0
+}

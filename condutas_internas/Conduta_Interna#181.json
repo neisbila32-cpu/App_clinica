@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#181",
+  "nome": "Hidratação em Performance",
+  "categoria_terapeutica": "Performance Física e Cognitiva",
+  "indicacao": "Atletas com queda de rendimento por desidratação; cãibras, fadiga",
+  "objetivo": "Otimizar status de hidratação e eletrólitos para performance",
+  "duracao_texto": "Contínuo; ajustar conforme demanda e clima",
+  "monitoramento_texto": "Osmolalidade urinária; cor da urina; peso hidrostático",
+  "observacoes_texto": "Meta: urina cor palha (nível 1-3 na escala de Armstrong). Evitar hipo e hipernatremia.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Sódio (NaCl)",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Pré-treino ou início de provas longas"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#007",
+      "nome_ativo_texto": "Potássio Citrato",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x c/ refeição"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Malato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite — cãibras"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pós-treino — antioxidante"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#027",
+      "nome_ativo_texto": "D-Ribose",
+      "dose": "5.000 mg",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Intra ou pós-treino"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "L-Glutamina",
+      "dose": "5.000 mg",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Pós-treino"
+    }
+  ]
+}

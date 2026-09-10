@@ -1,0 +1,42 @@
+{
+  "id": "EXM-PADRAO-FUNCAO-RENAL",
+  "nome": "Padrões combinados — Função Renal",
+  "unidade_medida": "—",
+  "categoria": "Função Renal",
+  "versao_conteudo": 1,
+  "bandas": [],
+  "padroes_combinados_categoria": [
+    {
+      "padrao_texto": "Creatinina ↑ + Ureia ↑ + Cistatina C ↑",
+      "hipotese_nutricional": "Insuficiência renal — redução da TFG",
+      "conduta_texto": "Restrição proteica individualizada (0,6–0,8 g/kg/dia em não-dialíticos); controle de potássio e fósforo; monitorar vitamina D. Encaminhar ao nefrologista.",
+      "gravidade_texto": "Moderado a Grave"
+    },
+    {
+      "padrao_texto": "Creatinina ↑ isolada (sem Ureia ↑)",
+      "hipotese_nutricional": "Massa muscular elevada OU suplementação de creatina (falso-positivo)",
+      "conduta_texto": "Reavaliar após suspensão de creatina por 7 dias. Solicitar Cistatina C para discriminar.",
+      "gravidade_texto": "Baixo — reavaliação"
+    },
+    {
+      "padrao_texto": "Ureia ↑ isolada (Cr normal)",
+      "hipotese_nutricional": "Hipercatabolismo proteico OU dieta hiperproteica OU desidratação",
+      "conduta_texto": "Investigar ingestão proteica e hidratação. Ureia > 150 mg/dL com Cr normal sugere sangramento GI.",
+      "gravidade_texto": "Moderado"
+    },
+    {
+      "padrao_texto": "Cistatina C ↑ com Cr normal",
+      "hipotese_nutricional": "Redução precoce da TFG não detectada pela creatinina (mais sensível)",
+      "conduta_texto": "Estágio inicial de disfunção renal. Comunicar ao médico para investigação de DRC incipiente.",
+      "gravidade_texto": "Moderado — encaminhar"
+    },
+    {
+      "padrao_texto": "Ureia baixa (< 15 mg/dL)",
+      "hipotese_nutricional": "Baixa ingestão proteica, desnutrição grave ou hepatopatia",
+      "conduta_texto": "Avaliar estado nutricional proteico — albumina, pré-albumina, balanço nitrogenado. Intervenção com aumento gradual de proteína.",
+      "gravidade_texto": "Atenção nutricional"
+    }
+  ],
+  "ref_min": null,
+  "ref_max": null
+}

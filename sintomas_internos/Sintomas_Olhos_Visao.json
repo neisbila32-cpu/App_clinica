@@ -1,0 +1,58 @@
+[
+  {
+    "id": "SINT_CEGUEIRA_NOTURNA",
+    "nome": "Cegueira noturna",
+    "categoria_sistema_corporal": "Olhos / Visão",
+    "causas_possiveis": [
+      "Vitamina A"
+    ]
+  },
+  {
+    "id": "SINT_XEROFTALMIA",
+    "nome": "Xeroftalmia",
+    "categoria_sistema_corporal": "Olhos / Visão",
+    "causas_possiveis": [
+      "Vitamina A"
+    ]
+  },
+  {
+    "id": "SINT_ULCERA_DE_CORNEA",
+    "nome": "Úlcera de córnea",
+    "categoria_sistema_corporal": "Olhos / Visão",
+    "causas_possiveis": [
+      "Vitamina A"
+    ]
+  },
+  {
+    "id": "SINT_MANCHAS_DE_BITOT",
+    "nome": "Manchas de Bitot",
+    "categoria_sistema_corporal": "Olhos / Visão",
+    "causas_possiveis": [
+      "Vitamina A"
+    ]
+  },
+  {
+    "id": "SINT_FOTOFOBIA_E_VASCULARIZACAO_DA_CORNEA",
+    "nome": "Fotofobia e vascularização da córnea",
+    "categoria_sistema_corporal": "Olhos / Visão",
+    "causas_possiveis": [
+      "Vitamina B2 (Riboflavina)"
+    ]
+  },
+  {
+    "id": "SINT_COMPROMETIMENTO_DA_ADAPTACAO_AO_ESCURO",
+    "nome": "Comprometimento da adaptação ao escuro",
+    "categoria_sistema_corporal": "Olhos / Visão",
+    "causas_possiveis": [
+      "Zinco"
+    ]
+  },
+  {
+    "id": "SINT_DEGENERACAO_RETINIANA",
+    "nome": "Degeneração retiniana",
+    "categoria_sistema_corporal": "Olhos / Visão",
+    "causas_possiveis": [
+      "Vitamina E"
+    ]
+  }
+]

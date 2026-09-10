@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#142",
+  "nome": "Acne Adolescente",
+  "categoria_terapeutica": "Acne",
+  "indicacao": "Acne em adolescentes (13-18 anos); pico androgênico da puberdade",
+  "objetivo": "Protocolo seguro: redução de sebo e inflamação puberal",
+  "duracao_texto": "3 meses; reavaliação com pediatra",
+  "monitoramento_texto": "Contagem de lesões; fotos; TSH; testosterona (se SOP)",
+  "observacoes_texto": "Beta-caroteno é o precursor seguro de vitamina A em adolescentes.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Bisglicinato",
+      "dose": "20-25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta — quelado mais tolerado"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#013",
+      "nome_ativo_texto": "Vitamina A (beta-caroteno)",
+      "dose": "15.000 UI",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço c/ gordura"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "3.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#005",
+      "nome_ativo_texto": "Selênio L-Selenometionina",
+      "dose": "50-100 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    }
+  ]
+}

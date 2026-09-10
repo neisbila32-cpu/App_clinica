@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#047",
+  "nome": "RI Hepática (NAFLD)",
+  "categoria_terapeutica": "Resistência Insulínica",
+  "indicacao": "Esteatose hepática não alcoólica com RI; TGO/TGP elevados",
+  "objetivo": "Reduzir lipogênese hepática, esteatose e melhorar sensibilidade insulínica hepática",
+  "duracao_texto": "6-12 meses; ecografia e enzimas a cada 3 meses",
+  "monitoramento_texto": "TGO, TGP, GGT, fosfatase alcalina; ferritina; eco hepática",
+  "observacoes_texto": "Vitamina E >800 UI: monitorar coagulação. Contraindicado em hepatite viral ativa.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Berberina HCl",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "3x/dia"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ácido R-Alfa-Lipoico",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-refeições"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Colina Bitartarato",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x c/ refeição"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Silimarina 80% silibina",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço e Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#015",
+      "nome_ativo_texto": "Vitamina E d-alfa-tocoferol",
+      "dose": "800 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço c/ gordura"
+    }
+  ]
+}

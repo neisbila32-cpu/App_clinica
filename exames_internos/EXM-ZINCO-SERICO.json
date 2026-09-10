@@ -1,0 +1,19 @@
+{
+  "id": "EXM-ZINCO-SERICO",
+  "nome": "Zinco Sérico",
+  "unidade_medida": "µg/dL",
+  "categoria": "Marcadores Laboratoriais Nutricionais",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "70–120 µg/dL (faixa normal)",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Marcador pouco sensível — 85% do zinco é intracelular. Usar junto com sintomas clínicos de deficiência."
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": 70.0,
+  "ref_max": 120.0
+}

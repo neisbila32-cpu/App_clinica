@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#122",
+  "nome": "Microbiota Neonatal e Infantil",
+  "categoria_terapeutica": "Microbiota e Saúde Intestinal",
+  "indicacao": "Bebês e crianças com cólica, pós-ATB ou nascidos por cesárea",
+  "objetivo": "Implantar microbiota neonatal saudável e proteger desenvolvimento imunológico",
+  "duracao_texto": "Contínuo nos primeiros 6-12 meses de vida",
+  "monitoramento_texto": "Cólica; ganho de peso; fezes; infecções; microbiota fecal",
+  "observacoes_texto": "B. infantis + HMO: melhor protocolo para colonização neonatal pós-cesárea.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L. reuteri DSM 17938",
+      "dose": "100 mi UFC",
+      "forma_farmaceutica": "Gotas",
+      "posologia": "Diariamente — cólica e flora"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B. infantis EVC001",
+      "dose": "8 bi UFC",
+      "forma_farmaceutica": "Pó/sachê",
+      "posologia": "Diariamente 0-6 meses"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "HMO (2-Fucosil-Lactose)",
+      "dose": "2 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Diariamente — prebiótico neonatal"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3 gotas",
+      "dose": "400-1.000 UI",
+      "forma_farmaceutica": "Gotas",
+      "posologia": "Diariamente"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "FOS (crianças >1 ano)",
+      "dose": "2-3 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L. rhamnosus GG (>1 ano)",
+      "dose": "5 bi UFC",
+      "forma_farmaceutica": "Pó/cápsula aberta",
+      "posologia": "Manhã em jejum"
+    }
+  ]
+}

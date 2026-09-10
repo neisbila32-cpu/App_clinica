@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#239",
+  "nome": "Anti-glicação",
+  "categoria_terapeutica": "Longevidade e Anti-aging",
+  "indicacao": "Glicação proteica (AGEs); rugas aceleradas; cataratas; neuropatia",
+  "objetivo": "Reduzir glicação proteica e AGEs para longevidade tissular",
+  "duracao_texto": "12 meses",
+  "monitoramento_texto": "AGEs séricos (se disponível); HbA1c; glicemia; elasticidade cutânea",
+  "observacoes_texto": "Carnosina: dipeptídeo anti-glicante e anti-carbonilante. Dose: 1-2g/dia em jejum.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#018",
+      "nome_ativo_texto": "Benfotiamina (Vitamina B1)",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã — inibe via AGE"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Carnosina L",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum — anti-glicante direto"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#006",
+      "nome_ativo_texto": "Cromo Picolinato",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ácido R-Alfa-Lipoico",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-refeições"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    }
+  ]
+}

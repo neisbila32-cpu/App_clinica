@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#214",
+  "nome": "Imunidade — Base",
+  "categoria_terapeutica": "Imunidade",
+  "indicacao": "Manutenção da saúde imunológica; prevenção de infecções recorrentes",
+  "objetivo": "Suporte multinutricional para imunidade inata e adaptativa",
+  "duracao_texto": "3 meses cíclicos",
+  "monitoramento_texto": "Frequência de infecções; vitamina D sérica; zinco; IgA secretora",
+  "observacoes_texto": "Vitamina D <30 ng/mL: repletar com 10.000 UI por 8 semanas, depois manutenção.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "4.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#005",
+      "nome_ativo_texto": "Selênio L-Selenometionina",
+      "dose": "100 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Probiótico Complexo",
+      "dose": "20 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#013",
+      "nome_ativo_texto": "Vitamina A (beta-caroteno)",
+      "dose": "10.000 UI",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    }
+  ]
+}

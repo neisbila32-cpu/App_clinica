@@ -1,0 +1,74 @@
+{
+  "id": "Prescricao_Interna#016",
+  "nome": "Vitamina K",
+  "funcao_indicacao": "• Coagulação sanguínea: cofator da gamacarboxilase — ativa os fatores II (protrombina), VII, IX, X e as proteínas anticoagulantes C e S.\n• Saúde óssea: ativa a osteocalcina e a MGP (proteína Gla da matriz) — essenciais para mineralização óssea e inibição da calcificação ectópica.\n• Saúde vascular: a MGP ativada é o mais potente inibidor fisiológico da calcificação vascular — vitamina K2 é especialmente relevante.\n• Metabolismo da glicose: evidências emergentes de melhora na sensibilidade à insulina e função das células β pancreáticas.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Vitamina K1 (Filoquinona)",
+      "nivel_biodisponibilidade": "media",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma vegetal; amplamente estudada para coagulação; referência para prevenção de sangramento neonatal.",
+      "fator_limitante_texto": "Ação predominante na coagulação hepática; menor eficácia na carboxilação de proteínas extraepáticas (osteocalcina, MGP); meia-vida curta."
+    },
+    {
+      "nome_forma": "Vitamina K2 MK-4 (Menatetrenona)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma de cadeia curta; efeitos extraepáticos (osso e vascular); alta atividade em tecidos periféricos; usada em estudos japoneses para osteoporose.",
+      "fator_limitante_texto": "Meia-vida sérica muito curta (~2 horas); necessita administração 3×/dia para efeito sustentado."
+    },
+    {
+      "nome_forma": "Vitamina K2 MK-7 (Menaquinona-7)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Cadeia longa — meia-vida prolongada (~72 horas); dose única diária eficaz; superior à K1 na carboxilação de osteocalcina e MGP; origem bacteriana (natto).",
+      "fator_limitante_texto": "Custo mais elevado; interação com anticoagulantes cumarínicos (varfarina); verificar proporção de isômeros trans (>90% trans-MK-7 = requisito de qualidade)."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (0–12 anos)",
+      "dose_min": 30,
+      "dose_max": 60,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme indicação; preventivo: uso contínuo."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 60,
+      "dose_max": 120,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme indicação."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 90,
+      "dose_max": 200,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Uso contínuo para saúde óssea; monitorar TP/INR se em uso de varfarina."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 120,
+      "dose_max": 200,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Uso contínuo; reavaliar a cada 6 meses."
+    },
+    {
+      "publico_alvo": "Idosos (>60 anos)",
+      "dose_min": 120,
+      "dose_max": 300,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Uso contínuo sob supervisão; monitorar em anticoagulados."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

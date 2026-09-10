@@ -1,0 +1,26 @@
+{
+  "id": "EXM-TIBC",
+  "nome": "TIBC (Capacidade Total de Ligação do Ferro)",
+  "unidade_medida": "µg/dL",
+  "categoria": "Hemograma — Série Vermelha",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": 370,
+      "rotulo_tecnico": "250–370 µg/dL (faixa normal)",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    },
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "Deficiência de ferro (>400 µg/dL)",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Elevado na ferropenia; baixo na anemia de doença crônica — permite distinguir as duas."
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": 250.0,
+  "ref_max": 370.0
+}

@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#119",
+  "nome": "Microbiota Vaginal",
+  "categoria_terapeutica": "Microbiota e Saúde Intestinal",
+  "indicacao": "Vaginose bacteriana recorrente, candidíase vaginal, vulvovaginite crônica",
+  "objetivo": "Reimplantar Lactobacillus vaginais e restaurar pH ácido",
+  "duracao_texto": "4-12 semanas; culturas antes e depois",
+  "monitoramento_texto": "pH vaginal; bacterioscopia; cultura; sintomas",
+  "observacoes_texto": "RC-14 + GR-1 via oral colonizam vagina em 2-3 semanas. Evitar duchas internas.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L. reuteri RC-14",
+      "dose": "2,5 bi UFC",
+      "forma_farmaceutica": "Cápsula oral",
+      "posologia": "Diariamente — coloniza vagina via intestino"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L. rhamnosus GR-1",
+      "dose": "2,5 bi UFC",
+      "forma_farmaceutica": "Cápsula oral",
+      "posologia": "Diariamente"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L. crispatus (se disponível)",
+      "dose": "1 bi UFC",
+      "forma_farmaceutica": "Cápsula vaginal",
+      "posologia": "3x/sem vaginal"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "4.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Vitamina C Ascorbato sódico",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula vaginal (off-label)",
+      "posologia": "pH vaginal"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Boro Glicina",
+      "dose": "3 mg",
+      "forma_farmaceutica": "Cápsula oral",
+      "posologia": "Manhã — anti-Candida"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#099",
+  "nome": "Libido + Ansiedade",
+  "categoria_terapeutica": "Libido e Função Sexual",
+  "indicacao": "Diminuição de libido com componente ansioso e tensão corporal",
+  "objetivo": "Reduzir inibição sexual mediada por cortisol e ansiedade",
+  "duracao_texto": "3 meses",
+  "monitoramento_texto": "GAD-7; FSFI/IIEF; cortisol salivar; testosterona",
+  "observacoes_texto": "Cortisol crônico suprime testosterona. Redução de estresse é prioridade número 1.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ashwagandha KSM-66",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio L-Treonato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Teanina",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Tarde"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "4.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    }
+  ]
+}

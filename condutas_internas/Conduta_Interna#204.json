@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#204",
+  "nome": "Insônia de Manutenção",
+  "categoria_terapeutica": "Sono",
+  "indicacao": "Despertar noturno frequente; dificuldade para voltar a dormir",
+  "objetivo": "Prolongar sono contínuo e reduzir despertares noturnos",
+  "duracao_texto": "3 meses",
+  "monitoramento_texto": "Eficiência do sono; despertares noturnos; cortisol noturno; Pittsburgh",
+  "observacoes_texto": "Melatonina LP: mantém níveis durante toda a noite. Mais adequada para insônia de manutenção.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Melatonina Liberação Prolongada",
+      "dose": "2-5 mg",
+      "forma_farmaceutica": "Cápsula LP",
+      "posologia": "Antes de dormir"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "5-HTP",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio L-Treonato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "GABA",
+      "dose": "750 mg",
+      "forma_farmaceutica": "Cápsula sublingual",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ashwagandha KSM-66",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite — cortisol"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Triptofano",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite 2h após jantar"
+    }
+  ]
+}

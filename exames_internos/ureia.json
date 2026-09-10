@@ -1,0 +1,10 @@
+{
+  "exame": "Ureia",
+  "valores_referencia": "Entre 20 a 40 mg/dl",
+  "o_que_avalia": "Degradação das proteínas",
+  "indicacao": "Avaliar a função renal",
+  "o_que_significa_quando_alterado": "Falha na filtração renal, porém subestima a real função do rim.",
+  "o_que_pode_estar_alterando_o_valor": "Dietas hiperproteicas, sangramento no TGI, medicamentos corticoides, desidratação, desnutrição, doenças hepáticas.",
+  "ref_min": 20.0,
+  "ref_max": 40.0
+}

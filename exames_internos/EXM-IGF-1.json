@@ -1,0 +1,19 @@
+{
+  "id": "EXM-IGF-1",
+  "nome": "IGF-1 (Fator de Crescimento Insulina-like 1)",
+  "unidade_medida": "ng/mL",
+  "categoria": "Marcadores Laboratoriais Nutricionais",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "Reduzido na desnutrição e DRC (a fonte não define corte numérico único — varia por idade e sexo)",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Marcador nutricional sensível — reduzido em restrição calórica e proteica independente de GH."
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": null,
+  "ref_max": null
+}

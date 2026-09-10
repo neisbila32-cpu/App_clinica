@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#149",
+  "nome": "Acne Cística",
+  "categoria_terapeutica": "Acne",
+  "indicacao": "Acne nódulo-cística grau IV; lesões profundas, dolorosas, cicatrizantes",
+  "objetivo": "Suporte nutricional intensivo concomitante ao tratamento dermatológico",
+  "duracao_texto": "3 meses + avaliação dermatológica mandatória",
+  "monitoramento_texto": "Isotretinoína paralela se indicada; lipídios; TGO/TGP; vitamina A",
+  "observacoes_texto": "Vitamina A alta dose em mulheres férteis: OBRIGATÓRIO contracepção segura. Monitorar hepatotoxicidade.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "60 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x com refeição (+ 3 mg Cobre)"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "NAC",
+      "dose": "1.800 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "3x"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#013",
+      "nome_ativo_texto": "Vitamina A Palmitato",
+      "dose": "25.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço (ciclos 10 dias ON/OFF supervisionados)"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#005",
+      "nome_ativo_texto": "Selênio L-Selenometionina",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#027",
+      "nome_ativo_texto": "Inositol Mio",
+      "dose": "4.000 mg",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "2g manhã + 2g noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "4.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "3x c/ refeição"
+    }
+  ]
+}

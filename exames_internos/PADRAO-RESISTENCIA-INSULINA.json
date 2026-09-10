@@ -1,0 +1,21 @@
+{
+  "id": "PADRAO-RESISTENCIA-INSULINA",
+  "nome_padrao": "Resistência à Insulina Estabelecida / Pré-diabetes ou DM2",
+  "condicoes": [
+    {
+      "exame_id": "EXM-GLICEMIA-JEJUM",
+      "classificacao_minima": "limitrofe"
+    },
+    {
+      "exame_id": "EXM-HBA1C",
+      "classificacao_minima": "limitrofe"
+    },
+    {
+      "exame_id": "EXM-HOMA-IR",
+      "classificacao_minima": "limitrofe"
+    }
+  ],
+  "texto_orientacao": "GJ elevada + HbA1c elevada + HOMA-IR > 2,7: dieta hipoglicêmica, redução de CHO refinados, aumento de fibras, atividade física. Encaminhar ao médico.",
+  "ref_min": null,
+  "ref_max": null
+}

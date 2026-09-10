@@ -1,0 +1,26 @@
+{
+  "id": "EXM-SATURACAO-DE-TRANSFERRINA",
+  "nome": "Saturação de Transferrina",
+  "unidade_medida": "%",
+  "categoria": "Hemograma — Série Vermelha",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": 16,
+      "rotulo_tecnico": "Deficiência funcional de ferro (<16%)",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Fe sérico ÷ TIBC × 100. Confirmação da ferropenia quando ferritina é duvidosa (inflamação)."
+    },
+    {
+      "valor_max": 50,
+      "rotulo_tecnico": "20–50% (faixa normal)",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": 20.0,
+  "ref_max": 50.0
+}

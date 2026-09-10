@@ -1,0 +1,81 @@
+[
+  {
+    "id": "SINT_ACRODERMATITE_ENTEROPATICA",
+    "nome": "Acrodermatite enteropática",
+    "categoria_sistema_corporal": "Pele",
+    "causas_possiveis": [
+      "Zinco"
+    ]
+  },
+  {
+    "id": "SINT_DERMATITE_SEBORREICA_PERIORAL_PERIORBITARIA",
+    "nome": "Dermatite seborreica perioral/periorbitária",
+    "categoria_sistema_corporal": "Pele",
+    "causas_possiveis": [
+      "Vitamina B7 (Biotina)",
+      "Vitamina B6",
+      "Vitamina B2 (Riboflavina)"
+    ]
+  },
+  {
+    "id": "SINT_PETEQUIAS_E_EQUIMOSES",
+    "nome": "Petéquias e equimoses",
+    "categoria_sistema_corporal": "Pele",
+    "causas_possiveis": [
+      "Vitamina C"
+    ]
+  },
+  {
+    "id": "SINT_MA_CICATRIZACAO_DE_FERIDAS",
+    "nome": "Má cicatrização de feridas",
+    "categoria_sistema_corporal": "Pele",
+    "causas_possiveis": [
+      "Vitamina C",
+      "Zinco",
+      "Vitamina E",
+      "Proteínas",
+      "Lipídeos (ácidos graxos essenciais)"
+    ]
+  },
+  {
+    "id": "SINT_PELAGRA_DERMATITE_FOTOSSENSIVEL",
+    "nome": "Pelagra (dermatite fotossensível)",
+    "categoria_sistema_corporal": "Pele",
+    "causas_possiveis": [
+      "Vitamina B3 (Niacina)"
+    ]
+  },
+  {
+    "id": "SINT_HIPERQUERATOSE_FOLICULAR",
+    "nome": "Hiperqueratose folicular (pele de galinha)",
+    "categoria_sistema_corporal": "Pele",
+    "causas_possiveis": [
+      "Vitamina A"
+    ]
+  },
+  {
+    "id": "SINT_DESPIGMENTACAO_DE_PELE",
+    "nome": "Despigmentação de pele",
+    "categoria_sistema_corporal": "Pele",
+    "causas_possiveis": [
+      "Cobre"
+    ]
+  },
+  {
+    "id": "SINT_PELE_SECA_E_DESCAMATIVA",
+    "nome": "Pele seca e descamativa",
+    "categoria_sistema_corporal": "Pele",
+    "causas_possiveis": [
+      "Vitamina E",
+      "Lipídeos (ácidos graxos essenciais)"
+    ]
+  },
+  {
+    "id": "SINT_HEMORRAGIA_PERIFOLICULAR",
+    "nome": "Hemorragia perifolicular",
+    "categoria_sistema_corporal": "Pele",
+    "causas_possiveis": [
+      "Vitamina C"
+    ]
+  }
+]

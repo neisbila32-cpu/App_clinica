@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#159",
+  "nome": "Celulite Intensivo",
+  "categoria_terapeutica": "Celulite",
+  "indicacao": "Celulite grau III com objetivo de resultado estético significativo",
+  "objetivo": "Protocolo intensivo multimodal para celulite resistente a intervenções simples",
+  "duracao_texto": "6 meses; fotos mensais + avaliação estética",
+  "monitoramento_texto": "Ultrassom de pele; circunferências; fotos; elasticidade",
+  "observacoes_texto": "Associar obrigatoriamente: exercício físico, massagem manual, hidratação 3 L/dia.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ginkgo Biloba 24%",
+      "dose": "240 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Dividir: manhã e tarde"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Centella Asiática 10%",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço e Janta"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Diosmina + Hesperidina",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "Colágeno Hidrolisado I+III (Peptan)",
+      "dose": "15 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Dividir 3x"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#005",
+      "nome_ativo_texto": "Selênio L-Selenometionina",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    }
+  ]
+}

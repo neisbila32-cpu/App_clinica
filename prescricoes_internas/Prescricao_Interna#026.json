@@ -1,0 +1,137 @@
+{
+  "id": "Prescricao_Interna#026",
+  "nome": "Proteínas e Aminoácidos",
+  "funcao_indicacao": "• Estrutural: colágeno, elastina, queratina, actina e miosina formam a estrutura de tecidos, pele, tendões, ossos e músculo.\n• Enzimática: a maioria das enzimas são proteínas — catalisam todas as reações metabólicas.\n• Transporte e armazenamento: hemoglobina (O₂), albumina (lipídeos, hormônios), transferrina (Fe).\n• Imunológica: imunoglobulinas, citocinas, proteínas do complemento.\n• Regulação hormonal: insulina, glucagon, GH, IGF-1, leptina e adiponectina são proteínas ou peptídeos.\n• Energética (secundária): 4 kcal/g; catabolizadas na gliconeogênese quando a oferta energética é insuficiente.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Whey Proteína Concentrado",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Rápida absorção; excelente perfil de EAA; potente estímulo à síntese proteica muscular (MPS) via mTORC1; custo acessível.",
+      "fator_limitante_texto": "Contém lactose e gordura residual; inadequado em alergia às proteínas do leite."
+    },
+    {
+      "nome_forma": "Whey Proteína Isolado",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Mínima lactose; maior concentração proteica; indicado em intolerância à lactose.",
+      "fator_limitante_texto": "Custo mais elevado que o concentrado."
+    },
+    {
+      "nome_forma": "Whey Proteína Hidrolisado",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Absorção ultrarrápida; menor antigenicidade; útil em alergias moderadas.",
+      "fator_limitante_texto": "Sabor amargo intenso; custo muito elevado; vantagem sobre o isolado em indivíduos saudáveis é mínima."
+    },
+    {
+      "nome_forma": "Caseína",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Digestão lenta (gel gástrico); liberação sustentada de aminoácidos por 4–7 horas; ideal para uso noturno; anticatabólico.",
+      "fator_limitante_texto": "Inadequada para intolerantes ao leite; absorção lenta é desvantagem no pós-treino imediato."
+    },
+    {
+      "nome_forma": "Proteína de Soja",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Proteína vegetal completa; PDCAAS elevado; sem colesterol; isoflavonas com leve atividade estrogênica.",
+      "fator_limitante_texto": "Isoflavonas contraindicadas em cânceres hormônio-dependentes em algumas diretrizes; fitatos reduzem absorção de minerais."
+    },
+    {
+      "nome_forma": "Proteína de Ervilha",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Hipoalergênica; isenta de lactose e glúten; boa em lisina.",
+      "fator_limitante_texto": "Baixa em metionina — complementar com outra fonte vegetal (ex.: proteína de arroz)."
+    },
+    {
+      "nome_forma": "Proteína de Arroz",
+      "nivel_biodisponibilidade": "media",
+      "percentual_elemento": null,
+      "beneficio_texto": "Hipoalergênica; fácil digestão; isenta de lactose e glúten.",
+      "fator_limitante_texto": "Baixa em lisina; complementação com ervilha é prática comum para perfil completo."
+    },
+    {
+      "nome_forma": "BCAA (Leu, Ile, Val)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Leucina é o principal sinal anabólico via mTORC1; redução de fadiga central; suporte em catabolismo muscular.",
+      "fator_limitante_texto": "Perfil incompleto; vantagem sobre whey proteína (rico em leucina) em indivíduos com ingesta proteica adequada é limitada."
+    },
+    {
+      "nome_forma": "L-Glutamina",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Principal combustível de enterócitos e imunócitos; integridade da mucosa intestinal; suporte imune em estados catabólicos.",
+      "fator_limitante_texto": "Evidências limitadas para suplementação em saudáveis; metabolização hepática intensa — biodisponibilidade para intestino e músculo em doses orais é debatida."
+    },
+    {
+      "nome_forma": "L-Arginina",
+      "nivel_biodisponibilidade": "media",
+      "percentual_elemento": null,
+      "beneficio_texto": "Precursor do óxido nítrico (vasodilatação); ciclo da ureia; síntese de creatina e poliaminas.",
+      "fator_limitante_texto": "Absorção variável; competição com lisina (mesmo transportador CAT); pode precipitar herpes labial."
+    },
+    {
+      "nome_forma": "L-Citrulina",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Superior à L-arginina na elevação de arginina plasmática (não metabolizada em primeira passagem); efeito ergogênico em exercício.",
+      "fator_limitante_texto": "Custo mais elevado; evidências clínicas ainda em expansão."
+    },
+    {
+      "nome_forma": "Colágeno Hidrolisado (Peptídeos)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Absorção eficiente de di e tripeptídeos (Pro-Hyp, Hyp-Gly); estimula fibroblastos a produzirem colágeno endógeno; evidências em articulações, pele e osso.",
+      "fator_limitante_texto": "Não é proteína completa (ausência de triptofano); não substitui proteínas dietéticas para MPS."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (1–12 anos)",
+      "dose_min": 0.85,
+      "dose_max": 1.2,
+      "unidade": "g/kg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme indicação nutricional; uso contínuo em suporte nutricional."
+    },
+    {
+      "publico_alvo": "Adolescentes (atletas)",
+      "dose_min": 1.2,
+      "dose_max": 1.8,
+      "unidade": "g/kg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Uso contínuo enquanto houver demanda aumentada."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 0.8,
+      "dose_max": 1.6,
+      "unidade": "g/kg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Colágeno: 3–6 meses para articulações; uso contínuo em sarcopenia."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 0.8,
+      "dose_max": 2.0,
+      "unidade": "g/kg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Uso contínuo em praticantes de exercício."
+    },
+    {
+      "publico_alvo": "Idosos (>60 anos)",
+      "dose_min": 1.2,
+      "dose_max": 1.6,
+      "unidade": "g/kg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Uso contínuo; reavaliar a cada 3 meses com avaliação de composição corporal."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

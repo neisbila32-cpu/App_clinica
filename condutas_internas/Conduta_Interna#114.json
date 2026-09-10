@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#114",
+  "nome": "Candida e Microbiota",
+  "categoria_terapeutica": "Microbiota e Saúde Intestinal",
+  "indicacao": "Candidíase intestinal ou recorrente com disbiose associada",
+  "objetivo": "Eliminar supercrescimento de Candida e restaurar comensais anti-candidósicos",
+  "duracao_texto": "6-8 semanas fase ativa; 4-6 sem manutenção",
+  "monitoramento_texto": "Culturas fecais e vaginais; sintomas; IgG anti-Candida",
+  "observacoes_texto": "Biotina em altas doses inibe conversão de Candida para forma hifal invasiva.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "S. boulardii",
+      "dose": "10 bi UFC",
+      "forma_farmaceutica": "Cápsula dura",
+      "posologia": "Manhã e noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L. acidophilus + L. rhamnosus",
+      "dose": "20 bi UFC cada",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Berberina HCl",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "3x/dia"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Caprílico (MCT C8)",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "3x c/ refeição"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#023",
+      "nome_ativo_texto": "Biotina",
+      "dose": "10.000 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã — bloqueia morfogênese de Candida"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "30 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    }
+  ]
+}

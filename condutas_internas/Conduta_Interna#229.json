@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#229",
+  "nome": "Longevidade — Base",
+  "categoria_terapeutica": "Longevidade e Anti-aging",
+  "indicacao": "Adultos >40 anos com objetivo de prolongar saúde e vitalidade",
+  "objetivo": "Suporte multimodal para longevidade: antioxidante, mitocondrial e anti-inflamatório",
+  "duracao_texto": "12 meses contínuos; reavaliação trimestral",
+  "monitoramento_texto": "Vitamina D; lipídios; PCR us; glicemia; composição corporal",
+  "observacoes_texto": "Resveratrol ativa sirtuínas (SIRT1). NAC repõe glutationa — o antioxidante master.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "200 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Resveratrol",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "NAC N-Acetilcisteína",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    }
+  ]
+}

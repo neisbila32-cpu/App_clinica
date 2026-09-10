@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#038",
+  "nome": "Saciedade em Atletas",
+  "categoria_terapeutica": "Saciedade",
+  "indicacao": "Atletas em déficit calórico; fome excessiva durante offseason",
+  "objetivo": "Manter saciedade sem comprometer performance e recuperação",
+  "duracao_texto": "Conforme período de treinamento",
+  "monitoramento_texto": "Composição corporal; performance; VAS saciedade",
+  "observacoes_texto": "Periodizar suplementação conforme fase de treinamento.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "Whey Proteína Isolado",
+      "dose": "30 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Pós-treino"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "BCAA 2:1:1",
+      "dose": "5.000 mg",
+      "forma_farmaceutica": "Cápsula/pó",
+      "posologia": "Pré e intra-treino"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Glucomanano",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-refeição principal"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "L-Glutamina",
+      "dose": "5.000 mg",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Pós-treino e noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Creatina Monohidratada",
+      "dose": "5.000 mg",
+      "forma_farmaceutica": "Pó",
+      "posologia": "Pós-treino"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Malato",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    }
+  ]
+}

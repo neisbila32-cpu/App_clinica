@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#108",
+  "nome": "Restauração da Microbiota — Base",
+  "categoria_terapeutica": "Microbiota e Saúde Intestinal",
+  "indicacao": "Disbiose intestinal geral: alteração de diversidade e composição",
+  "objetivo": "Restaurar diversidade microbiana e fortalecer barreira intestinal",
+  "duracao_texto": "4-6 semanas; repetir trimestralmente",
+  "monitoramento_texto": "Microbiota fecal; sintomas intestinais; IgA secretora fecal",
+  "observacoes_texto": "S. boulardii é resistente a ATB. FOS: iniciar com 2g e aumentar gradualmente.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L. acidophilus NCFM + L. rhamnosus GG",
+      "dose": "10 bi UFC cada",
+      "forma_farmaceutica": "Cápsula enterocoatada",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B. longum BB536 + B. lactis HN019",
+      "dose": "10 bi UFC cada",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "S. boulardii CNCM I-745",
+      "dose": "5 bi UFC",
+      "forma_farmaceutica": "Cápsula dura",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Prebiótico FOS + Inulina",
+      "dose": "5 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Almoço — simbiótico"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "L-Glutamina",
+      "dose": "5.000 mg",
+      "forma_farmaceutica": "Sachê/pó",
+      "posologia": "Entre refeições"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "20 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    }
+  ]
+}

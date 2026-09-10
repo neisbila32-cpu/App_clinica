@@ -1,0 +1,51 @@
+[
+  {
+    "id": "SINT_BOCIO",
+    "nome": "Bócio",
+    "categoria_sistema_corporal": "Tireoide",
+    "causas_possiveis": [
+      "Iodo"
+    ]
+  },
+  {
+    "id": "SINT_HIPOTIREOIDISMO",
+    "nome": "Hipotireoidismo",
+    "categoria_sistema_corporal": "Tireoide",
+    "causas_possiveis": [
+      "Iodo",
+      "Selênio"
+    ]
+  },
+  {
+    "id": "SINT_CRETINISMO_FETAL_NEONATAL",
+    "nome": "Cretinismo fetal/neonatal",
+    "categoria_sistema_corporal": "Tireoide",
+    "causas_possiveis": [
+      "Iodo"
+    ]
+  },
+  {
+    "id": "SINT_PREJUIZO_NA_SINTESE_DE_HORMONIOS_TIREOIDIANOS",
+    "nome": "Prejuízo na síntese de hormônios tireoidianos",
+    "categoria_sistema_corporal": "Tireoide",
+    "causas_possiveis": [
+      "Zinco"
+    ]
+  },
+  {
+    "id": "SINT_DEFICIT_NA_CONVERSAO_T4_T3",
+    "nome": "Déficit na conversão de T4 em T3",
+    "categoria_sistema_corporal": "Tireoide",
+    "causas_possiveis": [
+      "Selênio"
+    ]
+  },
+  {
+    "id": "SINT_RISCO_DE_NODULOS_E_CANCER_DE_TIREOIDE",
+    "nome": "Risco aumentado de nódulos e câncer de tireoide",
+    "categoria_sistema_corporal": "Tireoide",
+    "causas_possiveis": [
+      "Iodo"
+    ]
+  }
+]

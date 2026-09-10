@@ -1,0 +1,33 @@
+{
+  "id": "EXM-HOMA-IR",
+  "nome": "HOMA-IR",
+  "unidade_medida": "índice",
+  "categoria": "Metabolismo da Glicose",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": 2.7,
+      "rotulo_tecnico": "Sem resistência à insulina",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    },
+    {
+      "valor_max": 4.0,
+      "rotulo_tecnico": "Resistência leve-moderada",
+      "classificacao_simplificada": "limitrofe",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Reduzir carga glicêmica e ultraprocessados."
+    },
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "Resistência grave (>4,0)",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Encaminhar; investigar SOP e síndrome metabólica."
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": null,
+  "ref_max": 2.7
+}

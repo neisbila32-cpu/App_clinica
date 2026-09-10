@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#104",
+  "nome": "Fertilidade e Libido",
+  "categoria_terapeutica": "Libido e Função Sexual",
+  "indicacao": "Casal em tentativa de concepção: otimizar fertilidade e função sexual",
+  "objetivo": "Suporte à qualidade gamética, hormonal e sexual para concepção",
+  "duracao_texto": "3-6 meses pré-concepção",
+  "monitoramento_texto": "Espermograma (masculino); progesterona D21; E2, FSH; FSFI/IIEF",
+  "observacoes_texto": "CoQ10 Ubiquinol é superior ao ubiquinona para qualidade oocitária.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço — qualidade oocitária/espermática"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#024",
+      "nome_ativo_texto": "5-MTHF",
+      "dose": "800 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#005",
+      "nome_ativo_texto": "Selênio L-Selenometionina",
+      "dose": "100 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "L-Arginina",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula/sachê",
+      "posologia": "Tarde"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "exame": "Hemoglobina (Hb)",
+  "valores_referencia": "Mulheres: < 12 g/dL; Homens: < 13 g/dL.",
+  "o_que_avalia": "Valores abaixo destes limites definem o quadro de anemia.",
+  "indicacao": "Valores abaixo destes limites definem o quadro de anemia.",
+  "o_que_significa_quando_alterado": "Baixo indica anemia; Alto pode sugerir desidratação, tabagismo ou policitemia.",
+  "o_que_pode_estar_alterando_o_valor": "Altitude elevada, desidratação severa ou hidratação excessiva intravenosa.",
+  "ref_min": null,
+  "ref_max": 12.0
+}

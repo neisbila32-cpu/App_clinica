@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#102",
+  "nome": "Libido + Fadiga Adrenal",
+  "categoria_terapeutica": "Libido e Função Sexual",
+  "indicacao": "Queda de libido com exaustão crônica, estresse e burnout",
+  "objetivo": "Restaurar eixo HPA e produção adrenal de androgênios (DHEA)",
+  "duracao_texto": "3-4 meses; cortisol e DHEAS antes e depois",
+  "monitoramento_texto": "Cortisol matinal e noturno; DHEAS; testosterona; IIEF/FSFI",
+  "observacoes_texto": "Rhodiola: não usar após 15h — pode causar insônia. Ciclos de 6 semanas.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ashwagandha KSM-66",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Rhodiola Rosea 3%",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#021",
+      "nome_ativo_texto": "Vitamina B5 Pantotenato",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x/dia"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    }
+  ]
+}

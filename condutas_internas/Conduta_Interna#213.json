@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#213",
+  "nome": "Jet Lag e Ritmo Circadiano",
+  "categoria_terapeutica": "Sono",
+  "indicacao": "Jet lag por viagem transcontinental ou dessincronização circadiana",
+  "objetivo": "Ressincronizar rapidamente o ritmo circadiano pós-viagem",
+  "duracao_texto": "3-5 dias de uso no destino; repetir em cada viagem",
+  "monitoramento_texto": "Qualidade do sono; latência; performance cognitiva",
+  "observacoes_texto": "Iniciar melatonina no HORÁRIO LOCAL de dormir — não no horário de origem.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Melatonina",
+      "dose": "3-5 mg",
+      "forma_farmaceutica": "Cápsula sublingual",
+      "posologia": "Horário local de dormir no destino"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#025",
+      "nome_ativo_texto": "Vitamina B12 Metilcobalamina",
+      "dose": "1.000 mcg",
+      "forma_farmaceutica": "Sublingual",
+      "posologia": "Ao acordar no destino — sincroniza"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-sono no destino"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "GABA",
+      "dose": "750 mg",
+      "forma_farmaceutica": "Cápsula sublingual",
+      "posologia": "Pré-sono no destino"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Fosfatidilserina",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Tarde — bloqueia pico de cortisol"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Teanina",
+      "dose": "200 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-sono no destino"
+    }
+  ]
+}

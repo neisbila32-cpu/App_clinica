@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#057",
+  "nome": "SOP + Infertilidade",
+  "categoria_terapeutica": "Síndrome dos Ovários Policísticos (SOP)",
+  "indicacao": "SOP em busca de gestação; anovulação e qualidade oocitária reduzida",
+  "objetivo": "Restaurar ovulação e melhorar qualidade oocitária",
+  "duracao_texto": "3-6 meses pré-concepção",
+  "monitoramento_texto": "Progesterona D21; AMH; ciclo; HOMA-IR",
+  "observacoes_texto": "CoQ10 Ubiquinol superior para qualidade oocitária. Dose mínima 400 mg/dia.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#027",
+      "nome_ativo_texto": "Mio-Inositol",
+      "dose": "4.000 mg",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "2g manhã + 2g noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "D-Chiro-Inositol",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "2x com refeição"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#024",
+      "nome_ativo_texto": "5-MTHF",
+      "dose": "800 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 DHA",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço"
+    }
+  ]
+}

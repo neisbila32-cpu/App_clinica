@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#113",
+  "nome": "SIBO — Suporte Nutricional",
+  "categoria_terapeutica": "Microbiota e Saúde Intestinal",
+  "indicacao": "SIBO confirmado por teste respiratório; distensão, gases, má absorção",
+  "objetivo": "Eliminar supercrescimento e restaurar barreira e motilidade intestinal",
+  "duracao_texto": "Eliminação: 4-6 sem | Reparo: 6-8 sem | Total: 12-14 sem",
+  "monitoramento_texto": "Teste respiratório H2/CH4; calprotectina; GSRS; microbiota fecal",
+  "observacoes_texto": "Dieta low-FODMAP durante tratamento. NAC rompe biofilme bacteriano — essencial.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Berberina HCl",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "3x/dia 15 min pré-refeição — fase ativa"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Alicina (Extrato de Alho)",
+      "dose": "450 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "3x/dia — fase ativa"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Óleo de Orégano (carvacrol 45%)",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula enterocoatada",
+      "posologia": "3x/dia — fase ativa"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "NAC N-Acetilcisteína",
+      "dose": "1.200 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x/dia — rompe biofilme"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "L-Glutamina",
+      "dose": "10.000 mg",
+      "forma_farmaceutica": "Sachê/pó",
+      "posologia": "Dividir 3x — fase de reparo"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B. coagulans GBI-30",
+      "dose": "5 bi UFC",
+      "forma_farmaceutica": "Cápsula esporogênica",
+      "posologia": "Manhã — fase reparo"
+    }
+  ]
+}

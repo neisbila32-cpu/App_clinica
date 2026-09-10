@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#171",
+  "nome": "Queda Capilar Pós-quimioterapia",
+  "categoria_terapeutica": "Queda Capilar",
+  "indicacao": "Recuperação capilar após quimioterapia citotóxica",
+  "objetivo": "Estimular crescimento do fio pós-quimioterapia e redução de danos residuais",
+  "duracao_texto": "6-12 meses; após autorização oncológica",
+  "monitoramento_texto": "Hemograma; ferritina; vitamina D; fotos capilares",
+  "observacoes_texto": "OBRIGATÓRIO: liberação do oncologista antes de iniciar qualquer suplementação pós-quimio.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#005",
+      "nome_ativo_texto": "Selênio L-Selenometionina",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "NAC",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B-Complex Ativado",
+      "dose": "1 cp",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    }
+  ]
+}

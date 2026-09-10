@@ -1,0 +1,81 @@
+{
+  "id": "Prescricao_Interna#018",
+  "nome": "Vitamina B1 (Tiamina)",
+  "funcao_indicacao": "• Metabolismo energético: como pirofosfato de tiamina (TPP), cofator da piruvato desidrogenase, alfa-cetoglutarato desidrogenase e transcetolase.\n• Síntese de acetilcolina: participa da síntese deste neurotransmissor essencial.\n• Condução nervosa: papel na transmissão de impulsos nervosos (papel não-coenzimático).\n• Metabolismo de BCAAs: cofator da alfa-ceto ácido desidrogenase dos aminoácidos de cadeia ramificada.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Cloridrato de Tiamina",
+      "nivel_biodisponibilidade": "media",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma padrão, mais utilizada e estudada; boa absorção em doses baixas; baixo custo.",
+      "fator_limitante_texto": "Absorção limitada por transportadores THTR-1 e THTR-2 (saturáveis); baixa penetração na barreira hematoencefálica."
+    },
+    {
+      "nome_forma": "Mononitrato de Tiamina",
+      "nivel_biodisponibilidade": "media",
+      "percentual_elemento": null,
+      "beneficio_texto": "Boa estabilidade; amplamente usada em produtos de panificação e cereais enriquecidos.",
+      "fator_limitante_texto": "Mesmas limitações de absorção que o cloridrato; ligeiramente menos solúvel."
+    },
+    {
+      "nome_forma": "Benfotiamina",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Derivado lipossolúvel — biodisponibilidade oral superior ao cloridrato (3–5×); maior penetração na barreira hematoencefálica; evidências em neuropatia diabética.",
+      "fator_limitante_texto": "Custo mais elevado; requer conversão enzimática intracelular para TPP."
+    },
+    {
+      "nome_forma": "Pirofosfato de Tiamina (TPP)",
+      "nivel_biodisponibilidade": "media",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma coenzimática ativa; não requer conversão pelo organismo.",
+      "fator_limitante_texto": "Disponibilidade limitada como suplemento isolado; custo elevado; absorção oral da forma fosforilada pode ser menor que a forma livre."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (1–12 anos)",
+      "dose_min": 0.5,
+      "dose_max": 0.9,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Preventivo: contínuo; terapêutico: 4–8 semanas."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 0.9,
+      "dose_max": 1.2,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "4–8 semanas; reavaliar sintomas neurológicos."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 1.1,
+      "dose_max": 50,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Terapêutico: 3–6 meses; benfotiamina em neuropatia: 6–12 meses."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 1.2,
+      "dose_max": 50,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Terapêutico: 3–6 meses."
+    },
+    {
+      "publico_alvo": "Idosos (>60 anos)",
+      "dose_min": 1.2,
+      "dose_max": 50,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses; monitorar estado nutricional global."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

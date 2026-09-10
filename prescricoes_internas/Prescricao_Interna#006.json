@@ -1,0 +1,81 @@
+{
+  "id": "Prescricao_Interna#006",
+  "nome": "Cromo (Cr)",
+  "funcao_indicacao": "• Potencialização da sinalização de insulina: o Cr³⁺ atua por meio da cromolina (oligopeptídeo ligante), aumentando a afinidade do receptor à insulina.\n• Metabolismo de carboidratos: melhora a captação celular de glicose e reduz resistência à insulina.\n• Metabolismo lipídico: alguns estudos associam suplementação de cromo à redução de triglicerídeos e LDL e aumento de HDL.\n• Controle do apetite: evidências de redução de compulsão alimentar por carboidratos.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Picolinato de Cromo",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma mais estudada; boa biodisponibilidade (picolinato facilita captação celular); amplamente disponível.",
+      "fator_limitante_texto": "Anel picolinato tem potencial pro-oxidante e clastogênico em doses muito elevadas; usar dentro dos limites seguros."
+    },
+    {
+      "nome_forma": "Nicotinato de Cromo (Polinicotinato)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Boa biodisponibilidade; nicotinato é cofator fisiológico do metabolismo do cromo (Fator de Tolerância à Glicose — GTF).",
+      "fator_limitante_texto": "Menos estudado que o picolinato; evidências clínicas mais limitadas."
+    },
+    {
+      "nome_forma": "Cloreto de Cromo",
+      "nivel_biodisponibilidade": "baixa",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma inorgânica; amplamente disponível; baixo custo.",
+      "fator_limitante_texto": "Baixa biodisponibilidade oral (~0,4–2%); forma menos eficiente disponível."
+    },
+    {
+      "nome_forma": "Histidinato de Cromo",
+      "nivel_biodisponibilidade": "media",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma quelada com histidina; potencialmente boa atividade biológica.",
+      "fator_limitante_texto": "Evidências clínicas em humanos muito limitadas; custo elevado."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças",
+      "dose_min": 11,
+      "dose_max": 25,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Uso clínico raro em crianças; conforme indicação médica."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 25,
+      "dose_max": 35,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme indicação."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 25,
+      "dose_max": 200,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses; monitorar glicemia de jejum e insulina."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 35,
+      "dose_max": 200,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses."
+    },
+    {
+      "publico_alvo": "Idosos (>60 anos)",
+      "dose_min": 20,
+      "dose_max": 200,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3 meses; reavaliação de glicemia e perfil lipídico."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

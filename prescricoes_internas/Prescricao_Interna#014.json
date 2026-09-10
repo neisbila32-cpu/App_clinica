@@ -1,0 +1,81 @@
+{
+  "id": "Prescricao_Interna#014",
+  "nome": "Vitamina D",
+  "funcao_indicacao": "• Homeostase do cálcio e fósforo: o calcitriol [1,25(OH)₂D] estimula a absorção intestinal de Ca e P, reabsorção renal de Ca e mobilização óssea.\n• Saúde óssea: indispensável para mineralização óssea; deficiência causa raquitismo (crianças) e osteomalácia (adultos).\n• Imunomodulação: modula imunidade inata e adaptativa; ativa macrófagos; regula linfócitos T reguladores.\n• Função muscular: necessária para força neuromuscular; deficiência associada a miopatia e risco de quedas em idosos.\n• Regulação do SRA: inibe o sistema renina-angiotensina-aldosterona.\n• Ação antiproliferativa e neuromoduladora: evidências de efeito anticarcinogênico e associação com função cognitiva e depressão.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Vitamina D2 (Ergocalciferol)",
+      "nivel_biodisponibilidade": "media",
+      "percentual_elemento": null,
+      "beneficio_texto": "Origem vegetal/fúngica; opção para veganos; amplamente disponível.",
+      "fator_limitante_texto": "Menor potência que a D3 para elevar 25(OH)D sérico; meia-vida mais curta; menos eficiente na manutenção dos níveis."
+    },
+    {
+      "nome_forma": "Vitamina D3 (Colecalciferol)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma produzida na pele humana; superior à D2 em elevar e manter 25(OH)D — referência para suplementação. Forma oleosa (em MCT ou azeite) tem biodisponibilidade superior à forma seca.",
+      "fator_limitante_texto": "Lipossolúvel — requer gordura para absorção; risco de hipercalcemia em doses muito elevadas; monitorização de 25(OH)D recomendada."
+    },
+    {
+      "nome_forma": "Calcifediol [25(OH)D]",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Já semi-ativado (sem necessidade de hidroxilação hepática); efeito mais rápido na elevação de 25(OH)D; indicado em hepatopatias e síndromes de má absorção de gorduras.",
+      "fator_limitante_texto": "Custo mais elevado; requer monitorização cuidadosa dos níveis séricos."
+    },
+    {
+      "nome_forma": "Calcitriol [1,25(OH)₂D]",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma biologicamente ativa; sem necessidade de ativação; indicado em insuficiência renal crônica.",
+      "fator_limitante_texto": "Alto risco de hipercalcemia e hipercalciúria; janela terapêutica muito estreita; uso restrito com monitorização rigorosa."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (0–12 anos)",
+      "dose_min": 400,
+      "dose_max": 2000,
+      "unidade": "UI/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Uso contínuo preventivo; deficiência: 3 meses, reavaliando 25(OH)D sérico."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 600,
+      "dose_max": 4000,
+      "unidade": "UI/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3 meses de reposição intensa; manutenção conforme nível sérico."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 1000,
+      "dose_max": 4000,
+      "unidade": "UI/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Reposição: 2–3 meses; manutenção: uso continuado com reavaliação semestral."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 1000,
+      "dose_max": 4000,
+      "unidade": "UI/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Reposição: 8–12 semanas; manutenção contínua."
+    },
+    {
+      "publico_alvo": "Idosos (>60 anos)",
+      "dose_min": 2000,
+      "dose_max": 6000,
+      "unidade": "UI/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Uso contínuo; monitorar 25(OH)D, cálcio e PTH a cada 6 meses."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

@@ -1,0 +1,10 @@
+{
+  "exame": "Apolipoproteína B (ApoB)",
+  "valores_referencia": "Alvos variam de < 100 a < 45 mg/dL conforme o risco.",
+  "o_que_avalia": "Reflete o número total de partículas aterogênicas circulantes.",
+  "indicacao": "Avaliar o número de partículas aterogênicas circulantes.",
+  "o_que_significa_quando_alterado": "Valores elevados indicam maior risco de aterosclerose.",
+  "o_que_pode_estar_alterando_o_valor": "Dislipidemia familiar, síndrome metabólica, diabetes tipo 2.",
+  "ref_min": null,
+  "ref_max": 100.0
+}

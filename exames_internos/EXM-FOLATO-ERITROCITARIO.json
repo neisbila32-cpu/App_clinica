@@ -1,0 +1,26 @@
+{
+  "id": "EXM-FOLATO-ERITROCITARIO",
+  "nome": "Folato Eritrocitário",
+  "unidade_medida": "ng/mL",
+  "categoria": "Hemograma — Série Vermelha",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": 140,
+      "rotulo_tecnico": "Deficiência estabelecida",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Reflete estoques teciduais (superior ao folato sérico) — preferir ao folato sérico para avaliação nutricional."
+    },
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "Normal (>280 ng/mL)",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": 280.0,
+  "ref_max": null
+}

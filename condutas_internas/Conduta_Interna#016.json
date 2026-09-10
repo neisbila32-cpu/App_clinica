@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#016",
+  "nome": "Ansiedade Alimentar",
+  "categoria_terapeutica": "Emagrecimento",
+  "indicacao": "Compulsão com ansiedade; dificuldade de adesão ao plano alimentar",
+  "objetivo": "Reduzir ansiedade e compulsão como barreiras para o emagrecimento",
+  "duracao_texto": "3 meses; reavaliar sintomas ansiosos",
+  "monitoramento_texto": "GAD-7; comportamento alimentar; peso",
+  "observacoes_texto": "5-HTP não combinar com ISRS ou IMAO. Referir para psicoterapia concomitante.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "5-HTP (Griffonia)",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "30 min antes do jantar"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio L-Treonato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ashwagandha KSM-66",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Teanina",
+      "dose": "200 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã e tarde"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#006",
+      "nome_ativo_texto": "Cromo Picolinato",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    }
+  ]
+}

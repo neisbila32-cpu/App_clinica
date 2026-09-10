@@ -1,0 +1,19 @@
+{
+  "id": "EXM-LDL-COLESTEROL",
+  "nome": "LDL-Colesterol (LDL-c)",
+  "unidade_medida": "mg/dL",
+  "categoria": "Perfil Lipídico",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "Acima da meta individualizada por risco cardiovascular (a fonte não define um corte único — meta varia por estratificação de risco)",
+      "classificacao_simplificada": "limitrofe",
+      "causa_possivel_texto": "Dieta rica em saturados e trans; predisposição genética; hipotireoidismo",
+      "conduta_texto": "Reduzir gordura saturada <7% do VET; fibras solúveis (beta-glucanas, psyllium); encaminhar se houver genética familiar."
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": null,
+  "ref_max": null
+}

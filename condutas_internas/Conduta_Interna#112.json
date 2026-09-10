@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#112",
+  "nome": "Psicobiótico — Microbiota e Humor",
+  "categoria_terapeutica": "Microbiota e Saúde Intestinal",
+  "indicacao": "Ansiedade, depressão leve mediados por eixo intestino-cérebro",
+  "objetivo": "Modular eixo microbiota-intestino-cérebro para melhora de humor e ansiedade",
+  "duracao_texto": "4-8 semanas",
+  "monitoramento_texto": "HAM-A; PHQ-9; cortisol salivar; microbiota fecal",
+  "observacoes_texto": "Combinação L. helveticus + B. longum é o psicobiótico com maior evidência humana.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L. helveticus R0052",
+      "dose": "3 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum — psicobiótico"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B. longum R0175",
+      "dose": "3 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum — psicobiótico"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Prebiótico FOS",
+      "dose": "3 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Almoço"
+    }
+  ]
+}

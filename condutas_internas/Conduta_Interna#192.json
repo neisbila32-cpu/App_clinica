@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#192",
+  "nome": "Ansiedade + Intestino",
+  "categoria_terapeutica": "Ansiedade",
+  "indicacao": "Ansiedade com sintomas intestinais concomitantes; eixo cérebro-intestino",
+  "objetivo": "Modular eixo intestino-cérebro para redução bidirecional de ansiedade e sintomas GI",
+  "duracao_texto": "3-4 meses",
+  "monitoramento_texto": "GAD-7; IBS-SSS; calprotectina; cortisol salivar; microbiota",
+  "observacoes_texto": "Psicobiótico L. helveticus + B. longum: maior evidência para ansiedade via eixo intestino-cérebro.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L. helveticus R0052",
+      "dose": "3 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum — psicobiótico"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B. longum R0175",
+      "dose": "3 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum — psicobiótico"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "L-Glutamina",
+      "dose": "5.000 mg",
+      "forma_farmaceutica": "Sachê/pó",
+      "posologia": "Entre refeições"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "Prescricao_Interna#011",
+  "nome": "Iodo (I)",
+  "funcao_indicacao": "• Síntese de hormônios tireoidianos: componente indispensável da tiroxina (T4) e triiodotironina (T3).\n• Desenvolvimento cerebral fetal e neonatal: deficiência na gestação causa cretinismo e déficit cognitivo irreversível.\n• Regulação do metabolismo basal: os hormônios tireoidianos regulam o consumo de O₂ e a termogênese.\n• Função cardiovascular e lipídica: modula frequência cardíaca, débito cardíaco e metabolismo do colesterol.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Iodeto de Potássio (KI)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma mais comum e estudada; absorção quase completa (>95%); estável; amplamente disponível.",
+      "fator_limitante_texto": "Risco de hipotireoidismo ou hipertireoidismo em excesso (efeito Wolff-Chaikoff); contraindicado em Hashimoto ativa sem supervisão; margem estreita entre adequação e toxicidade."
+    },
+    {
+      "nome_forma": "Iodeto de Sódio (NaI)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Equivalente ao KI em biodisponibilidade; boa estabilidade.",
+      "fator_limitante_texto": "Mesmos riscos do iodeto de potássio; menor disponibilidade para manipulação oral."
+    },
+    {
+      "nome_forma": "Iodo Molecular (I₂) — Lugol",
+      "nivel_biodisponibilidade": "media",
+      "percentual_elemento": null,
+      "beneficio_texto": "Amplo espectro de ação; usado em preparos terapêuticos específicos.",
+      "fator_limitante_texto": "Forma menos padronizada; potencial de toxicidade elevado; instabilidade da fórmula; uso controverso sem supervisão médica especializada."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (1–12 anos)",
+      "dose_min": 90,
+      "dose_max": 120,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme orientação; uso do sal iodado é a estratégia prioritária."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 120,
+      "dose_max": 150,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme indicação."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 150,
+      "dose_max": 150,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Gestação/lactação: durante todo o período. Outras indicações: 2–3 meses."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 150,
+      "dose_max": 150,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "2–3 meses; monitorar TSH e T4 livre."
+    },
+    {
+      "publico_alvo": "Idosos",
+      "dose_min": 150,
+      "dose_max": 150,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme indicação; monitorar função tireoidiana."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

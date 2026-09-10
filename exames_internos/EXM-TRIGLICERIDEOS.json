@@ -1,0 +1,33 @@
+{
+  "id": "EXM-TRIGLICERIDEOS",
+  "nome": "Triglicerídeos (TG)",
+  "unidade_medida": "mg/dL",
+  "categoria": "Perfil Lipídico",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": 150,
+      "rotulo_tecnico": "Normal",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    },
+    {
+      "valor_max": 500,
+      "rotulo_tecnico": "Hipertrigliceridemia",
+      "classificacao_simplificada": "limitrofe",
+      "causa_possivel_texto": "Excesso de CHO simples, álcool, frutose; resistência à insulina",
+      "conduta_texto": "Reduzir CHO simples e álcool; aumentar ômega-3."
+    },
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "Risco de pancreatite aguda (>500 mg/dL)",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Suspender toda suplementação de gordura, incluindo ômega-3 em doses não-terapêuticas. Encaminhar IMEDIATAMENTE ao médico."
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": null,
+  "ref_max": 150.0
+}

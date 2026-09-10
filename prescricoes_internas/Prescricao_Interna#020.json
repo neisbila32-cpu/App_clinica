@@ -1,0 +1,88 @@
+{
+  "id": "Prescricao_Interna#020",
+  "nome": "Vitamina B3 (Niacina)",
+  "funcao_indicacao": "• Componente de NAD⁺ e NADP⁺: coenzimas em mais de 400 reações de oxirredução — metabolismo de CHO, lipídeos e aminoácidos.\n• Metabolismo energético: NAD/NADH na cadeia transportadora de elétrons; NADPH na lipogênese e síntese de esteroides.\n• Reparo do DNA: NAD⁺ é substrato para PARPs — enzimas fundamentais no reparo do DNA.\n• Efeito hipolipemiante (farmacológico): em doses altas (1,5–3 g/dia de ácido nicotínico), inibe lipólise e síntese hepática de VLDL.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Ácido Nicotínico (Niacina)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Potente efeito hipolipemiante em doses altas (↓LDL, ↓TG, ↑HDL); forma mais estudada para efeitos cardiovasculares; baixo custo.",
+      "fator_limitante_texto": "Flush (rubor, calor, prurido cutâneo) mediado por PGD2; hepatotoxicidade em altas doses (especialmente na forma de liberação prolongada); hiperglicemia e hiperuricemia."
+    },
+    {
+      "nome_forma": "Nicotinamida (Niacinamida)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Sem efeito de flush; bem tolerada; ação anti-inflamatória cutânea (rosácea, acne); estudos promissores em prevenção de carcinoma basocelular.",
+      "fator_limitante_texto": "Sem efeito hipolipemiante (não atua nos receptores GPR109A); hepatotoxicidade em doses muito altas (>3 g/dia)."
+    },
+    {
+      "nome_forma": "Nicotinamida Ribosídeo (NR)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Precursor direto de NAD⁺; biodisponibilidade oral confirmada; aumenta NAD⁺ em sangue e tecidos; potencial antienvelhecimento e neuroprotetor.",
+      "fator_limitante_texto": "Custo muito elevado; evidências clínicas em expansão — maioria dos estudos de fase I/II."
+    },
+    {
+      "nome_forma": "Nicotinamida Mononucleotídeo (NMN)",
+      "nivel_biodisponibilidade": "media",
+      "percentual_elemento": null,
+      "beneficio_texto": "Precursor de NAD⁺ mais próximo da síntese final; estudos em humanos emergentes.",
+      "fator_limitante_texto": "Custo muito elevado; biodisponibilidade oral ainda debatida (possível conversão a NR antes da absorção); evidências clínicas ainda limitadas."
+    },
+    {
+      "nome_forma": "Inositol Hexanicotinato",
+      "nivel_biodisponibilidade": "baixa",
+      "percentual_elemento": null,
+      "beneficio_texto": "Alegação de ausência de flush; disponível em manipulação.",
+      "fator_limitante_texto": "Evidências de conversão efetiva a niacina in vivo muito limitadas; eficácia hipolipemiante não demonstrada de forma robusta."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (1–12 anos)",
+      "dose_min": 6,
+      "dose_max": 12,
+      "unidade": "mg NE/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Terapêutico: 4–8 semanas."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 12,
+      "dose_max": 16,
+      "unidade": "mg NE/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Dermatológico: 3–6 meses."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 14,
+      "dose_max": 35,
+      "unidade": "mg NE/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Dislipidemia: 6–12 meses; NMN/NR: uso prolongado, evidências em expansão."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 16,
+      "dose_max": 35,
+      "unidade": "mg NE/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "6–12 meses; monitorar função hepática e glicemia."
+    },
+    {
+      "publico_alvo": "Idosos (>60 anos)",
+      "dose_min": 14,
+      "dose_max": 16,
+      "unidade": "mg NE/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "6 meses; reavaliar função hepática."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

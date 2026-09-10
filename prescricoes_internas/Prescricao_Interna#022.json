@@ -1,0 +1,74 @@
+{
+  "id": "Prescricao_Interna#022",
+  "nome": "Vitamina B6 (Piridoxina)",
+  "funcao_indicacao": "• Cofator de mais de 160 reações enzimáticas: na forma ativa PLP (piridoxal-5-fosfato), participa de transaminação, descarboxilação e racemização de aminoácidos.\n• Síntese de neurotransmissores: GABA, dopamina, serotonina, norepinefrina e histamina.\n• Síntese do heme: componente da aminolevulinato sintase (primeiro passo da síntese do heme).\n• Metabolismo da homocisteína: cofator da cistationina-beta-sintase — reduz homocisteína circulante.\n• Gliconeogênese: cofator da glicogênio fosforilase.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Cloridrato de Piridoxina",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma mais comum; amplamente disponível; baixo custo; boa biodisponibilidade em doses normais.",
+      "fator_limitante_texto": "Requer conversão hepática a PLP; em doses elevadas (>200–500 mg/dia prolongado) pode causar neuropatia sensorial periférica paradoxal."
+    },
+    {
+      "nome_forma": "Piridoxal-5-Fosfato (PLP)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma coenzimática ativa — não requer conversão; útil em hepatopatias; menor risco teórico de neurotoxicidade.",
+      "fator_limitante_texto": "Custo mais elevado; fotossensível; instável em formulações aquosas."
+    },
+    {
+      "nome_forma": "Piridoxamina",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma natural encontrada em alimentos de origem animal; captação tecidual eficiente; possível efeito anti-glicação (inibição de AGEs).",
+      "fator_limitante_texto": "Menos disponível como suplemento; custo elevado; evidências de superioridade clínica sobre piridoxina padrão ainda limitadas."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (1–12 anos)",
+      "dose_min": 0.5,
+      "dose_max": 1.0,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Terapêutico: 4–8 semanas."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 1.0,
+      "dose_max": 1.3,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "TPM: 3–6 ciclos; reavaliação."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 1.3,
+      "dose_max": 100,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Gestação: conforme necessidade; TPM: 3–6 ciclos."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 1.3,
+      "dose_max": 50,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Hiperhomocisteinemia: 3–6 meses; monitorar homocisteína."
+    },
+    {
+      "publico_alvo": "Idosos (>60 anos)",
+      "dose_min": 1.5,
+      "dose_max": 50,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses; reavaliação periódica."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

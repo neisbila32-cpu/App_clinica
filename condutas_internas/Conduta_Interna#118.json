@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#118",
+  "nome": "Microbiota e TEA/Autismo",
+  "categoria_terapeutica": "Microbiota e Saúde Intestinal",
+  "indicacao": "Crianças com TEA com disbiose intensa e alterações gastrointestinais",
+  "objetivo": "Suporte da microbiota no TEA para redução de sintomas GI",
+  "duracao_texto": "3-6 meses; avaliação multiprofissional",
+  "monitoramento_texto": "Sintomas GI; comportamento (CARS); microbiota; vitamina D",
+  "observacoes_texto": "Não substitui intervenção comportamental (ABA). Adjuvante com equipe multiprofissional.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L. reuteri DSM 17938",
+      "dose": "5 bi UFC",
+      "forma_farmaceutica": "Gotas/cápsula",
+      "posologia": "Diariamente"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B. infantis 35624",
+      "dose": "3 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "GOS (Galactooligossacarídeos)",
+      "dose": "5 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "2.000-5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "150-300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 DHA",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço"
+    }
+  ]
+}

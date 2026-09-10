@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#187",
+  "nome": "Ansiedade — Base",
+  "categoria_terapeutica": "Ansiedade",
+  "indicacao": "Ansiedade leve a moderada; tensão generalizada; preocupação excessiva",
+  "objetivo": "Modular GABA, serotonina e magnésio para redução da resposta ansiosa",
+  "duracao_texto": "3-4 meses",
+  "monitoramento_texto": "GAD-7; HAM-A; cortisol salivar; magnésio eritrocitário",
+  "observacoes_texto": "Magnésio deficiência é muito comum em ansiosos. Dosar magnésio eritrocitário (mais preciso).",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Teanina",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã e tarde"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ashwagandha KSM-66",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "GABA",
+      "dose": "750 mg",
+      "forma_farmaceutica": "Cápsula sublingual",
+      "posologia": "Pré-situações ansiosas ou noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "4.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    }
+  ]
+}

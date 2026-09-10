@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#055",
+  "nome": "SOP + Resistência Insulínica",
+  "categoria_terapeutica": "Síndrome dos Ovários Policísticos (SOP)",
+  "indicacao": "SOP com HOMA-IR >2,5; hiperinsulinemia; acanthosis nigricans",
+  "objetivo": "Redução prioritária da hiperinsulinemia ovariana para reduzir androgênios",
+  "duracao_texto": "6 meses",
+  "monitoramento_texto": "HOMA-IR; testosterona; ciclo; peso",
+  "observacoes_texto": "Berberina: separar de ATB por 2h. Monitorar hipoglicemia.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Berberina HCl",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "3x/dia c/ refeições"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#027",
+      "nome_ativo_texto": "Mio-Inositol",
+      "dose": "4.000 mg",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "2g manhã + 2g noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ácido R-Alfa-Lipoico",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-refeições"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#006",
+      "nome_ativo_texto": "Cromo Picolinato",
+      "dose": "400 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x c/ refeição"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    }
+  ]
+}

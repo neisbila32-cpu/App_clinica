@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#183",
+  "nome": "Pós-Competição",
+  "categoria_terapeutica": "Performance Física e Cognitiva",
+  "indicacao": "Recuperação após competição intensa ou bloco de treinamentos pesados",
+  "objetivo": "Restaurar homeostase imunológica, muscular e energética pós-competição",
+  "duracao_texto": "1-2 semanas pós-competição",
+  "monitoramento_texto": "Imunidade (IgA secretora); CK; marcadores inflamatórios; sono",
+  "observacoes_texto": "Janela imunológica 3-72 horas pós-treino intenso: maior risco infeccioso. Probiótico essencial.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "L-Glutamina",
+      "dose": "10.000 mg",
+      "forma_farmaceutica": "Sachê/pó",
+      "posologia": "Pós-prova e noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pós-prova"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Colágeno Tipo II",
+      "dose": "40 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum — articulações"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Probiótico Complexo",
+      "dose": "20 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum — imunidade reduzida pós-prova"
+    }
+  ]
+}

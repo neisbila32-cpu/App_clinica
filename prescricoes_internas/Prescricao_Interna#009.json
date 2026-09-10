@@ -1,0 +1,73 @@
+{
+  "id": "Prescricao_Interna#009",
+  "nome": "Cobre (Cu)",
+  "funcao_indicacao": "• Componente de cuproenzimas: lisil oxidase (maturação do colágeno e elastina), citocromo c oxidase (cadeia respiratória), SOD1 (antioxidante), ceruloplasmina (transporte de ferro) e tirosinase (síntese de melanina).\n• Metabolismo do ferro: a ceruloplasmina oxida Fe²⁺ a Fe³⁺, permitindo ligação à transferrina. Deficiência de cobre pode causar anemia funcional por ferro.\n• Neuroproteção: cofator da peptidil-glicina amidante monooxigenase (síntese de neuropeptídeos).\n• Pigmentação: necessário para a tirosinase na síntese de melanina.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Gluconato de Cobre",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Boa biodisponibilidade; boa tolerabilidade GI; amplamente disponível.",
+      "fator_limitante_texto": "Menor concentração de Cu elementar."
+    },
+    {
+      "nome_forma": "Sulfato de Cobre",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Amplamente disponível; baixo custo; boa absorção.",
+      "fator_limitante_texto": "Irritação gástrica em altas doses; sabor metálico; margem terapêutica estreita."
+    },
+    {
+      "nome_forma": "Bisglicinato de Cobre",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Excelente biodisponibilidade; mínima irritação GI; forma quelada estável.",
+      "fator_limitante_texto": "Custo elevado; disponibilidade limitada."
+    },
+    {
+      "nome_forma": "Citrato de Cobre",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Boa biodisponibilidade; boa tolerabilidade.",
+      "fator_limitante_texto": "Menos estudado; custo intermediário."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (1–12 anos)",
+      "dose_min": 0.3,
+      "dose_max": 0.9,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "2–3 meses; monitorar com ceruloplasmina sérica."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 0.9,
+      "dose_max": 1.0,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "2–3 meses."
+    },
+    {
+      "publico_alvo": "Adultos (ambos)",
+      "dose_min": 0.9,
+      "dose_max": 2,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Enquanto durar a suplementação de zinco em altas doses."
+    },
+    {
+      "publico_alvo": "Idosos",
+      "dose_min": 0.9,
+      "dose_max": 2,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses; monitorar ceruloplasmina."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

@@ -1,0 +1,81 @@
+{
+  "id": "Prescricao_Interna#025",
+  "nome": "Vitamina B12 (Cobalamina)",
+  "funcao_indicacao": "• Síntese de metionina (metilação): a metilcobalamina é cofator da metionina sintase — converte homocisteína em metionina; necessária para a síntese de SAM (principal doador de grupos metil).\n• Síntese de DNA: ao regenerar o THF ativo a partir do 5-MTHF, disponibiliza folato para a síntese de timidilato e purinas.\n• Metabolismo mitocondrial: a adenosilcobalamina é cofator da metilmalonil-CoA mutase (metabolismo de propionato e BCAAs).\n• Manutenção da mielina: deficiência causa desmielinização — neuropatia periférica e degeneração combinada subaguda da medula.\n• Eritropoiese: deficiência causa anemia megaloblástica.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Cianocobalamina",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma sintética mais estável; amplamente estudada; baixo custo; altamente estável em formulações.",
+      "fator_limitante_texto": "Contém grupamento cianeto (preocupação em altas doses, tabagistas e insuficiência renal); requer conversão a metilcobalamina e adenosilcobalamina; menor retenção tecidual."
+    },
+    {
+      "nome_forma": "Metilcobalamina",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma ativa para metilação; não requer conversão para via de metilação; maior retenção tecidual; superioridade para manifestações neurológicas em alguns estudos; não contém cianeto.",
+      "fator_limitante_texto": "Custo mais elevado; fotossensível (degradação pela luz)."
+    },
+    {
+      "nome_forma": "Adenosilcobalamina (Cobamamida)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma ativa mitocondrial (metilmalonil-CoA mutase); essencial para metabolismo do propionato; superior em acidúria metilmalônica.",
+      "fator_limitante_texto": "Instável à luz; disponibilidade limitada; custo elevado; raramente prescrita isoladamente."
+    },
+    {
+      "nome_forma": "Hidroxicobalamina",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Meia-vida plasmática muito mais longa; melhor retenção tecidual; antídoto para intoxicação por cianeto; convertida a ambas as formas ativas.",
+      "fator_limitante_texto": "Principalmente utilizada em injetáveis (IM/SC); disponibilidade limitada para formulações orais em manipulação; custo elevado."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (0–12 anos)",
+      "dose_min": 0.4,
+      "dose_max": 1.8,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Terapêutico: 4–8 semanas oral; reavaliar B12 sérica."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 2.4,
+      "dose_max": 2.4,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Veganos: uso contínuo obrigatório."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 2.4,
+      "dose_max": 1000,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Deficiência: 3–6 meses; anemia perniciosa e veganos: uso vitalício."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 2.4,
+      "dose_max": 1000,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Deficiência: 3–6 meses; neuropatia: 6–12 meses."
+    },
+    {
+      "publico_alvo": "Idosos (>60 anos)",
+      "dose_min": 1000,
+      "dose_max": 2000,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Uso contínuo na maioria dos idosos; monitorar B12 sérica e ácido metilmalônico anualmente."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

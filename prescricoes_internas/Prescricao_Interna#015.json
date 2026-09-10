@@ -1,0 +1,88 @@
+{
+  "id": "Prescricao_Interna#015",
+  "nome": "Vitamina E",
+  "funcao_indicacao": "• Antioxidante lipossolúvel: protege ácidos graxos poli-insaturados (PUFAs) das membranas celulares contra peroxidação lipídica; interrompe a cadeia de radicais peroxila (ROO•).\n• Proteção das lipoproteínas: previne oxidação do LDL, reduzindo a formação de células espumosas (aterosclerose).\n• Imunomodulação: potencializa resposta de linfócitos T; aumenta produção de IL-2; reduz prostaglandina E₂.\n• Função plaquetária: inibe adesão e agregação plaquetária.\n• Neuroproteção: papel protetor em doenças neurodegenerativas.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "d-Alfa-Tocoferol (natural, RRR)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma biologicamente mais ativa; preferida pelo fígado e tecidos (alfa-TTP); 1 mg = 1,49 UI.",
+      "fator_limitante_texto": "Custo mais elevado que a forma sintética."
+    },
+    {
+      "nome_forma": "dl-Alfa-Tocoferol (sintético)",
+      "nivel_biodisponibilidade": "media",
+      "percentual_elemento": null,
+      "beneficio_texto": "Custo inferior; amplamente disponível.",
+      "fator_limitante_texto": "Mistura racêmica de 8 estereoisômeros — apenas RRR tem plena atividade; 1 mg = 1,10 UI; menor atividade biológica por mg."
+    },
+    {
+      "nome_forma": "Alfa-Tocoferil Acetato",
+      "nivel_biodisponibilidade": "media",
+      "percentual_elemento": null,
+      "beneficio_texto": "Alta estabilidade (forma éster; não oxidado); amplamente usado em cápsulas.",
+      "fator_limitante_texto": "Requer hidrólise intestinal antes da absorção; absorção pode ser reduzida em má digestão de lipídeos."
+    },
+    {
+      "nome_forma": "Tocoferóis Mistos (α, β, γ, δ)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Ampla proteção antioxidante; gama-tocoferol neutraliza espécies reativas de nitrogênio; composição próxima aos alimentos.",
+      "fator_limitante_texto": "Gama e delta-tocoferol competem com alfa pela proteína α-TTP hepática; composição pode variar entre fornecedores."
+    },
+    {
+      "nome_forma": "Tocotrienóis",
+      "nivel_biodisponibilidade": "media",
+      "percentual_elemento": null,
+      "beneficio_texto": "Potente antioxidante (até 50× mais eficiente in vitro); ação neuroprotetora; modulação da HMG-CoA redutase (estatina-like).",
+      "fator_limitante_texto": "Baixa biodisponibilidade oral; custo muito elevado; evidências clínicas humanas ainda limitadas comparadas aos tocoferóis."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (1–12 anos)",
+      "dose_min": 6,
+      "dose_max": 11,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "2–3 meses; reavaliação conforme quadro clínico."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 11,
+      "dose_max": 15,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "2–3 meses."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 15,
+      "dose_max": 400,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses; monitorar efeito antiagregante em doses >800 UI/dia."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 15,
+      "dose_max": 400,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses."
+    },
+    {
+      "publico_alvo": "Idosos (>60 anos)",
+      "dose_min": 200,
+      "dose_max": 400,
+      "unidade": "UI/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Uso contínuo sob supervisão; monitorar em anticoagulados (doses >400 UI inibem plaquetas)."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

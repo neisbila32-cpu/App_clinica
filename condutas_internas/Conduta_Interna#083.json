@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#083",
+  "nome": "Climatério + Insônia",
+  "categoria_terapeutica": "Climatério e Menopausa",
+  "indicacao": "Insônia associada ao climatério: fogachos noturnos, despertar frequente",
+  "objetivo": "Restaurar qualidade do sono na menopausa via modulação neurológica",
+  "duracao_texto": "3-6 meses",
+  "monitoramento_texto": "Pittsburgh Sleep Index; FSH, E2; PA",
+  "observacoes_texto": "Melatonina tem estudos em menopausa para melhora de sono e metabolismo ósseo.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio L-Treonato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Melatonina",
+      "dose": "0,5-3 mg",
+      "forma_farmaceutica": "Sublingual",
+      "posologia": "30 min pré-sono"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Cimicífuga Racemosa",
+      "dose": "40 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "5-HTP",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ashwagandha KSM-66",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Isoflavonas",
+      "dose": "75 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    }
+  ]
+}

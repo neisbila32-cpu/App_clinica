@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#002",
+  "nome": "Queima de Gordura — Base",
+  "categoria_terapeutica": "Emagrecimento",
+  "indicacao": "Sobrepeso/obesidade grau I (IMC 25-34,9), sem comorbidades",
+  "objetivo": "Estimular lipólise, termogênese e metabolismo energético basal",
+  "duracao_texto": "3 meses; reavaliar composição corporal",
+  "monitoramento_texto": "Circunf. abdominal quinzenal; TGO/TGP dia 30",
+  "observacoes_texto": "Exercício aeróbico ≥150 min/sem obrigatório. Contraindicado em cardiopatias não controladas.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Carnitina L-Tartarato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula/sachê",
+      "posologia": "30 min pré-exercício"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Colina Bitartarato",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã com refeição"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#006",
+      "nome_ativo_texto": "Cromo Picolinato",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço c/ gordura"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#021",
+      "nome_ativo_texto": "Vitamina B5 Pantotenato",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Malato",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    }
+  ]
+}

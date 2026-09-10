@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#148",
+  "nome": "Acne Pós-parto",
+  "categoria_terapeutica": "Acne",
+  "indicacao": "Acne que surge ou piora no pós-parto; flutuação hormonal",
+  "objetivo": "Redução de acne pós-parto segura na amamentação",
+  "duracao_texto": "3 meses; seguro na amamentação",
+  "monitoramento_texto": "Lesões acneicas; TSH pós-parto; prolactina; ferro; vitamina D",
+  "observacoes_texto": "Todos seguros na amamentação. Excluir hipotireoidismo pós-parto.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Bisglicinato",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "4.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 DHA+EPA",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B-Complex Ativado",
+      "dose": "1 cp",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L. rhamnosus GG",
+      "dose": "10 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    }
+  ]
+}

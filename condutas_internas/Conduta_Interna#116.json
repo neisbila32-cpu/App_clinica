@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#116",
+  "nome": "Microbiota e SOP",
+  "categoria_terapeutica": "Microbiota e Saúde Intestinal",
+  "indicacao": "SOP com disbiose intestinal e alteração do metabolismo de estrogênios",
+  "objetivo": "Modular eixo microbiota-ovário via betaglucuronidase e inflamação",
+  "duracao_texto": "3-4 meses; ciclo e testosterona como desfechos",
+  "monitoramento_texto": "Microbiota fecal; testosterona; LH/FSH; HOMA-IR; ciclo",
+  "observacoes_texto": "Betaglucuronidase microbiana recircula estrogênios conjugados — aumenta E2 total na SOP.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L. acidophilus NCFM",
+      "dose": "5 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B. longum BB536",
+      "dose": "5 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Inulina + FOS",
+      "dose": "5 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#027",
+      "nome_ativo_texto": "Mio-Inositol",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    }
+  ]
+}

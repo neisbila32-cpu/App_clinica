@@ -1,0 +1,79 @@
+[
+  {
+    "id": "SINT_CAIBRAS_ESPASMOS_E_TETANIA_MUSCULAR",
+    "nome": "Cãibras, espasmos e tetania muscular",
+    "categoria_sistema_corporal": "Músculos / Locomoção",
+    "causas_possiveis": [
+      "Magnésio",
+      "Cálcio"
+    ]
+  },
+  {
+    "id": "SINT_FRAQUEZA_MUSCULAR_E_PARALISIA_FLACIDA",
+    "nome": "Fraqueza muscular e paralisia flácida",
+    "categoria_sistema_corporal": "Músculos / Locomoção",
+    "causas_possiveis": [
+      "Potássio"
+    ]
+  },
+  {
+    "id": "SINT_MIOPATIA_PROXIMAL",
+    "nome": "Miopatia proximal",
+    "categoria_sistema_corporal": "Músculos / Locomoção",
+    "causas_possiveis": [
+      "Vitamina D"
+    ]
+  },
+  {
+    "id": "SINT_SARCOPENIA_ATROFIA_E_PERDA_DE_FORCA",
+    "nome": "Sarcopenia, atrofia e perda de força",
+    "categoria_sistema_corporal": "Músculos / Locomoção",
+    "causas_possiveis": [
+      "Proteínas"
+    ]
+  },
+  {
+    "id": "SINT_FADIGA_MUSCULAR",
+    "nome": "Fadiga muscular",
+    "categoria_sistema_corporal": "Músculos / Locomoção",
+    "causas_possiveis": [
+      "Ferro",
+      "Selênio"
+    ]
+  },
+  {
+    "id": "SINT_MIOPATIA",
+    "nome": "Miopatia",
+    "categoria_sistema_corporal": "Músculos / Locomoção",
+    "causas_possiveis": [
+      "Selênio",
+      "Vitamina E"
+    ]
+  },
+  {
+    "id": "SINT_FRAQUEZA_MUSCULAR_GERAL",
+    "nome": "Fraqueza muscular",
+    "categoria_sistema_corporal": "Músculos / Locomoção",
+    "causas_possiveis": [
+      "Cobre",
+      "Fósforo",
+      "Vitamina D"
+    ]
+  },
+  {
+    "id": "SINT_MIALGIA_E_DOR_OSSEA_DIFUSA",
+    "nome": "Mialgia e dor óssea difusa",
+    "categoria_sistema_corporal": "Músculos / Locomoção",
+    "causas_possiveis": [
+      "Fósforo"
+    ]
+  },
+  {
+    "id": "SINT_DORES_MUSCULARES_DIFUSAS_PADRAO_FIBROMIALGIA",
+    "nome": "Dores musculares difusas (padrão fibromialgia-like)",
+    "categoria_sistema_corporal": "Músculos / Locomoção",
+    "causas_possiveis": [
+      "Vitamina D"
+    ]
+  }
+]

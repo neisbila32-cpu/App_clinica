@@ -1,0 +1,33 @@
+{
+  "id": "EXM-PRE-ALBUMINA",
+  "nome": "Pré-albumina (Transtirretina)",
+  "unidade_medida": "mg/dL",
+  "categoria": "Marcadores Laboratoriais Nutricionais",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": 11,
+      "rotulo_tecnico": "Depleção grave",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    },
+    {
+      "valor_max": 15,
+      "rotulo_tecnico": "Depleção moderada",
+      "classificacao_simplificada": "limitrofe",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Meia-vida curta (~2 dias) — marcador sensível de resposta à intervenção nutricional. Reduzida na inflamação."
+    },
+    {
+      "valor_max": 40,
+      "rotulo_tecnico": "Normal (18–40 mg/dL)",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": 18.0,
+  "ref_max": 40.0
+}

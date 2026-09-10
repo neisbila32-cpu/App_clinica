@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#164",
+  "nome": "Queda Capilar + Ferropenia",
+  "categoria_terapeutica": "Queda Capilar",
+  "indicacao": "Queda capilar com ferritina <30 ng/mL; anemia ferropriva ou depleção",
+  "objetivo": "Repletar ferro como substrato para síntese do fio capilar",
+  "duracao_texto": "4-6 meses; meta ferritina >50 ng/mL",
+  "monitoramento_texto": "Ferritina; hemograma; vitamina D; fotos capilares",
+  "observacoes_texto": "Zinco e ferro competem pela absorção. Tomar separados (mínimo 2 horas entre eles).",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#003",
+      "nome_ativo_texto": "Ferro Bisglicinato",
+      "dose": "60 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã c/ ferro"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#009",
+      "nome_ativo_texto": "Cobre Bisglicinato",
+      "dose": "2 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço — cofator ferritina"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "20 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta (longe do ferro)"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "4.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#023",
+      "nome_ativo_texto": "Biotina",
+      "dose": "5.000 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#209",
+  "nome": "Sono em Crianças",
+  "categoria_terapeutica": "Sono",
+  "indicacao": "Insônia ou parassonias em crianças (3-12 anos)",
+  "objetivo": "Protocolo seguro para crianças com dificuldade de sono",
+  "duracao_texto": "4-8 semanas; avaliação pediátrica",
+  "monitoramento_texto": "Pittsburgh adaptado crianças; sono dos pais; vitamina D; TSH",
+  "observacoes_texto": "Melatonina em crianças: dose MÍNIMA eficaz. Avaliar pediatra. Higiene do sono prioritária.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Melatonina",
+      "dose": "0,5 mg",
+      "forma_farmaceutica": "Cápsula aberta/gotas",
+      "posologia": "30 min pré-sono — dose pediátrica mínima"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Quelatado puro",
+      "dose": "100-150 mg",
+      "forma_farmaceutica": "Cápsula aberta",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Teanina",
+      "dose": "50-100 mg",
+      "forma_farmaceutica": "Cápsula aberta",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "1.000-2.000 UI",
+      "forma_farmaceutica": "Gotas",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "10-25 mg",
+      "forma_farmaceutica": "Cápsula aberta",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Probiótico L. reuteri",
+      "dose": "5 bi UFC",
+      "forma_farmaceutica": "Gotas",
+      "posologia": "Manhã em jejum — eixo intestino-cérebro"
+    }
+  ]
+}

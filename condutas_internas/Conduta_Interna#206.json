@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#206",
+  "nome": "Sono + Dor Crônica",
+  "categoria_terapeutica": "Sono",
+  "indicacao": "Insônia com dor crônica associada; fibromialgia; artralgia; enxaqueca",
+  "objetivo": "Modular dor e sono simultaneamente via magnésio, melatonina e ômega-3",
+  "duracao_texto": "3 meses",
+  "monitoramento_texto": "EVA dor; Pittsburgh; vitamina D; magnésio eritrocitário",
+  "observacoes_texto": "Melatonina tem propriedades analgésicas independentes do sono. Dose 3-5 mg.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite — dor e relaxamento muscular"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Melatonina",
+      "dose": "3-5 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-sono — efeito analgésico"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço — dor e sono"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "5-HTP",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "NAC N-Acetilcisteína",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã — dor oxidativa"
+    }
+  ]
+}

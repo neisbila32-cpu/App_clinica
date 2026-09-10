@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#021",
+  "nome": "Compulsão Noturna",
+  "categoria_terapeutica": "Compulsão Alimentar",
+  "indicacao": "Síndrome do Comer Noturno: >25% ingestão após jantar",
+  "objetivo": "Normalizar ritmo circadiano alimentar e reduzir hiperfagia noturna",
+  "duracao_texto": "3 meses; revisar higiene do sono",
+  "monitoramento_texto": "Diário alimentar noturno; escala NESI; qualidade do sono",
+  "observacoes_texto": "Cortar cafeína após 14h. Remover estímulos eletrônicos 1h antes de dormir.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Melatonina",
+      "dose": "1-3 mg",
+      "forma_farmaceutica": "Cápsula sublingual",
+      "posologia": "30 min antes de dormir"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "5-HTP",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "30 min antes do jantar"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio L-Treonato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "GABA",
+      "dose": "750 mg",
+      "forma_farmaceutica": "Cápsula sublingual",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Triptofano",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    }
+  ]
+}

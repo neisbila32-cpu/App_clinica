@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#167",
+  "nome": "Queda Capilar + Estresse Oxidativo",
+  "categoria_terapeutica": "Queda Capilar",
+  "indicacao": "Queda capilar com estresse oxidativo elevado; encanecimento precoce",
+  "objetivo": "Suporte antioxidante para folículo capilar e melanócitos",
+  "duracao_texto": "4-6 meses",
+  "monitoramento_texto": "TBARS ou 8-isoprostano (estresse oxidativo); fotos capilares",
+  "observacoes_texto": "Estresse oxidativo danifica folículos. Cessar tabagismo e proteger de UV.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "NAC N-Acetilcisteína",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#015",
+      "nome_ativo_texto": "Vitamina E Natural",
+      "dose": "400 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#005",
+      "nome_ativo_texto": "Selênio L-Selenometionina",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "200 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#023",
+      "nome_ativo_texto": "Biotina",
+      "dose": "10.000 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    }
+  ]
+}

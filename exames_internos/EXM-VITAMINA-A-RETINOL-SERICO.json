@@ -1,0 +1,19 @@
+{
+  "id": "EXM-VITAMINA-A-RETINOL-SERICO",
+  "nome": "Vitamina A (Retinol Sérico)",
+  "unidade_medida": "µmol/L",
+  "categoria": "Marcadores Laboratoriais Nutricionais",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "0,7–1,7 µmol/L (30–80 µg/dL) — faixa normal",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Afetado pela proteína carreadora (RBP) — baixo na desnutrição proteica mesmo com ingestão adequada de vitamina A."
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": 0.7,
+  "ref_max": 1.7
+}

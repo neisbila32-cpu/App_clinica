@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#007",
+  "nome": "Detox e Emagrecimento",
+  "categoria_terapeutica": "Emagrecimento",
+  "indicacao": "Sobrepeso com retenção hídrica, edema, pele opaca e cansaço",
+  "objetivo": "Apoiar detoxificação hepática e renal facilitando emagrecimento",
+  "duracao_texto": "4-6 semanas; repetir trimestralmente",
+  "monitoramento_texto": "TGO, TGP, GGT; creatinina; peso e edema",
+  "observacoes_texto": "Chlorella pode reduzir absorção de fármacos. Separar por 2h.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Spirulina",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula/sachê",
+      "posologia": "Manhã c/ água"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Chlorella Cracked Wall",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Silimarina 80% silibina",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Bisglicinato",
+      "dose": "20 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Cardo Mariano Extrato",
+      "dose": "150 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    }
+  ]
+}

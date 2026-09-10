@@ -1,0 +1,95 @@
+{
+  "id": "Prescricao_Interna#003",
+  "nome": "Ferro (Fe)",
+  "funcao_indicacao": "• Transporte de oxigênio: componente central da hemoglobina (eritrócitos) e mioglobina (músculo).\n• Produção de energia: componente dos citocromos na cadeia transportadora de elétrons mitocondrial.\n• Síntese de DNA: cofator da ribonucleotídeo redutase.\n• Função imunológica: necessário para proliferação de linfócitos e função de neutrófilos.\n• Síntese de neurotransmissores: cofator das enzimas tirosina hidroxilase e triptofano hidroxilase (dopamina, serotonina, norepinefrina).\n• Função tireoidiana: componente da tireoperoxidase.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Sulfato Ferroso",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 20.0,
+      "beneficio_texto": "Padrão-ouro de referência; alta biodisponibilidade; baixo custo.",
+      "fator_limitante_texto": "Frequentes efeitos adversos GI (náusea, constipação, fezes escuras); pro-oxidante em dose elevada."
+    },
+    {
+      "nome_forma": "Gluconato Ferroso",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 12.0,
+      "beneficio_texto": "Melhor tolerabilidade GI que o sulfato ferroso.",
+      "fator_limitante_texto": "Menor teor de Fe elementar; custo ligeiramente superior."
+    },
+    {
+      "nome_forma": "Fumarato Ferroso",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 33.0,
+      "beneficio_texto": "Alto teor de Fe elementar; boa biodisponibilidade.",
+      "fator_limitante_texto": "Efeitos GI moderados; sabor metálico."
+    },
+    {
+      "nome_forma": "Bisglicinato de Ferro (Ferrochel®)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 20.0,
+      "beneficio_texto": "Excelente biodisponibilidade; mínimos efeitos GI; não inibido por fitatos, taninos ou cálcio — indicado na intolerância ao sulfato.",
+      "fator_limitante_texto": "Custo elevado."
+    },
+    {
+      "nome_forma": "Ferro Carbonila",
+      "nivel_biodisponibilidade": "media",
+      "percentual_elemento": 100.0,
+      "beneficio_texto": "Absorção segura e progressiva; menor risco de toxicidade em superdosagem acidental.",
+      "fator_limitante_texto": "Absorção mais lenta; menos estudado que formas iônicas."
+    },
+    {
+      "nome_forma": "Pirofosfato Férrico",
+      "nivel_biodisponibilidade": "baixa",
+      "percentual_elemento": 16.0,
+      "beneficio_texto": "Usado em formulações específicas e alimentos funcionais; estável.",
+      "fator_limitante_texto": "Biodisponibilidade inferior às formas ferrosas; requer redução a Fe²⁺ para absorção intestinal."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (6 m–12 a)",
+      "dose_min": 1,
+      "dose_max": 3,
+      "unidade": "mg/kg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses após normalização da hemoglobina (para repleção dos estoques de ferritina)."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 30,
+      "dose_max": 60,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses; reavaliar hemograma e ferritina."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 30,
+      "dose_max": 60,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses; mínimo 3 meses pós-normalização da Hb para repor ferritina."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 30,
+      "dose_max": 60,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses; monitorar hemograma e ferritina a cada 4–8 semanas."
+    },
+    {
+      "publico_alvo": "Idosos (>60 anos)",
+      "dose_min": 30,
+      "dose_max": 60,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses; reavaliar com hemograma, ferritina e função renal."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

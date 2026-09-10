@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#186",
+  "nome": "Performance Mental (E-sports e Xadrez)",
+  "categoria_terapeutica": "Performance Física e Cognitiva",
+  "indicacao": "Atletas cognitivos: e-sports, xadrez, games competitivos",
+  "objetivo": "Otimizar velocidade de processamento, foco, memória de trabalho e reação",
+  "duracao_texto": "3 meses; testes cognitivos",
+  "monitoramento_texto": "Testes cognitivos (Stroop, N-back, tempo de reação); vitamina D; B12",
+  "observacoes_texto": "L-Teanina + cafeína em sinergismo: 200 mg L-Teanina + 100 mg cafeína antes de competição.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 DHA",
+      "dose": "2.000 mg DHA",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Fosfatidilserina",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Teanina",
+      "dose": "200 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã e tarde — foco sem ansiedade"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "20 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ginkgo Biloba 24%",
+      "dose": "120 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    }
+  ]
+}

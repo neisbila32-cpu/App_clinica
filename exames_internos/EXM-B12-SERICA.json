@@ -1,0 +1,33 @@
+{
+  "id": "EXM-B12-SERICA",
+  "nome": "Vitamina B12 Sérica",
+  "unidade_medida": "pg/mL",
+  "categoria": "Hemograma — Série Vermelha",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": 200,
+      "rotulo_tecnico": "Deficiência",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    },
+    {
+      "valor_max": 300,
+      "rotulo_tecnico": "Zona cinzenta (200–300 pg/mL)",
+      "classificacao_simplificada": "limitrofe",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Solicitar Homocisteína e Ácido Metilmalônico (AMM) para confirmar deficiência funcional — ambos elevados confirmam déficit tecidual mesmo com B12 sérica limítrofe."
+    },
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "Ideal (>400 pg/mL)",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": 400.0,
+  "ref_max": null
+}

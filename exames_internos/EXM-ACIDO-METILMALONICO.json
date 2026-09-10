@@ -1,0 +1,26 @@
+{
+  "id": "EXM-ACIDO-METILMALONICO",
+  "nome": "Ácido Metilmalônico (AMM)",
+  "unidade_medida": "µmol/L",
+  "categoria": "Hemograma — Série Vermelha",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": 0.4,
+      "rotulo_tecnico": "Normal (≤0,4 µmol/L)",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    },
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "Deficiência de B12 tecidual (>0,4 µmol/L)",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Marcador mais sensível e específico para deficiência funcional de B12 — confirma mesmo com B12 sérica normal-baixa."
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": null,
+  "ref_max": 0.4
+}

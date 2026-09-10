@@ -1,0 +1,65 @@
+[
+  {
+    "id": "SINT_ALTERACOES_NA_MUCOSA_ORAL_E_QUERATINIZACAO",
+    "nome": "Alterações na mucosa oral e queratinização",
+    "categoria_sistema_corporal": "Boca, gengivas e dentes",
+    "causas_possiveis": [
+      "Vitamina A"
+    ]
+  },
+  {
+    "id": "SINT_GLOSSITE",
+    "nome": "Glossite",
+    "categoria_sistema_corporal": "Boca, gengivas e dentes",
+    "causas_possiveis": [
+      "Vitamina B3 (Niacina)",
+      "Vitamina B2 (Riboflavina)",
+      "Ferro",
+      "Vitamina B9 (Folato)",
+      "Vitamina B12",
+      "Vitamina B6"
+    ]
+  },
+  {
+    "id": "SINT_ESTOMATITE",
+    "nome": "Estomatite",
+    "categoria_sistema_corporal": "Boca, gengivas e dentes",
+    "causas_possiveis": [
+      "Vitamina B3 (Niacina)"
+    ]
+  },
+  {
+    "id": "SINT_QUEILOSE_ANGULAR",
+    "nome": "Queilose angular",
+    "categoria_sistema_corporal": "Boca, gengivas e dentes",
+    "causas_possiveis": [
+      "Vitamina B2 (Riboflavina)",
+      "Vitamina B6"
+    ]
+  },
+  {
+    "id": "SINT_CARIES_E_PERDA_DENTARIA_PRECOCE",
+    "nome": "Cáries e perda dentária precoce",
+    "categoria_sistema_corporal": "Boca, gengivas e dentes",
+    "causas_possiveis": [
+      "Cálcio",
+      "Vitamina D"
+    ]
+  },
+  {
+    "id": "SINT_SANGRAMENTO_GENGIVAL",
+    "nome": "Sangramento gengival",
+    "categoria_sistema_corporal": "Boca, gengivas e dentes",
+    "causas_possiveis": [
+      "Vitamina C"
+    ]
+  },
+  {
+    "id": "SINT_ULCERAS_ORAIS",
+    "nome": "Úlceras orais",
+    "categoria_sistema_corporal": "Boca, gengivas e dentes",
+    "causas_possiveis": [
+      "Vitamina B9 (Folato)"
+    ]
+  }
+]

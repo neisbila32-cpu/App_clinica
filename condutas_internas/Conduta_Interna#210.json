@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#210",
+  "nome": "Sono em Idosos",
+  "categoria_terapeutica": "Sono",
+  "indicacao": "Insônia do idoso (>65 anos): sono fragmentado, sono leve, despertar precoce",
+  "objetivo": "Restaurar arquitetura do sono no envelhecimento sem benzodiazepínicos",
+  "duracao_texto": "3-6 meses",
+  "monitoramento_texto": "Pittsburgh; Epworth; cognição (MoCA); vitamina D; B12",
+  "observacoes_texto": "Idosos: melatonina endógena reduz com a idade. Reposição em dose baixa é eficaz.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Melatonina",
+      "dose": "0,5-1 mg",
+      "forma_farmaceutica": "Cápsula sublingual",
+      "posologia": "Pré-sono — dose baixa em idosos"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Triptofano",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite 2h após jantar"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "GABA",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula sublingual",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    }
+  ]
+}

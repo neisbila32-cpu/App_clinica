@@ -1,0 +1,95 @@
+{
+  "id": "Prescricao_Interna#001",
+  "nome": "Cálcio (Ca)",
+  "funcao_indicacao": "Mineralização óssea e dentária (aproximadamente 99% do cálcio corporal está nos ossos e dentes, na forma de hidroxiapatita); contração muscular (o Ca²⁺ liga-se à troponina C, desencadeando a interação actina-miosina); transmissão neuromuscular (regula a liberação de neurotransmissores nas sinapses); coagulação sanguínea (cofator indispensável nos fatores II, VII, IX e X da cascata de coagulação); sinalização celular (segundo mensageiro em vias mediadas por calmodulina); secreção hormonal (participa da secreção de insulina e PTH).",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Carbonato de Cálcio",
+      "nivel_biodisponibilidade": "media",
+      "percentual_elemento": 40.0,
+      "beneficio_texto": "Maior teor de Ca elementar; baixo custo; menor volume de cápsula.",
+      "fator_limitante_texto": "Requer pH gástrico ácido; prejudicado com IBPs, acloridria ou em idosos; ingerir com alimentos."
+    },
+    {
+      "nome_forma": "Citrato de Cálcio",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 21.0,
+      "beneficio_texto": "Absorção independente de pH gástrico; superior em gastrectomizados e usuários de IBPs; pode ser tomado em jejum.",
+      "fator_limitante_texto": "Menor teor de Ca elementar; necessita maior número de cápsulas; custo mais elevado."
+    },
+    {
+      "nome_forma": "Gluconato de Cálcio",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 9.0,
+      "beneficio_texto": "Boa tolerabilidade GI; amplamente disponível.",
+      "fator_limitante_texto": "Baixíssimo teor de Ca elementar; ineficiente para grandes doses orais."
+    },
+    {
+      "nome_forma": "Fosfato Dicálcico",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 23.0,
+      "beneficio_texto": "Boa biodisponibilidade; fornece Ca e P simultaneamente; estável.",
+      "fator_limitante_texto": "Pode interferir na absorção de ferro e zinco; não adequado em hiperfosfatemia."
+    },
+    {
+      "nome_forma": "Hidroxiapatita Microcristalina (MCHA)",
+      "nivel_biodisponibilidade": "media",
+      "percentual_elemento": 28.0,
+      "beneficio_texto": "Estrutura próxima ao osso natural; contém proteínas ósseas; evidências em manutenção de massa óssea.",
+      "fator_limitante_texto": "Biodisponibilidade variável conforme procedência; custo elevado."
+    },
+    {
+      "nome_forma": "Lactato de Cálcio",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 13.0,
+      "beneficio_texto": "Boa solubilidade aquosa; boa tolerabilidade digestiva.",
+      "fator_limitante_texto": "Baixo teor de Ca elementar; maior volume de fórmula necessário."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (1–12 anos)",
+      "dose_min": 200,
+      "dose_max": 600,
+      "unidade": "mg/dia de Ca elementar",
+      "frequencia": null,
+      "duracao_tipica_texto": "Prescrição contínua (3–12 meses), reavaliada com densitometria e exames séricos. Conforme faixa etária e DRI; carbonato ou citrato de cálcio."
+    },
+    {
+      "publico_alvo": "Adolescentes (13–18 anos)",
+      "dose_min": 800,
+      "dose_max": 1200,
+      "unidade": "mg/dia de Ca elementar",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses; reavaliação periódica. Citrato preferível em usuários de IBP."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 500,
+      "dose_max": 1200,
+      "unidade": "mg/dia",
+      "frequencia": "Dividido em 2 tomadas",
+      "duracao_tipica_texto": "Uso contínuo na pós-menopausa; 6 meses em deficiência aguda. Citrato de cálcio 500mg + D3; pós-menopausa até 1.200mg/dia."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 500,
+      "dose_max": 1000,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses; reavaliação por exames séricos. Carbonato ou citrato de cálcio."
+    },
+    {
+      "publico_alvo": "Idosos (>60 anos)",
+      "dose_min": 800,
+      "dose_max": 1200,
+      "unidade": "mg/dia",
+      "frequencia": "Fracionar em 2 tomadas (máx. 500mg/dose)",
+      "duracao_tipica_texto": "Uso contínuo; monitorar calciúria e função renal a cada 6 meses. Citrato preferível pela independência de pH."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

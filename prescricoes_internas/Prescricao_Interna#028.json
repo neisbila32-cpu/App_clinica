@@ -1,0 +1,116 @@
+{
+  "id": "Prescricao_Interna#028",
+  "nome": "Lipídeos",
+  "funcao_indicacao": "• Reserva energética: triacilgliceróis armazenam 9 kcal/g — maior densidade energética dos macronutrientes.\n• Componente estrutural de membranas: fosfolipídeos formam a bicamada lipídica de todas as membranas celulares.\n• Precursores hormonais: colesterol é precursor de todos os hormônios esteroides e vitamina D.\n• Transporte de vitaminas lipossolúveis: A, D, E e K dependem de lipídeos para absorção (quilomícrons) e transporte.\n• Sinalização celular: ácido araquidônico é precursor de eicosanoides; DAG e IP₃ são mensageiros intracelulares.\n• Regulação gênica: ácidos graxos poli-insaturados regulam PPARs, LXRs e outros fatores de transcrição nucleares.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Óleo de Peixe (EPA+DHA)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Anti-inflamatório potente; ↓TG (até 30–45% em doses ≥3 g EPA+DHA/dia); cardioprotetor; neuroprotetor (DHA predomina no SNC); indicado em dislipidemias, inflamação crônica e gestação.",
+      "fator_limitante_texto": "Instável à oxidação (rancidez); efeito antiagregante plaquetário em doses altas (cautela com anticoagulantes); refluxo e sabor de peixe."
+    },
+    {
+      "nome_forma": "DHA (Ácido Docosahexaenoico)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Principal ácido graxo estrutural do SNC e retina; essencial no desenvolvimento cerebral fetal e neonatal; neuroprotecção.",
+      "fator_limitante_texto": "Altamente insaturado — muito suscetível à oxidação; custo elevado para formas concentradas; fontes algáceas disponíveis para veganos."
+    },
+    {
+      "nome_forma": "EPA (Ácido Eicosapentaenoico)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Potente anti-inflamatório; ação antidepressiva (evidências de superioridade do EPA sobre DHA para TDM); ↓TG.",
+      "fator_limitante_texto": "Mesmos riscos do óleo de peixe — oxidação, efeito antiagregante."
+    },
+    {
+      "nome_forma": "ALA (Linhaça/Chia)",
+      "nivel_biodisponibilidade": "baixa",
+      "percentual_elemento": null,
+      "beneficio_texto": "Fonte vegetal de ômega-3; opção para veganos; lignanas da linhaça com potencial antioxidante.",
+      "fator_limitante_texto": "Conversão de ALA → EPA → DHA é muito ineficiente em humanos (~5–10% para EPA; <0,5% para DHA) — não substitui óleo de peixe para fins neurológicos e cardiovasculares."
+    },
+    {
+      "nome_forma": "MCT (C8/C10)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Absorção direta pelo hepatócito (sem quilomícrons); rápida oxidação para energia; produção de corpos cetônicos; suporte em dieta cetogênica.",
+      "fator_limitante_texto": "Diarreia osmótica e náusea em doses altas ou introdução rápida."
+    },
+    {
+      "nome_forma": "CLA (Ácido Linoleico Conjugado)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Modulação da composição corporal (redução de gordura); potencial antineoplásico e antiaterogênico.",
+      "fator_limitante_texto": "Evidências em humanos modestas e inconsistentes; alguns isômeros podem induzir resistência à insulina e NAFLD em doses altas; custo elevado."
+    },
+    {
+      "nome_forma": "GLA (Ácido Gama-Linolênico)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Precursor de DGLA e prostaglandinas série 1 (anti-inflamatórias); evidências em eczema atópico e artrite reumatoide.",
+      "fator_limitante_texto": "Evidências clínicas ainda limitadas; conversão preferencial para AA (pró-inflamatório) pode ocorrer em contexto de excesso de ômega-6."
+    },
+    {
+      "nome_forma": "Fosfatidilcolina (PC)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Componente de membrana; precursor de colina (síntese de acetilcolina); hepatoprotetor; uso em esteatose hepática.",
+      "fator_limitante_texto": "Pode ser convertida a TMAO por bactérias intestinais em doses altas — associado a risco cardiovascular."
+    },
+    {
+      "nome_forma": "Fosfatidilserina (PS)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Componente de membranas neurais; evidências para memória e função cognitiva em idosos; atenuação do cortisol pós-exercício.",
+      "fator_limitante_texto": "Custo muito elevado; doses efetivas altas (300–800 mg/dia)."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (1–12 anos)",
+      "dose_min": 25,
+      "dose_max": 35,
+      "unidade": "% do VET",
+      "frequencia": null,
+      "duracao_tipica_texto": "DHA: uso contínuo em fases críticas de desenvolvimento."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 25,
+      "dose_max": 35,
+      "unidade": "% do VET",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme demanda e indicação clínica."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 20,
+      "dose_max": 35,
+      "unidade": "% do VET",
+      "frequencia": null,
+      "duracao_tipica_texto": "Gestação: todo o período. PS para cognição: 3–6 meses."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 20,
+      "dose_max": 35,
+      "unidade": "% do VET",
+      "frequencia": null,
+      "duracao_tipica_texto": "EPA+DHA: uso contínuo; reavaliação de TG a cada 3 meses."
+    },
+    {
+      "publico_alvo": "Idosos (>60 anos)",
+      "dose_min": 20,
+      "dose_max": 35,
+      "unidade": "% do VET",
+      "frequencia": null,
+      "duracao_tipica_texto": "Uso contínuo; monitorar em anticoagulados."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

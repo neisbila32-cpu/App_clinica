@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#062",
+  "nome": "SOP Anti-inflamatória",
+  "categoria_terapeutica": "Síndrome dos Ovários Policísticos (SOP)",
+  "indicacao": "SOP com PCR elevada, dor ovariana e inflamação crônica",
+  "objetivo": "Reduzir inflamação ovariana e sistêmica como cofator da SOP",
+  "duracao_texto": "4-6 meses; PCR e ciclo mensais",
+  "monitoramento_texto": "PCR us; IL-6; testosterona; ciclo; dor pélvica",
+  "observacoes_texto": "NAC: melhora ovulação, acne e colesterol em SOP. Dose 1.200-1.800 mg/dia.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Curcumina+Piperina",
+      "dose": "500+5 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço e Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "NAC N-Acetilcisteína",
+      "dose": "1.200 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Resveratrol",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#005",
+      "nome_ativo_texto": "Selênio L-Selenometionina",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    }
+  ]
+}

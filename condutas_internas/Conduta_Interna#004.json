@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#004",
+  "nome": "Lipólise Avançada",
+  "categoria_terapeutica": "Emagrecimento",
+  "indicacao": "Obesidade grau I-II com gordura localizada e resistência à dieta",
+  "objetivo": "Potencializar mobilização de ácidos graxos do tecido adiposo",
+  "duracao_texto": "3-4 meses; bioimpedância mensal",
+  "monitoramento_texto": "TGO/TGP; peso; lipídios no 60º dia",
+  "observacoes_texto": "CLA pode elevar resistência insulínica em diabéticos. Monitorar glicemia.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Carnitina Tartarato",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula/sachê",
+      "posologia": "30 min pré-treino"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "CLA Ácido Linoleico Conjugado",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "3x/dia com refeição"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ácido Clorogênico (Café Verde)",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Tirosina",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#021",
+      "nome_ativo_texto": "Vitamina B5",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    }
+  ]
+}

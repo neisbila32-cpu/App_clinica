@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#176",
+  "nome": "Recuperação Muscular",
+  "categoria_terapeutica": "Performance Física e Cognitiva",
+  "indicacao": "Atletas com dor muscular tardia intensa; overtraining; recuperação lenta",
+  "objetivo": "Acelerar recuperação muscular e reduzir marcadores de dano",
+  "duracao_texto": "Contínuo; periodizar com volume de treinamento",
+  "monitoramento_texto": "CK sérica; VHS; percepção de dor; tempo de recuperação",
+  "observacoes_texto": "Não suprimir completamente a inflamação pós-exercício — é necessária para adaptação.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "L-Glutamina",
+      "dose": "10.000 mg",
+      "forma_farmaceutica": "Sachê/pó",
+      "posologia": "Pós-treino e noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "BCAA 2:1:1",
+      "dose": "5.000 mg",
+      "forma_farmaceutica": "Cápsula/pó",
+      "posologia": "Pré e pós-treino"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pós-treino"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite — relaxamento muscular"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "EXM-MAGNESIO-SERICO",
+  "nome": "Magnésio Sérico",
+  "unidade_medida": "mg/dL",
+  "categoria": "Marcadores Laboratoriais Nutricionais",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "1,7–2,2 mg/dL (faixa normal)",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Apenas 1% do Mg é extracelular — Mg sérico pode ser normal mesmo com depleção intracelular grave. Preferir Mg eritrocitário ou urinário 24h."
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": 1.7,
+  "ref_max": 2.2
+}

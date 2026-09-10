@@ -1,0 +1,102 @@
+{
+  "id": "Prescricao_Interna#002",
+  "nome": "Magnésio (Mg)",
+  "funcao_indicacao": "• Cofator enzimático: mais de 300 reações enzimáticas, incluindo síntese de ATP, DNA, RNA e proteínas.\n• Metabolismo energético: necessário para estabilização do complexo Mg²⁺-ATP nas reações de fosforilação.\n• Controle glicêmico: melhora sensibilidade à insulina e transporte de glicose.\n• Função cardiovascular: regula tônus vascular e condução elétrica cardíaca.\n• Saúde óssea: 60% do Mg corporal está nos ossos; regula metabolismo do PTH e da vitamina D.\n• Função neuromuscular: antagonista fisiológico do Ca nos canais NMDA; previne hiperexcitabilidade nervosa e espasmos.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Óxido de Magnésio",
+      "nivel_biodisponibilidade": "baixa",
+      "percentual_elemento": 60.0,
+      "beneficio_texto": "Maior concentração de Mg elementar; baixo custo.",
+      "fator_limitante_texto": "Biodisponibilidade muito baixa (~4%); forte efeito laxativo osmótico; mais indicado como laxante."
+    },
+    {
+      "nome_forma": "Citrato de Magnésio",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 16.0,
+      "beneficio_texto": "Boa biodisponibilidade; tolerância digestiva razoável; custo intermediário.",
+      "fator_limitante_texto": "Efeito laxativo em doses elevadas; menor teor de Mg elementar."
+    },
+    {
+      "nome_forma": "Bisglicinato de Magnésio",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 14.0,
+      "beneficio_texto": "Excelente biodisponibilidade; mínimo efeito laxativo; forma quelada com glicina — possível efeito calmante adicional.",
+      "fator_limitante_texto": "Custo mais elevado; menor concentração de Mg elementar por grama de composto."
+    },
+    {
+      "nome_forma": "Malato de Magnésio",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 15.0,
+      "beneficio_texto": "Boa absorção; ácido málico participa do ciclo de Krebs — indicado em fadiga e fibromialgia.",
+      "fator_limitante_texto": "Evidências clínicas específicas ainda limitadas."
+    },
+    {
+      "nome_forma": "Taurato de Magnésio",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 8.0,
+      "beneficio_texto": "Taurina associada tem efeitos cardioprotetores e reguladores de glicemia.",
+      "fator_limitante_texto": "Evidências em humanos limitadas; baixo teor de Mg elementar."
+    },
+    {
+      "nome_forma": "L-Treonato de Magnésio",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 8.0,
+      "beneficio_texto": "Única forma com evidência de atravessar a barreira hematoencefálica; indicado para função cognitiva.",
+      "fator_limitante_texto": "Custo muito elevado; evidências principalmente em modelos animais; baixíssimo teor de Mg elementar."
+    },
+    {
+      "nome_forma": "Cloreto de Magnésio",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 12.0,
+      "beneficio_texto": "Boa biodisponibilidade; amplamente disponível; versátil (oral e tópico).",
+      "fator_limitante_texto": "Sabor amargo intenso; pode irritar mucosa gástrica; excesso de cloreto indesejável em alguns pacientes."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (1–12 anos)",
+      "dose_min": 80,
+      "dose_max": 240,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "2–3 meses; reavaliação conforme sintomas e exames."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 240,
+      "dose_max": 360,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "2–3 meses; avaliar sinais de deficiência."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 200,
+      "dose_max": 400,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses contínuos; pode ser de uso prolongado sob supervisão."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 300,
+      "dose_max": 420,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses; reavaliação periódica."
+    },
+    {
+      "publico_alvo": "Idosos (>60 anos)",
+      "dose_min": 320,
+      "dose_max": 420,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Uso contínuo possível; monitorar função renal a cada 6 meses."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "EXM-FERRO-SERICO",
+  "nome": "Ferro Sérico",
+  "unidade_medida": "µg/dL",
+  "categoria": "Hemograma — Série Vermelha",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": 60,
+      "rotulo_tecnico": "Deficiência funcional (referência: H 70–180 / M 60–160 µg/dL)",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Não usar isolado — avaliar sempre com TIBC e ferritina. Varia com alimentação e ciclo menstrual."
+    },
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "Dentro da faixa de referência",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": 60.0,
+  "ref_max": null
+}

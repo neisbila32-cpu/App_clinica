@@ -1,0 +1,68 @@
+[
+  {
+    "id": "SINT_ARRITMIAS_E_HIPERTENSAO_ARTERIAL",
+    "nome": "Arritmias e hipertensão arterial",
+    "categoria_sistema_corporal": "Coração / Cardiovascular",
+    "causas_possiveis": [
+      "Magnésio"
+    ]
+  },
+  {
+    "id": "SINT_BERIBERI_CARDIACO_E_INSUFICIENCIA_CARDIACA",
+    "nome": "Beribéri cardíaco e insuficiência cardíaca",
+    "categoria_sistema_corporal": "Coração / Cardiovascular",
+    "causas_possiveis": [
+      "Vitamina B1 (Tiamina)"
+    ]
+  },
+  {
+    "id": "SINT_CARDIOMIOPATIA_DOENCA_DE_KESHAN",
+    "nome": "Cardiomiopatia (Doença de Keshan)",
+    "categoria_sistema_corporal": "Coração / Cardiovascular",
+    "causas_possiveis": [
+      "Selênio"
+    ]
+  },
+  {
+    "id": "SINT_ARRITMIAS_GRAVES_POR_HIPOCALEMIA",
+    "nome": "Arritmias graves por hipocalemia (risco de fibrilação)",
+    "categoria_sistema_corporal": "Coração / Cardiovascular",
+    "causas_possiveis": [
+      "Potássio"
+    ]
+  },
+  {
+    "id": "SINT_HIPOTENSAO_E_ARRITMIAS_POR_HIPOCALCEMIA",
+    "nome": "Hipotensão e arritmias por hipocalcemia",
+    "categoria_sistema_corporal": "Coração / Cardiovascular",
+    "causas_possiveis": [
+      "Cálcio"
+    ]
+  },
+  {
+    "id": "SINT_CALCIFICACAO_ARTERIAL_E_VASCULAR",
+    "nome": "Calcificação arterial e vascular aumentada",
+    "categoria_sistema_corporal": "Coração / Cardiovascular",
+    "causas_possiveis": [
+      "Vitamina K"
+    ]
+  },
+  {
+    "id": "SINT_RISCO_CARDIOVASCULAR_POR_HIPERHOMOCISTEINEMIA",
+    "nome": "Risco cardiovascular por hiper-homocisteinemia",
+    "categoria_sistema_corporal": "Coração / Cardiovascular",
+    "causas_possiveis": [
+      "Vitamina B6",
+      "Vitamina B9 (Folato)",
+      "Vitamina B12"
+    ]
+  },
+  {
+    "id": "SINT_TROMBOFILIA",
+    "nome": "Trombofilia (desequilíbrio ômega-6:ômega-3)",
+    "categoria_sistema_corporal": "Coração / Cardiovascular",
+    "causas_possiveis": [
+      "Lipídeos"
+    ]
+  }
+]

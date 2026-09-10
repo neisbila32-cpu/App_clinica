@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#024",
+  "nome": "Compulsão Emocional",
+  "categoria_terapeutica": "Compulsão Alimentar",
+  "indicacao": "Comer em resposta a emoções negativas (ansiedade, tristeza, raiva)",
+  "objetivo": "Modular eixo HPA, cortisol e neurotransmissores do conforto alimentar",
+  "duracao_texto": "3-4 meses + TCC / mindful eating",
+  "monitoramento_texto": "DASS-21; PHQ-9; cortisol salivar; comportamento alimentar",
+  "observacoes_texto": "Não substitui suporte psicológico. Referir obrigatoriamente.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ashwagandha KSM-66",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Teanina",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã e tarde"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B-Complex Ativado",
+      "dose": "1 cp",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "5-HTP",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "30 min antes do jantar"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "4.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    }
+  ]
+}

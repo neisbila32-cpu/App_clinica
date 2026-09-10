@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#050",
+  "nome": "Berberina como Metformina Natural",
+  "categoria_terapeutica": "Resistência Insulínica",
+  "indicacao": "Pré-DM2 em recusa a fármaco; necessidade de metformina-like",
+  "objetivo": "Replicar mecanismos da metformina (AMPK, GLUT4, gliconeogênese) com fitoterápico",
+  "duracao_texto": "6 meses; HOMA-IR inicial e final",
+  "monitoramento_texto": "HOMA-IR, glicemia, insulina, HbA1c a cada 6 sem; TGO/TGP",
+  "observacoes_texto": "Eficácia similar à metformina em RCTs. Separar de antibióticos por 2h.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Berberina HCl",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "3x/dia 15 min antes das refeições"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ácido R-Alfa-Lipoico",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-prandial 2x/dia"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Extrato de Canela (MHCP)",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "C/ refeições com CHO"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#006",
+      "nome_ativo_texto": "Cromo Picolinato",
+      "dose": "400 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x c/ refeição"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "200 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    }
+  ]
+}

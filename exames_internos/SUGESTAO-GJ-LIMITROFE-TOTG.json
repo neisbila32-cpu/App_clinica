@@ -1,0 +1,9 @@
+{
+  "id": "SUGESTAO-GJ-LIMITROFE-TOTG",
+  "exame_origem_id": "EXM-GLICEMIA-JEJUM",
+  "classificacao_gatilho": "limitrofe",
+  "exame_sugerido_id": "EXM-TOTG-2H",
+  "justificativa_texto": "Em pacientes com pré-diabetes, histórico familiar de DM2 ou SOP — avalia a capacidade de resposta à carga de glicose.",
+  "ref_min": null,
+  "ref_max": null
+}

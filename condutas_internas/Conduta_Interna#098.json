@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#098",
+  "nome": "Testosterona Natural",
+  "categoria_terapeutica": "Libido e Função Sexual",
+  "indicacao": "Hipogonadismo masculino funcional ou deficiência relativa em mulheres",
+  "objetivo": "Estimular produção endógena de testosterona via cofatores nutricionais",
+  "duracao_texto": "3 meses",
+  "monitoramento_texto": "Testosterona total e livre; SHBG; LH, FSH; PSA (homens)",
+  "observacoes_texto": "D-Ácido Aspártico estimula LH/FSH. Não usar em testosterona já elevada.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "30 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta — cofator esteroidogênese"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço — receptor androgênico"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ashwagandha KSM-66",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "D-Ácido Aspártico",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula/pó",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#005",
+      "nome_ativo_texto": "Selênio L-Selenometionina",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    }
+  ]
+}

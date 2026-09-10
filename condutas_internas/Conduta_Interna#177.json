@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#177",
+  "nome": "Energia e Resistência",
+  "categoria_terapeutica": "Performance Física e Cognitiva",
+  "indicacao": "Fadiga durante treino; queda de rendimento; capacidade reduzida",
+  "objetivo": "Otimizar produção de ATP e resistência à fadiga",
+  "duracao_texto": "3 meses",
+  "monitoramento_texto": "Ferritina; hemograma; CoQ10 plasmático; capacidade de trabalho",
+  "observacoes_texto": "D-Ribose: suporte na ressíntese de ATP. Útil em treinos de alta intensidade.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "200 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Carnitina Tartarato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-treino"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#027",
+      "nome_ativo_texto": "D-Ribose",
+      "dose": "5.000 mg",
+      "forma_farmaceutica": "Pó/sachê",
+      "posologia": "Pré-treino ou pós-treino"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Vitamina B-Complex Ativado",
+      "dose": "1 cp",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Malato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#003",
+      "nome_ativo_texto": "Ferro Bisglicinato",
+      "dose": "30 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum — se ferritina <40"
+    }
+  ]
+}

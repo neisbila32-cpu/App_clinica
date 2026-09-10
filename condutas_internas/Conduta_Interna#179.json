@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#179",
+  "nome": "Performance + Articulações",
+  "categoria_terapeutica": "Performance Física e Cognitiva",
+  "indicacao": "Atletas com dor articular, sinovite ou desgaste; prevenção de lesões",
+  "objetivo": "Suporte cartilaginoso, tendíneo e anti-inflamatório articular",
+  "duracao_texto": "3-6 meses",
+  "monitoramento_texto": "Dor articular (EVA); amplitude de movimento; PCR; eco articular",
+  "observacoes_texto": "UC-II (Colágeno Tipo II): 40 mg em jejum é mais eficaz que 1.500 mg de glucosamina.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Colágeno Tipo II Não Desnaturado (UC-II)",
+      "dose": "40 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã — síntese de colágeno"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Glucosamina Sulfato",
+      "dose": "1.500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "MSM (Metilsulfonilmetano)",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Curcumina+Piperina 95%",
+      "dose": "500+5 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço e Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    }
+  ]
+}

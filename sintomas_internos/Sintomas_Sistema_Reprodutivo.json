@@ -1,0 +1,53 @@
+[
+  {
+    "id": "SINT_HIPOTIREOIDISMO_GESTACIONAL_E_FETAL",
+    "nome": "Hipotireoidismo gestacional e fetal",
+    "categoria_sistema_corporal": "Sistema Reprodutivo",
+    "causas_possiveis": [
+      "Iodo"
+    ]
+  },
+  {
+    "id": "SINT_REDUCAO_DA_ESPERMATOGENESE_E_FERTILIDADE",
+    "nome": "Redução da espermatogênese e fertilidade",
+    "categoria_sistema_corporal": "Sistema Reprodutivo",
+    "causas_possiveis": [
+      "Vitamina A",
+      "Selênio",
+      "Zinco"
+    ]
+  },
+  {
+    "id": "SINT_ANEMIA_GESTACIONAL_E_PREMATURIDADE",
+    "nome": "Anemia gestacional e prematuridade",
+    "categoria_sistema_corporal": "Sistema Reprodutivo",
+    "causas_possiveis": [
+      "Ferro"
+    ]
+  },
+  {
+    "id": "SINT_DEFEITOS_DO_TUBO_NEURAL_E_RISCO_DE_ABORTO",
+    "nome": "Defeitos do tubo neural e risco de aborto",
+    "categoria_sistema_corporal": "Sistema Reprodutivo",
+    "causas_possiveis": [
+      "Vitamina B9 (Folato)"
+    ]
+  },
+  {
+    "id": "SINT_HIPOGONADISMO_E_OLIGOESPERMIA",
+    "nome": "Hipogonadismo e oligoespermia",
+    "categoria_sistema_corporal": "Sistema Reprodutivo",
+    "causas_possiveis": [
+      "Zinco"
+    ]
+  },
+  {
+    "id": "SINT_INFERTILIDADE",
+    "nome": "Infertilidade",
+    "categoria_sistema_corporal": "Sistema Reprodutivo",
+    "causas_possiveis": [
+      "Manganês",
+      "Lipídeos (ácidos graxos essenciais)"
+    ]
+  }
+]

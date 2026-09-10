@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#208",
+  "nome": "Sono + Apneia (Suporte)",
+  "categoria_terapeutica": "Sono",
+  "indicacao": "Apneia obstrutiva do sono leve a moderada; suporte adjuvante ao CPAP",
+  "objetivo": "Redução de inflamação de mucosa e oxidação que agravam a apneia",
+  "duracao_texto": "Contínuo com CPAP",
+  "monitoramento_texto": "IAH (índice apneia-hipopneia); oximetria; Pittsburgh; vitamina D",
+  "observacoes_texto": "CPAP é o tratamento principal. Suplementação ADJUVANTE. Não substituir CPAP.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Melatonina",
+      "dose": "3-5 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-sono — antioxidante e sono"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite — tônus muscular"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "NAC N-Acetilcisteína",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x — antioxidante via aérea"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "200 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço — mitocôndria"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    }
+  ]
+}

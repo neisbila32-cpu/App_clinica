@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#141",
+  "nome": "Acne Adulta",
+  "categoria_terapeutica": "Acne",
+  "indicacao": "Acne em adultos >25 anos; hormonal, inflamatória e relacionada a estresse",
+  "objetivo": "Abordagem multifatorial de acne adulta",
+  "duracao_texto": "3 meses; fotos comparativas",
+  "monitoramento_texto": "Lesões; testosterona; cortisol; microbiota",
+  "observacoes_texto": "Dieta low-GI melhora acne adulta. Estresse eleva cortisol e sebo androgênico.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "30 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#013",
+      "nome_ativo_texto": "Vitamina A Palmitato",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#005",
+      "nome_ativo_texto": "Selênio L-Selenometionina",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "NAC",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x/dia"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ashwagandha KSM-66",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    }
+  ]
+}

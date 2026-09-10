@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#096",
+  "nome": "Libido Feminina — Base",
+  "categoria_terapeutica": "Libido e Função Sexual",
+  "indicacao": "Diminuição do desejo sexual em mulheres sem causa orgânica definida",
+  "objetivo": "Restaurar desejo sexual via modulação hormonal e circulatória",
+  "duracao_texto": "3 meses; FSFI antes e depois",
+  "monitoramento_texto": "FSFI; testosterona total e livre; E2; SHBG",
+  "observacoes_texto": "Maca: evidência para desejo sexual em 4-6 semanas. Não estrogênica. Segura em Ca de mama.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Maca Peruana Extrato 4:1",
+      "dose": "1.500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x c/ refeição"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "L-Arginina",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula/sachê",
+      "posologia": "Tarde"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "4.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#235",
+  "nome": "Longevidade + Coração",
+  "categoria_terapeutica": "Longevidade e Anti-aging",
+  "indicacao": "Saúde cardiovascular para longevidade; prevenção primária e secundária",
+  "objetivo": "Proteger sistema cardiovascular via anti-inflamatórios, antioxidantes e calcificação",
+  "duracao_texto": "12 meses",
+  "monitoramento_texto": "Lipídios; PCR us; PA; homocisteína; cálcio coronário (score de Agatston)",
+  "observacoes_texto": "K2 MK-7: redireciona cálcio para ossos, reduzindo calcificação arterial.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "200-300 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço — função miocárdica"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "4.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#016",
+      "nome_ativo_texto": "Vitamina K2 MK-7",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço — anti-calcificação"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Resveratrol",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#015",
+      "nome_ativo_texto": "Vitamina E Natural",
+      "dose": "400 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    }
+  ]
+}

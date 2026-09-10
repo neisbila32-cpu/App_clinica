@@ -1,0 +1,19 @@
+{
+  "id": "EXM-SELENIO-SERICO",
+  "nome": "Selênio Sérico",
+  "unidade_medida": "µg/L",
+  "categoria": "Marcadores Laboratoriais Nutricionais",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "70–150 µg/L (faixa normal)",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Solicitar em distúrbios tireoidianos autoimunes, cardiomiopatias e em regiões com solo pobre em selênio."
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": 70.0,
+  "ref_max": 150.0
+}

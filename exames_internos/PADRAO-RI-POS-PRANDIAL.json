@@ -1,0 +1,17 @@
+{
+  "id": "PADRAO-RI-POS-PRANDIAL",
+  "nome_padrao": "Resistência à Insulina Pós-Prandial (estágio inicial)",
+  "condicoes": [
+    {
+      "exame_id": "EXM-GLICEMIA-JEJUM",
+      "classificacao_maxima": "adequado"
+    },
+    {
+      "exame_id": "EXM-TOTG-2H",
+      "classificacao_minima": "limitrofe"
+    }
+  ],
+  "texto_orientacao": "GJ normal + TOTG alterado: reduzir carga glicêmica, aumentar proteínas e gorduras saudáveis nas refeições. Monitorar TOTG em 3–6 meses.",
+  "ref_min": null,
+  "ref_max": null
+}

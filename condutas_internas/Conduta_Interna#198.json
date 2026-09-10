@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#198",
+  "nome": "Burnout",
+  "categoria_terapeutica": "Ansiedade",
+  "indicacao": "Burnout profissional: exaustão emocional, despersonalização, baixa realização",
+  "objetivo": "Restaurar reservas adrenais, energia mitocondrial e resiliência ao estresse",
+  "duracao_texto": "3-4 meses + afastamento/redução de carga",
+  "monitoramento_texto": "MBI (Burnout Inventory); cortisol; DHEAS; vitamina D",
+  "observacoes_texto": "Burnout requer redução da carga de trabalho. Suplementação NUNCA substitui intervenção estrutural.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ashwagandha KSM-66",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Rhodiola Rosea 3%",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B-Complex Ativado",
+      "dose": "1 cp",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "200 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    }
+  ]
+}

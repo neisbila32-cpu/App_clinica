@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#034",
+  "nome": "Saciedade Pré-prandial",
+  "categoria_terapeutica": "Saciedade",
+  "indicacao": "Hiperfagia com porções excessivas e refeições rápidas",
+  "objetivo": "Antecipar sinais de saciedade mecânica antes das refeições",
+  "duracao_texto": "3 meses com educação alimentar",
+  "monitoramento_texto": "Tamanho de porções; peso; glicemia pós-prandial",
+  "observacoes_texto": "Orientar mastigação lenta (20-30 mastigadas/bocado) e refeições sem telas.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Glucomanano",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "30 min pré-refeição c/ 400 mL água"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Psyllium",
+      "dose": "5 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "15 min pré-refeição"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Vinagre de Maçã Encapsulado",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-prandial"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#006",
+      "nome_ativo_texto": "Cromo Picolinato",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-almoço e pré-janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "20 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    }
+  ]
+}

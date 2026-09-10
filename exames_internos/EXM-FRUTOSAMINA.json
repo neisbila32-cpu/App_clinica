@@ -1,0 +1,26 @@
+{
+  "id": "EXM-FRUTOSAMINA",
+  "nome": "Frutosamina",
+  "unidade_medida": "µmol/L",
+  "categoria": "Metabolismo da Glicose",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": 285,
+      "rotulo_tecnico": "170–285 µmol/L (faixa normal)",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    },
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "Hiperglicemia nas últimas 2–3 semanas (>285 µmol/L)",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Rever plano alimentar; ascensão rápida sugere controle glicêmico inadequado recente — encaminhar."
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": 170.0,
+  "ref_max": 285.0
+}

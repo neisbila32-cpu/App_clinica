@@ -1,0 +1,19 @@
+{
+  "id": "EXM-COBRE-SERICO",
+  "nome": "Cobre Sérico",
+  "unidade_medida": "µg/dL",
+  "categoria": "Marcadores Laboratoriais Nutricionais",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "70–140 µg/dL (faixa normal)",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Avaliar em pacientes em uso de zinco em altas doses (antagonismo Cu-Zn) ou síndrome de má absorção."
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": 70.0,
+  "ref_max": 140.0
+}

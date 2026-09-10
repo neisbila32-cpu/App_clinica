@@ -1,0 +1,10 @@
+{
+  "exame": "Bilirrubina",
+  "valores_referencia": "Total: 0,2 a 1,2 mg/dl; Indireta: até 0,8 mg/dl (média até 0,5); Direta: 0,4 mg/dl (média)",
+  "o_que_avalia": "Capacidade de limpeza (metabolização/excreção) do fígado",
+  "indicacao": "Quadros de icterícia, doenças hepáticas que diminuam a função do fígado, hepatite e anemias hemolíticas.",
+  "o_que_significa_quando_alterado": "Falha no processo de metabolização, captação ou excreção do pigmento. Bilirrubina indireta aumentada indica fígado com menor capacidade de captação, ou excesso de destruição celular; Bilirrubina direta aumentada indica que o fígado realizou a metabolização, mas não consegue excretar a bile.",
+  "o_que_pode_estar_alterando_o_valor": "Anemias hemolíticas, hemoglobinopatias, obstruções das vias biliares, hepatites e cirrose.",
+  "ref_min": 0.2,
+  "ref_max": 1.2
+}

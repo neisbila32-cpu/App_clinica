@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#014",
+  "nome": "Resistência Metabólica",
+  "categoria_terapeutica": "Emagrecimento",
+  "indicacao": "Dificuldade extrema de emagrecimento; metabolismo basal muito baixo",
+  "objetivo": "Reverter adaptações metabólicas à restrição calórica prolongada",
+  "duracao_texto": "4-6 meses com refeeding programada",
+  "monitoramento_texto": "Gasto energético; DEXA; HOMA-IR",
+  "observacoes_texto": "Associar aumento calórico progressivo e periodização do exercício para reverter adaptação.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Berberina HCl",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "3x/dia c/ refeição"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#027",
+      "nome_ativo_texto": "Inositol Mio",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Manhã e noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ácido R-Alfa-Lipoico",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Antes das refeições"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#006",
+      "nome_ativo_texto": "Cromo Picolinato",
+      "dose": "400 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x c/ refeição"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B-Complex Ativado (B1-Benfotiamina, B6-PLP, B12-Metil)",
+      "dose": "1 cp",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "200 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    }
+  ]
+}

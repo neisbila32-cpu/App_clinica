@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#182",
+  "nome": "Pré-Competição",
+  "categoria_terapeutica": "Performance Física e Cognitiva",
+  "indicacao": "Atletas na semana anterior a competição importante",
+  "objetivo": "Otimizar performance aguda e energética na fase de pico competitivo",
+  "duracao_texto": "Fase de pico; 2-3 semanas pré-competição",
+  "monitoramento_texto": "Performance em treino; VO2max; tempo de reação",
+  "observacoes_texto": "L-Citrulina: eleva óxido nítrico e circulação muscular em 60 min. Dose aguda: 6-8 g.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Beta-Alanina",
+      "dose": "3.200 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-treino até 3 dias antes — manutenção carnosina"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Creatina Monohidratada",
+      "dose": "5.000 mg",
+      "forma_farmaceutica": "Pó",
+      "posologia": "Pós-treino até 2 dias antes"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "L-Citrulina",
+      "dose": "6.000 mg",
+      "forma_farmaceutica": "Cápsula/pó",
+      "posologia": "Pré-competição 60 min antes"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "L-Arginina",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula/sachê",
+      "posologia": "Pré-competição 60 min antes"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "200 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pós-treino"
+    }
+  ]
+}

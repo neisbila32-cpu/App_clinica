@@ -1,0 +1,54 @@
+{
+  "id": "EXM-TFG-ESTIMADA-EGFR",
+  "nome": "TFG Estimada (eGFR)",
+  "unidade_medida": "mL/min/1,73m²",
+  "categoria": "Função Renal",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": 14,
+      "rotulo_tecnico": "G5 — Falência renal",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Em diálise: proteína 1,2–1,4 g/kg/dia. Gestão intensiva de K, P, Na e fluidos com nefrologista."
+    },
+    {
+      "valor_max": 29,
+      "rotulo_tecnico": "G4 — TFG gravemente reduzida",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Proteína 0,6 g/kg/dia. Restrição K < 2.000 mg/dia, P < 800 mg/dia. Sódio < 2.000 mg/dia."
+    },
+    {
+      "valor_max": 44,
+      "rotulo_tecnico": "G3b — TFG moderada-grave reduzida",
+      "classificacao_simplificada": "limitrofe",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Proteína 0,6–0,8 g/kg/dia. Restrição de K e P se alterados. Bicarbonato se acidose."
+    },
+    {
+      "valor_max": 59,
+      "rotulo_tecnico": "G3a — TFG leve-moderada reduzida",
+      "classificacao_simplificada": "limitrofe",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Proteína 0,8 g/kg/dia. Monitorar K, P, Na e vitamina D."
+    },
+    {
+      "valor_max": 89,
+      "rotulo_tecnico": "G2 — TFG levemente reduzida",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Dieta saudável. Monitorar PA e glicemia. Avaliar albuminúria."
+    },
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "G1 — TFG normal ou elevada (≥90)",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Nenhuma restrição proteica. Controle de fatores de risco (HAS, DM, obesidade)."
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": 59.0,
+  "ref_max": 89.0
+}

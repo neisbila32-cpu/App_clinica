@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#042",
+  "nome": "Pré-diabetes",
+  "categoria_terapeutica": "Resistência Insulínica",
+  "indicacao": "Glicemia 100-125 mg/dL; TOTG 140-199 mg/dL 2h; HbA1c 5,7-6,4%",
+  "objetivo": "Reverter pré-diabetes para normoglicemia, prevenindo DM2",
+  "duracao_texto": "6-12 meses; meta HbA1c <5,7%",
+  "monitoramento_texto": "HbA1c trimestral; HOMA-IR; glicemia; PA; lipídios",
+  "observacoes_texto": "Estilo de vida PRIMEIRO. Redução de 5-7% do peso e 150 min/sem de atividade física.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Berberina HCl",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "3x/dia"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#027",
+      "nome_ativo_texto": "Inositol Mio",
+      "dose": "4.000 mg",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Dividir 2x"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#006",
+      "nome_ativo_texto": "Cromo Picolinato",
+      "dose": "400 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x c/ refeição"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ácido R-Alfa-Lipoico",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-refeições"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    }
+  ]
+}

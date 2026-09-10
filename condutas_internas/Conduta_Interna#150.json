@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#150",
+  "nome": "Celulite — Base",
+  "categoria_terapeutica": "Celulite",
+  "indicacao": "Celulite graus I-II em qualquer região; gordura localizada e alteração de textura",
+  "objetivo": "Melhorar microcirculação, drenagem linfática e síntese de colágeno",
+  "duracao_texto": "3-6 meses",
+  "monitoramento_texto": "Fotos padronizadas; circunferências; grau celulite (Nurnberger-Muller)",
+  "observacoes_texto": "Centella: estimula colágeno I. Ginkgo: microcirculação. Resultados em 8-12 semanas.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ginkgo Biloba 24% ginkgoflavonoide",
+      "dose": "120 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Centella Asiática Extrato 10%",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "Colágeno Hidrolisado Tipo I+III",
+      "dose": "10 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Manhã c/ vitamina C"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "20 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    }
+  ]
+}

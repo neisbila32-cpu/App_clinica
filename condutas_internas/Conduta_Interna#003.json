@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#003",
+  "nome": "Termogênico Natural",
+  "categoria_terapeutica": "Emagrecimento",
+  "indicacao": "Emagrecimento com metabolismo lento; sobrepeso com adiposidade abdominal",
+  "objetivo": "Aumentar taxa metabólica basal, termogênese adaptativa e oxidação de gordura",
+  "duracao_texto": "2-3 meses; cíclico (8 sem uso / 2 sem pausa)",
+  "monitoramento_texto": "PA nas 4 primeiras semanas; FC; peso e circunf.",
+  "observacoes_texto": "Contraindicado em HAS não controlada, hipertireoidismo, gestação.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Extrato de Chá Verde (50% EGCG)",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula enterocoatada",
+      "posologia": "Manhã pré-almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Pimenta Cayena Capsaicina",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Gengibre Extrato Seco",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço e Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#020",
+      "nome_ativo_texto": "Vitamina B3 Niacinamida",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Carnitina Tartarato",
+      "dose": "1.500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-exercício"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Colina Bitartarato",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    }
+  ]
+}

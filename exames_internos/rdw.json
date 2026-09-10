@@ -1,0 +1,10 @@
+{
+  "exame": "RDW",
+  "valores_referencia": "Normal 11 – 14%",
+  "o_que_avalia": "Tamanho celular (anisocitose).",
+  "indicacao": "Usado para indicar a variação de tamanho celular (anisocitose).",
+  "o_que_significa_quando_alterado": "Alto indica grande variação no tamanho das hemácias, sinal precoce de anemia carencial.",
+  "o_que_pode_estar_alterando_o_valor": "Transfusões de sangue recentes ou início de tratamento de reposição de ferro/B12.",
+  "ref_min": 11.0,
+  "ref_max": 14.0
+}

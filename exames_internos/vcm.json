@@ -1,0 +1,10 @@
+{
+  "exame": "VCM",
+  "valores_referencia": "Normal 82 – 98 fL.",
+  "o_que_avalia": "Avalia o tamanho do glóbulo (Microcítica se baixo; Macrocítica se alto).",
+  "indicacao": "Diferenciação do tipo de anemia pelo tamanho da hemácia.",
+  "o_que_significa_quando_alterado": "Baixo: Microcitose (deficiência de ferro). Alto: Macrocitose (deficiência de B12).",
+  "o_que_pode_estar_alterando_o_valor": "Alcoolismo, uso de quimioterápicos ou deficiência de folato.",
+  "ref_min": 82.0,
+  "ref_max": 98.0
+}

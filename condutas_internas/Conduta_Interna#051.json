@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#051",
+  "nome": "ALA Intensivo — Neuropatia",
+  "categoria_terapeutica": "Resistência Insulínica",
+  "indicacao": "RI ou DM2 com neuropatia periférica; dano oxidativo celular",
+  "objetivo": "Redução de estresse oxidativo, neuroproteção e melhora insulínica",
+  "duracao_texto": "4-6 meses; neuropatia e HOMA-IR",
+  "monitoramento_texto": "Neuropatia clínica; HOMA-IR; glicemia; biotina",
+  "observacoes_texto": "R-ALA mais biodisponível que S-ALA. Tomar em jejum — absorção reduz com comida.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "R-ALA (Ácido R-Alfa-Lipoico)",
+      "dose": "600-900 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "3x antes das refeições"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#018",
+      "nome_ativo_texto": "Benfotiamina (Vitamina B1)",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã e tarde"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#023",
+      "nome_ativo_texto": "Biotina",
+      "dose": "10.000 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã — sensibilização glicose"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#006",
+      "nome_ativo_texto": "Cromo Picolinato",
+      "dose": "400 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x c/ refeição"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    }
+  ]
+}

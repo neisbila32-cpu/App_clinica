@@ -1,0 +1,875 @@
+{
+  "descricao": "Regras de exames complementares para a lista completa de exames cadastrados no app_clinica (exames laboratoriais individuais e painéis/agrupadores). Cada entrada indica quais outros itens da lista costumam ser solicitados e interpretados em conjunto, com a justificativa clínica/laboratorial correspondente.",
+  "exames": [
+    {
+      "exame": "TOTG (2h)",
+      "complementares_na_lista": [
+        "Frutosamina",
+        "Glicemia de Jejum",
+        "Glicemia na Gestação (1ª consulta)",
+        "Hemoglobina Glicada (HbA1c)",
+        "HOMA-IR",
+        "Padrão Metabolismo da Glicose (painel)",
+        "Padrão RI Pós-Prandial (painel)",
+        "Sugestão GJ Limítrofe/TOTG (regra/painel)"
+      ],
+      "regras": [
+        "Fazem parte da avaliação do metabolismo da glicose e do diagnóstico/monitoramento do diabetes. A Glicemia de Jejum e o TOTG são usados para o diagnóstico inicial; a HbA1c e a Frutosamina monitoram o controle glicêmico a médio e curto prazo, respectivamente; o HOMA-IR avalia resistência à insulina; e a Glicemia na Gestação segue critérios específicos para rastreamento no pré-natal.",
+        "O painel 'Padrão Metabolismo da Glicose' agrupa e é complementado por todos os exames individuais dessa categoria.",
+        "A avaliação da resistência à insulina no período pós-prandial complementa-se com o TOTG (resposta glicêmica após sobrecarga), a Glicemia de Jejum e o HOMA-IR (linha de base em jejum).",
+        "Quando a Glicemia de Jejum está em valor limítrofe (entre o normal e o diagnóstico de diabetes), o TOTG é o exame complementar indicado para esclarecer o diagnóstico."
+      ]
+    },
+    {
+      "exame": "Frutosamina",
+      "complementares_na_lista": [
+        "Glicemia de Jejum",
+        "Glicemia na Gestação (1ª consulta)",
+        "Hemoglobina Glicada (HbA1c)",
+        "HOMA-IR",
+        "Padrão Metabolismo da Glicose (painel)",
+        "TOTG (2h)"
+      ],
+      "regras": [
+        "Fazem parte da avaliação do metabolismo da glicose e do diagnóstico/monitoramento do diabetes. A Glicemia de Jejum e o TOTG são usados para o diagnóstico inicial; a HbA1c e a Frutosamina monitoram o controle glicêmico a médio e curto prazo, respectivamente; o HOMA-IR avalia resistência à insulina; e a Glicemia na Gestação segue critérios específicos para rastreamento no pré-natal.",
+        "O painel 'Padrão Metabolismo da Glicose' agrupa e é complementado por todos os exames individuais dessa categoria."
+      ]
+    },
+    {
+      "exame": "HOMA-IR",
+      "complementares_na_lista": [
+        "Frutosamina",
+        "Glicemia de Jejum",
+        "Glicemia na Gestação (1ª consulta)",
+        "Hemoglobina Glicada (HbA1c)",
+        "Padrão Metabolismo da Glicose (painel)",
+        "Padrão Resistência à Insulina (painel)",
+        "Padrão RI Pós-Prandial (painel)",
+        "TOTG (2h)"
+      ],
+      "regras": [
+        "Fazem parte da avaliação do metabolismo da glicose e do diagnóstico/monitoramento do diabetes. A Glicemia de Jejum e o TOTG são usados para o diagnóstico inicial; a HbA1c e a Frutosamina monitoram o controle glicêmico a médio e curto prazo, respectivamente; o HOMA-IR avalia resistência à insulina; e a Glicemia na Gestação segue critérios específicos para rastreamento no pré-natal.",
+        "O painel 'Padrão Metabolismo da Glicose' agrupa e é complementado por todos os exames individuais dessa categoria.",
+        "O HOMA-IR é calculado a partir da Glicemia de Jejum (e da insulina), sendo o exame-base do painel de resistência à insulina.",
+        "A avaliação da resistência à insulina no período pós-prandial complementa-se com o TOTG (resposta glicêmica após sobrecarga), a Glicemia de Jejum e o HOMA-IR (linha de base em jejum)."
+      ]
+    },
+    {
+      "exame": "Glicemia de Jejum",
+      "complementares_na_lista": [
+        "Frutosamina",
+        "Glicemia na Gestação (1ª consulta)",
+        "Hemoglobina Glicada (HbA1c)",
+        "HOMA-IR",
+        "Padrão Metabolismo da Glicose (painel)",
+        "Padrão Resistência à Insulina (painel)",
+        "Padrão RI Pós-Prandial (painel)",
+        "Sugestão GJ Limítrofe/TOTG (regra/painel)",
+        "TOTG (2h)"
+      ],
+      "regras": [
+        "Fazem parte da avaliação do metabolismo da glicose e do diagnóstico/monitoramento do diabetes. A Glicemia de Jejum e o TOTG são usados para o diagnóstico inicial; a HbA1c e a Frutosamina monitoram o controle glicêmico a médio e curto prazo, respectivamente; o HOMA-IR avalia resistência à insulina; e a Glicemia na Gestação segue critérios específicos para rastreamento no pré-natal.",
+        "O painel 'Padrão Metabolismo da Glicose' agrupa e é complementado por todos os exames individuais dessa categoria.",
+        "O HOMA-IR é calculado a partir da Glicemia de Jejum (e da insulina), sendo o exame-base do painel de resistência à insulina.",
+        "A avaliação da resistência à insulina no período pós-prandial complementa-se com o TOTG (resposta glicêmica após sobrecarga), a Glicemia de Jejum e o HOMA-IR (linha de base em jejum).",
+        "Quando a Glicemia de Jejum está em valor limítrofe (entre o normal e o diagnóstico de diabetes), o TOTG é o exame complementar indicado para esclarecer o diagnóstico."
+      ]
+    },
+    {
+      "exame": "Hemoglobina Glicada (HbA1c)",
+      "complementares_na_lista": [
+        "Frutosamina",
+        "Glicemia de Jejum",
+        "Glicemia na Gestação (1ª consulta)",
+        "HOMA-IR",
+        "Padrão Metabolismo da Glicose (painel)",
+        "TOTG (2h)"
+      ],
+      "regras": [
+        "Fazem parte da avaliação do metabolismo da glicose e do diagnóstico/monitoramento do diabetes. A Glicemia de Jejum e o TOTG são usados para o diagnóstico inicial; a HbA1c e a Frutosamina monitoram o controle glicêmico a médio e curto prazo, respectivamente; o HOMA-IR avalia resistência à insulina; e a Glicemia na Gestação segue critérios específicos para rastreamento no pré-natal.",
+        "O painel 'Padrão Metabolismo da Glicose' agrupa e é complementado por todos os exames individuais dessa categoria."
+      ]
+    },
+    {
+      "exame": "Glicemia na Gestação (1ª consulta)",
+      "complementares_na_lista": [
+        "Frutosamina",
+        "Glicemia de Jejum",
+        "Hemoglobina Glicada (HbA1c)",
+        "HOMA-IR",
+        "Padrão Metabolismo da Glicose (painel)",
+        "TOTG (2h)"
+      ],
+      "regras": [
+        "Fazem parte da avaliação do metabolismo da glicose e do diagnóstico/monitoramento do diabetes. A Glicemia de Jejum e o TOTG são usados para o diagnóstico inicial; a HbA1c e a Frutosamina monitoram o controle glicêmico a médio e curto prazo, respectivamente; o HOMA-IR avalia resistência à insulina; e a Glicemia na Gestação segue critérios específicos para rastreamento no pré-natal.",
+        "O painel 'Padrão Metabolismo da Glicose' agrupa e é complementado por todos os exames individuais dessa categoria."
+      ]
+    },
+    {
+      "exame": "Padrão Metabolismo da Glicose (painel)",
+      "complementares_na_lista": [
+        "Frutosamina",
+        "Glicemia de Jejum",
+        "Glicemia na Gestação (1ª consulta)",
+        "Hemoglobina Glicada (HbA1c)",
+        "HOMA-IR",
+        "TOTG (2h)"
+      ],
+      "regras": [
+        "O painel 'Padrão Metabolismo da Glicose' agrupa e é complementado por todos os exames individuais dessa categoria."
+      ]
+    },
+    {
+      "exame": "Padrão Resistência à Insulina (painel)",
+      "complementares_na_lista": [
+        "Glicemia de Jejum",
+        "HOMA-IR"
+      ],
+      "regras": [
+        "O HOMA-IR é calculado a partir da Glicemia de Jejum (e da insulina), sendo o exame-base do painel de resistência à insulina."
+      ]
+    },
+    {
+      "exame": "Padrão RI Pós-Prandial (painel)",
+      "complementares_na_lista": [
+        "Glicemia de Jejum",
+        "HOMA-IR",
+        "TOTG (2h)"
+      ],
+      "regras": [
+        "A avaliação da resistência à insulina no período pós-prandial complementa-se com o TOTG (resposta glicêmica após sobrecarga), a Glicemia de Jejum e o HOMA-IR (linha de base em jejum)."
+      ]
+    },
+    {
+      "exame": "Sugestão GJ Limítrofe/TOTG (regra/painel)",
+      "complementares_na_lista": [
+        "Glicemia de Jejum",
+        "TOTG (2h)"
+      ],
+      "regras": [
+        "Quando a Glicemia de Jejum está em valor limítrofe (entre o normal e o diagnóstico de diabetes), o TOTG é o exame complementar indicado para esclarecer o diagnóstico."
+      ]
+    },
+    {
+      "exame": "Colesterol Total",
+      "complementares_na_lista": [
+        "Apolipoproteína B (ApoB)",
+        "HDL-c (HDL Colesterol)",
+        "LDL-c (LDL Colesterol)",
+        "Colesterol Não-HDL (Não-HDL-c)",
+        "Padrão Perfil Lipídico (painel)",
+        "Triglicérides (TG)"
+      ],
+      "regras": [
+        "Compõem o perfil lipídico e a avaliação de risco cardiovascular. Colesterol Total, HDL-c, LDL-c e Triglicérides formam o lipidograma básico; o Colesterol Não-HDL e a ApoB são marcadores complementares/alternativos ao LDL-c, mais úteis quando os triglicérides estão elevados (>150 mg/dL), pois estimam melhor o número de partículas aterogênicas circulantes.",
+        "O painel 'Padrão Perfil Lipídico' agrupa e é complementado por todos os exames individuais do perfil lipídico."
+      ]
+    },
+    {
+      "exame": "Triglicérides (TG)",
+      "complementares_na_lista": [
+        "Apolipoproteína B (ApoB)",
+        "Colesterol Total",
+        "HDL-c (HDL Colesterol)",
+        "LDL-c (LDL Colesterol)",
+        "Colesterol Não-HDL (Não-HDL-c)",
+        "Padrão Perfil Lipídico (painel)"
+      ],
+      "regras": [
+        "Compõem o perfil lipídico e a avaliação de risco cardiovascular. Colesterol Total, HDL-c, LDL-c e Triglicérides formam o lipidograma básico; o Colesterol Não-HDL e a ApoB são marcadores complementares/alternativos ao LDL-c, mais úteis quando os triglicérides estão elevados (>150 mg/dL), pois estimam melhor o número de partículas aterogênicas circulantes.",
+        "O painel 'Padrão Perfil Lipídico' agrupa e é complementado por todos os exames individuais do perfil lipídico."
+      ]
+    },
+    {
+      "exame": "HDL-c (HDL Colesterol)",
+      "complementares_na_lista": [
+        "Apolipoproteína B (ApoB)",
+        "Colesterol Total",
+        "LDL-c (LDL Colesterol)",
+        "Colesterol Não-HDL (Não-HDL-c)",
+        "Padrão Perfil Lipídico (painel)",
+        "Triglicérides (TG)"
+      ],
+      "regras": [
+        "Compõem o perfil lipídico e a avaliação de risco cardiovascular. Colesterol Total, HDL-c, LDL-c e Triglicérides formam o lipidograma básico; o Colesterol Não-HDL e a ApoB são marcadores complementares/alternativos ao LDL-c, mais úteis quando os triglicérides estão elevados (>150 mg/dL), pois estimam melhor o número de partículas aterogênicas circulantes.",
+        "O painel 'Padrão Perfil Lipídico' agrupa e é complementado por todos os exames individuais do perfil lipídico."
+      ]
+    },
+    {
+      "exame": "LDL-c (LDL Colesterol)",
+      "complementares_na_lista": [
+        "Apolipoproteína B (ApoB)",
+        "Colesterol Total",
+        "HDL-c (HDL Colesterol)",
+        "Colesterol Não-HDL (Não-HDL-c)",
+        "Padrão Perfil Lipídico (painel)",
+        "Triglicérides (TG)"
+      ],
+      "regras": [
+        "Compõem o perfil lipídico e a avaliação de risco cardiovascular. Colesterol Total, HDL-c, LDL-c e Triglicérides formam o lipidograma básico; o Colesterol Não-HDL e a ApoB são marcadores complementares/alternativos ao LDL-c, mais úteis quando os triglicérides estão elevados (>150 mg/dL), pois estimam melhor o número de partículas aterogênicas circulantes.",
+        "O painel 'Padrão Perfil Lipídico' agrupa e é complementado por todos os exames individuais do perfil lipídico."
+      ]
+    },
+    {
+      "exame": "Colesterol Não-HDL (Não-HDL-c)",
+      "complementares_na_lista": [
+        "Apolipoproteína B (ApoB)",
+        "Colesterol Total",
+        "HDL-c (HDL Colesterol)",
+        "LDL-c (LDL Colesterol)",
+        "Padrão Perfil Lipídico (painel)",
+        "Triglicérides (TG)"
+      ],
+      "regras": [
+        "Compõem o perfil lipídico e a avaliação de risco cardiovascular. Colesterol Total, HDL-c, LDL-c e Triglicérides formam o lipidograma básico; o Colesterol Não-HDL e a ApoB são marcadores complementares/alternativos ao LDL-c, mais úteis quando os triglicérides estão elevados (>150 mg/dL), pois estimam melhor o número de partículas aterogênicas circulantes.",
+        "O painel 'Padrão Perfil Lipídico' agrupa e é complementado por todos os exames individuais do perfil lipídico."
+      ]
+    },
+    {
+      "exame": "Apolipoproteína B (ApoB)",
+      "complementares_na_lista": [
+        "Colesterol Total",
+        "HDL-c (HDL Colesterol)",
+        "LDL-c (LDL Colesterol)",
+        "Colesterol Não-HDL (Não-HDL-c)",
+        "Padrão Perfil Lipídico (painel)",
+        "Triglicérides (TG)"
+      ],
+      "regras": [
+        "Compõem o perfil lipídico e a avaliação de risco cardiovascular. Colesterol Total, HDL-c, LDL-c e Triglicérides formam o lipidograma básico; o Colesterol Não-HDL e a ApoB são marcadores complementares/alternativos ao LDL-c, mais úteis quando os triglicérides estão elevados (>150 mg/dL), pois estimam melhor o número de partículas aterogênicas circulantes.",
+        "O painel 'Padrão Perfil Lipídico' agrupa e é complementado por todos os exames individuais do perfil lipídico."
+      ]
+    },
+    {
+      "exame": "Padrão Perfil Lipídico (painel)",
+      "complementares_na_lista": [
+        "Apolipoproteína B (ApoB)",
+        "Colesterol Total",
+        "HDL-c (HDL Colesterol)",
+        "LDL-c (LDL Colesterol)",
+        "Colesterol Não-HDL (Não-HDL-c)",
+        "Triglicérides (TG)"
+      ],
+      "regras": [
+        "O painel 'Padrão Perfil Lipídico' agrupa e é complementado por todos os exames individuais do perfil lipídico."
+      ]
+    },
+    {
+      "exame": "TSH",
+      "complementares_na_lista": [
+        "Anticorpos Anti-TPO",
+        "Padrão Função Tireoidiana (painel)",
+        "T3 Total/Livre",
+        "T4 Livre"
+      ],
+      "regras": [
+        "O TSH é a triagem inicial da função tireoidiana; o T4 Livre confirma e quantifica a disfunção; o T3 Total/Livre complementa principalmente em hipertireoidismo; e os Anticorpos Anti-TPO investigam causa autoimune (Hashimoto/Graves) quando há disfunção confirmada.",
+        "O painel 'Padrão Função Tireoidiana' agrupa e é complementado por TSH, T4 Livre, T3 Total/Livre e Anticorpos Anti-TPO."
+      ]
+    },
+    {
+      "exame": "T4 Livre",
+      "complementares_na_lista": [
+        "Anticorpos Anti-TPO",
+        "Padrão Função Tireoidiana (painel)",
+        "T3 Total/Livre",
+        "TSH"
+      ],
+      "regras": [
+        "O TSH é a triagem inicial da função tireoidiana; o T4 Livre confirma e quantifica a disfunção; o T3 Total/Livre complementa principalmente em hipertireoidismo; e os Anticorpos Anti-TPO investigam causa autoimune (Hashimoto/Graves) quando há disfunção confirmada.",
+        "O painel 'Padrão Função Tireoidiana' agrupa e é complementado por TSH, T4 Livre, T3 Total/Livre e Anticorpos Anti-TPO."
+      ]
+    },
+    {
+      "exame": "T3 Total/Livre",
+      "complementares_na_lista": [
+        "Anticorpos Anti-TPO",
+        "Padrão Função Tireoidiana (painel)",
+        "T4 Livre",
+        "TSH"
+      ],
+      "regras": [
+        "O TSH é a triagem inicial da função tireoidiana; o T4 Livre confirma e quantifica a disfunção; o T3 Total/Livre complementa principalmente em hipertireoidismo; e os Anticorpos Anti-TPO investigam causa autoimune (Hashimoto/Graves) quando há disfunção confirmada.",
+        "O painel 'Padrão Função Tireoidiana' agrupa e é complementado por TSH, T4 Livre, T3 Total/Livre e Anticorpos Anti-TPO."
+      ]
+    },
+    {
+      "exame": "Anticorpos Anti-TPO",
+      "complementares_na_lista": [
+        "Padrão Função Tireoidiana (painel)",
+        "T3 Total/Livre",
+        "T4 Livre",
+        "TSH"
+      ],
+      "regras": [
+        "O TSH é a triagem inicial da função tireoidiana; o T4 Livre confirma e quantifica a disfunção; o T3 Total/Livre complementa principalmente em hipertireoidismo; e os Anticorpos Anti-TPO investigam causa autoimune (Hashimoto/Graves) quando há disfunção confirmada.",
+        "O painel 'Padrão Função Tireoidiana' agrupa e é complementado por TSH, T4 Livre, T3 Total/Livre e Anticorpos Anti-TPO."
+      ]
+    },
+    {
+      "exame": "Padrão Função Tireoidiana (painel)",
+      "complementares_na_lista": [
+        "Anticorpos Anti-TPO",
+        "T3 Total/Livre",
+        "T4 Livre",
+        "TSH"
+      ],
+      "regras": [
+        "O painel 'Padrão Função Tireoidiana' agrupa e é complementado por TSH, T4 Livre, T3 Total/Livre e Anticorpos Anti-TPO."
+      ]
+    },
+    {
+      "exame": "VCM",
+      "complementares_na_lista": [
+        "Ácido Metilmalônico",
+        "B12 Sérica",
+        "Ferritina Sérica",
+        "Ferro Sérico",
+        "Folato Eritrocitário",
+        "HCM",
+        "Hemoglobina (Hb)",
+        "Homocisteína Sérica",
+        "Padrão Hemograma Série Vermelha (painel)",
+        "RDW",
+        "Saturação de Transferrina",
+        "TIBC (Capacidade Total de Ligação do Ferro)"
+      ],
+      "regras": [
+        "Formam o conjunto básico de índices hematimétricos usados para classificar o tipo de anemia: a Hemoglobina confirma a anemia, o VCM define o tamanho da hemácia, o HCM avalia o conteúdo de hemoglobina (hipocromia) e o RDW mede a variação de tamanho entre as hemácias (anisocitose).",
+        "O painel 'Padrão Hemograma Série Vermelha' agrupa e é complementado pelos quatro índices hematimétricos (VCM, RDW, Hemoglobina, HCM).",
+        "O perfil de ferro complementa o hemograma (VCM, HCM, Hemoglobina, RDW) na investigação e confirmação da anemia ferropriva, incluindo o impacto da deficiência de ferro na série vermelha.",
+        "O eixo B12/folato complementa o hemograma na investigação de anemia macrocítica: VCM elevado e RDW aumentado sugerem investigar deficiência de B12 e/ou folato."
+      ]
+    },
+    {
+      "exame": "RDW",
+      "complementares_na_lista": [
+        "Ácido Metilmalônico",
+        "B12 Sérica",
+        "Ferritina Sérica",
+        "Ferro Sérico",
+        "Folato Eritrocitário",
+        "HCM",
+        "Hemoglobina (Hb)",
+        "Homocisteína Sérica",
+        "Padrão Hemograma Série Vermelha (painel)",
+        "Saturação de Transferrina",
+        "TIBC (Capacidade Total de Ligação do Ferro)",
+        "VCM"
+      ],
+      "regras": [
+        "Formam o conjunto básico de índices hematimétricos usados para classificar o tipo de anemia: a Hemoglobina confirma a anemia, o VCM define o tamanho da hemácia, o HCM avalia o conteúdo de hemoglobina (hipocromia) e o RDW mede a variação de tamanho entre as hemácias (anisocitose).",
+        "O painel 'Padrão Hemograma Série Vermelha' agrupa e é complementado pelos quatro índices hematimétricos (VCM, RDW, Hemoglobina, HCM).",
+        "O perfil de ferro complementa o hemograma (VCM, HCM, Hemoglobina, RDW) na investigação e confirmação da anemia ferropriva, incluindo o impacto da deficiência de ferro na série vermelha.",
+        "O eixo B12/folato complementa o hemograma na investigação de anemia macrocítica: VCM elevado e RDW aumentado sugerem investigar deficiência de B12 e/ou folato."
+      ]
+    },
+    {
+      "exame": "Hemoglobina (Hb)",
+      "complementares_na_lista": [
+        "Ácido Metilmalônico",
+        "B12 Sérica",
+        "Ferritina Sérica",
+        "Ferro Sérico",
+        "Folato Eritrocitário",
+        "HCM",
+        "Homocisteína Sérica",
+        "Padrão Hemograma Série Vermelha (painel)",
+        "RDW",
+        "Saturação de Transferrina",
+        "TIBC (Capacidade Total de Ligação do Ferro)",
+        "VCM"
+      ],
+      "regras": [
+        "Formam o conjunto básico de índices hematimétricos usados para classificar o tipo de anemia: a Hemoglobina confirma a anemia, o VCM define o tamanho da hemácia, o HCM avalia o conteúdo de hemoglobina (hipocromia) e o RDW mede a variação de tamanho entre as hemácias (anisocitose).",
+        "O painel 'Padrão Hemograma Série Vermelha' agrupa e é complementado pelos quatro índices hematimétricos (VCM, RDW, Hemoglobina, HCM).",
+        "O perfil de ferro complementa o hemograma (VCM, HCM, Hemoglobina, RDW) na investigação e confirmação da anemia ferropriva, incluindo o impacto da deficiência de ferro na série vermelha.",
+        "O eixo B12/folato complementa o hemograma na investigação de anemia macrocítica: VCM elevado e RDW aumentado sugerem investigar deficiência de B12 e/ou folato."
+      ]
+    },
+    {
+      "exame": "HCM",
+      "complementares_na_lista": [
+        "Ferritina Sérica",
+        "Ferro Sérico",
+        "Hemoglobina (Hb)",
+        "Padrão Hemograma Série Vermelha (painel)",
+        "RDW",
+        "Saturação de Transferrina",
+        "TIBC (Capacidade Total de Ligação do Ferro)",
+        "VCM"
+      ],
+      "regras": [
+        "Formam o conjunto básico de índices hematimétricos usados para classificar o tipo de anemia: a Hemoglobina confirma a anemia, o VCM define o tamanho da hemácia, o HCM avalia o conteúdo de hemoglobina (hipocromia) e o RDW mede a variação de tamanho entre as hemácias (anisocitose).",
+        "O painel 'Padrão Hemograma Série Vermelha' agrupa e é complementado pelos quatro índices hematimétricos (VCM, RDW, Hemoglobina, HCM).",
+        "O perfil de ferro complementa o hemograma (VCM, HCM, Hemoglobina, RDW) na investigação e confirmação da anemia ferropriva, incluindo o impacto da deficiência de ferro na série vermelha."
+      ]
+    },
+    {
+      "exame": "Padrão Hemograma Série Vermelha (painel)",
+      "complementares_na_lista": [
+        "HCM",
+        "Hemoglobina (Hb)",
+        "RDW",
+        "VCM"
+      ],
+      "regras": [
+        "O painel 'Padrão Hemograma Série Vermelha' agrupa e é complementado pelos quatro índices hematimétricos (VCM, RDW, Hemoglobina, HCM)."
+      ]
+    },
+    {
+      "exame": "Ferritina Sérica",
+      "complementares_na_lista": [
+        "B12 Sérica",
+        "Cobre Sérico",
+        "Ferro Sérico",
+        "Folato Eritrocitário",
+        "HCM",
+        "Hemoglobina (Hb)",
+        "Magnésio Sérico",
+        "RDW",
+        "Saturação de Transferrina",
+        "Selênio Sérico",
+        "TIBC (Capacidade Total de Ligação do Ferro)",
+        "VCM",
+        "Vitamina A (Retinol Sérico)",
+        "Vitamina D (25-OH)",
+        "Zinco Sérico"
+      ],
+      "regras": [
+        "Formam o perfil de ferro, usado para investigar anemia ferropriva e diferenciá-la de anemia de doença crônica. A Ferritina reflete os estoques de ferro (marcador mais sensível e precoce); o Ferro Sérico e o TIBC são usados para calcular a Saturação de Transferrina; e a Saturação de Transferrina indica o ferro funcional disponível para a eritropoese.",
+        "O perfil de ferro complementa o hemograma (VCM, HCM, Hemoglobina, RDW) na investigação e confirmação da anemia ferropriva, incluindo o impacto da deficiência de ferro na série vermelha.",
+        "Em uma investigação nutricional ampla (ex.: pós-bariátrica, desnutrição, má absorção), oligoelementos, vitaminas lipossolúveis e o perfil de ferro/B12/folato costumam ser solicitados em conjunto para mapear múltiplas carências simultaneamente."
+      ]
+    },
+    {
+      "exame": "Ferro Sérico",
+      "complementares_na_lista": [
+        "B12 Sérica",
+        "Cobre Sérico",
+        "Ferritina Sérica",
+        "Folato Eritrocitário",
+        "HCM",
+        "Hemoglobina (Hb)",
+        "Magnésio Sérico",
+        "RDW",
+        "Saturação de Transferrina",
+        "Selênio Sérico",
+        "TIBC (Capacidade Total de Ligação do Ferro)",
+        "VCM",
+        "Vitamina A (Retinol Sérico)",
+        "Vitamina D (25-OH)",
+        "Zinco Sérico"
+      ],
+      "regras": [
+        "Formam o perfil de ferro, usado para investigar anemia ferropriva e diferenciá-la de anemia de doença crônica. A Ferritina reflete os estoques de ferro (marcador mais sensível e precoce); o Ferro Sérico e o TIBC são usados para calcular a Saturação de Transferrina; e a Saturação de Transferrina indica o ferro funcional disponível para a eritropoese.",
+        "O perfil de ferro complementa o hemograma (VCM, HCM, Hemoglobina, RDW) na investigação e confirmação da anemia ferropriva, incluindo o impacto da deficiência de ferro na série vermelha.",
+        "Em uma investigação nutricional ampla (ex.: pós-bariátrica, desnutrição, má absorção), oligoelementos, vitaminas lipossolúveis e o perfil de ferro/B12/folato costumam ser solicitados em conjunto para mapear múltiplas carências simultaneamente."
+      ]
+    },
+    {
+      "exame": "Saturação de Transferrina",
+      "complementares_na_lista": [
+        "Ferritina Sérica",
+        "Ferro Sérico",
+        "HCM",
+        "Hemoglobina (Hb)",
+        "RDW",
+        "TIBC (Capacidade Total de Ligação do Ferro)",
+        "VCM"
+      ],
+      "regras": [
+        "Formam o perfil de ferro, usado para investigar anemia ferropriva e diferenciá-la de anemia de doença crônica. A Ferritina reflete os estoques de ferro (marcador mais sensível e precoce); o Ferro Sérico e o TIBC são usados para calcular a Saturação de Transferrina; e a Saturação de Transferrina indica o ferro funcional disponível para a eritropoese.",
+        "O perfil de ferro complementa o hemograma (VCM, HCM, Hemoglobina, RDW) na investigação e confirmação da anemia ferropriva, incluindo o impacto da deficiência de ferro na série vermelha."
+      ]
+    },
+    {
+      "exame": "TIBC (Capacidade Total de Ligação do Ferro)",
+      "complementares_na_lista": [
+        "Ferritina Sérica",
+        "Ferro Sérico",
+        "HCM",
+        "Hemoglobina (Hb)",
+        "RDW",
+        "Saturação de Transferrina",
+        "VCM"
+      ],
+      "regras": [
+        "Formam o perfil de ferro, usado para investigar anemia ferropriva e diferenciá-la de anemia de doença crônica. A Ferritina reflete os estoques de ferro (marcador mais sensível e precoce); o Ferro Sérico e o TIBC são usados para calcular a Saturação de Transferrina; e a Saturação de Transferrina indica o ferro funcional disponível para a eritropoese.",
+        "O perfil de ferro complementa o hemograma (VCM, HCM, Hemoglobina, RDW) na investigação e confirmação da anemia ferropriva, incluindo o impacto da deficiência de ferro na série vermelha."
+      ]
+    },
+    {
+      "exame": "B12 Sérica",
+      "complementares_na_lista": [
+        "Ácido Metilmalônico",
+        "Cobre Sérico",
+        "Ferritina Sérica",
+        "Ferro Sérico",
+        "Folato Eritrocitário",
+        "Hemoglobina (Hb)",
+        "Homocisteína Sérica",
+        "Magnésio Sérico",
+        "RDW",
+        "Selênio Sérico",
+        "VCM",
+        "Vitamina A (Retinol Sérico)",
+        "Vitamina D (25-OH)",
+        "Zinco Sérico"
+      ],
+      "regras": [
+        "Formam o eixo de investigação da anemia megaloblástica (deficiência de B12/folato). O Ácido Metilmalônico e a Homocisteína são os marcadores mais sensíveis e precoces de deficiência funcional de B12/folato, úteis principalmente quando os níveis séricos de B12 ou Folato estão em valores limítrofes (a Homocisteína isolada sobe também na deficiência de folato, enquanto o Ácido Metilmalônico sobe de forma mais específica na deficiência de B12).",
+        "O eixo B12/folato complementa o hemograma na investigação de anemia macrocítica: VCM elevado e RDW aumentado sugerem investigar deficiência de B12 e/ou folato.",
+        "Em uma investigação nutricional ampla (ex.: pós-bariátrica, desnutrição, má absorção), oligoelementos, vitaminas lipossolúveis e o perfil de ferro/B12/folato costumam ser solicitados em conjunto para mapear múltiplas carências simultaneamente."
+      ]
+    },
+    {
+      "exame": "Ácido Metilmalônico",
+      "complementares_na_lista": [
+        "B12 Sérica",
+        "Folato Eritrocitário",
+        "Hemoglobina (Hb)",
+        "Homocisteína Sérica",
+        "RDW",
+        "VCM"
+      ],
+      "regras": [
+        "Formam o eixo de investigação da anemia megaloblástica (deficiência de B12/folato). O Ácido Metilmalônico e a Homocisteína são os marcadores mais sensíveis e precoces de deficiência funcional de B12/folato, úteis principalmente quando os níveis séricos de B12 ou Folato estão em valores limítrofes (a Homocisteína isolada sobe também na deficiência de folato, enquanto o Ácido Metilmalônico sobe de forma mais específica na deficiência de B12).",
+        "O eixo B12/folato complementa o hemograma na investigação de anemia macrocítica: VCM elevado e RDW aumentado sugerem investigar deficiência de B12 e/ou folato."
+      ]
+    },
+    {
+      "exame": "Homocisteína Sérica",
+      "complementares_na_lista": [
+        "Ácido Metilmalônico",
+        "B12 Sérica",
+        "Folato Eritrocitário",
+        "Hemoglobina (Hb)",
+        "RDW",
+        "VCM"
+      ],
+      "regras": [
+        "Formam o eixo de investigação da anemia megaloblástica (deficiência de B12/folato). O Ácido Metilmalônico e a Homocisteína são os marcadores mais sensíveis e precoces de deficiência funcional de B12/folato, úteis principalmente quando os níveis séricos de B12 ou Folato estão em valores limítrofes (a Homocisteína isolada sobe também na deficiência de folato, enquanto o Ácido Metilmalônico sobe de forma mais específica na deficiência de B12).",
+        "O eixo B12/folato complementa o hemograma na investigação de anemia macrocítica: VCM elevado e RDW aumentado sugerem investigar deficiência de B12 e/ou folato."
+      ]
+    },
+    {
+      "exame": "Folato Eritrocitário",
+      "complementares_na_lista": [
+        "Ácido Metilmalônico",
+        "B12 Sérica",
+        "Cobre Sérico",
+        "Ferritina Sérica",
+        "Ferro Sérico",
+        "Hemoglobina (Hb)",
+        "Homocisteína Sérica",
+        "Magnésio Sérico",
+        "RDW",
+        "Selênio Sérico",
+        "VCM",
+        "Vitamina A (Retinol Sérico)",
+        "Vitamina D (25-OH)",
+        "Zinco Sérico"
+      ],
+      "regras": [
+        "Formam o eixo de investigação da anemia megaloblástica (deficiência de B12/folato). O Ácido Metilmalônico e a Homocisteína são os marcadores mais sensíveis e precoces de deficiência funcional de B12/folato, úteis principalmente quando os níveis séricos de B12 ou Folato estão em valores limítrofes (a Homocisteína isolada sobe também na deficiência de folato, enquanto o Ácido Metilmalônico sobe de forma mais específica na deficiência de B12).",
+        "O eixo B12/folato complementa o hemograma na investigação de anemia macrocítica: VCM elevado e RDW aumentado sugerem investigar deficiência de B12 e/ou folato.",
+        "Em uma investigação nutricional ampla (ex.: pós-bariátrica, desnutrição, má absorção), oligoelementos, vitaminas lipossolúveis e o perfil de ferro/B12/folato costumam ser solicitados em conjunto para mapear múltiplas carências simultaneamente."
+      ]
+    },
+    {
+      "exame": "ALT (TGP)",
+      "complementares_na_lista": [
+        "Albumina Sérica",
+        "AST (TGO)",
+        "Bilirrubina",
+        "Padrão Função Hepática (painel)"
+      ],
+      "regras": [
+        "A ALT (TGP) e a AST (TGO) avaliam lesão hepatocelular e devem ser comparadas entre si (a relação entre elas ajuda a diferenciar gravidade e origem da lesão); a Bilirrubina avalia a capacidade excretora do fígado; e a Albumina Sérica avalia a capacidade de síntese hepática, complementando a avaliação funcional completa do fígado.",
+        "O painel 'Padrão Função Hepática' agrupa e é complementado pela ALT (TGP), AST (TGO), Bilirrubina e Albumina Sérica."
+      ]
+    },
+    {
+      "exame": "AST (TGO)",
+      "complementares_na_lista": [
+        "Albumina Sérica",
+        "ALT (TGP)",
+        "Bilirrubina",
+        "Padrão Função Hepática (painel)"
+      ],
+      "regras": [
+        "A ALT (TGP) e a AST (TGO) avaliam lesão hepatocelular e devem ser comparadas entre si (a relação entre elas ajuda a diferenciar gravidade e origem da lesão); a Bilirrubina avalia a capacidade excretora do fígado; e a Albumina Sérica avalia a capacidade de síntese hepática, complementando a avaliação funcional completa do fígado.",
+        "O painel 'Padrão Função Hepática' agrupa e é complementado pela ALT (TGP), AST (TGO), Bilirrubina e Albumina Sérica."
+      ]
+    },
+    {
+      "exame": "Bilirrubina",
+      "complementares_na_lista": [
+        "Albumina Sérica",
+        "ALT (TGP)",
+        "AST (TGO)",
+        "Padrão Função Hepática (painel)"
+      ],
+      "regras": [
+        "A ALT (TGP) e a AST (TGO) avaliam lesão hepatocelular e devem ser comparadas entre si (a relação entre elas ajuda a diferenciar gravidade e origem da lesão); a Bilirrubina avalia a capacidade excretora do fígado; e a Albumina Sérica avalia a capacidade de síntese hepática, complementando a avaliação funcional completa do fígado.",
+        "O painel 'Padrão Função Hepática' agrupa e é complementado pela ALT (TGP), AST (TGO), Bilirrubina e Albumina Sérica."
+      ]
+    },
+    {
+      "exame": "Padrão Função Hepática (painel)",
+      "complementares_na_lista": [
+        "Albumina Sérica",
+        "ALT (TGP)",
+        "AST (TGO)",
+        "Bilirrubina"
+      ],
+      "regras": [
+        "O painel 'Padrão Função Hepática' agrupa e é complementado pela ALT (TGP), AST (TGO), Bilirrubina e Albumina Sérica."
+      ]
+    },
+    {
+      "exame": "Ureia",
+      "complementares_na_lista": [
+        "Albumina Sérica",
+        "Balanço Nitrogenado",
+        "Cistatina C",
+        "Creatinina Sérica",
+        "Padrão Função Renal (painel)",
+        "TFG Estimada (eGFR)"
+      ],
+      "regras": [
+        "A Creatinina Sérica é o principal marcador para estimar a Taxa de Filtração Glomerular (TFG-eGFR); a Ureia complementa (a relação ureia/creatinina ajuda a diferenciar causas pré-renais de renais intrínsecas), tendo, porém, baixa especificidade isolada; e a Cistatina C aumenta a acurácia da TFG estimada, principalmente quando a massa muscular do paciente pode distorcer a Creatinina.",
+        "O painel 'Padrão Função Renal' agrupa e é complementado pela Ureia, Creatinina Sérica, Cistatina C e TFG Estimada (eGFR).",
+        "O Balanço Nitrogenado usa a excreção urinária de ureia (derivada do catabolismo proteico) para estimar o equilíbrio entre ingestão e perda de proteínas, sendo interpretado junto com a Ureia e com marcadores de proteína visceral como a Albumina Sérica na avaliação do estado nutricional/catabólico."
+      ]
+    },
+    {
+      "exame": "Creatinina Sérica",
+      "complementares_na_lista": [
+        "Cistatina C",
+        "Padrão Função Renal (painel)",
+        "TFG Estimada (eGFR)",
+        "Ureia"
+      ],
+      "regras": [
+        "A Creatinina Sérica é o principal marcador para estimar a Taxa de Filtração Glomerular (TFG-eGFR); a Ureia complementa (a relação ureia/creatinina ajuda a diferenciar causas pré-renais de renais intrínsecas), tendo, porém, baixa especificidade isolada; e a Cistatina C aumenta a acurácia da TFG estimada, principalmente quando a massa muscular do paciente pode distorcer a Creatinina.",
+        "O painel 'Padrão Função Renal' agrupa e é complementado pela Ureia, Creatinina Sérica, Cistatina C e TFG Estimada (eGFR)."
+      ]
+    },
+    {
+      "exame": "Cistatina C",
+      "complementares_na_lista": [
+        "Creatinina Sérica",
+        "Padrão Função Renal (painel)",
+        "TFG Estimada (eGFR)",
+        "Ureia"
+      ],
+      "regras": [
+        "A Creatinina Sérica é o principal marcador para estimar a Taxa de Filtração Glomerular (TFG-eGFR); a Ureia complementa (a relação ureia/creatinina ajuda a diferenciar causas pré-renais de renais intrínsecas), tendo, porém, baixa especificidade isolada; e a Cistatina C aumenta a acurácia da TFG estimada, principalmente quando a massa muscular do paciente pode distorcer a Creatinina.",
+        "O painel 'Padrão Função Renal' agrupa e é complementado pela Ureia, Creatinina Sérica, Cistatina C e TFG Estimada (eGFR)."
+      ]
+    },
+    {
+      "exame": "TFG Estimada (eGFR)",
+      "complementares_na_lista": [
+        "Cistatina C",
+        "Creatinina Sérica",
+        "Padrão Função Renal (painel)",
+        "Ureia"
+      ],
+      "regras": [
+        "A Creatinina Sérica é o principal marcador para estimar a Taxa de Filtração Glomerular (TFG-eGFR); a Ureia complementa (a relação ureia/creatinina ajuda a diferenciar causas pré-renais de renais intrínsecas), tendo, porém, baixa especificidade isolada; e a Cistatina C aumenta a acurácia da TFG estimada, principalmente quando a massa muscular do paciente pode distorcer a Creatinina.",
+        "O painel 'Padrão Função Renal' agrupa e é complementado pela Ureia, Creatinina Sérica, Cistatina C e TFG Estimada (eGFR)."
+      ]
+    },
+    {
+      "exame": "Padrão Função Renal (painel)",
+      "complementares_na_lista": [
+        "Cistatina C",
+        "Creatinina Sérica",
+        "TFG Estimada (eGFR)",
+        "Ureia"
+      ],
+      "regras": [
+        "O painel 'Padrão Função Renal' agrupa e é complementado pela Ureia, Creatinina Sérica, Cistatina C e TFG Estimada (eGFR)."
+      ]
+    },
+    {
+      "exame": "Balanço Nitrogenado",
+      "complementares_na_lista": [
+        "Albumina Sérica",
+        "Pré-Albumina",
+        "Proteína C-Reativa",
+        "Ureia"
+      ],
+      "regras": [
+        "O Balanço Nitrogenado usa a excreção urinária de ureia (derivada do catabolismo proteico) para estimar o equilíbrio entre ingestão e perda de proteínas, sendo interpretado junto com a Ureia e com marcadores de proteína visceral como a Albumina Sérica na avaliação do estado nutricional/catabólico.",
+        "Albumina e Pré-Albumina são usadas como marcadores de proteína visceral/estado nutricional, mas ambas caem também em processos inflamatórios (não só na desnutrição); por isso, a Proteína C-Reativa deve ser dosada em conjunto para diferenciar queda por inflamação de queda por desnutrição real. O Balanço Nitrogenado complementa avaliando diretamente o equilíbrio proteico."
+      ]
+    },
+    {
+      "exame": "Albumina Sérica",
+      "complementares_na_lista": [
+        "ALT (TGP)",
+        "AST (TGO)",
+        "Balanço Nitrogenado",
+        "Bilirrubina",
+        "Padrão Função Hepática (painel)",
+        "Pré-Albumina",
+        "Proteína C-Reativa",
+        "Ureia"
+      ],
+      "regras": [
+        "A ALT (TGP) e a AST (TGO) avaliam lesão hepatocelular e devem ser comparadas entre si (a relação entre elas ajuda a diferenciar gravidade e origem da lesão); a Bilirrubina avalia a capacidade excretora do fígado; e a Albumina Sérica avalia a capacidade de síntese hepática, complementando a avaliação funcional completa do fígado.",
+        "O painel 'Padrão Função Hepática' agrupa e é complementado pela ALT (TGP), AST (TGO), Bilirrubina e Albumina Sérica.",
+        "O Balanço Nitrogenado usa a excreção urinária de ureia (derivada do catabolismo proteico) para estimar o equilíbrio entre ingestão e perda de proteínas, sendo interpretado junto com a Ureia e com marcadores de proteína visceral como a Albumina Sérica na avaliação do estado nutricional/catabólico.",
+        "Albumina e Pré-Albumina são usadas como marcadores de proteína visceral/estado nutricional, mas ambas caem também em processos inflamatórios (não só na desnutrição); por isso, a Proteína C-Reativa deve ser dosada em conjunto para diferenciar queda por inflamação de queda por desnutrição real. O Balanço Nitrogenado complementa avaliando diretamente o equilíbrio proteico."
+      ]
+    },
+    {
+      "exame": "Pré-Albumina",
+      "complementares_na_lista": [
+        "Albumina Sérica",
+        "Balanço Nitrogenado",
+        "Proteína C-Reativa"
+      ],
+      "regras": [
+        "Albumina e Pré-Albumina são usadas como marcadores de proteína visceral/estado nutricional, mas ambas caem também em processos inflamatórios (não só na desnutrição); por isso, a Proteína C-Reativa deve ser dosada em conjunto para diferenciar queda por inflamação de queda por desnutrição real. O Balanço Nitrogenado complementa avaliando diretamente o equilíbrio proteico."
+      ]
+    },
+    {
+      "exame": "Proteína C-Reativa",
+      "complementares_na_lista": [
+        "Albumina Sérica",
+        "Balanço Nitrogenado",
+        "Pré-Albumina"
+      ],
+      "regras": [
+        "Albumina e Pré-Albumina são usadas como marcadores de proteína visceral/estado nutricional, mas ambas caem também em processos inflamatórios (não só na desnutrição); por isso, a Proteína C-Reativa deve ser dosada em conjunto para diferenciar queda por inflamação de queda por desnutrição real. O Balanço Nitrogenado complementa avaliando diretamente o equilíbrio proteico."
+      ]
+    },
+    {
+      "exame": "Magnésio Sérico",
+      "complementares_na_lista": [
+        "B12 Sérica",
+        "Cobre Sérico",
+        "Ferritina Sérica",
+        "Ferro Sérico",
+        "Folato Eritrocitário",
+        "Selênio Sérico",
+        "Vitamina A (Retinol Sérico)",
+        "Vitamina D (25-OH)",
+        "Zinco Sérico"
+      ],
+      "regras": [
+        "Fazem parte do painel de oligoelementos/minerais avaliados em conjunto na investigação do estado nutricional e de possíveis carências (ex.: pós-bariátrica, desnutrição, má absorção), sendo comumente solicitados de forma combinada.",
+        "Em uma investigação nutricional ampla (ex.: pós-bariátrica, desnutrição, má absorção), oligoelementos, vitaminas lipossolúveis e o perfil de ferro/B12/folato costumam ser solicitados em conjunto para mapear múltiplas carências simultaneamente."
+      ]
+    },
+    {
+      "exame": "Cobre Sérico",
+      "complementares_na_lista": [
+        "B12 Sérica",
+        "Ferritina Sérica",
+        "Ferro Sérico",
+        "Folato Eritrocitário",
+        "Magnésio Sérico",
+        "Selênio Sérico",
+        "Vitamina A (Retinol Sérico)",
+        "Vitamina D (25-OH)",
+        "Zinco Sérico"
+      ],
+      "regras": [
+        "Fazem parte do painel de oligoelementos/minerais avaliados em conjunto na investigação do estado nutricional e de possíveis carências (ex.: pós-bariátrica, desnutrição, má absorção), sendo comumente solicitados de forma combinada.",
+        "Em uma investigação nutricional ampla (ex.: pós-bariátrica, desnutrição, má absorção), oligoelementos, vitaminas lipossolúveis e o perfil de ferro/B12/folato costumam ser solicitados em conjunto para mapear múltiplas carências simultaneamente."
+      ]
+    },
+    {
+      "exame": "Selênio Sérico",
+      "complementares_na_lista": [
+        "B12 Sérica",
+        "Cobre Sérico",
+        "Ferritina Sérica",
+        "Ferro Sérico",
+        "Folato Eritrocitário",
+        "Magnésio Sérico",
+        "Vitamina A (Retinol Sérico)",
+        "Vitamina D (25-OH)",
+        "Zinco Sérico"
+      ],
+      "regras": [
+        "Fazem parte do painel de oligoelementos/minerais avaliados em conjunto na investigação do estado nutricional e de possíveis carências (ex.: pós-bariátrica, desnutrição, má absorção), sendo comumente solicitados de forma combinada.",
+        "Em uma investigação nutricional ampla (ex.: pós-bariátrica, desnutrição, má absorção), oligoelementos, vitaminas lipossolúveis e o perfil de ferro/B12/folato costumam ser solicitados em conjunto para mapear múltiplas carências simultaneamente."
+      ]
+    },
+    {
+      "exame": "Zinco Sérico",
+      "complementares_na_lista": [
+        "B12 Sérica",
+        "Cobre Sérico",
+        "Ferritina Sérica",
+        "Ferro Sérico",
+        "Folato Eritrocitário",
+        "Magnésio Sérico",
+        "Selênio Sérico",
+        "Vitamina A (Retinol Sérico)",
+        "Vitamina D (25-OH)"
+      ],
+      "regras": [
+        "Fazem parte do painel de oligoelementos/minerais avaliados em conjunto na investigação do estado nutricional e de possíveis carências (ex.: pós-bariátrica, desnutrição, má absorção), sendo comumente solicitados de forma combinada.",
+        "Em uma investigação nutricional ampla (ex.: pós-bariátrica, desnutrição, má absorção), oligoelementos, vitaminas lipossolúveis e o perfil de ferro/B12/folato costumam ser solicitados em conjunto para mapear múltiplas carências simultaneamente."
+      ]
+    },
+    {
+      "exame": "Vitamina A (Retinol Sérico)",
+      "complementares_na_lista": [
+        "B12 Sérica",
+        "Cobre Sérico",
+        "Ferritina Sérica",
+        "Ferro Sérico",
+        "Folato Eritrocitário",
+        "Magnésio Sérico",
+        "Selênio Sérico",
+        "Vitamina D (25-OH)",
+        "Zinco Sérico"
+      ],
+      "regras": [
+        "São vitaminas lipossolúveis avaliadas em conjunto na investigação de carências nutricionais, especialmente em quadros de má absorção intestinal ou pós-cirurgia bariátrica.",
+        "Em uma investigação nutricional ampla (ex.: pós-bariátrica, desnutrição, má absorção), oligoelementos, vitaminas lipossolúveis e o perfil de ferro/B12/folato costumam ser solicitados em conjunto para mapear múltiplas carências simultaneamente."
+      ]
+    },
+    {
+      "exame": "Vitamina D (25-OH)",
+      "complementares_na_lista": [
+        "B12 Sérica",
+        "Cobre Sérico",
+        "Ferritina Sérica",
+        "Ferro Sérico",
+        "Folato Eritrocitário",
+        "Magnésio Sérico",
+        "Selênio Sérico",
+        "Vitamina A (Retinol Sérico)",
+        "Zinco Sérico"
+      ],
+      "regras": [
+        "São vitaminas lipossolúveis avaliadas em conjunto na investigação de carências nutricionais, especialmente em quadros de má absorção intestinal ou pós-cirurgia bariátrica.",
+        "Em uma investigação nutricional ampla (ex.: pós-bariátrica, desnutrição, má absorção), oligoelementos, vitaminas lipossolúveis e o perfil de ferro/B12/folato costumam ser solicitados em conjunto para mapear múltiplas carências simultaneamente."
+      ]
+    },
+    {
+      "exame": "IGF-1",
+      "complementares_na_lista": [],
+      "regras": [],
+      "observacao": "Não há complemento direto e específico dentro desta lista. Na prática clínica, o IGF-1 é interpretado em conjunto com a função tireoidiana (TSH/T4 Livre) e com marcadores nutricionais (ex.: Albumina Sérica, Ferritina), pois deficiências nutricionais e disfunções tireoidianas também podem alterar seus níveis, especialmente na investigação de distúrbios de crescimento."
+    }
+  ],
+  "fontes_consultadas": [
+    "SanarMed - Guias clínicos de exames laboratoriais (TSH/T4 Livre, Anticorpos Tireoidianos, TGO/TGP, Painel Hepático, Creatinina e Ureia, Vitamina B12/Folato, Ferro Sérico/TIBC, Saturação de Transferrina, Proteínas Totais, IGF-1, Albumina Sérica)",
+    "Sociedade Brasileira de Cardiologia - Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose (2017 e 2025)",
+    "Brazilian Journal of Nephrology - Avaliação de Função Renal (Gianna Mastroianni Kirsztajn)",
+    "Associação Médica Brasileira - Triagem e Avaliação do Estado Nutricional",
+    "Artigos técnicos sobre diagnóstico laboratorial de anemia megaloblástica e metabolismo do ferro",
+    "SciELO - Diagnóstico da Deficiência de Hormônio de Crescimento a partir do IGF-1"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#233",
+  "nome": "Senolíticos Naturais",
+  "categoria_terapeutica": "Longevidade e Anti-aging",
+  "indicacao": "Acumulação de células senescentes; saúde tecidual comprometida",
+  "objetivo": "Eliminar células senescentes acumuladas com senolíticos fitoterápicos",
+  "duracao_texto": "Senolíticos: ciclos de 2-3 dias/mês. Outros: contínuo",
+  "monitoramento_texto": "PCR us; IL-6; GDF-15; composição corporal",
+  "observacoes_texto": "Protocolo Dasatinib+Quercetina (senolítico clínico): reservado a pesquisa/supervisão especializada.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Quercetina",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã — senolítico: ciclos de 2 dias/mês"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Fisetina",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã — senolítico potente"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Luteolina",
+      "dose": "50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço — moduladora senescência"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "NAC N-Acetilcisteína",
+      "dose": "1.200 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x — glutationa"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "200 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    }
+  ]
+}

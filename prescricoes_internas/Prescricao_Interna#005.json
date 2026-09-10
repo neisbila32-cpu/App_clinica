@@ -1,0 +1,88 @@
+{
+  "id": "Prescricao_Interna#005",
+  "nome": "Selênio (Se)",
+  "funcao_indicacao": "• Componente de selenoproteínas: incorporado como selenocisteína (21º aminoácido) em proteínas funcionais essenciais.\n• Antioxidante: componente da glutationa peroxidase (GPx) — protege membranas celulares contra peroxidação lipídica.\n• Metabolismo tireoidiano: componente das iodotironina deiodinases (converte T4 em T3 ativo).\n• Imunidade: modula respostas inflamatórias e função de células T e NK.\n• Função reprodutiva masculina: selenoproteína P e GPx são essenciais para motilidade espermática.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Selenito de Sódio (inorgânico)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Amplamente estudado; incorporação eficiente nas GPx e demais selenoproteínas; baixo custo.",
+      "fator_limitante_texto": "Pro-oxidante em altas doses; vitamina C inibe sua absorção (reação redox); interações com antioxidantes."
+    },
+    {
+      "nome_forma": "Selenato de Sódio (inorgânico)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Boa absorção intestinal.",
+      "fator_limitante_texto": "Menor eficiência de incorporação em selenoproteínas; excreção urinária elevada."
+    },
+    {
+      "nome_forma": "L-Selenometionina (orgânico)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Excelente biodisponibilidade; incorporada na estrutura proteica no lugar da metionina (reservatório corporal); forma dominante nos alimentos.",
+      "fator_limitante_texto": "Por ser armazenada inespecificamente, pode não ser convertida em selenoproteínas com igual eficiência; risco de acúmulo excessivo."
+    },
+    {
+      "nome_forma": "Levedura de Selênio (orgânico misto)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Composição próxima ao selênio alimentar (~75% selenometionina); boa biodisponibilidade.",
+      "fator_limitante_texto": "Composição variável entre fabricantes; custo elevado."
+    },
+    {
+      "nome_forma": "Metilselenoicisteína",
+      "nivel_biodisponibilidade": "media",
+      "percentual_elemento": null,
+      "beneficio_texto": "Precursor de metilselenol — metabólito com potencial anticarcinogênico.",
+      "fator_limitante_texto": "Disponibilidade limitada como suplemento isolado; pouco estudado clinicamente."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (1–12 anos)",
+      "dose_min": 20,
+      "dose_max": 40,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "2–3 meses; monitorar sinais de toxicidade (selenose)."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 40,
+      "dose_max": 55,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "2–3 meses."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 55,
+      "dose_max": 200,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses (Hashimoto: 6–12 meses com monitoramento de anticorpos TPO)."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 55,
+      "dose_max": 200,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses; reavaliar selenium plasmático."
+    },
+    {
+      "publico_alvo": "Idosos (>60 anos)",
+      "dose_min": 55,
+      "dose_max": 200,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses; monitorar selenose (queda de cabelo, unhas frágeis)."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

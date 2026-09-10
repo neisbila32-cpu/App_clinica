@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#153",
+  "nome": "Celulite + Colágeno",
+  "categoria_terapeutica": "Celulite",
+  "indicacao": "Celulite com pele flácida, perda de firmeza e rugas de superfície",
+  "objetivo": "Estimular síntese de colágeno e melhorar elasticidade cutânea",
+  "duracao_texto": "6 meses; fotos mensais",
+  "monitoramento_texto": "Elasticidade cutânea; firmeza; espessura (ultrassom se disponível)",
+  "observacoes_texto": "Colágeno hidrolisado: evidência sólida para firmeza e redução de celulite em RCTs.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "Colágeno Hidrolisado Tipo I+III (Peptan)",
+      "dose": "15 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã c/ colágeno"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#015",
+      "nome_ativo_texto": "Vitamina E Natural",
+      "dose": "400 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Sílicio Orgânico (Ác. Ortosilícico)",
+      "dose": "20 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#023",
+      "nome_ativo_texto": "Biotina",
+      "dose": "5.000 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    }
+  ]
+}

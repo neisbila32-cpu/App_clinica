@@ -1,0 +1,33 @@
+{
+  "id": "EXM-ALBUMINA-SERICA",
+  "nome": "Albumina Sérica",
+  "unidade_medida": "g/dL",
+  "categoria": "Marcadores Laboratoriais Nutricionais",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": 2.8,
+      "rotulo_tecnico": "Depleção grave",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    },
+    {
+      "valor_max": 3.5,
+      "rotulo_tecnico": "Hipoalbuminemia",
+      "classificacao_simplificada": "limitrofe",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Meia-vida longa (~20 dias) — reflexo tardio. Afetada por inflamação (proteína de fase aguda negativa) e hidratação."
+    },
+    {
+      "valor_max": 5.0,
+      "rotulo_tecnico": "Normal (3,5–5,0 g/dL)",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": 3.5,
+  "ref_max": 5.0
+}

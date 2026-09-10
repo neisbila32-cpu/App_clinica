@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#009",
+  "nome": "Suporte Cetogênico",
+  "categoria_terapeutica": "Emagrecimento",
+  "indicacao": "Indivíduos em dieta cetogênica com fadiga e dificuldade de manutenção",
+  "objetivo": "Apoiar produção de corpos cetônicos, eletrólitos e transição metabólica",
+  "duracao_texto": "Durante dieta cetogênica; reavaliação a cada 4 sem",
+  "monitoramento_texto": "Cetonas; eletrólitos; lipídios; função renal",
+  "observacoes_texto": "Contraindicado em pancreatite, insuficiência hepática, DM1 sem supervisão.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "MCT Oil C8+C10",
+      "dose": "10 g",
+      "forma_farmaceutica": "Óleo/cápsula",
+      "posologia": "Manhã em jejum ou pré-treino"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Carnitina Tartarato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-exercício"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Malato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#007",
+      "nome_ativo_texto": "Potássio Citrato",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x/dia c/ refeição"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Sódio Cloreto (eletrólito)",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Manhã com água"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "4.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    }
+  ]
+}

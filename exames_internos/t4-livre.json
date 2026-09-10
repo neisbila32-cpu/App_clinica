@@ -1,0 +1,10 @@
+{
+  "exame": "T4 Livre",
+  "valores_referencia": "Usual: 0,7 a 1,9 ng/dl; Ideal: 1,2 a 1,4 ng/dl.",
+  "o_que_avalia": "Hormônio biologicamente ativo; essencial para confirmar hipo/hipertireoidismo.",
+  "indicacao": "Confirmar alterações detectadas no TSH.",
+  "o_que_significa_quando_alterado": "Alto: hipertireoidismo. Baixo: hipotireoidismo.",
+  "o_que_pode_estar_alterando_o_valor": "Doenças tireoidianas, medicamentos, alterações na proteína transportadora.",
+  "ref_min": 0.7,
+  "ref_max": 1.9
+}

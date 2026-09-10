@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#090",
+  "nome": "Climatério + Cognição",
+  "categoria_terapeutica": "Climatério e Menopausa",
+  "indicacao": "Queixas cognitivas na menopausa: esquecimento, falta de foco",
+  "objetivo": "Proteger função cognitiva e sináptica na menopausa",
+  "duracao_texto": "6-12 meses",
+  "monitoramento_texto": "MoCA; homocisteína; B12; vitamina D; FSH, E2",
+  "observacoes_texto": "Ginkgo: interação com anticoagulantes. Não usar em HAS não controlada.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 DHA alta dose",
+      "dose": "2.000 mg DHA",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Fosfatidilserina",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "200 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ginkgo Biloba 24% ginkgoflavonoide",
+      "dose": "120 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#025",
+      "nome_ativo_texto": "Vitamina B12 Metilcobalamina",
+      "dose": "1.000 mcg",
+      "forma_farmaceutica": "Sublingual",
+      "posologia": "Manhã"
+    }
+  ]
+}

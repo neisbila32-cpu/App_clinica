@@ -1,0 +1,26 @@
+{
+  "id": "EXM-COLESTEROL-TOTAL",
+  "nome": "Colesterol Total (CT)",
+  "unidade_medida": "mg/dL",
+  "categoria": "Perfil Lipídico",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": 190,
+      "rotulo_tecnico": "Normal",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    },
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "Hipercolesterolemia — avaliar frações (>190 mg/dL isolado)",
+      "classificacao_simplificada": "limitrofe",
+      "causa_possivel_texto": "Excesso de gordura saturada/trans na dieta; sedentarismo; predisposição genética",
+      "conduta_texto": "Ajuste dietético; repetir exame em 8 semanas pós-intervenção."
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": null,
+  "ref_max": 190.0
+}

@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#045",
+  "nome": "Picos Glicêmicos",
+  "categoria_terapeutica": "Resistência Insulínica",
+  "indicacao": "RI com picos glicêmicos pós-prandiais intensos (>180 mg/dL em 1h)",
+  "objetivo": "Atenuar picos glicêmicos e melhorar curva de insulina pós-prandial",
+  "duracao_texto": "3-4 meses; glicemia pós-prandial semanal",
+  "monitoramento_texto": "Glicemia 1h e 2h pós-prandial; HbA1c; insulina",
+  "observacoes_texto": "CGM (monitoramento contínuo de glicose) é ideal para rastrear picos específicos.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Berberina HCl",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "10 min antes das refeições"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Extrato de Canela",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "C/ refeições com CHO"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Glucomanano",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "30 min pré-refeição c/ água"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ácido R-Alfa-Lipoico",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-prandial"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#006",
+      "nome_ativo_texto": "Cromo Picolinato",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "C/ refeição principal"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Psyllium",
+      "dose": "5 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Pré-refeição c/ água"
+    }
+  ]
+}

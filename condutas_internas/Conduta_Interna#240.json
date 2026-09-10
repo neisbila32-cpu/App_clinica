@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#240",
+  "nome": "Longevidade + Pele",
+  "categoria_terapeutica": "Longevidade e Anti-aging",
+  "indicacao": "Anti-aging cutâneo; longevidade da pele; prevenção de rugas e flacidez",
+  "objetivo": "Estimular renovação da pele, colágeno e proteção contra envelhecimento cutâneo",
+  "duracao_texto": "6-12 meses; fotos e elasticidade cutânea",
+  "monitoramento_texto": "Elasticidade; hidratação cutânea; fotos padronizadas; densidade capilar",
+  "observacoes_texto": "Astaxantina: antioxidante 6000x mais potente que vitamina C; penetra células da pele.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "Colágeno Hidrolisado Peptan I+III",
+      "dose": "10 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã c/ colágeno"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Astaxantina",
+      "dose": "12 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço — antioxidante cutâneo"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Sílicio Orgânico",
+      "dose": "20 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#023",
+      "nome_ativo_texto": "Biotina",
+      "dose": "5.000 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#189",
+  "nome": "Ansiedade + Estresse Adrenal",
+  "categoria_terapeutica": "Ansiedade",
+  "indicacao": "Ansiedade com fadiga adrenal; cortisol elevado; burnout incipiente",
+  "objetivo": "Modular eixo HPA e cortisol em ansiedade associada a sobrecarga adrenal",
+  "duracao_texto": "3-4 meses; cortisol salivar antes e depois",
+  "monitoramento_texto": "Cortisol matinal e noturno; DHEAS; GAD-7; PSS",
+  "observacoes_texto": "Fosfatidilserina bloqueia cortisol elevado pós-exercício e pós-estresse agudo.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ashwagandha KSM-66",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#021",
+      "nome_ativo_texto": "Vitamina B5 Pantotenato",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x/dia"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Rhodiola Rosea 3%",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Fosfatidilserina",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Tarde"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#028",
+  "nome": "Compulsão Feminina Hormonal",
+  "categoria_terapeutica": "Compulsão Alimentar",
+  "indicacao": "Compulsão em mulheres com ciclicidade hormonal, SOP ou pós-menopausa",
+  "objetivo": "Equilibrar neurotransmissores e hormônios que modulam o apetite feminino",
+  "duracao_texto": "3 ciclos mínimos",
+  "monitoramento_texto": "Progesterona D21, E2, FSH; escala de compulsão; ciclo",
+  "observacoes_texto": "5-MTHF preferível em portadoras de mutação MTHFR.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#024",
+      "nome_ativo_texto": "5-MTHF (L-Metilfolato)",
+      "dose": "800 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã e noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "5-HTP",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Jantar"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#006",
+      "nome_ativo_texto": "Cromo Picolinato",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#027",
+      "nome_ativo_texto": "Inositol Mio",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Manhã"
+    }
+  ]
+}

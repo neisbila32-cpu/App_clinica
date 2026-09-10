@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#185",
+  "nome": "VO2max e Capacidade Aeróbica",
+  "categoria_terapeutica": "Performance Física e Cognitiva",
+  "indicacao": "Atletas com objetivo de elevar consumo máximo de oxigênio",
+  "objetivo": "Melhorar transporte de oxigênio e eficiência oxidativa mitocondrial",
+  "duracao_texto": "Contínuo; teste de esforço antes e depois",
+  "monitoramento_texto": "VO2max; ferritina; hemoglobina; lactato",
+  "observacoes_texto": "Ferritina <40 ng/mL: limita VO2max em 10-15%. Corrigir ferro é a intervenção mais eficaz.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Beta-Alanina",
+      "dose": "3.200 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-treino"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Carnitina Tartarato",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-treino"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#003",
+      "nome_ativo_texto": "Ferro Bisglicinato",
+      "dose": "30 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum — transportador O2"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#025",
+      "nome_ativo_texto": "Vitamina B12 Metilcobalamina",
+      "dose": "1.000 mcg",
+      "forma_farmaceutica": "Sublingual",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    }
+  ]
+}

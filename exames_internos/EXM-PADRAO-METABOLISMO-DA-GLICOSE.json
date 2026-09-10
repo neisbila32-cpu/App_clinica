@@ -1,0 +1,42 @@
+{
+  "id": "EXM-PADRAO-METABOLISMO-DA-GLICOSE",
+  "nome": "Padrões combinados — Metabolismo da Glicose",
+  "unidade_medida": "—",
+  "categoria": "Metabolismo da Glicose",
+  "versao_conteudo": 1,
+  "bandas": [],
+  "padroes_combinados_categoria": [
+    {
+      "padrao_texto": "GJ elevada + HbA1c elevada + HOMA-IR > 2,7",
+      "hipotese_nutricional": "Resistência à insulina estabelecida / Pré-diabetes ou DM2",
+      "conduta_texto": "Dieta hipoglicêmica, redução de CHO refinados, aumento de fibras, atividade física. Encaminhar ao médico.",
+      "gravidade_texto": null
+    },
+    {
+      "padrao_texto": "GJ normal + TOTG alterado",
+      "hipotese_nutricional": "Resistência à insulina pós-prandial (estágio inicial)",
+      "conduta_texto": "Reduzir carga glicêmica, aumentar proteínas e gorduras saudáveis nas refeições. Monitorar TOTG em 3–6 meses.",
+      "gravidade_texto": null
+    },
+    {
+      "padrao_texto": "HbA1c falsamente baixa (ex: anemia hemolítica)",
+      "hipotese_nutricional": "Hemólise reduz vida útil das hemácias → HbA1c subestimada",
+      "conduta_texto": "Solicitar frutosamina como alternativa. Investigar causa da hemólise com médico.",
+      "gravidade_texto": null
+    },
+    {
+      "padrao_texto": "GJ normal + HbA1c 5,7–6,0% em paciente obeso",
+      "hipotese_nutricional": "Pré-diabetes em fase inicial; risco metabólico aumentado",
+      "conduta_texto": "Iniciar intervenção alimentar intensiva. Repetir exame em 3 meses pós-intervenção.",
+      "gravidade_texto": null
+    },
+    {
+      "padrao_texto": "Glicemia Gestacional 92–125 mg/dL",
+      "hipotese_nutricional": "Diabetes Mellitus Gestacional (DMG)",
+      "conduta_texto": "Encaminhar IMEDIATAMENTE ao obstetra/endocrinologista. Dieta com controle de CHO e distribuição de refeições.",
+      "gravidade_texto": null
+    }
+  ],
+  "ref_min": null,
+  "ref_max": null
+}

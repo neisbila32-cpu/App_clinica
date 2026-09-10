@@ -1,0 +1,26 @@
+{
+  "id": "EXM-BALANCO-NITROGENADO",
+  "nome": "Balanço Nitrogenado",
+  "unidade_medida": "g/dia",
+  "categoria": "Marcadores Laboratoriais Nutricionais",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": 0,
+      "rotulo_tecnico": "Catabolismo proteico (negativo)",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": "Calculado por: [Proteína ingerida (g)/6,25] − [Ureia urinária 24h (g) + 4]. Útil em UTI e pós-operatório."
+    },
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "Anabolismo (positivo)",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": 0.0,
+  "ref_max": null
+}

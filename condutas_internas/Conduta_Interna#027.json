@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#027",
+  "nome": "Microbiota e Compulsão",
+  "categoria_terapeutica": "Compulsão Alimentar",
+  "indicacao": "Compulsão com disbiose, ansiedade e sintomas intestinais",
+  "objetivo": "Modular eixo microbiota-intestino-cérebro para controle do apetite e humor",
+  "duracao_texto": "3-4 meses",
+  "monitoramento_texto": "Mapa de microbiota; sintomas intestinais; comportamento alimentar",
+  "observacoes_texto": "Inulina: introdução gradual. Manter hidratação adequada.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L. rhamnosus GG",
+      "dose": "10 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "B. longum R0175",
+      "dose": "3 bi UFC",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Inulina",
+      "dose": "5 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "20 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço e Janta"
+    }
+  ]
+}

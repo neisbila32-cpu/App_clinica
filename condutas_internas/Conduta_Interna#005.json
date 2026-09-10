@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#005",
+  "nome": "Controle de Cortisol",
+  "categoria_terapeutica": "Emagrecimento",
+  "indicacao": "Sobrepeso com gordura visceral associada a estresse crônico",
+  "objetivo": "Reduzir hipercortisolismo funcional e bloquear acúmulo adiposo mediado por cortisol",
+  "duracao_texto": "3 meses; cortisol salivar em 45 dias",
+  "monitoramento_texto": "Cortisol matinal; DHEAS; glicemia; circunf. abdominal",
+  "observacoes_texto": "Ashwagandha pode interagir com imunossupressores. Evitar em autoimunidade grave.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ashwagandha KSM-66",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Fosfatidilserina",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-exercício ou noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Dividir 2x/dia"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Rhodiola Rosea 3% rosavinas",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#021",
+      "nome_ativo_texto": "Vitamina B5",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    }
+  ]
+}

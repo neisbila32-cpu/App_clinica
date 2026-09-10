@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#152",
+  "nome": "Celulite + Retenção Hídrica",
+  "categoria_terapeutica": "Celulite",
+  "indicacao": "Celulite com retenção de líquidos; sensação de inchaço cíclico",
+  "objetivo": "Redução de retenção hídrica que agrava a celulite",
+  "duracao_texto": "3 meses; reavaliar ciclicamente",
+  "monitoramento_texto": "Peso diário; circunferências; edema; PA",
+  "observacoes_texto": "Cavalinha: rico em silício, suporte adicional de colágeno. Elevar água para 2,5 L/dia.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Cavalinha Extrato Seco",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço — diurético natural"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Dente-de-Leão Extrato",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#007",
+      "nome_ativo_texto": "Potássio Citrato",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x c/ refeição"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "Colágeno Hidrolisado I+III",
+      "dose": "10 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Manhã c/ vitamina C"
+    }
+  ]
+}

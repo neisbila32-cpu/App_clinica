@@ -1,0 +1,81 @@
+{
+  "id": "Prescricao_Interna#007",
+  "nome": "Potássio (K)",
+  "funcao_indicacao": "• Principal cátion intracelular: mantém o potencial de membrana celular em conjunto com o sódio.\n• Excitabilidade neuromuscular e cardíaca: essencial para potencial de repouso e condução elétrica.\n• Controle da pressão arterial: dieta rica em potássio está associada à redução da PA sistólica (mecanismo antinatriurético).\n• Equilíbrio ácido-base: interfere no balanço de bicarbonato e controle do pH.\n• Metabolismo de carboidratos: necessário para síntese de glicogênio hepático e muscular.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Cloreto de Potássio",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 52.0,
+      "beneficio_texto": "Forma mais comum; alta concentração elementar; amplamente disponível.",
+      "fator_limitante_texto": "Sabor salgado/amargo intenso; irritação gástrica em altas doses; doses regulamentadas pela ANVISA."
+    },
+    {
+      "nome_forma": "Citrato de Potássio",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 38.0,
+      "beneficio_texto": "Efeito alcalinizante urinário; indicado em litíase renal por ácido úrico e hipocitrúria; melhor tolerabilidade GI.",
+      "fator_limitante_texto": "Custo mais elevado; menor teor de K elementar; atenção em hiperpotassemia."
+    },
+    {
+      "nome_forma": "Gluconato de Potássio",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 17.0,
+      "beneficio_texto": "Boa tolerabilidade GI; sabor mais agradável.",
+      "fator_limitante_texto": "Baixo teor de K elementar; requer muitas cápsulas para doses significativas."
+    },
+    {
+      "nome_forma": "Bicarbonato de Potássio",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": 39.0,
+      "beneficio_texto": "Alcalinizante sistêmico; útil em acidose metabólica leve e proteção óssea.",
+      "fator_limitante_texto": "Produção de CO₂ (gases, eructação); contraindicado em algumas condições; sabor desagradável."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (1–12 anos)",
+      "dose_min": 400,
+      "dose_max": 2300,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme indicação clínica; uso cauteloso."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 2300,
+      "dose_max": 3000,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme prescrição médica."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 2600,
+      "dose_max": 3400,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "3–6 meses; monitorar K sérico e função renal."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 3400,
+      "dose_max": 4700,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Conforme prescrição; reavaliar periodicamente."
+    },
+    {
+      "publico_alvo": "Idosos (>60 anos)",
+      "dose_min": 2600,
+      "dose_max": 3400,
+      "unidade": "mg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Uso cauteloso; monitoramento rigoroso de K sérico."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#222",
+  "nome": "Imunidade + Oncologia (Suporte)",
+  "categoria_terapeutica": "Imunidade",
+  "indicacao": "Suporte imunológico em pacientes oncológicos em tratamento ou remissão",
+  "objetivo": "Fortalecer imunidade comprometida pelo tratamento oncológico",
+  "duracao_texto": "Contínuo; OBRIGATÓRIO autorização oncologista",
+  "monitoramento_texto": "Vitamina D; hemograma; função hepática; marcadores tumorais",
+  "observacoes_texto": "OBRIGATÓRIO: autorização do oncologista ANTES de qualquer suplementação em pacientes oncológicos.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#005",
+      "nome_ativo_texto": "Selênio L-Selenometionina",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço — antioxidante e anti-tumoral"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "25 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "NAC N-Acetilcisteína",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x — glutationa"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "200 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço — cardioprotetor pós-quimio"
+    }
+  ]
+}

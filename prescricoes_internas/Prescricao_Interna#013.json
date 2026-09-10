@@ -1,0 +1,81 @@
+{
+  "id": "Prescricao_Interna#013",
+  "nome": "Vitamina A",
+  "funcao_indicacao": "• Visão: o retinal é componente da rodopsina (pigmento visual dos bastonetes) — essencial para visão noturna e adaptação ao escuro.\n• Diferenciação e proliferação celular: o ácido retinoico regula a expressão gênica por meio dos receptores RAR e RXR, controlando diferenciação epitelial, hematopoese e embriogênese.\n• Função imunológica: essencial para integridade das mucosas, produção de IgA secretória e função de células NK e linfócitos T.\n• Reprodução e desenvolvimento fetal: necessária para espermatogênese e organogênese.\n• Metabolismo ósseo: modula a atividade de osteoblastos e osteoclastos.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Palmitato de Retinila (pré-formada)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma mais comum e estável de vitamina A pré-formada; alta biodisponibilidade; não requer conversão metabólica.",
+      "fator_limitante_texto": "Teratogênica em doses >10.000 UI/dia (1º trimestre); risco de hipervitaminose A (hepatotoxicidade)."
+    },
+    {
+      "nome_forma": "Acetato de Retinila (pré-formada)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Equivalente biológico ao palmitato; boa estabilidade; amplamente utilizado em multivitamínicos.",
+      "fator_limitante_texto": "Mesmos riscos do palmitato; teratogenicidade e hepatotoxicidade em excesso."
+    },
+    {
+      "nome_forma": "Beta-Caroteno (pró-vitamina A)",
+      "nivel_biodisponibilidade": "media",
+      "percentual_elemento": null,
+      "beneficio_texto": "Convertido em retinol conforme necessidade corporal (sem risco de hipervitaminose A); atividade antioxidante adicional.",
+      "fator_limitante_texto": "Conversão variável e ineficiente (~1/12 do equivalente de retinol); tabagismo pode aumentar risco de CA de pulmão em grandes doses em fumantes; xantodermia (inofensiva)."
+    },
+    {
+      "nome_forma": "Alfa-Caroteno e outros carotenoides",
+      "nivel_biodisponibilidade": "baixa",
+      "percentual_elemento": null,
+      "beneficio_texto": "Atividade antioxidante; menor risco de toxicidade; efeitos independentes da conversão a retinol.",
+      "fator_limitante_texto": "Baixa eficiência de conversão; não substituem vitamina A pré-formada em deficiências graves."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (1–12 anos)",
+      "dose_min": 1000,
+      "dose_max": 2000,
+      "unidade": "UI/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "2–3 meses; reavaliar com retinol sérico."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 2000,
+      "dose_max": 5000,
+      "unidade": "UI/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "2–3 meses."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 2310,
+      "dose_max": 5000,
+      "unidade": "UI/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "2–3 meses; monitorar sintomas de hipervitaminose."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 3000,
+      "dose_max": 10000,
+      "unidade": "UI/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "2–3 meses; reavaliar retinol sérico."
+    },
+    {
+      "publico_alvo": "Idosos (>60 anos)",
+      "dose_min": 2000,
+      "dose_max": 5000,
+      "unidade": "UI/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "2–3 meses; monitorar função hepática."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

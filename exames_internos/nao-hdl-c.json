@@ -1,0 +1,10 @@
+{
+  "exame": "Colesterol Não-HDL (Não-HDL-c)",
+  "valores_referencia": "Alvos: 30 mg/dL acima da meta do LDL-c.",
+  "o_que_avalia": "Útil na predição de risco, especialmente se TG > 150 mg/dL.",
+  "indicacao": "Avaliação complementar do risco cardiovascular, especialmente em hipertrigliceridemia.",
+  "o_que_significa_quando_alterado": "Valores elevados indicam maior concentração de lipoproteínas aterogênicas.",
+  "o_que_pode_estar_alterando_o_valor": "Dislipidemia, síndrome metabólica, diabetes, obesidade.",
+  "ref_min": null,
+  "ref_max": null
+}

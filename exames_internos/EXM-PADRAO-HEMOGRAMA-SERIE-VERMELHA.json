@@ -1,0 +1,42 @@
+{
+  "id": "EXM-PADRAO-HEMOGRAMA-SERIE-VERMELHA",
+  "nome": "Padrões combinados — Hemograma Série Vermelha",
+  "unidade_medida": "—",
+  "categoria": "Hemograma — Série Vermelha",
+  "versao_conteudo": 1,
+  "bandas": [],
+  "padroes_combinados_categoria": [
+    {
+      "padrao_texto": "Hb ↓ + VCM ↓ + HCM ↓ + RDW ↑",
+      "hipotese_nutricional": "Anemia Microcítica Hipocrômica",
+      "conduta_texto": "Solicitar: Ferritina, Fe sérico, TIBC, saturação de transferrina. Avaliar ingestão e absorção de ferro.",
+      "gravidade_texto": null
+    },
+    {
+      "padrao_texto": "Hb ↓ + VCM ↑ (>100 fL) + RDW ↑",
+      "hipotese_nutricional": "Anemia Macrocítica",
+      "conduta_texto": "Solicitar: B12 sérica, Folato eritrocitário/sérico, Homocisteína, Ácido Metilmalônico.",
+      "gravidade_texto": null
+    },
+    {
+      "padrao_texto": "Hb ↓ + VCM normal + RDW ↑",
+      "hipotese_nutricional": "Anemia Mista (déficit combinado de Fe + B12/Folato)",
+      "conduta_texto": "Solicitar perfil completo: Fe, B12, Folato, Ferritina. Avaliação dietética completa.",
+      "gravidade_texto": null
+    },
+    {
+      "padrao_texto": "Hb ↓ + VCM normal + RDW normal",
+      "hipotese_nutricional": "Anemia de Doença Crônica ou Inflamação",
+      "conduta_texto": "Solicitar: PCR, Ferritina (pode estar ↑), EPO. Encaminhar ao médico.",
+      "gravidade_texto": null
+    },
+    {
+      "padrao_texto": "Hb leve ↓ + VCM ↓↓ + RDW normal",
+      "hipotese_nutricional": "Suspeita de Talassemia minor",
+      "conduta_texto": "Solicitar: Eletroforese de hemoglobina. Encaminhar ao médico. Condição genética — não responde à reposição de ferro (cuidado com prescrição empírica).",
+      "gravidade_texto": null
+    }
+  ],
+  "ref_min": null,
+  "ref_max": null
+}

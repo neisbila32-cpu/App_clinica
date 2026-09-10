@@ -1,0 +1,10 @@
+{
+  "exame": "TSH",
+  "valores_referencia": "Usual: 0,3 a 4,2 µUI/ml; Ideal: 1,0 a 3,0 µUI/ml.",
+  "o_que_avalia": "Melhor teste de triagem inicial para disfunções primárias.",
+  "indicacao": "Principal exame para triagem de hipotireoidismo e hipertireoidismo.",
+  "o_que_significa_quando_alterado": "TSH alto: hipotireoidismo. TSH baixo: hipertireoidismo.",
+  "o_que_pode_estar_alterando_o_valor": "Uso de medicamentos, doenças autoimunes, gravidez.",
+  "ref_min": 0.3,
+  "ref_max": 4.2
+}

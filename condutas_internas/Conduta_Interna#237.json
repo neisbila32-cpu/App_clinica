@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#237",
+  "nome": "Longevidade + Mitocôndria",
+  "categoria_terapeutica": "Longevidade e Anti-aging",
+  "indicacao": "Disfunção mitocondrial associada ao envelhecimento; fadiga celular",
+  "objetivo": "Restaurar função mitocondrial e produção de ATP para energia e longevidade",
+  "duracao_texto": "12 meses",
+  "monitoramento_texto": "Lactato; piruvato; NAD+; CoQ10 plasmático; energia subjetiva; VO2max",
+  "observacoes_texto": "Disfunção mitocondrial: mecanismo central do envelhecimento. CoQ10 + NMN: protocolo padrão.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço — cadeia respiratória"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "NMN",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum — NAD+"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Carnitina Tartarato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-exercício"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ácido R-Alfa-Lipoico",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-refeições"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Malato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    }
+  ]
+}

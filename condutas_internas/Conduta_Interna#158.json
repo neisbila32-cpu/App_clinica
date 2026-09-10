@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#158",
+  "nome": "Celulite Pós-parto",
+  "categoria_terapeutica": "Celulite",
+  "indicacao": "Celulite que surge ou piora no pós-parto e amamentação",
+  "objetivo": "Reparação do tecido conjuntivo e melhora circulatória pós-parto",
+  "duracao_texto": "3-6 meses; seguro na amamentação",
+  "monitoramento_texto": "Circunferências; fotos; grau celulite; hidratação cutânea",
+  "observacoes_texto": "Todos seguros na amamentação nas doses indicadas. Associar drenagem linfática.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "Colágeno Hidrolisado I+III",
+      "dose": "10 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Manhã c/ vitamina C"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Bisglicinato",
+      "dose": "20 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 DHA+EPA",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "4.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ginkgo Biloba 24%",
+      "dose": "120 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã — circulação"
+    }
+  ]
+}

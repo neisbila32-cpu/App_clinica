@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#044",
+  "nome": "Metabolismo Glucídico",
+  "categoria_terapeutica": "Resistência Insulínica",
+  "indicacao": "Síndrome metabólica incipiente; adiposidade central com disglicemia",
+  "objetivo": "Modular múltiplas vias do metabolismo de carboidratos",
+  "duracao_texto": "4-6 meses",
+  "monitoramento_texto": "Glicemia jejum e pós-prandial; insulina; HbA1c; circunf. abdominal",
+  "observacoes_texto": "Vanádio: usar dose mínima efetiva; não exceder 60 mg/dia. Evitar em DRC.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ácido R-Alfa-Lipoico",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Antes de refeições com CHO"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Extrato de Canela (MHCP)",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "C/ refeições"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#006",
+      "nome_ativo_texto": "Cromo Picolinato",
+      "dose": "400 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x c/ refeição"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#018",
+      "nome_ativo_texto": "Benfotiamina (Vitamina B1)",
+      "dose": "300 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Vanadil Sulfato",
+      "dose": "30 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "C/ refeição principal — insulinomimético"
+    }
+  ]
+}

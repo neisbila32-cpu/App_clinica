@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#243",
+  "nome": "Longevidade Feminina",
+  "categoria_terapeutica": "Longevidade e Anti-aging",
+  "indicacao": "Mulheres >45 anos: perimenopausa, saúde óssea, cardiovascular, cognitiva",
+  "objetivo": "Protocolo de longevidade específico para mulheres na meia-idade e pós-menopausa",
+  "duracao_texto": "12 meses; laboratorial semestral",
+  "monitoramento_texto": "Densitometria; FSH, E2; lipídios; vitamina D; mamografia anual",
+  "observacoes_texto": "Isoflavonas contraindicadas em câncer hormônio-dependente. Rastreio mamográfico atual obrigatório.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#001",
+      "nome_ativo_texto": "Cálcio Citrato",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço e janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#016",
+      "nome_ativo_texto": "Vitamina K2 MK-7",
+      "dose": "200 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "200 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Isoflavonas de Soja 80%",
+      "dose": "75 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    }
+  ]
+}

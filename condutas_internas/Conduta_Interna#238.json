@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#238",
+  "nome": "Longevidade + Metilação",
+  "categoria_terapeutica": "Longevidade e Anti-aging",
+  "indicacao": "Envelhecimento epigenético; hipermetilação; MTHFR; longevidade epigenética",
+  "objetivo": "Otimizar via de metilação para longevidade epigenética e controle de expressão gênica",
+  "duracao_texto": "12 meses; homocisteína trimestral",
+  "monitoramento_texto": "Homocisteína; MTHFR; folato eritrocitário; idade biológica (clock de metilação)",
+  "observacoes_texto": "Betaína TMG doa metil via BHMT, independente de MTHFR. Essencial em mutações.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#024",
+      "nome_ativo_texto": "5-MTHF (L-Metilfolato)",
+      "dose": "800 mcg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#025",
+      "nome_ativo_texto": "Metilcobalamina (B12)",
+      "dose": "1.000 mcg",
+      "forma_farmaceutica": "Sublingual",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Piridoxal-5-Fosfato (B6)",
+      "dose": "50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Betaína (TMG)",
+      "dose": "1.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Colina Bitartarato",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "20 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta — metiltransferases"
+    }
+  ]
+}

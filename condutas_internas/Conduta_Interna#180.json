@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#180",
+  "nome": "Anabolismo Natural",
+  "categoria_terapeutica": "Performance Física e Cognitiva",
+  "indicacao": "Busca por aumento de massa muscular sem anabolizantes",
+  "objetivo": "Otimizar hormônios anabólicos endógenos e síntese proteica",
+  "duracao_texto": "3 meses; testosterona e IGF-1 antes e depois",
+  "monitoramento_texto": "Testosterona total e livre; IGF-1; composição corporal",
+  "observacoes_texto": "D-Ácido Aspártico: evidência para elevar testosterona em 30-60 dias em homens.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "30 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta — cofator testosterona"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ashwagandha KSM-66",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "D-Ácido Aspártico",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula/pó",
+      "posologia": "Manhã em jejum — LH/FSH"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "HMB",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "3x/dia"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Creatina Monohidratada",
+      "dose": "5.000 mg",
+      "forma_farmaceutica": "Pó",
+      "posologia": "Pós-treino"
+    }
+  ]
+}

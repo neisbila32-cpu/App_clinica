@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#170",
+  "nome": "Queda Capilar Pós-Covid",
+  "categoria_terapeutica": "Queda Capilar",
+  "indicacao": "Telógeno efluvio pós-Covid-19; queda difusa e intensa",
+  "objetivo": "Restaurar folículos afetados pela inflamação sistêmica do Covid-19",
+  "duracao_texto": "4-6 meses",
+  "monitoramento_texto": "Ferritina; vitamina D; zinco; PCR; fotos capilares",
+  "observacoes_texto": "Queda pós-Covid: pico em 3-4 meses pós-infecção. Recuperação espontânea em 6-12 meses.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#003",
+      "nome_ativo_texto": "Ferro Bisglicinato",
+      "dose": "30 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "30 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#017",
+      "nome_ativo_texto": "Vitamina C Ascorbato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "NAC N-Acetilcisteína",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "2x — antioxidante e anti-inflamatório"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    }
+  ]
+}

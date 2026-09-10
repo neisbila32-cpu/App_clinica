@@ -1,0 +1,84 @@
+[
+  {
+    "id": "SINT_ANEMIA_SIDEROBLASTICA",
+    "nome": "Anemia sideroblástica",
+    "categoria_sistema_corporal": "Sangue e Hematopoiese",
+    "causas_possiveis": [
+      "Vitamina B6"
+    ]
+  },
+  {
+    "id": "SINT_ANEMIA_POR_DISFUNCAO_DA_CERULOPLASMINA",
+    "nome": "Anemia por disfunção da ceruloplasmina (↓absorção de Fe)",
+    "categoria_sistema_corporal": "Sangue e Hematopoiese",
+    "causas_possiveis": [
+      "Cobre"
+    ]
+  },
+  {
+    "id": "SINT_COAGULOPATIA_HEMORRAGICA",
+    "nome": "Coagulopatia hemorrágica",
+    "categoria_sistema_corporal": "Sangue e Hematopoiese",
+    "causas_possiveis": [
+      "Vitamina K"
+    ]
+  },
+  {
+    "id": "SINT_ANEMIA_MEGALOBLASTICA_MACROCITICA",
+    "nome": "Anemia megaloblástica macrocítica",
+    "categoria_sistema_corporal": "Sangue e Hematopoiese",
+    "causas_possiveis": [
+      "Vitamina B12",
+      "Vitamina B9 (Folato)"
+    ]
+  },
+  {
+    "id": "SINT_ANEMIA_FERROPRIVA_MICROCITICA_HIPOCROMICA",
+    "nome": "Anemia ferropriva microcítica hipocrômica",
+    "categoria_sistema_corporal": "Sangue e Hematopoiese",
+    "causas_possiveis": [
+      "Ferro",
+      "Vitamina B6"
+    ]
+  },
+  {
+    "id": "SINT_ANEMIA_HEMOLITICA",
+    "nome": "Anemia hemolítica",
+    "categoria_sistema_corporal": "Sangue e Hematopoiese",
+    "causas_possiveis": [
+      "Vitamina E"
+    ]
+  },
+  {
+    "id": "SINT_ANEMIA_NORMOCITICA",
+    "nome": "Anemia normocítica",
+    "categoria_sistema_corporal": "Sangue e Hematopoiese",
+    "causas_possiveis": [
+      "Vitamina B2 (Riboflavina)"
+    ]
+  },
+  {
+    "id": "SINT_LEUCOPENIA_E_TROMBOCITOPENIA",
+    "nome": "Leucopenia e trombocitopenia",
+    "categoria_sistema_corporal": "Sangue e Hematopoiese",
+    "causas_possiveis": [
+      "Vitamina B9 (Folato)"
+    ]
+  },
+  {
+    "id": "SINT_NEUTROPENIA",
+    "nome": "Neutropenia",
+    "categoria_sistema_corporal": "Sangue e Hematopoiese",
+    "causas_possiveis": [
+      "Cobre"
+    ]
+  },
+  {
+    "id": "SINT_HEMOLISE_E_DISFUNCAO_PLAQUETARIA",
+    "nome": "Hemólise e disfunção plaquetária",
+    "categoria_sistema_corporal": "Sangue e Hematopoiese",
+    "causas_possiveis": [
+      "Fósforo"
+    ]
+  }
+]

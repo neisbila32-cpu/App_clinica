@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#040",
+  "nome": "Sensibilizador Insulínico Avançado",
+  "categoria_terapeutica": "Resistência Insulínica",
+  "indicacao": "RI severa (HOMA-IR >3,5); falha parcial em protocolo básico",
+  "objetivo": "Múltiplos mecanismos de sensibilização insulínica (AMPK, GLUT4, adiponectina)",
+  "duracao_texto": "4-6 meses; HOMA-IR mensal",
+  "monitoramento_texto": "HOMA-IR, insulina, HbA1c, peptídeo C; TGO/TGP; lipídios",
+  "observacoes_texto": "Resveratrol fotossensível — armazenar em local escuro. Separar de anticoagulantes.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Berberina HCl",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "3x/dia c/ refeições"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#027",
+      "nome_ativo_texto": "Inositol Mio",
+      "dose": "4.000 mg",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "2g manhã + 2g noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "D-Chiro-Inositol",
+      "dose": "100 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Resveratrol",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Ácido R-Alfa-Lipoico",
+      "dose": "600 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-refeições 2x/dia"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Extrato de Canela (MHCP 20%)",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "C/ refeições com CHO"
+    }
+  ]
+}

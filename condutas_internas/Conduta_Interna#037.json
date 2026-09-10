@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#037",
+  "nome": "Saciedade Noturna",
+  "categoria_terapeutica": "Saciedade",
+  "indicacao": "Fome noturna intensa; acordar com fome; ingesta pós-janta inadequada",
+  "objetivo": "Prolongar saciedade até a manhã seguinte e regular ritmo circadiano",
+  "duracao_texto": "2-3 meses + revisão do ritmo alimentar",
+  "monitoramento_texto": "Diário alimentar noturno; qualidade do sono",
+  "observacoes_texto": "Caseína contraindicada em alergia a leite. Substituir por proteína de ervilha.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": "Prescricao_Interna#026",
+      "nome_ativo_texto": "Caseína Micelar",
+      "dose": "25-30 g",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "30 min antes de dormir"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Triptofano",
+      "dose": "500 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite após janta"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio L-Treonato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "GABA",
+      "dose": "750 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Melatonina",
+      "dose": "0,5 mg",
+      "forma_farmaceutica": "Cápsula sublingual",
+      "posologia": "30 min antes de dormir"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#022",
+      "nome_ativo_texto": "Vitamina B6 PLP",
+      "dose": "50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#241",
+  "nome": "Longevidade + Hormônios",
+  "categoria_terapeutica": "Longevidade e Anti-aging",
+  "indicacao": "Declínio hormonal da meia-idade: testosterona, DHEA, GH, IGF-1, T3",
+  "objetivo": "Otimizar eixo hormonal do envelhecimento com suporte nutricional",
+  "duracao_texto": "12 meses",
+  "monitoramento_texto": "Testosterona; DHEAS; IGF-1; TSH; vitamina D; composição corporal",
+  "observacoes_texto": "DHEA: apenas sob supervisão médica e laboratório. Não usar em histórico de câncer hormonal.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "DHEA (se liberado)",
+      "dose": "25-50 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã — sob supervisão endocrinológica"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#004",
+      "nome_ativo_texto": "Zinco Picolinato",
+      "dose": "30 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Janta — testosterona e GH"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#014",
+      "nome_ativo_texto": "Vitamina D3",
+      "dose": "5.000 UI",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#002",
+      "nome_ativo_texto": "Magnésio Bisglicinato",
+      "dose": "400 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Noite"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#028",
+      "nome_ativo_texto": "Ômega-3 EPA+DHA",
+      "dose": "3.000 mg",
+      "forma_farmaceutica": "Cápsula TG",
+      "posologia": "Almoço + Janta"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "200 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    }
+  ]
+}

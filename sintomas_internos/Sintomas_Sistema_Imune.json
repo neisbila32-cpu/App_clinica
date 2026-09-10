@@ -1,0 +1,61 @@
+[
+  {
+    "id": "SINT_REDUCAO_DA_IMUNIDADE_DE_MUCOSAS",
+    "nome": "Redução da imunidade de mucosas (IgA secretória)",
+    "categoria_sistema_corporal": "Sistema Imune",
+    "causas_possiveis": [
+      "Vitamina A"
+    ]
+  },
+  {
+    "id": "SINT_SUSCEPTIBILIDADE_A_INFECCOES_VIRAIS",
+    "nome": "Aumento da susceptibilidade a infecções virais",
+    "categoria_sistema_corporal": "Sistema Imune",
+    "causas_possiveis": [
+      "Selênio"
+    ]
+  },
+  {
+    "id": "SINT_SUPRESSAO_IMUNE",
+    "nome": "Supressão imune",
+    "categoria_sistema_corporal": "Sistema Imune",
+    "causas_possiveis": [
+      "Vitamina D",
+      "Vitamina E"
+    ]
+  },
+  {
+    "id": "SINT_REDUCAO_DA_FUNCAO_DE_NEUTROFILOS_E_LINFOCITOS",
+    "nome": "Redução da função de neutrófilos e linfócitos",
+    "categoria_sistema_corporal": "Sistema Imune",
+    "causas_possiveis": [
+      "Vitamina C"
+    ]
+  },
+  {
+    "id": "SINT_IMUNODEFICIENCIA_E_LINFOPENIA_DE_CELULAS_T",
+    "nome": "Imunodeficiência e linfopenia de células T",
+    "categoria_sistema_corporal": "Sistema Imune",
+    "causas_possiveis": [
+      "Zinco"
+    ]
+  },
+  {
+    "id": "SINT_INFECCOES_RECORRENTES",
+    "nome": "Infecções recorrentes",
+    "categoria_sistema_corporal": "Sistema Imune",
+    "causas_possiveis": [
+      "Selênio",
+      "Zinco"
+    ]
+  },
+  {
+    "id": "SINT_IMUNODEPRESSAO_GERAL",
+    "nome": "Imunodepressão",
+    "categoria_sistema_corporal": "Sistema Imune",
+    "causas_possiveis": [
+      "Proteínas",
+      "Vitamina A"
+    ]
+  }
+]

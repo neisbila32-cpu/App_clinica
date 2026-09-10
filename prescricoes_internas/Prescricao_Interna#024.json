@@ -1,0 +1,74 @@
+{
+  "id": "Prescricao_Interna#024",
+  "nome": "Vitamina B9 (Folato)",
+  "funcao_indicacao": "• Metabolismo de carbono único: como tetrahidrofolato (THF), transfere unidades de um carbono essenciais à síntese de nucleotídeos e metilação do DNA.\n• Síntese de DNA e RNA: precursor do timidilato e dos anéis de purina (adenina e guanina).\n• Divisão celular: essencial em tecidos de alta proliferação (medula óssea, mucosa intestinal, epitélio folicular).\n• Metilação: o 5-MTHF doa seu grupo metil à vitamina B12, regenerando metionina a partir de homocisteína.\n• Prevenção de defeitos do tubo neural: deficiência no período periconcepcional é a principal causa prevenível de anencefalia e espinha bífida.",
+  "nutriente_relacionado": null,
+  "versao_conteudo": 1,
+  "formas": [
+    {
+      "nome_forma": "Ácido Fólico (sintético)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma sintética oxidada; estável; biodisponibilidade oral quase 100% (jejum); baixo custo; referência em suplementação pré-natal.",
+      "fator_limitante_texto": "Requer conversão pela DHFR e MTHFR para se tornar ativo; variantes do gene MTHFR (C677T, A1298C — ~40% da população) reduzem essa conversão em 30–70%; acúmulo de UMFA no plasma (implicações debatidas)."
+    },
+    {
+      "nome_forma": "L-Metilfolato (5-MTHF)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma biologicamente ativa — bypass completo da MTHFR; superior em portadores de polimorfismos MTHFR; não gera UMFA.",
+      "fator_limitante_texto": "Custo mais elevado; maior instabilidade a calor e luz; pode precipitar sintomas em pacientes com deficiência de B12 não tratada."
+    },
+    {
+      "nome_forma": "Ácido Folínico (5-formil-THF)",
+      "nivel_biodisponibilidade": "alta",
+      "percentual_elemento": null,
+      "beneficio_texto": "Forma ativa que não requer MTHFR; usada em protocolos oncológicos (resgate de metotrexate); boa biodisponibilidade.",
+      "fator_limitante_texto": "Principalmente uso oncológico/farmacêutico; menor disponibilidade em manipulação de rotina; custo elevado."
+    }
+  ],
+  "doses": [
+    {
+      "publico_alvo": "Crianças (1–12 anos)",
+      "dose_min": 150,
+      "dose_max": 300,
+      "unidade": "mcg DFE/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Preventivo: contínuo; deficiência: 4–8 semanas."
+    },
+    {
+      "publico_alvo": "Adolescentes",
+      "dose_min": 300,
+      "dose_max": 400,
+      "unidade": "mcg DFE/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Contínuo em mulheres em idade fértil (prevenção DTN)."
+    },
+    {
+      "publico_alvo": "Mulheres adultas",
+      "dose_min": 400,
+      "dose_max": 800,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Gestação: durante todo o período (+ 4–6 semanas pós-parto na lactação)."
+    },
+    {
+      "publico_alvo": "Homens adultos",
+      "dose_min": 400,
+      "dose_max": 400,
+      "unidade": "mcg DFE/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Hiperhomocisteinemia: 3–6 meses; monitorar homocisteína."
+    },
+    {
+      "publico_alvo": "Idosos",
+      "dose_min": 400,
+      "dose_max": 800,
+      "unidade": "mcg/dia",
+      "frequencia": null,
+      "duracao_tipica_texto": "Uso contínuo; reavaliar a cada 6 meses com B12 sérica."
+    }
+  ],
+  "sintoma_ids": [],
+  "interacoes": []
+}

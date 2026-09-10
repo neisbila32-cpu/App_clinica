@@ -1,0 +1,55 @@
+{
+  "id": "Conduta_Interna#174",
+  "nome": "Endurance",
+  "categoria_terapeutica": "Performance Física e Cognitiva",
+  "indicacao": "Corredores, ciclistas, triatletas; esportes de longa duração",
+  "objetivo": "Suporte de energia aeróbica, eletrólitos e recuperação em esportes de endurance",
+  "duracao_texto": "Contínuo; periodizar com fase de competição",
+  "monitoramento_texto": "VO2max; ferritina; hemograma; lactato; tempo de prova",
+  "observacoes_texto": "Ferritina <40 ng/mL: comprometimento de VO2max. Corrigir como prioridade.",
+  "versao_conteudo": 1,
+  "itens": [
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Beta-Alanina",
+      "dose": "3.200 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-treino — tamponamento de lactato"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "L-Carnitina Tartarato",
+      "dose": "2.000 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Pré-treino"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "CoQ10 Ubiquinol",
+      "dose": "200 mg",
+      "forma_farmaceutica": "Cápsula oleosa",
+      "posologia": "Almoço"
+    },
+    {
+      "prescricao_id": null,
+      "nome_ativo_texto": "Eletrólitos Na+K+Mg+Cl completo",
+      "dose": "1 sachê",
+      "forma_farmaceutica": "Sachê",
+      "posologia": "Intra-treino >60 min"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#025",
+      "nome_ativo_texto": "Vitamina B12 Metilcobalamina",
+      "dose": "1.000 mcg",
+      "forma_farmaceutica": "Sublingual",
+      "posologia": "Manhã"
+    },
+    {
+      "prescricao_id": "Prescricao_Interna#003",
+      "nome_ativo_texto": "Ferro Bisglicinato",
+      "dose": "30 mg",
+      "forma_farmaceutica": "Cápsula",
+      "posologia": "Manhã em jejum — se ferritina <40"
+    }
+  ]
+}

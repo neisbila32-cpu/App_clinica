@@ -1,0 +1,26 @@
+{
+  "id": "EXM-HDL-COLESTEROL",
+  "nome": "HDL-Colesterol (HDL-c)",
+  "unidade_medida": "mg/dL",
+  "categoria": "Perfil Lipídico",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": 50,
+      "rotulo_tecnico": "HDL baixo (< 40 mg/dL em homens / < 50 mg/dL em mulheres) — risco cardiovascular aumentado",
+      "classificacao_simplificada": "inadequado",
+      "causa_possivel_texto": "Sedentarismo; tabagismo; dieta pobre em gorduras saudáveis; obesidade",
+      "conduta_texto": "Prescrever gorduras mono e poli-insaturadas; estimular atividade física aeróbica."
+    },
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "Adequado",
+      "classificacao_simplificada": "adequado",
+      "causa_possivel_texto": null,
+      "conduta_texto": null
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": 50.0,
+  "ref_max": null
+}
