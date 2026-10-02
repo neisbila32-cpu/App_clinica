@@ -1,0 +1,11 @@
+{
+  "id": "EXM-FOSFATASA-ALCALINA",
+  "nome": "Fosfatasa Alcalina (FA / FAL)",
+  "unidade_medida": "UI/L",
+  "categoria": "Função Hepática",
+  "versao_conteudo": 1,
+  "bandas": [],
+  "padroes_combinados_categoria": [],
+  "ref_min": 30.0,
+  "ref_max": 115.0
+}

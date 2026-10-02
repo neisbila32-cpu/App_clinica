@@ -1,0 +1,11 @@
+{
+  "id": "EXM-TEMPO-PROTROMBINA",
+  "nome": "Tempo de Protrombina (TP)",
+  "unidade_medida": "segundos",
+  "categoria": "Hemostasia e Coagulação",
+  "versao_conteudo": 1,
+  "bandas": [],
+  "padroes_combinados_categoria": [],
+  "ref_min": 10.0,
+  "ref_max": 14.0
+}

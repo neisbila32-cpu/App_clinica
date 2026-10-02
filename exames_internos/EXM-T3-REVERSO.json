@@ -1,0 +1,11 @@
+{
+  "id": "EXM-T3-REVERSO",
+  "nome": "T3 Reverso (rT3)",
+  "unidade_medida": "ng/mL",
+  "categoria": "Tireoide",
+  "versao_conteudo": 1,
+  "bandas": [],
+  "padroes_combinados_categoria": [],
+  "ref_min": 0.09,
+  "ref_max": 0.35
+}

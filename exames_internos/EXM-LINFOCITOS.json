@@ -1,0 +1,11 @@
+{
+  "id": "EXM-LINFOCITOS",
+  "nome": "Linfocitos",
+  "unidade_medida": "%",
+  "categoria": "Hemograma — Série Branca",
+  "versao_conteudo": 1,
+  "bandas": [],
+  "padroes_combinados_categoria": [],
+  "ref_min": 20.0,
+  "ref_max": 43.0
+}

@@ -6,18 +6,18 @@
   "versao_conteudo": 1,
   "bandas": [
     {
-      "valor_max": 190,
-      "rotulo_tecnico": "Normal",
-      "classificacao_simplificada": "adequado",
-      "causa_possivel_texto": null,
-      "conduta_texto": null
+      "valor_max": 200,
+      "inclusivo": false,
+      "rotulo": "Desejável"
+    },
+    {
+      "valor_max": 240,
+      "inclusivo": false,
+      "rotulo": "Limítrofe"
     },
     {
       "valor_max": null,
-      "rotulo_tecnico": "Hipercolesterolemia — avaliar frações (>190 mg/dL isolado)",
-      "classificacao_simplificada": "limitrofe",
-      "causa_possivel_texto": "Excesso de gordura saturada/trans na dieta; sedentarismo; predisposição genética",
-      "conduta_texto": "Ajuste dietético; repetir exame em 8 semanas pós-intervenção."
+      "rotulo": "Alto"
     }
   ],
   "padroes_combinados_categoria": [],

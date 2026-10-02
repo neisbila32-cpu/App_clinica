@@ -1,13 +1,52 @@
+# Copyright (c) 2026 Neis Bila de Alencar. Todos os direitos reservados.
 import customtkinter as ctk
+import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 import sqlite3
 import os
 import json
 import shutil
+import sys
 import platform
 import re
 from datetime import datetime
 from fpdf import FPDF
+from PIL import Image
+
+
+def get_base_path():
+    """Retorna o diretório de recursos da aplicação.
+
+    Em executável PyInstaller (--onedir), os arquivos embutidos via
+    datas=[] ficam em sys._MEIPASS (pasta _internal); caso contrário,
+    o diretório do próprio script.
+    """
+    if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+        return sys._MEIPASS
+    if getattr(sys, 'frozen', False):
+        return os.path.dirname(sys.executable)
+    return os.path.dirname(os.path.abspath(__file__))
+
+
+def get_writable_path(filename):
+    """Retorna um caminho gravável para arquivos como o banco de dados.
+
+    No executável, copia o arquivo embutido (_MEIPASS) para ao lado do
+    .exe na primeira execução, permitindo escrita sem tocar no bundle.
+    """
+    if getattr(sys, 'frozen', False):
+        base_exe = os.path.dirname(sys.executable)
+        destino = os.path.join(base_exe, filename)
+        if not os.path.exists(destino):
+            embutido = os.path.join(get_base_path(), filename)
+            if os.path.exists(embutido):
+                try:
+                    shutil.copy2(embutido, destino)
+                except OSError:
+                    return embutido
+        return destino
+    return os.path.join(get_base_path(), filename)
+
 
 ctk.set_appearance_mode("Light")
 ctk.set_default_color_theme("green")
@@ -52,14 +91,25 @@ class AppClinica(ctk.CTk):
         self.btn_exames = ctk.CTkButton(self.menu_lateral, text="Catálogo de Exames", command=self.tela_exames, fg_color="#4caf50", hover_color="#388e3c", text_color="#ffffff", font=ctk.CTkFont(size=16, weight="bold"))
         self.btn_exames.grid(row=3, column=0, padx=20, pady=10)
 
+        # Rodapé fixado na parte inferior do menu lateral
+        self.label_copyright = ctk.CTkLabel(
+            self.menu_lateral,
+            text="© 2026 Neis Bila de Alencar. Todos os direitos reservados.",
+            font=ctk.CTkFont(size=10),
+            text_color="#ffffff",
+            justify="left",
+            wraplength=170,
+        )
+        self.label_copyright.grid(row=5, column=0, padx=10, pady=(0, 10), sticky="sw")
+
         # --- ÁREA PRINCIPAL ---
-        self.area_principal = ctk.CTkFrame(self, corner_radius=10, fg_color="#e8f5e9")
+        self.area_principal = ctk.CTkFrame(self, corner_radius=10, fg_color="#F0F7F4")
         self.area_principal.grid(row=0, column=1, padx=20, pady=20, sticky="nsew")
         
         self.tela_inicial()
 
     def configurar_banco_dados(self):
-        conexao = sqlite3.connect('clinica.db')
+        conexao = sqlite3.connect(get_writable_path('clinica.db'))
         cursor = conexao.cursor()
         
         cursor.execute('''
@@ -135,7 +185,6 @@ class AppClinica(ctk.CTk):
                 ('EXM-HDL-COLESTEROL', 'HDL COLESTEROL'),
                 ('EXM-LDL-COLESTEROL', 'LDL COLESTEROL'),
                 ('EXM-TRIGLICERIDEOS', 'TRIGLICERIDEOS'),
-                ('EXM-PADRAO-PERFIL-LIPIDICO', 'PADRAO PERFIL LIPIDICO'),
                 ('EXM-FERRO-SERICO', 'FERRO SERICO'),
                 ('EXM-FERRITINA-SERICA', 'FERRITINA SERICA'),
                 ('EXM-SATURACAO-DE-TRANSFERRINA', 'SATURACAO DE TRANSFERRINA'),
@@ -160,7 +209,36 @@ class AppClinica(ctk.CTk):
 
     def tela_inicial(self):
         self.limpar_area_principal()
-        ctk.CTkLabel(self.area_principal, text="Bem-vindo ao Sistema", font=ctk.CTkFont(size=28, weight="bold"), text_color="#1b5e20").pack(pady=50)
+
+        caminho_imagem = os.path.join(get_base_path(), "welcome_nutrilab.png")
+        self.imagem_bem_vindo_pil = Image.open(caminho_imagem)
+        self._tamanho_imagem_bem_vindo = self.imagem_bem_vindo_pil.size
+        self.imagem_bem_vindo = ctk.CTkImage(
+            light_image=self.imagem_bem_vindo_pil,
+            dark_image=self.imagem_bem_vindo_pil,
+            size=self._tamanho_imagem_bem_vindo
+        )
+
+        self.label_bem_vindo = ctk.CTkLabel(self.area_principal, text="", image=self.imagem_bem_vindo, fg_color="#F0F7F4")
+        self.label_bem_vindo.pack(fill="both", expand=True, padx=60, pady=40)
+        self.label_bem_vindo.bind("<Configure>", self._redimensionar_imagem_bem_vindo)
+
+    def _redimensionar_imagem_bem_vindo(self, event):
+        largura_orig, altura_orig = self.imagem_bem_vindo_pil.size
+        largura_disp = self.area_principal.winfo_width() - 120
+        altura_disp = self.area_principal.winfo_height() - 80
+        if largura_disp > 1 and altura_disp > 1:
+            fator = min(largura_disp / largura_orig, altura_disp / altura_orig)
+            novo_w = int(largura_orig * fator)
+            novo_h = int(altura_orig * fator)
+            if novo_w > 1 and novo_h > 1 and (novo_w, novo_h) != self._tamanho_imagem_bem_vindo:
+                self._tamanho_imagem_bem_vindo = (novo_w, novo_h)
+                self.imagem_bem_vindo = ctk.CTkImage(
+                    light_image=self.imagem_bem_vindo_pil,
+                    dark_image=self.imagem_bem_vindo_pil,
+                    size=(novo_w, novo_h)
+                )
+                self.label_bem_vindo.configure(image=self.imagem_bem_vindo)
 
     # --- MÓDULO DE PACIENTES ---
     def tela_pacientes(self):
@@ -232,7 +310,7 @@ class AppClinica(ctk.CTk):
         if nome.strip() == "":
             self.lbl_mensagem.configure(text="Erro: O nome é obrigatório.", text_color="#c62828")
             return
-        conexao = sqlite3.connect('clinica.db')
+        conexao = sqlite3.connect(os.path.join(get_base_path(), 'clinica.db'))
         cursor = conexao.cursor()
         cursor.execute('INSERT INTO Pacientes (nome, data_nascimento, sexo) VALUES (?, ?, ?)', (nome, nasc, sexo))
         conexao.commit()
@@ -245,7 +323,7 @@ class AppClinica(ctk.CTk):
     def carregar_tabela_pacientes(self):
         for item in self.tree.get_children():
             self.tree.delete(item)
-        conexao = sqlite3.connect('clinica.db')
+        conexao = sqlite3.connect(os.path.join(get_base_path(), 'clinica.db'))
         cursor = conexao.cursor()
         cursor.execute("SELECT id_paciente, nome, data_nascimento, sexo FROM Pacientes")
         linhas = cursor.fetchall()
@@ -273,7 +351,7 @@ class AppClinica(ctk.CTk):
         if not confirmar:
             return
 
-        conexao = sqlite3.connect('clinica.db')
+        conexao = sqlite3.connect(os.path.join(get_base_path(), 'clinica.db'))
         cursor = conexao.cursor()
         cursor.execute("DELETE FROM Pacientes WHERE id_paciente = ?", (id_paciente,))
         conexao.commit()
@@ -310,7 +388,7 @@ class AppClinica(ctk.CTk):
         scroll_hist = ctk.CTkScrollableFrame(aba_hist, fg_color="transparent")
         scroll_hist.pack(fill="both", expand=True, padx=10, pady=10)
 
-        conexao = sqlite3.connect('clinica.db')
+        conexao = sqlite3.connect(os.path.join(get_base_path(), 'clinica.db'))
         cursor = conexao.cursor()
         cursor.execute('''
             SELECT id_consulta, data_consulta, anamnese, peso, altura, gordura, conduta, tmb, vet, naf, metodo_tmb, analise_exames
@@ -408,7 +486,7 @@ class AppClinica(ctk.CTk):
             # ------------------------------------------------------------------
             # 2) Conexão única para ler analise_exames (fallback) e resultados.
             # ------------------------------------------------------------------
-            conexao_pdf = sqlite3.connect('clinica.db')
+            conexao_pdf = sqlite3.connect(os.path.join(get_base_path(), 'clinica.db'))
             cursor_pdf = conexao_pdf.cursor()
 
             if not analise_exames:
@@ -428,6 +506,20 @@ class AppClinica(ctk.CTk):
                 ORDER BY E.nome_amigavel
             ''', (id_cons,))
             resultados_rows = cursor_pdf.fetchall() or []
+
+            # Data de nascimento e sexo do paciente (para idade e IMC no relatório)
+            data_nasc_paciente = ""
+            sexo_paciente = ""
+            cursor_pdf.execute('''
+                SELECT P.data_nascimento, P.sexo
+                FROM Consultas C
+                JOIN Pacientes P ON C.id_paciente = P.id_paciente
+                WHERE C.id_consulta = ?
+            ''', (id_cons,))
+            linha_paciente_pdf = cursor_pdf.fetchone()
+            if linha_paciente_pdf:
+                data_nasc_paciente = linha_paciente_pdf[0] or ""
+                sexo_paciente = linha_paciente_pdf[1] or ""
             conexao_pdf.close()
 
             # ------------------------------------------------------------------
@@ -445,6 +537,29 @@ class AppClinica(ctk.CTk):
                     return f"{float(v):.2f}".rstrip('0').rstrip('.')
                 except (TypeError, ValueError):
                     return str(v)
+
+            def rotulo_status_pdf(status):
+                """Reduz rótulos técnicos (ex.: '170–285 µmol/L (faixa normal)')
+                à classificação simples exibida na coluna Status do PDF.
+
+                Quando o texto entre parênteses traz a classificação
+                (ex.: 'faixa normal'), devolve 'Normal'/'Baixo'/'Alto';
+                rótulos que já trazem a classificação própria
+                (ex.: 'Resistência grave (>4,0)') seguem impressos intactos.
+                """
+                texto = (status or "").strip()
+                if not texto:
+                    return ""
+                dentro = re.search(r"\(([^)]+)\)", texto)
+                if dentro:
+                    conteudo = dentro.group(1).lower()
+                    if re.search(r"\b(normal|adequado)\b", conteudo):
+                        return "Normal"
+                    if re.search(r"\bbaixo\b", conteudo):
+                        return "Baixo"
+                    if re.search(r"\balto\b", conteudo):
+                        return "Alto"
+                return texto
 
             # ------------------------------------------------------------------
             # 4) Construção do PDF
@@ -489,6 +604,23 @@ class AppClinica(ctk.CTk):
                         f"VET: {vet} kcal (NAF: {naf or '-'})"
                     )
 
+            # IMC calculado com classificação oficial por faixa etária
+            imc_pdf = None
+            try:
+                peso_f = float(str(peso).replace(',', '.'))
+                altura_f = float(str(altura).replace(',', '.'))
+                if peso_f > 0 and altura_f > 0:
+                    imc_pdf = peso_f / (altura_f ** 2)
+            except (TypeError, ValueError, ZeroDivisionError):
+                imc_pdf = None
+            if imc_pdf is not None:
+                idade_pdf = self._calcular_idade_por_nascimento(data_nasc_paciente)
+                classificacao_imc = self._classificar_imc(imc_pdf, idade_pdf)
+                idade_txt = f"{idade_pdf} anos" if idade_pdf is not None else "idade não informada"
+                antro_texto.append(
+                    f"IMC: {imc_pdf:.1f} kg/m² - {classificacao_imc} (idade: {idade_txt})"
+                )
+
             if antro_texto:
                 pdf.set_font("Arial", 'B', 12)
                 pdf.cell(0, 8, formatar_texto("Dados Antropométricos e Gasto Energético:"), ln=True)
@@ -516,32 +648,41 @@ class AppClinica(ctk.CTk):
                 pdf.set_font("Arial", 'B', 12)
                 pdf.cell(0, 8, formatar_texto("Resultados Laboratoriais Lançados:"), ln=True)
                 pdf.set_font("Arial", 'B', 10)
-                pdf.cell(80, 6, formatar_texto("Exame"), border=1)
-                pdf.cell(50, 6, formatar_texto("Valor"), border=1)
-                pdf.cell(50, 6, formatar_texto("Status"), border=1, ln=True)
+                pdf.cell(90, 6, formatar_texto("Exame"), border=1)
+                pdf.cell(45, 6, formatar_texto("Valor"), border=1)
+                pdf.cell(45, 6, formatar_texto("Status"), border=1, ln=True)
                 pdf.set_font("Arial", '', 10)
                 for nome_exame, valor, status in resultados_rows:
-                    pdf.cell(80, 6, formatar_texto(nome_exame or ""), border=1)
-                    pdf.cell(50, 6, formatar_texto(formatar_valor(valor)), border=1)
-                    pdf.cell(50, 6, formatar_texto(status or ""), border=1, ln=True)
+                    pdf.cell(90, 6, formatar_texto(nome_exame or ""), border=1)
+                    pdf.cell(45, 6, formatar_texto(formatar_valor(valor)), border=1)
+                    pdf.cell(45, 6, formatar_texto(rotulo_status_pdf(status)), border=1, ln=True)
                 pdf.ln(5)
 
-            if analise_exames:
-                # Evita que o bloco quebre a página feia: mede o espaço restante
+            # Índices metabólicos calculados (pares clínicos presentes na consulta)
+            valores_resultados = {}
+            for nome_exame, valor, _status in resultados_rows:
+                try:
+                    valores_resultados[str(nome_exame or '').upper()] = float(str(valor).replace(',', '.'))
+                except (TypeError, ValueError):
+                    continue
+            indices_pdf = self._calcular_indices_para_pdf(valores_resultados)
+            if indices_pdf:
                 if pdf.get_y() > 240:
                     pdf.add_page()
                 pdf.set_font("Arial", 'B', 12)
-                pdf.cell(0, 8, formatar_texto("Análise e Valores de Referência:"), ln=True)
+                pdf.cell(0, 8, formatar_texto("Índices Metabólicos Calculados:"), ln=True)
                 pdf.set_font("Arial", '', 11)
-                pdf.multi_cell(0, 6, formatar_texto(analise_exames))
+                for linha_indice in indices_pdf:
+                    pdf.multi_cell(0, 6, formatar_texto(linha_indice))
                 pdf.ln(5)
 
             # ------------------------------------------------------------------
             # 5) Persistência
             # ------------------------------------------------------------------
-            base_dir = os.path.dirname(os.path.abspath(__file__))
+            base_dir = get_writable_path("arquivos_pacientes")
+            os.makedirs(base_dir, exist_ok=True)
             pasta_paciente = os.path.join(
-                base_dir, "arquivos_pacientes", f"paciente_{self.paciente_atual_id}"
+                base_dir, f"paciente_{self.paciente_atual_id}"
             )
             os.makedirs(pasta_paciente, exist_ok=True)
 
@@ -568,14 +709,14 @@ class AppClinica(ctk.CTk):
     def anexar_arquivo_paciente(self):
         caminho_origem = filedialog.askopenfilename(title="Selecione o Exame", filetypes=[("Documentos e Imagens", "*.pdf *.png *.jpg *.jpeg *.doc *.docx")])
         if not caminho_origem: return
-        base_dir = os.path.dirname(os.path.abspath(__file__))
+        base_dir = get_base_path()
         pasta_paciente = os.path.join(base_dir, "arquivos_pacientes", f"paciente_{self.paciente_atual_id}")
         os.makedirs(pasta_paciente, exist_ok=True)
         nome_arquivo = os.path.basename(caminho_origem)
         caminho_destino = os.path.join(pasta_paciente, nome_arquivo)
         try:
             shutil.copy2(caminho_origem, caminho_destino)
-            conexao = sqlite3.connect('clinica.db')
+            conexao = sqlite3.connect(os.path.join(get_base_path(), 'clinica.db'))
             cursor = conexao.cursor()
             cursor.execute('INSERT INTO Arquivos_Paciente (id_paciente, nome_arquivo, caminho_arquivo, data_upload) VALUES (?, ?, ?, ?)', 
                            (self.paciente_atual_id, nome_arquivo, caminho_destino, datetime.now().strftime("%d/%m/%Y %H:%M")))
@@ -587,7 +728,7 @@ class AppClinica(ctk.CTk):
 
     def carregar_lista_arquivos(self):
         for widget in self.scroll_arquivos.winfo_children(): widget.destroy()
-        conexao = sqlite3.connect('clinica.db')
+        conexao = sqlite3.connect(os.path.join(get_base_path(), 'clinica.db'))
         cursor = conexao.cursor()
         cursor.execute('SELECT nome_arquivo, caminho_arquivo, data_upload FROM Arquivos_Paciente WHERE id_paciente = ? ORDER BY id_arquivo DESC', (self.paciente_atual_id,))
         arquivos = cursor.fetchall()
@@ -619,6 +760,21 @@ class AppClinica(ctk.CTk):
         self.tmb_atual = ""
         self.vet_atual = ""
 
+        # Cache dos dados do paciente atual (para cálculo de idade e IMC)
+        self.paciente_atual_nasc = ""
+        self.paciente_atual_sexo = ""
+        try:
+            conexao_pac = sqlite3.connect(os.path.join(get_base_path(), 'clinica.db'))
+            cursor_pac = conexao_pac.cursor()
+            cursor_pac.execute('SELECT data_nascimento, sexo FROM Pacientes WHERE id_paciente = ?', (self.paciente_atual_id,))
+            linha_pac = cursor_pac.fetchone()
+            if linha_pac:
+                self.paciente_atual_nasc = linha_pac[0] or ""
+                self.paciente_atual_sexo = linha_pac[1] or ""
+            conexao_pac.close()
+        except Exception as e:
+            print(f"[AVISO] Não foi possível carregar nascimento do paciente: {e}")
+
         scroll_frame = ctk.CTkScrollableFrame(self.area_principal, corner_radius=10, fg_color="#f1f8ea")
         scroll_frame.pack(fill="both", expand=True, padx=10, pady=10)
 
@@ -640,6 +796,10 @@ class AppClinica(ctk.CTk):
         self.entry_altura.grid(row=0, column=1, padx=10)
         self.entry_gordura = ctk.CTkEntry(frame_antro, placeholder_text="% Gordura", width=150, font=ctk.CTkFont(size=15), fg_color="#ffffff", text_color="#1b5e20", placeholder_text_color="#7a9e7e", border_color="#a5d6a7")
         self.entry_gordura.grid(row=0, column=2, padx=10)
+        self.entry_peso.bind('<KeyRelease>', self._calcular_imc_dinamico)
+        self.entry_altura.bind('<KeyRelease>', self._calcular_imc_dinamico)
+        self.lbl_imc = ctk.CTkLabel(frame_antro, text="IMC: -- kg/m²", font=ctk.CTkFont(size=15, weight="bold"), text_color="#556b58")
+        self.lbl_imc.grid(row=1, column=0, columnspan=3, sticky="w", pady=(4, 0))
 
         frame_calculo = ctk.CTkFrame(scroll_frame, fg_color="#eaf8ec", corner_radius=8, border_width=1, border_color="#a5d6a7")
         frame_calculo.pack(fill="x", padx=20, pady=10, ipady=5)
@@ -669,19 +829,23 @@ class AppClinica(ctk.CTk):
         frame_exames = ctk.CTkFrame(scroll_frame, fg_color="transparent")
         frame_exames.pack(fill="x", padx=20, pady=5)
 
-        conexao = sqlite3.connect('clinica.db')
+        conexao = sqlite3.connect(os.path.join(get_base_path(), 'clinica.db'))
         cursor = conexao.cursor()
         cursor.execute("SELECT id_exame, nome_amigavel FROM Exames_Catalogo")
         self.catalogo_exames_dict = {f"{linha[1]} ({linha[0]})": linha[0] for linha in cursor.fetchall()}
         conexao.close()
         
         self.opcoes_exames = list(self.catalogo_exames_dict.keys())
-        self.opcoes_exames.insert(0, "Selecione um exame...")
 
-        self.combo_exames = ctk.CTkComboBox(frame_exames, values=self.opcoes_exames, width=400, font=ctk.CTkFont(size=15), fg_color="#ffffff", text_color="#1b5e20", button_color="#4caf50", button_hover_color="#388e3c", dropdown_fg_color="#ffffff", dropdown_hover_color="#c8e6c9", dropdown_text_color="#1b5e20")
-        self.combo_exames.set("Selecione um exame...")
-        self.combo_exames.grid(row=0, column=0, padx=(0, 10))
-        self.combo_exames.bind("<KeyRelease>", self.filtrar_exames)
+        self.exame_escolhido = None
+        self.btn_select_exame = ctk.CTkButton(
+            frame_exames,
+            text="Seleccionar exame...  ▼",
+            width=400,
+            fg_color="#4caf50", hover_color="#388e3c", text_color="#ffffff",
+            font=ctk.CTkFont(size=15, weight="bold"),
+            command=self._abrir_select_exame)
+        self.btn_select_exame.grid(row=0, column=0, padx=(0, 10))
 
         ctk.CTkButton(frame_exames, text="Adicionar à Solicitação", command=self.adicionar_exame, fg_color="#4caf50", hover_color="#388e3c", text_color="#ffffff", font=ctk.CTkFont(size=15, weight="bold")).grid(row=0, column=1)
 
@@ -852,42 +1016,43 @@ class AppClinica(ctk.CTk):
 
         return (None, None)
 
-    def _carregar_refs_exame(self, id_exame):
-        """Localiza o ficheiro JSON correspondente na pasta exames_internos por nome normalizado.
-
-        Estratégia:
-          1. Normaliza o id_exame (sem prefixo EXM-, sem espaços/hífens/underscores, minúsculas).
-          2. Varre a pasta exames_internos e escolhe o ficheiro cujo nome normalizado bate.
-          3. Tenta ler 'ref_min' e 'ref_max' explícitos do JSON.
-          4. Se ausentes, aplica fallback por regex sobre os campos textuais do JSON.
-        Devolve sempre (ref_min, ref_max) com floats ou None.
-        """
-        base_dir = os.path.dirname(os.path.abspath(__file__))
+    def _procurar_arquivo_exame(self, id_exame):
+        """Devolve o caminho absoluto do ficheiro JSON do exame, ou None."""
+        base_dir = get_base_path()
         pasta = os.path.join(base_dir, "exames_internos")
         if not os.path.isdir(pasta):
-            return (None, None)
+            return None
 
         alvo = self._normalizar_token(id_exame)
         if not alvo:
-            return (None, None)
+            return None
 
-        caminho_match = None
         try:
             for nome in os.listdir(pasta):
                 if not nome.lower().endswith(('.json', '.jsonux')):
                     continue
                 stem = os.path.splitext(nome)[0]
                 if self._normalizar_token(stem) == alvo:
-                    caminho_match = os.path.join(pasta, nome)
-                    break
+                    return os.path.join(pasta, nome)
         except OSError:
-            return (None, None)
+            return None
+        return None
 
-        if not caminho_match:
+    def _carregar_refs_exame(self, id_exame):
+        """Localiza o ficheiro JSON do exame e devolve (ref_min, ref_max).
+
+        Estratégia:
+          1. Localiza o arquivo (ver _procurar_arquivo_exame).
+          2. Tenta ler 'ref_min' e 'ref_max' explícitos do JSON.
+          3. Se ausentes, aplica fallback por regex sobre os campos textuais.
+        Devolve sempre (ref_min, ref_max) com floats ou None.
+        """
+        caminho = self._procurar_arquivo_exame(id_exame)
+        if not caminho:
             return (None, None)
 
         try:
-            with open(caminho_match, 'r', encoding='utf-8') as f:
+            with open(caminho, 'r', encoding='utf-8') as f:
                 conteudo = f.read()
         except OSError:
             return (None, None)
@@ -904,20 +1069,73 @@ class AppClinica(ctk.CTk):
                 ref_min = self._coerce_float(dados.get('ref_min'))
                 ref_max = self._coerce_float(dados.get('ref_max'))
                 return (ref_min, ref_max)
-        elif isinstance(dados, list):
-            # Se o JSON for uma lista, não há onde procurar ref_min/ref_max.
-            return (None, None)
 
         # 2) Fallback por regex sobre todo o texto do ficheiro
         return self._extrair_refs_por_regex(conteudo)
 
-    def _classificar_valor(self, valor, ref_min, ref_max):
-        """Devolve 'Baixo', 'Normal', 'Alto' ou 'Sem referência' com blindagem contra None/não numéricos."""
+    def _carregar_bandas_exame(self, id_exame):
+        """Lê as faixas personalizadas ('bandas') do JSON, normalizadas como lista de dicts:
+        {'valor_max': float|None, 'inclusivo': bool, 'rotulo': str}, ou None se não houverem.
+
+        Cada banda representa um intervalo semiaberto/fechado até 'valor_max'
+        (inclusivo=True -> valor ≤ valor_max; inclusivo=False -> valor < valor_max).
+        A última banda com 'valor_max' nulo cobre todo o resto acima.
+        """
+        caminho = self._procurar_arquivo_exame(id_exame)
+        if not caminho:
+            return None
+        try:
+            with open(caminho, 'r', encoding='utf-8') as f:
+                conteudo = f.read()
+        except OSError:
+            return None
+        try:
+            dados = json.loads(conteudo)
+        except json.JSONDecodeError:
+            return None
+        if not isinstance(dados, dict) or not isinstance(dados.get('bandas'), list):
+            return None
+
+        lista = []
+        for b in dados['bandas'] if isinstance(dados.get('bandas'), list) else []:
+            if not isinstance(b, dict):
+                continue
+            lista.append({
+                'valor_max': self._coerce_float(b.get('valor_max')),
+                'inclusivo': bool(b.get('inclusivo', True)),
+                'rotulo': (b.get('rotulo') or b.get('rotulo_tecnico') or b.get('classificacao_simplificada') or 'Sem referência'),
+            })
+        return lista or None
+
+    def _classificar_valor(self, valor, ref_min=None, ref_max=None, bandas=None):
+        """Devolve rótulo clínico (faixa personalizada) ou 'Baixo'/'Normal'/'Alto'/'Sem referência'.
+
+        Se 'bandas' (faixas personalizadas do JSON) estiverem disponíveis, usa-as primeiro —
+        cada banda usa 'valor_max' (teto do intervalo) e rótulo textual próprio (ex.:
+        'Hipoglicemia', 'Risco de pré-diabetes', 'Desejável' etc.), permitindo laudos
+        personalizados em vez de forçar apenas Alto/Baixo/Normal.
+        """
         try:
             valor = float(valor)
         except (TypeError, ValueError):
             return "Sem referência"
 
+        # 1ª via: faixas personalizadas do JSON
+        if bandas:
+            for banda in bandas:
+                valor_max = banda.get('valor_max')
+                rotulo = banda.get('rotulo') or "Sem referência"
+                if valor_max is None:
+                    return rotulo
+                if banda.get('inclusivo', True):
+                    if valor <= valor_max:
+                        return rotulo
+                else:
+                    if valor < valor_max:
+                        return rotulo
+            return "Sem referência"
+
+        # 2ª via (fallback histórico): ref_min / ref_max
         try:
             ref_min_f = float(ref_min) if ref_min is not None else None
         except (TypeError, ValueError):
@@ -935,6 +1153,17 @@ class AppClinica(ctk.CTk):
             return "Alto"
         return "Normal"
 
+    def _cor_status(self, status):
+        """Escolhe a cor da label conforme o rótulo clínico do laudo."""
+        s = (status or "").lower()
+        if "sem referência" in s:
+            return "#556b58"
+        if any(k in s for k in ("normal", "desejável", "desejav", "adequado", "ótimo", "otimo", "protetor", "proteção")):
+            return "#2e7d32"
+        if any(k in s for k in ("limítrofe", "limitrofe", "risco", "pré-diabetes", "pré-diabete", "indica")):
+            return "#ef6c00"
+        return "#c62828"
+
     def _avaliar_entry_resultado(self, entry, lbl_status, id_exame):
         """Callback do <KeyRelease>: lê o valor, classifica e atualiza a label."""
         texto = entry.get().strip().replace(',', '.')
@@ -947,13 +1176,153 @@ class AppClinica(ctk.CTk):
             lbl_status.configure(text="Valor inválido", text_color="#ef6c00")
             return
         ref_min, ref_max = self._carregar_refs_exame(id_exame)
-        status = self._classificar_valor(valor, ref_min, ref_max)
-        if status == "Normal":
-            lbl_status.configure(text=status, text_color="#2e7d32")
-        elif status == "Sem referência":
-            lbl_status.configure(text=status, text_color="#556b58")
+        bandas = self._carregar_bandas_exame(id_exame)
+        status = self._classificar_valor(valor, ref_min, ref_max, bandas)
+        lbl_status.configure(text=status, text_color=self._cor_status(status))
+
+    def _recalcular_indices_dinamicos(self):
+        """Recalcula e atualiza os índices metabólicos dinâmicos na tela de resultados.
+
+        Verifica se os pares de exames necessários estão presentes e preenchidos
+        na tela atual (self._entries_resultados). Se sim, mostra/atualiza eles;
+        se faltam, oculta os labels correspondentes.
+        """
+        try:
+            entries = getattr(self, '_entries_resultados', {})
+            if not entries:
+                return
+
+            # DEBUG: verifica as chaves (id_exame) atuais na interface
+            print(f"[DEBUG calculo] Chaves ativas na interface: {list(entries.keys())}")
+
+            def _buscar_valor(*possibles):
+                """Busca flexible: prueba IDs exactos y luego substring en las keys reales."""
+                # 1) Intentar IDs exactos directamente
+                for pid in possibles:
+                    par = entries.get(pid)
+                    if par:
+                        entry = par[0]
+                        texto = entry.get().strip().replace(',', '.')
+                        if texto:
+                            try:
+                                return float(texto)
+                            except ValueError:
+                                pass
+                # 2) Fallback: substring flexible sobre todas las keys reales
+                keys_upper = {k.upper(): k for k in entries.keys()}
+                for needle in possibles:
+                    nu = (needle or '').upper()
+                    for ku, kv in keys_upper.items():
+                        if nu in ku or ku in nu:
+                            par = entries.get(kv)
+                            if par:
+                                entry = par[0]
+                                texto = entry.get().strip().replace(',', '.')
+                                if texto:
+                                    try:
+                                        return float(texto)
+                                    except ValueError:
+                                        pass
+                return None
+
+            # --- 1. Índice de De Ritis (TGO / TGP) ---
+            tgo = _buscar_valor("EXM-AST-TGO", "EXM-TGO", "EXM-AST", "AST", "TGO")
+            tgp = _buscar_valor("EXM-ALT-TGP", "EXM-TGP", "EXM-ALT", "ALT", "TGP")
+            self._atualizar_label_indice(
+                "de_ritis", tgo, tgp, tgo / tgp if (tgo and tgp) else None,
+                self._interpretar_de_ritis,
+                "Uprota Índice de De Ritis (TGO/TGP): {valor:.2f} | {interp}",
+                "TGO (AST) e TGP (ALT) preenchidos para calcular o índice de De Ritis. Limpe um para ocultar.",
+            )
+
+            # --- 2. Relação TG / HDL ---
+            tg  = _buscar_valor("EXM-TRIGLICERIDEOS", "TRIGLICERIDEOS", "TG", "TRIGLICERIDES")
+            hdl = _buscar_valor("EXM-HDL-COLESTEROL", "HDL-COLESTEROL", "HDL")
+            self._atualizar_label_indice(
+                "tg_hdl", tg, hdl, tg / hdl if (tg and hdl) else None,
+                self._interpretar_tg_hdl,
+                "Uprota Relação TG/HDL: {valor:.2f} | {interp}",
+                "Triglicerídeos e HDL preenchidos para calcular a relação TG/HDL. Limpe um para ocultar.",
+            )
+
+            # --- 3. Fração Aterogênica (Não-HDL / Total) ---
+            total = _buscar_valor("EXM-COLESTEROL-TOTAL", "COLESTEROL-TOTAL", "COLESTEROLTOTAL", "Colesterol Total")
+            hdl2  = _buscar_valor("EXM-HDL-COLESTEROL", "HDL-COLESTEROL", "HDL", "HDL-COLESTEROL")
+            nao_hdl_pct = ((total - hdl2) / total * 100) if (total and hdl2) else None
+            self._atualizar_label_indice(
+                "fracao_atero", total, hdl2, nao_hdl_pct,
+                self._interpretar_fracao_atero,
+                "Uprota Fração Aterogênica (Não-HDL/Total): {valor:.1f}% | {interp}",
+                "Colesterol Total e HDL preenchidos para calcular a fração aterogênica. Limpe um para ocultar.",
+            )
+
+            # --- 4. Razão Apo B / Apo A-1 ---
+            apo_b = _buscar_valor("EXM-APOLIPOPROTEINA-B", "APOLIPOPROTEINA-B", "EXM-APO-B", "APO-B", "Apo B", "APOLIPOPROTEINA B")
+            apo_a = _buscar_valor("EXM-APO-A1", "APO-A1", "Apo A-1", "APOLIPOPROTEINA A-1")
+            self._atualizar_label_indice(
+                "apo_b_apo_a", apo_b, apo_a, apo_b / apo_a if (apo_b and apo_a) else None,
+                lambda v: self._interpretar_apo_ratio(v),
+                "Uprota Razão Apo B / Apo A-1: {valor:.2f} | {interp}",
+                "Apolipoproteína B e A-1 preenchidas para calcular a razão. Limpe uma para ocultar.",
+            )
+        except Exception as e:
+            print(f"[ERRO CRÍTICO CALCULADORA]: {e}")
+
+    def _atualizar_label_indice(self, chave, val_a, val_b, valor_calc, interp_fn, fmt_str, empty_msg):
+        """Mostra/oculta/atualiza un label dinámico de índice en pantalla."""
+        if val_a is None or val_b is None or valor_calc is None:
+            self._limpar_label_indice(chave)
+            return
+        try:
+            valor = float(valor_calc)
+        except (TypeError, ValueError):
+            self._limpar_label_indice(chave)
+            return
+        interp = interp_fn(valor)
+        texto = fmt_str.format(valor=valor, interp=interp)
+        label = self._labels_calculo.get(chave)
+        if label is None:
+            label = ctk.CTkLabel(self._frame_indices, text=texto, font=ctk.CTkFont(size=14, weight="bold"),
+                                 text_color="#1565c0", justify="left")
+            label.pack(anchor="w", pady=(6, 2))
+            self._labels_calculo[chave] = label
         else:
-            lbl_status.configure(text=status, text_color="#c62828")
+            label.configure(text=texto)
+
+    def _limpar_label_indice(self, chave):
+        """Remove un label dinámico cuando el par deja de estar completo."""
+        label = self._labels_calculo.pop(chave, None)
+        if label and label.winfo_exists():
+            label.destroy()
+
+    @staticmethod
+    def _interpretar_de_ritis(valor):
+        if valor < 1.0:
+            return "Agressão hepatocelular inicial ou esteatose hepática."
+        elif valor <= 2.0:
+            return "Evolução para fibrose/cirrose hepática crônica."
+        else:
+            return "Achado altamente específico para hepatite alcoólica."
+
+    @staticmethod
+    def _interpretar_tg_hdl(valor):
+        if valor > 2.5:
+            return "Dislipidemia aterogênica / forte resistência à insulina / síndrome metabólica."
+        else:
+            return "Dentro do esperado."
+
+    @staticmethod
+    def _interpretar_fracao_atero(valor):
+        if valor < 30:
+            return "Baixa porcentagem de colesterol aterogênico."
+        elif valor < 50:
+            return "Intermediária."
+        else:
+            return "Alta porcentagem aterogênica — maior risco cardiovascular."
+
+    @staticmethod
+    def _interpretar_apo_ratio(valor):
+        return "Consulte a tabela de Wallach (Homens: 0.4 ↓ risco / 1.6 ↑ risco; Mulheres: 0.3 ↓ risco / 1.5 ↑ risco)."
 
     def abrir_modal_resultados(self):
         if not self.exames_selecionados_lista:
@@ -973,8 +1342,13 @@ class AppClinica(ctk.CTk):
         scroll = ctk.CTkScrollableFrame(modal, fg_color="transparent")
         scroll.pack(fill="both", expand=True, padx=10, pady=10)
 
+        # Contêiner para os labels dinâmicos de índices metabólicos
+        self._labels_calculo = {}
+        self._frame_indices = ctk.CTkFrame(scroll, fg_color="transparent")
+        self._frame_indices.pack(fill="x", pady=(0, 8))
+
         # Cache id_exame -> nome_amigavel para reusar labels
-        conexao = sqlite3.connect('clinica.db')
+        conexao = sqlite3.connect(os.path.join(get_base_path(), 'clinica.db'))
         cursor = conexao.cursor()
         cursor.execute("SELECT id_exame, nome_amigavel FROM Exames_Catalogo")
         mapa_nomes = {row[0]: row[1] for row in cursor.fetchall()}
@@ -995,7 +1369,10 @@ class AppClinica(ctk.CTk):
             lbl_status = ctk.CTkLabel(linha, text="", width=120, anchor="w", font=ctk.CTkFont(size=15))
             lbl_status.pack(side="left", padx=5, pady=6)
 
-            entry.bind("<KeyRelease>", lambda e, ent=entry, lbl=lbl_status, ex=id_exame: self._avaliar_entry_resultado(ent, lbl, ex))
+            self._entries_resultados[id_exame] = (entry, lbl_status)
+
+            # Gatilho de status individual: actualiza ao perder o foco (FocusOut)
+            entry.bind('<FocusOut>', lambda e, ent=entry, lbl=lbl_status, ex=id_exame: self._avaliar_entry_resultado(ent, lbl, ex))
 
             # Pré-preencher se já houver resultado lançado anteriormente
             if id_exame in self.resultados_lancados:
@@ -1003,7 +1380,19 @@ class AppClinica(ctk.CTk):
                 entry.insert(0, str(valor_anterior))
                 self._avaliar_entry_resultado(entry, lbl_status, id_exame)
 
-            self._entries_resultados[id_exame] = (entry, lbl_status)
+        # --- Botão manual para calcular os índices metabólicos ---
+        ctk.CTkButton(
+            scroll,
+            text="Calcular Índices Clínicos",
+            fg_color="#1565c0",
+            hover_color="#0d47a9",
+            text_color="#ffffff",
+            font=ctk.CTkFont(size=15, weight="bold"),
+            command=self._recalcular_indices_dinamicos
+        ).pack(pady=(8, 4), fill="x")
+
+        # --- Container onde os labels dinâmicos de índices aparecerão ---
+        self._frame_indices.pack(side="bottom", fill="x", pady=(0, 8))
 
         def salvar_e_fechar():
             self.resultados_lancados = {}
@@ -1016,8 +1405,11 @@ class AppClinica(ctk.CTk):
                 except ValueError:
                     continue
                 ref_min, ref_max = self._carregar_refs_exame(id_exame)
-                status = self._classificar_valor(valor, ref_min, ref_max)
+                bandas = self._carregar_bandas_exame(id_exame)
+                status = self._classificar_valor(valor, ref_min, ref_max, bandas)
                 self.resultados_lancados[id_exame] = (valor, status)
+            # Limpa os labels dinâmicos ao fechar o modal
+            self._labels_calculo = {}
             modal.destroy()
 
         ctk.CTkButton(modal, text="Salvar", fg_color="#4caf50", hover_color="#388e3c", text_color="#ffffff", font=ctk.CTkFont(size=16, weight="bold"), command=salvar_e_fechar).pack(pady=(0, 10))
@@ -1025,7 +1417,7 @@ class AppClinica(ctk.CTk):
     def listar_arquivos_diretorio(self, diretorio, frame_aba, caixa_texto):
         scroll = ctk.CTkScrollableFrame(frame_aba, fg_color="transparent")
         scroll.pack(fill="both", expand=True)
-        base_dir = os.path.dirname(os.path.abspath(__file__))
+        base_dir = get_base_path()
         caminho_dir = os.path.join(base_dir, diretorio)
         if not os.path.exists(caminho_dir):
             ctk.CTkLabel(scroll, text=f"Pasta '{diretorio}' não encontrada.", font=ctk.CTkFont(size=15)).pack(pady=10)
@@ -1067,34 +1459,65 @@ class AppClinica(ctk.CTk):
             else: caixa_texto.insert("end", conteudo)
         except Exception as e: print(f"Erro: {e}")
 
-    def filtrar_exames(self, event):
-        texto_digitado = self.combo_exames.get().lower()
-        if texto_digitado.strip() == "":
-            self.combo_exames.configure(values=self.opcoes_exames)
+    def _abrir_select_exame(self):
+        """Abre una janela de selección con scroll fluido (CTkScrollableFrame)."""
+        modal = ctk.CTkToplevel(self)
+        modal.geometry("380x420")
+        modal.title("Selecionar Exame")
+        modal.attributes("-topmost", True)
+        modal.configure(fg_color="#e8f5e9")
+
+        ctk.CTkLabel(modal, text="Selecione un exame do catálogo:", font=ctk.CTkFont(size=15, weight="bold"), text_color="#1b5e20").pack(pady=(10, 5))
+
+        self.entry_filtro_exames = ctk.CTkEntry(modal, placeholder_text="Filtrar por nombre...", font=ctk.CTkFont(size=15), fg_color="#ffffff", text_color="#1b5e20", placeholder_text_color="#7a9e7e", border_color="#a5d6a7")
+        self.entry_filtro_exames.pack(fill="x", padx=15, pady=5)
+        self.entry_filtro_exames.bind("<KeyRelease>", lambda e: self._preencher_lista_exames())
+
+        self.scroll_lista_exames = ctk.CTkScrollableFrame(modal, width=340, height=300, fg_color="#f1f8ea", corner_radius=6)
+        self.scroll_lista_exames.pack(fill="both", expand=True, padx=15, pady=10)
+
+        self._preencher_lista_exames()
+
+    def _preencher_lista_exames(self):
+        """Reconstruye los botones del scroll según el filtro escrito."""
+        for widget in self.scroll_lista_exames.winfo_children():
+            widget.destroy()
+        texto = self.entry_filtro_exames.get().strip().lower()
+        opciones = [o for o in self.opcoes_exames if texto in o.lower()] if texto else self.opcoes_exames
+        if not opciones:
+            ctk.CTkLabel(self.scroll_lista_exames, text="Nenhum exame encontrado.", font=ctk.CTkFont(size=14), text_color="#556b58").pack(pady=20)
             return
-        filtrados = [exame for exame in self.opcoes_exames if texto_digitado in exame.lower()]
-        if not filtrados: filtrados = ["Nenhum exame encontrado..."]
-        self.combo_exames.configure(values=filtrados)
+        for opcion in opciones:
+            ctk.CTkButton(self.scroll_lista_exames, text=opcion, anchor="w", fg_color="#4caf50", hover_color="#388e3c", text_color="#ffffff", font=ctk.CTkFont(size=14), command=lambda o=opcion: self._seleccionar_exame(o)).pack(fill="x", padx=5, pady=2)
+
+    def _seleccionar_exame(self, opcion):
+        """Guarda la elección y cierra la ventana del selector."""
+        self.exame_escolhido = opcion
+        self.btn_select_exame.configure(text=opcion)
+        try:
+            self.scroll_lista_exames.winfo_toplevel().destroy()
+        except Exception:
+            pass
 
     def adicionar_exame(self, id_forcado=None, nome_forcado=None):
         if id_forcado and nome_forcado:
             id_exame = id_forcado
             nome_amigavel = nome_forcado
         else:
-            escolha = self.combo_exames.get()
-            if escolha == "Selecione um exame..." or escolha == "Nenhum exame encontrado...": return
+            escolha = self.exame_escolhido
+            if not escolha or escolha == "Nenhum exame encontrado...": return
             id_exame = self.catalogo_exames_dict.get(escolha)
             if not id_exame: return
             nome_amigavel = escolha.split(" (")[0]
         if id_exame in self.exames_selecionados_lista: return
         self.exames_selecionados_lista.append(id_exame)
         ctk.CTkLabel(self.frame_lista_exames, text=f"• {nome_amigavel}", font=ctk.CTkFont(size=15), text_color="#1b5e20").pack(anchor="w", padx=10, pady=2)
-        self.combo_exames.set("Selecione um exame...")
-        self.combo_exames.configure(values=self.opcoes_exames)
+        self.exame_escolhido = None
+        self.btn_select_exame.configure(text="Seleccionar exame...  ▼")
         self.verificar_regras_inteligentes(id_exame)
 
     def verificar_regras_inteligentes(self, id_gatilho):
-        conexao = sqlite3.connect('clinica.db')
+        conexao = sqlite3.connect(os.path.join(get_base_path(), 'clinica.db'))
         cursor = conexao.cursor()
         cursor.execute('''SELECT E.id_exame, E.nome_amigavel FROM Regras_Complementares R
                           JOIN Exames_Catalogo E ON R.exame_sugerido = E.id_exame
@@ -1111,6 +1534,134 @@ class AppClinica(ctk.CTk):
         ctk.CTkLabel(container, text=f"💡 Sugestão: O exame '{sug_nome}' é complementar à sua solicitação.", text_color="#ffffff", font=ctk.CTkFont(size=15, weight="bold")).pack(side="left")
         ctk.CTkButton(container, text="Adicionar", width=80, fg_color="#a5d6a7", hover_color="#81c784", text_color="#1b5e20", font=ctk.CTkFont(size=14, weight="bold"), command=lambda: [self.adicionar_exame(sug_id, sug_nome), container.destroy()]).pack(side="right")
 
+    def _calcular_idade_por_nascimento(self, data_nasc):
+        """Calcula a idade exata (anos completos) a partir da data de nascimento."""
+        if not data_nasc:
+            return None
+        texto = str(data_nasc).strip()
+        for formato in ('%d/%m/%Y', '%d/%m/%y', '%Y-%m-%d'):
+            try:
+                nascimento = datetime.strptime(texto, formato).date()
+                hoje = datetime.now().date()
+                return hoje.year - nascimento.year - ((hoje.month, hoje.day) < (nascimento.month, nascimento.day))
+            except ValueError:
+                continue
+        return None
+
+    @staticmethod
+    def _classificar_imc(imc, idade):
+        """Classifica o IMC conforme a faixa etária.
+
+        Idoso (>= 60 anos): < 22.0 Baixo peso | 22.0-27.0 Eutrofia | > 27.0 Sobrepeso
+        Adulto (< 60 anos): réguas clássicas da OMS (18.5/25/30/35/40).
+        Sem idade informada, aplica-se a régua de adulto (fallback documentado).
+        """
+        if idade is None:
+            idade = 30  # fallback: régua de adulto quando não há data de nascimento
+        if idade >= 60:
+            if imc < 22.0:
+                return "Baixo peso"
+            if imc <= 27.0:
+                return "Eutrofia"
+            return "Sobrepeso"
+        if imc < 18.5:
+            return "Baixo peso"
+        if imc < 25.0:
+            return "Eutrofia"
+        if imc < 30.0:
+            return "Sobrepeso"
+        if imc < 35.0:
+            return "Obesidade grau I"
+        if imc < 40.0:
+            return "Obesidade grau II"
+        return "Obesidade grau III"
+
+    def _calcular_imc_dinamico(self, *args):
+        """Gatilho <KeyRelease> dos entries de Peso/Altura: calcula IMC em tempo real."""
+        try:
+            peso_str = self.entry_peso.get().strip().replace(',', '.')
+            altura_str = self.entry_altura.get().strip().replace(',', '.')
+            if not peso_str or not altura_str:
+                self.lbl_imc.configure(text="IMC: -- kg/m²", text_color="#556b58")
+                return
+            peso = float(peso_str)
+            altura = float(altura_str)
+            if peso <= 0 or altura <= 0:
+                raise ZeroDivisionError("peso/altura devem ser maiores que zero")
+            imc = peso / (altura ** 2)
+            idade = self._calcular_idade_por_nascimento(getattr(self, 'paciente_atual_nasc', ''))
+            classificacao = self._classificar_imc(imc, idade)
+            sufixo_idade = f" (≥60 anos - régua idoso)" if (idade is not None and idade >= 60) else ""
+            self.lbl_imc.configure(
+                text=f"IMC: {imc:.1f} kg/m² — {classificacao}{sufixo_idade}",
+                text_color="#1b5e20"
+            )
+        except (ValueError, ZeroDivisionError):
+            self.lbl_imc.configure(text="IMC: -- kg/m²", text_color="#556b58")
+        except Exception as e:
+            print(f"[ERRO CRÍTICO IMC]: {e}")
+            self.lbl_imc.configure(text="IMC: -- kg/m²", text_color="#556b58")
+
+    def _calcular_indices_para_pdf(self, valores):
+        """Recebe {NOME_EXAME: valor} e retorna as linhas de laudo dos pares clínicos.
+
+        Usa a mesma lógica matemática e os mesmos interpretadores da calculadora
+        da tela de resultados (_interpretar_*), garantindo consistência.
+        """
+        def busca(*chaves):
+            for alvo in chaves:
+                for chave, valor in valores.items():
+                    if alvo in chave:
+                        return valor
+            return None
+
+        linhas = []
+        try:
+            # 1) Índice de De Ritis (TGO / TGP)
+            tgo = busca("TGO", "AST")
+            tgp = busca("TGP", "ALT")
+            if tgo and tgp:
+                relacao = tgo / tgp
+                linhas.append(
+                    f"* Índice de De Ritis (TGO/TGP): {relacao:.2f} - "
+                    f"{self._interpretar_de_ritis(relacao).replace(chr(8212), '-')}"
+                )
+            # 2) Relação TG / HDL
+            tg = busca("TRIGLIC")
+            hdl = busca("HDL")
+            if tg and hdl:
+                relacao = tg / hdl
+                linhas.append(
+                    f"* Relação TG/HDL: {relacao:.2f} - "
+                    f"{self._interpretar_tg_hdl(relacao).replace(chr(8212), '-')}"
+                )
+            # 3) Fração Aterogênica (Não-HDL / Total)
+            colesterol_total = None
+            for chave, valor in valores.items():
+                if "COLESTEROL" in chave and "TOTAL" in chave:
+                    colesterol_total = valor
+                    break
+            if colesterol_total and hdl:
+                pct = (colesterol_total - hdl) / colesterol_total * 100
+                linhas.append(
+                    f"* Fração Aterogênica (Não-HDL/Total): {pct:.1f}% - "
+                    f"{self._interpretar_fracao_atero(pct).replace(chr(8212), '-')}"
+                )
+            # 4) Razão Apo B / Apo A-1
+            apo_b = busca("APOLIPOPROTEINA B", "APO B", "APO-B")
+            apo_a = busca("APOLIPOPROTEINA A", "APO A", "APO-A1", "APO-A")
+            if apo_b and apo_a:
+                relacao = apo_b / apo_a
+                linhas.append(
+                    f"* Razão Apo B / Apo A-1: {relacao:.2f} - "
+                    f"{self._interpretar_apo_ratio(relacao)}"
+                )
+        except ZeroDivisionError:
+            pass
+        except Exception as e:
+            print(f"[ERRO CRÍTICO ÍNDICES PDF]: {e}")
+        return linhas
+
     def salvar_consulta(self):
         if not self.paciente_atual_id: return
         anamnese = self.txt_anamnese.get("1.0", "end-1c")
@@ -1123,7 +1674,7 @@ class AppClinica(ctk.CTk):
         analise_exames = self.txt_analise_exames.get("1.0", "end-1c")
 
         data_atual = datetime.now().strftime("%d/%m/%Y %H:%M")
-        conexao = sqlite3.connect('clinica.db')
+        conexao = sqlite3.connect(os.path.join(get_base_path(), 'clinica.db'))
         cursor = conexao.cursor()
         cursor.execute('''
             INSERT INTO Consultas (id_paciente, data_consulta, anamnese, peso, altura, gordura, conduta, tmb, vet, naf, metodo_tmb, analise_exames)
@@ -1203,7 +1754,7 @@ class AppClinica(ctk.CTk):
         frame_regras = ctk.CTkFrame(aba_regras, fg_color="transparent")
         frame_regras.pack(pady=20)
         
-        conexao = sqlite3.connect('clinica.db')
+        conexao = sqlite3.connect(os.path.join(get_base_path(), 'clinica.db'))
         cursor = conexao.cursor()
         cursor.execute("SELECT id_exame, nome_amigavel FROM Exames_Catalogo ORDER BY nome_amigavel")
         exames_banco = cursor.fetchall()
@@ -1229,7 +1780,7 @@ class AppClinica(ctk.CTk):
     def carregar_tabela_exames(self):
         for item in self.tree_exames.get_children():
             self.tree_exames.delete(item)
-        conexao = sqlite3.connect('clinica.db')
+        conexao = sqlite3.connect(os.path.join(get_base_path(), 'clinica.db'))
         cursor = conexao.cursor()
         cursor.execute("SELECT id_exame, nome_amigavel FROM Exames_Catalogo ORDER BY nome_amigavel")
         linhas = cursor.fetchall()
@@ -1246,7 +1797,7 @@ class AppClinica(ctk.CTk):
             return
             
         try:
-            conexao = sqlite3.connect('clinica.db')
+            conexao = sqlite3.connect(os.path.join(get_base_path(), 'clinica.db'))
             cursor = conexao.cursor()
             cursor.execute("INSERT INTO Exames_Catalogo (id_exame, nome_amigavel) VALUES (?, ?)", (id_exame, nome))
             conexao.commit()
@@ -1274,7 +1825,7 @@ class AppClinica(ctk.CTk):
             self.lbl_msg_regra.configure(text="Erro: O gatilho e a sugestão não podem ser o mesmo exame.", text_color="#c62828")
             return
             
-        conexao = sqlite3.connect('clinica.db')
+        conexao = sqlite3.connect(os.path.join(get_base_path(), 'clinica.db'))
         cursor = conexao.cursor()
         
         # Verifica se a regra já existe

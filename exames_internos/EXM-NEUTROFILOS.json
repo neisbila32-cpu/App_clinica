@@ -1,0 +1,11 @@
+{
+  "id": "EXM-NEUTROFILOS",
+  "nome": "Neutrófilos",
+  "unidade_medida": "%",
+  "categoria": "Hemograma — Série Branca",
+  "versao_conteudo": 1,
+  "bandas": [],
+  "padroes_combinados_categoria": [],
+  "ref_min": 43.0,
+  "ref_max": 72.0
+}

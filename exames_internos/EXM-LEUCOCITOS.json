@@ -1,0 +1,11 @@
+{
+  "id": "EXM-LEUCOCITOS",
+  "nome": "Leucócitos Totais",
+  "unidade_medida": "/µL",
+  "categoria": "Hemograma — Série Branca",
+  "versao_conteudo": 1,
+  "bandas": [],
+  "padroes_combinados_categoria": [],
+  "ref_min": 4500.0,
+  "ref_max": 10300.0
+}

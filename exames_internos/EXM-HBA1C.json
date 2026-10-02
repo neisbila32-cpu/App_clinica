@@ -7,24 +7,17 @@
   "bandas": [
     {
       "valor_max": 5.7,
-      "rotulo_tecnico": "Normal",
-      "classificacao_simplificada": "adequado",
-      "causa_possivel_texto": null,
-      "conduta_texto": null
+      "inclusivo": false,
+      "rotulo": "Resultado normal (baixo risco para diabetes)"
     },
     {
-      "valor_max": 6.4,
-      "rotulo_tecnico": "Pré-diabetes",
-      "classificacao_simplificada": "limitrofe",
-      "causa_possivel_texto": null,
-      "conduta_texto": "Ajuste de macronutrientes e padrão alimentar (crucial)."
+      "valor_max": 6.5,
+      "inclusivo": false,
+      "rotulo": "Indica pré-diabetes"
     },
     {
       "valor_max": null,
-      "rotulo_tecnico": "Suspeita DM2 (≥6,5%)",
-      "classificacao_simplificada": "inadequado",
-      "causa_possivel_texto": null,
-      "conduta_texto": "Encaminhar ao médico."
+      "rotulo": "Sugestivo de diabetes"
     }
   ],
   "padroes_combinados_categoria": [],

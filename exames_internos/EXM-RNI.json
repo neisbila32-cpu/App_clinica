@@ -1,0 +1,11 @@
+{
+  "id": "EXM-RNI",
+  "nome": "RNI (Índice Internacional Normalizado)",
+  "unidade_medida": "ratio",
+  "categoria": "Hemostasia e Coagulação",
+  "versao_conteudo": 1,
+  "bandas": [],
+  "padroes_combinados_categoria": [],
+  "ref_min": 0.8,
+  "ref_max": 1.2
+}

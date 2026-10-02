@@ -1,0 +1,11 @@
+{
+  "id": "EXM-TAP",
+  "nome": "Taxa de Actividade de Protrombina (TAP)",
+  "unidade_medida": "%",
+  "categoria": "Hemostasia e Coagulação",
+  "versao_conteudo": 1,
+  "bandas": [],
+  "padroes_combinados_categoria": [],
+  "ref_min": 70.0,
+  "ref_max": 120.0
+}

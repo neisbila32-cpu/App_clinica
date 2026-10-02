@@ -1,0 +1,11 @@
+{
+  "id": "EXM-GAMA-GT",
+  "nome": "Gama-Glutamiltransferase (Gama-GT / GGT)",
+  "unidade_medida": "UI/L",
+  "categoria": "Função Hepática",
+  "versao_conteudo": 1,
+  "bandas": [],
+  "padroes_combinados_categoria": [],
+  "ref_min": 7.0,
+  "ref_max": 50.0
+}

@@ -1,0 +1,11 @@
+{
+  "id": "EXM-MONOCITOS",
+  "nome": "Monócitos",
+  "unidade_medida": "%",
+  "categoria": "Hemograma — Série Branca",
+  "versao_conteudo": 1,
+  "bandas": [],
+  "padroes_combinados_categoria": [],
+  "ref_min": 2.0,
+  "ref_max": 12.0
+}

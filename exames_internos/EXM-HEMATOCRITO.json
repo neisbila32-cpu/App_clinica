@@ -1,0 +1,15 @@
+{
+  "id": "EXM-HEMATOCRITO",
+  "nome": "Hematócrito (HCT)",
+  "unidade_medida": "%",
+  "categoria": "Hemograma — Série Vermelha",
+  "versao_conteudo": 1,
+  "bandas": [],
+  "padroes_combinados_categoria": [],
+  "ref_min": 37.0,
+  "ref_max": 52.0,
+  "valores_referencia_por_sexo": {
+    "mulheres": [37.0, 47.0],
+    "homens": [42.0, 52.0]
+  }
+}

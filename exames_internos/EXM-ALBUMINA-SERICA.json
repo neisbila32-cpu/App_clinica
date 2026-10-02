@@ -20,14 +20,16 @@
       "conduta_texto": "Meia-vida longa (~20 dias) — reflexo tardio. Afetada por inflamação (proteína de fase aguda negativa) e hidratação."
     },
     {
-      "valor_max": 5.0,
-      "rotulo_tecnico": "Normal (3,5–5,0 g/dL)",
-      "classificacao_simplificada": "adequado",
-      "causa_possivel_texto": null,
-      "conduta_texto": null
+      "valor_max": 4.8,
+      "inclusivo": true,
+      "rotulo": "Albumina normal (3,5–4,8 g/dL)"
+    },
+    {
+      "valor_max": null,
+      "rotulo": "Albumina elevada (>4,8 g/dL)"
     }
   ],
   "padroes_combinados_categoria": [],
   "ref_min": 3.5,
-  "ref_max": 5.0
+  "ref_max": 4.8
 }

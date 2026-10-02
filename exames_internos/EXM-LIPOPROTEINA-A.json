@@ -1,0 +1,17 @@
+{
+  "id": "EXM-LIPOPROTEINA-A",
+  "nome": "Lipoproteína(a) / Lp(a)",
+  "unidade_medida": "mg/dL",
+  "categoria": "Perfil Lipídico",
+  "versao_conteudo": 1,
+  "bandas": [
+    {
+      "valor_max": null,
+      "rotulo_tecnico": "Desejável (< 30 mg/dL)",
+      "classificacao_simplificada": "adequado"
+    }
+  ],
+  "padroes_combinados_categoria": [],
+  "ref_min": 0.0,
+  "ref_max": 29.9
+}

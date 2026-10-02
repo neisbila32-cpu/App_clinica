@@ -718,13 +718,15 @@
         "Padrão Função Hepática (painel)",
         "Pré-Albumina",
         "Proteína C-Reativa",
-        "Ureia"
+        "Ureia",
+        "Cobre Sérico"
       ],
       "regras": [
         "A ALT (TGP) e a AST (TGO) avaliam lesão hepatocelular e devem ser comparadas entre si (a relação entre elas ajuda a diferenciar gravidade e origem da lesão); a Bilirrubina avalia a capacidade excretora do fígado; e a Albumina Sérica avalia a capacidade de síntese hepática, complementando a avaliação funcional completa do fígado.",
         "O painel 'Padrão Função Hepática' agrupa e é complementado pela ALT (TGP), AST (TGO), Bilirrubina e Albumina Sérica.",
         "O Balanço Nitrogenado usa a excreção urinária de ureia (derivada do catabolismo proteico) para estimar o equilíbrio entre ingestão e perda de proteínas, sendo interpretado junto com a Ureia e com marcadores de proteína visceral como a Albumina Sérica na avaliação do estado nutricional/catabólico.",
-        "Albumina e Pré-Albumina são usadas como marcadores de proteína visceral/estado nutricional, mas ambas caem também em processos inflamatórios (não só na desnutrição); por isso, a Proteína C-Reativa deve ser dosada em conjunto para diferenciar queda por inflamação de queda por desnutrição real. O Balanço Nitrogenado complementa avaliando diretamente o equilíbrio proteico."
+        "Albumina e Pré-Albumina são usadas como marcadores de proteína visceral/estado nutricional, mas ambas caem também em processos inflamatórios (não só na desnutrição); por isso, a Proteína C-Reativa deve ser dosada em conjunto para diferenciar queda por inflamação de queda por desnutrição real. O Balanço Nitrogenado complementa avaliando diretamente o equilíbrio proteico.",
+        "Panel de función hepática: Gama-GT y Fosfatasa Alcalina señalan colestasis; ALT/AST valoran la lesión hepatocelular; la Bilirrubina, la excreción; y el Cobre Sérico se afecta en enfermedades hepáticas y déficit de transporte."
       ]
     },
     {
@@ -862,6 +864,234 @@
       "complementares_na_lista": [],
       "regras": [],
       "observacao": "Não há complemento direto e específico dentro desta lista. Na prática clínica, o IGF-1 é interpretado em conjunto com a função tireoidiana (TSH/T4 Livre) e com marcadores nutricionais (ex.: Albumina Sérica, Ferritina), pois deficiências nutricionais e disfunções tireoidianas também podem alterar seus níveis, especialmente na investigação de distúrbios de crescimento."
+    },
+    {
+      "exame": "Eritrócitos (Contagem de Hemácias)",
+      "complementares_na_lista": [
+        "Ferritina Sérica",
+        "Ferro Sérico",
+        "TIBC (Capacidade Total de Ligação do Ferro)",
+        "Saturação de Transferrina",
+        "B12 Sérica",
+        "Folato Eritrocitário",
+        "Ácido Metilmalônico",
+        "Homocisteína Sérica",
+        "Bilirrubina"
+      ],
+      "regras": [
+        "Evaluación conjunta de la serie eritroide: la Ferritina y el Ferro Sérico valoran las reservas y el aporte de hierro; TIBC y Saturação de Transferrina, el transporte; B12 Sérica, Folato Eritrocitário, Ácido Metilmalônico y Homocisteína Sérica, la serie megaloblástica; y la Bilirrubina, la destrucción eritrocitaria."
+      ]
+    },
+    {
+      "exame": "Hematócrito (HCT)",
+      "complementares_na_lista": [
+        "Ferritina Sérica",
+        "Ferro Sérico",
+        "TIBC (Capacidade Total de Ligação do Ferro)",
+        "Saturação de Transferrina",
+        "B12 Sérica",
+        "Folato Eritrocitário",
+        "Ácido Metilmalônico",
+        "Homocisteína Sérica",
+        "Bilirrubina"
+      ],
+      "regras": [
+        "Evaluación conjunta de la serie eritroide: la Ferritina y el Ferro Sérico valoran las reservas y el aporte de hierro; TIBC y Saturação de Transferrina, el transporte; B12 Sérica, Folato Eritrocitário, Ácido Metilmalônico y Homocisteína Sérica, la serie megaloblástica; y la Bilirrubina, la destrucción eritrocitaria."
+      ]
+    },
+    {
+      "exame": "CHCM (Concentração de Hemoglobina Corpuscular Media)",
+      "complementares_na_lista": [
+        "Ferritina Sérica",
+        "Ferro Sérico",
+        "TIBC (Capacidade Total de Ligação do Ferro)",
+        "Saturação de Transferrina",
+        "B12 Sérica",
+        "Folato Eritrocitário",
+        "Ácido Metilmalônico",
+        "Homocisteína Sérica",
+        "Bilirrubina"
+      ],
+      "regras": [
+        "Evaluación conjunta de la serie eritroide: la Ferritina y el Ferro Sérico valoran las reservas y el aporte de hierro; TIBC y Saturação de Transferrina, el transporte; B12 Sérica, Folato Eritrocitário, Ácido Metilmalônico y Homocisteína Sérica, la serie megaloblástica; y la Bilirrubina, la destrucción eritrocitaria."
+      ]
+    },
+    {
+      "exame": "Leucócitos Totais",
+      "complementares_na_lista": [
+        "Proteína C-Reativa"
+      ],
+      "regras": [
+        "La fórmula leucocitaria evalúa la respuesta inmunitaria; la Proteína C-Reativa (PCR) complementa cuantificando la inflamación sistémica que suele acompañar a la leucocitosis."
+      ]
+    },
+    {
+      "exame": "Neutrófilos",
+      "complementares_na_lista": [
+        "Proteína C-Reativa"
+      ],
+      "regras": [
+        "La fórmula leucocitaria evalúa la respuesta inmunitaria; la Proteína C-Reativa (PCR) complementa cuantificando la inflamación sistémica que suele acompañar a la leucocitosis."
+      ]
+    },
+    {
+      "exame": "Linfocitos",
+      "complementares_na_lista": [
+        "Proteína C-Reativa"
+      ],
+      "regras": [
+        "La fórmula leucocitaria evalúa la respuesta inmunitaria; la Proteína C-Reativa (PCR) complementa cuantificando la inflamación sistémica que suele acompañar a la leucocitosis."
+      ]
+    },
+    {
+      "exame": "Monócitos",
+      "complementares_na_lista": [
+        "Proteína C-Reativa"
+      ],
+      "regras": [
+        "La fórmula leucocitaria evalúa la respuesta inmunitaria; la Proteína C-Reativa (PCR) complementa cuantificando la inflamación sistémica que suele acompañar a la leucocitosis."
+      ]
+    },
+    {
+      "exame": "Eosinófilos",
+      "complementares_na_lista": [
+        "Proteína C-Reativa"
+      ],
+      "regras": [
+        "La fórmula leucocitaria evalúa la respuesta inmunitaria; la Proteína C-Reativa (PCR) complementa cuantificando la inflamación sistémica que suele acompañar a la leucocitosis."
+      ]
+    },
+    {
+      "exame": "Basófilos",
+      "complementares_na_lista": [
+        "Proteína C-Reativa"
+      ],
+      "regras": [
+        "La fórmula leucocitaria evalúa la respuesta inmunitaria; la Proteína C-Reativa (PCR) complementa cuantificando la inflamación sistémica que suele acompañar a la leucocitosis."
+      ]
+    },
+    {
+      "exame": "VLDL-Colesterol",
+      "complementares_na_lista": [
+        "Colesterol Total",
+        "HDL-c (HDL Colesterol)",
+        "LDL-c (LDL Colesterol)",
+        "Triglicérides (TG)",
+        "Apolipoproteína B (ApoB)",
+        "Homocisteína Sérica",
+        "Glicemia de Jejum",
+        "Hemoglobina Glicada (HbA1c)"
+      ],
+      "regras": [
+        "Estudio de riesgo cardiovascular: VLDL, Apo A-1 y Lp(a) se interpretan con el perfil lipídico completo (CT, HDL-c, LDL-c, TG y ApoB) más el metabolismo glucídico (Glicemia de Jejum y HbA1c) y la Homocisteína Sérica para la evaluación global del riesgo vascular."
+      ]
+    },
+    {
+      "exame": "Apolipoproteína A-1 (Apo A-1)",
+      "complementares_na_lista": [
+        "Colesterol Total",
+        "HDL-c (HDL Colesterol)",
+        "LDL-c (LDL Colesterol)",
+        "Triglicérides (TG)",
+        "Apolipoproteína B (ApoB)",
+        "Homocisteína Sérica",
+        "Glicemia de Jejum",
+        "Hemoglobina Glicada (HbA1c)"
+      ],
+      "regras": [
+        "Estudio de riesgo cardiovascular: VLDL, Apo A-1 y Lp(a) se interpretan con el perfil lipídico completo (CT, HDL-c, LDL-c, TG y ApoB) más el metabolismo glucídico (Glicemia de Jejum y HbA1c) y la Homocisteína Sérica para la evaluación global del riesgo vascular."
+      ]
+    },
+    {
+      "exame": "Lipoproteína(a) / Lp(a)",
+      "complementares_na_lista": [
+        "Colesterol Total",
+        "HDL-c (HDL Colesterol)",
+        "LDL-c (LDL Colesterol)",
+        "Triglicérides (TG)",
+        "Apolipoproteína B (ApoB)",
+        "Homocisteína Sérica",
+        "Glicemia de Jejum",
+        "Hemoglobina Glicada (HbA1c)"
+      ],
+      "regras": [
+        "Estudio de riesgo cardiovascular: VLDL, Apo A-1 y Lp(a) se interpretan con el perfil lipídico completo (CT, HDL-c, LDL-c, TG y ApoB) más el metabolismo glucídico (Glicemia de Jejum y HbA1c) y la Homocisteína Sérica para la evaluación global del riesgo vascular."
+      ]
+    },
+    {
+      "exame": "Gama-Glutamiltransferase (Gama-GT / GGT)",
+      "complementares_na_lista": [
+        "ALT (TGP)",
+        "AST (TGO)",
+        "Bilirrubina",
+        "Cobre Sérico"
+      ],
+      "regras": [
+        "Panel de función hepática: Gama-GT y Fosfatasa Alcalina señalan colestasis; ALT/AST valoran la lesión hepatocelular; la Bilirrubina, la excreción; y el Cobre Sérico se afecta en enfermedades hepáticas y déficit de transporte."
+      ]
+    },
+    {
+      "exame": "Fosfatasa Alcalina (FA / FAL)",
+      "complementares_na_lista": [
+        "ALT (TGP)",
+        "AST (TGO)",
+        "Bilirrubina",
+        "Cobre Sérico"
+      ],
+      "regras": [
+        "Panel de función hepática: Gama-GT y Fosfatasa Alcalina señalan colestasis; ALT/AST valoran la lesión hepatocelular; la Bilirrubina, la excreción; y el Cobre Sérico se afecta en enfermedades hepáticas y déficit de transporte."
+      ]
+    },
+    {
+      "exame": "Tempo de Protrombina (TP)",
+      "complementares_na_lista": [
+        "ALT (TGP)",
+        "AST (TGO)",
+        "Albumina Sérica",
+        "Ureia",
+        "Creatinina Sérica"
+      ],
+      "regras": [
+        "Evaluación de la hemostasia (TP, TAP, RNI) junto a la capacidad de síntesis hepática de factores (ALT/AST y Albumina Sérica) y a la función renal (Ureia, Creatinina Sérica), evitando diagnósticos confundidos."
+      ]
+    },
+    {
+      "exame": "Taxa de Actividade de Protrombina (TAP)",
+      "complementares_na_lista": [
+        "ALT (TGP)",
+        "AST (TGO)",
+        "Albumina Sérica",
+        "Ureia",
+        "Creatinina Sérica"
+      ],
+      "regras": [
+        "Evaluación de la hemostasia (TP, TAP, RNI) junto a la capacidad de síntesis hepática de factores (ALT/AST y Albumina Sérica) y a la función renal (Ureia, Creatinina Sérica), evitando diagnósticos confundidos."
+      ]
+    },
+    {
+      "exame": "RNI (Índice Internacional Normalizado)",
+      "complementares_na_lista": [
+        "ALT (TGP)",
+        "AST (TGO)",
+        "Albumina Sérica",
+        "Ureia",
+        "Creatinina Sérica"
+      ],
+      "regras": [
+        "Evaluación de la hemostasia (TP, TAP, RNI) junto a la capacidad de síntesis hepática de factores (ALT/AST y Albumina Sérica) y a la función renal (Ureia, Creatinina Sérica), evitando diagnósticos confundidos."
+      ]
+    },
+    {
+      "exame": "T3 Reverso (rT3)",
+      "complementares_na_lista": [
+        "TSH",
+        "T4 Livre",
+        "T3 Total/Livre",
+        "Anticorpos Anti-TPO"
+      ],
+      "regras": [
+        "Estudio tireoidiano completo: el T3 Reverso (rT3) se interpreta junto a TSH, T4 Livre y T3 Total/Livre para valorar el eje tiroideo, y con los Anticorpos Anti-TPO para descartar causa autoinmune."
+      ]
     }
   ],
   "fontes_consultadas": [

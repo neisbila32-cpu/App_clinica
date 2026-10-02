@@ -1,0 +1,11 @@
+{
+  "id": "EXM-CHCM",
+  "nome": "CHCM (Concentração de Hemoglobina Corpuscular Media)",
+  "unidade_medida": "g/dL",
+  "categoria": "Hemograma — Série Vermelha",
+  "versao_conteudo": 1,
+  "bandas": [],
+  "padroes_combinados_categoria": [],
+  "ref_min": 31.5,
+  "ref_max": 36.0
+}

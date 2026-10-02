@@ -1,0 +1,11 @@
+{
+  "id": "EXM-EOSINOFILOS",
+  "nome": "Eosinófilos",
+  "unidade_medida": "%",
+  "categoria": "Hemograma — Série Branca",
+  "versao_conteudo": 1,
+  "bandas": [],
+  "padroes_combinados_categoria": [],
+  "ref_min": 0.0,
+  "ref_max": 5.0
+}

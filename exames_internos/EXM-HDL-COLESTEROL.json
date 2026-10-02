@@ -6,18 +6,18 @@
   "versao_conteudo": 1,
   "bandas": [
     {
-      "valor_max": 50,
-      "rotulo_tecnico": "HDL baixo (< 40 mg/dL em homens / < 50 mg/dL em mulheres) — risco cardiovascular aumentado",
-      "classificacao_simplificada": "inadequado",
-      "causa_possivel_texto": "Sedentarismo; tabagismo; dieta pobre em gorduras saudáveis; obesidade",
-      "conduta_texto": "Prescrever gorduras mono e poli-insaturadas; estimular atividade física aeróbica."
+      "valor_max": 40,
+      "inclusivo": false,
+      "rotulo": "Limítrofe (HDL baixo — risco cardiovascular)"
+    },
+    {
+      "valor_max": 60,
+      "inclusivo": false,
+      "rotulo": "Desejável"
     },
     {
       "valor_max": null,
-      "rotulo_tecnico": "Adequado",
-      "classificacao_simplificada": "adequado",
-      "causa_possivel_texto": null,
-      "conduta_texto": null
+      "rotulo": "Alto (ótimo — proteção cardiovascular)"
     }
   ],
   "padroes_combinados_categoria": [],

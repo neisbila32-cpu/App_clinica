@@ -1,0 +1,15 @@
+{
+  "id": "EXM-ERITROCITOS",
+  "nome": "Eritrócitos (Contagem de Hemácias)",
+  "unidade_medida": "milions/mm³",
+  "categoria": "Hemograma — Série Vermelha",
+  "versao_conteudo": 1,
+  "bandas": [],
+  "padroes_combinados_categoria": [],
+  "ref_min": 4.2,
+  "ref_max": 6.0,
+  "valores_referencia_por_sexo": {
+    "mulheres": [4.2, 5.4],
+    "homens": [4.4, 6.0]
+  }
+}

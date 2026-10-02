@@ -1,0 +1,15 @@
+{
+  "id": "EXM-APO-A1",
+  "nome": "Apolipoproteína A-1 (Apo A-1)",
+  "unidade_medida": "mg/dL",
+  "categoria": "Perfil Lipídico",
+  "versao_conteudo": 1,
+  "bandas": [],
+  "padroes_combinados_categoria": [],
+  "ref_min": 94.0,
+  "ref_max": 199.0,
+  "valores_referencia_por_sexo": {
+    "homens": [94.0, 178.0],
+    "mulheres": [101.0, 199.0]
+  }
+}
